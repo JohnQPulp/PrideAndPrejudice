@@ -2,7 +2,7 @@ Pride and Prejudice<br>Jane Austen<e>TODO</e>
 
 
 ## I
-
+r=title
 
 It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
 
@@ -179,7 +179,7 @@ its solace was visiting and news.
 e:mrsbennet=happy
 
 ## II
-
+r=title
 
 Mr. Bennet was among the earliest of those who waited on Mr. Bingley.
 e:mrbennet=neutral
@@ -320,7 +320,7 @@ The rest of the evening was spent in conjecturing how soon he would return Mr. B
 s=none;e:mrsbennet=thinking
 
 ## III
-
+r=title
 
 Not all that Mrs. Bennet, however, with the assistance of her five daughters, could ask on the subject was sufficient to draw from her husband any satisfactory description of Mr. Bingley.
 e:mrsbennet=annoyed;e:mrbennet=smirking
@@ -656,7 +656,7 @@ Miss Bennet was therefore established as a sweet girl, and their brother felt au
 
 
 ## V
-
+r=title
 
 Within a short walk of Longbourn lived a family with whom the Bennets were particularly intimate.
 
@@ -797,7 +797,7 @@ The boy protested that she should not; she continued to declare that she would, 
 s=none
 
 ## VI
-
+r=title
 
 The ladies of Longbourn soon waited on those of Netherfield. The visit was returned in due form.
 
@@ -1127,7 +1127,7 @@ He listened to her with perfect indifference, while she chose to entertain herse
 s=none;e:darcy=neutral
 
 ## VII
-
+r=title
 
 Mr. Bennet’s property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed in default of heirs male, on a distant relation; and their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his.
 
@@ -1391,7 +1391,7 @@ Elizabeth most thankfully consented, and a servant was dispatched to Longbourn t
 e:lizzy=happy
 
 ## VIII
-
+r=title
 
 At five o’clock the two ladies retired to dress, and at half past six Elizabeth was summoned to dinner.
 e:lizzy=neutral
@@ -1682,7 +1682,7 @@ They solaced their wretchedness, however, by duets after supper, while he could 
 e:bingley=serious;e:caroline=happy;e:louisa=happy
 
 ## IX
-
+r=title
 
 Elizabeth passed the chief of the night in her sister’s room, and in the morning had the pleasure of being able to send a tolerable answer to the enquiries which she very early received from Mr. Bingley by a housemaid, and some time afterwards from the two elegant ladies who waited on his sisters.
 e:lizzy=weary
@@ -1919,7 +1919,7 @@ the latter of whom, however, could not be prevailed on to join in their censure 
 e:darcy=serious;e:caroline=smirking
 
 ## X
-
+r=title
 
 The day passed much as the day before had done.
 
@@ -2252,7 +2252,7 @@ Jane was already so much recovered as to intend leaving her room for a couple of
 e:jane=happy
 
 ## XI
-
+r=title
 
 When the ladies removed after dinner, Elizabeth ran up to her sister, and seeing her well guarded from cold, attended her into the drawing-room; where she was welcomed by her two friends with many professions of pleasure; and Elizabeth had never seen them so agreeable as they were during the hour which passed before the gentlemen appeared.
 e:lizzy=happy;e:caroline=happy;e:louisa=happy
@@ -2489,7 +2489,7 @@ He began to feel the danger of paying Elizabeth too much attention.
 e:darcy=wary
 
 ## XII
-
+r=title
 
 In consequence of an agreement between the sisters, Elizabeth wrote the next morning to her mother, to beg that the carriage might be sent for them in the course of the day.
 e:lizzy=thinking
@@ -2558,7 +2558,7 @@ Much had been done, and much had been said in the regiment since the preceding W
 e:lydia=excited;e:kitty=excited
 
 ## XIII
-
+r=title
 
 “I hope, my dear,” said Mr. Bennet to his wife, as they were at breakfast the next morning, “that you have ordered a good dinner today, because I have reason to expect an addition to our family party.”
 s=mrbennet;e:mrbennet=smirking;e:mrsbennet=neutral
@@ -2780,7 +2780,7 @@ In a softened tone she declared herself not at all offended; but he continued to
 e:mrsbennet=neutral;e:collins=nervous
 
 ## XIV
-
+r=title
 
 During dinner, Mr. Bennet scarcely spoke at all; but when the servants were withdrawn, he thought it time to have some conversation with his guest, and therefore started a subject in which he expected him to shine, by observing that he seemed very fortunate in his patroness.
 e:mrbennet=thinking;e:collins=neutral
@@ -2912,7 +2912,7 @@ but Mr. Collins, after assuring them that he bore his young cousin no ill will, 
 e:collins=serious
 
 ## XV
-
+r=title
 
 Mr. Collins was not a sensible man, and the deficiency of nature had been but little assisted by education or society; the greatest part of his life having been spent under the guidance of an illiterate and miserly father; and though he belonged to one of the universities, he had merely kept the necessary terms, without forming at it any useful acquaintance.
 e:collins=neutral
@@ -3053,7 +3053,7 @@ Something he supposed might be attributed to his connection with them, but yet h
 e:collins=smirking
 
 ## XVI
-
+r=title
 
 As no objection was made to the young people’s engagement with their aunt, and all Mr. Collins’s scruples of leaving Mr. and Mrs. Bennet for a single evening during his visit were most steadily resisted, the coach conveyed him and his five cousins at a suitable hour to Meryton; and the girls had the pleasure of hearing, as they entered the drawing-room, that Mr. Wickham had accepted their uncle’s invitation, and was then in the house.
 
@@ -3437,7 +3437,7 @@ Lydia talked incessantly of lottery tickets, of the fish she had lost and the fi
 e:collins=excited
 
 ## XVII
-
+r=title
 
 Elizabeth related to Jane the next day, what had passed between Mr. Wickham and herself.
 e:lizzy=neutral;e:jane=neutral
@@ -3596,7 +3596,7 @@ and nothing less than a dance on Tuesday, could have made such a Friday, Saturda
 e:kitty=weary;e:lydia=weary
 
 ## XVIII
-
+r=title
 
 Till Elizabeth entered the drawing-room at Netherfield and looked in vain for Mr. Wickham among the cluster of red coats there assembled, a doubt of his being present had never occurred to her.
 e:lizzy=wary
@@ -4217,7 +4217,7 @@ Elizabeth was the least dear to her of all her children; and though the man and 
 
 
 ## XIX
-
+r=title
 
 The next day opened a new scene at Longbourn. Mr. Collins made his declaration in form.
 e:collins=serious
@@ -4409,7 +4409,7 @@ To such perseverance in wilful self-deception Elizabeth would make no reply, and
 s=none;e:lizzy=annoyed
 
 ## XX
-
+r=title
 
 Mr. Collins was not left long to the silent contemplation of his successful love; for Mrs. Bennet, having dawdled about in the vestibule to watch for the end of the conference, no sooner saw Elizabeth open the door and with quick step pass her towards the staircase, than she entered the breakfast-room, and congratulated both him and herself in warm terms on the happy prospect of their nearer connection.
 e:collins=thinking;e:mrsbennet=excited
@@ -4901,7 +4901,7 @@ After lamenting it however at some length, she had the consolation of thinking t
 e:mrsbennet=smirking
 
 ## XXII
-
+r=title
 
 The Bennets were engaged to dine with the Lucases, and again during the chief of the day, was Miss Lucas so kind as to listen to Mr. Collins.
 
@@ -5120,7 +5120,7 @@ Charlotte the wife of Mr. Collins, was a most humiliating picture!﻿—And to t
 e:lizzy=upset
 
 ## XXIII
-
+r=title
 
 Elizabeth was sitting with her mother and sisters, reflecting on what she had heard, and doubting whether she were authorised to mention it, when Sir William Lucas himself appeared, sent by his daughter to announce her engagement to the family.
 e:lizzy=thinking;e:william=happy
@@ -5543,7 +5543,7 @@ her mild and steady candour always pleaded for allowances, and urged the possibi
 e:jane=sadsmile
 
 ## XXV
-
+r=title
 
 After a week spent in professions of love and schemes of felicity, Mr. Collins was called from his amiable Charlotte by the arrival of Saturday.
 
@@ -5726,7 +5726,7 @@ On being made acquainted with the present Mr. Darcy’s treatment of him, she tr
 e:mrsgardiner=scowling;e:wickham=sadsmile
 
 ## XXVI
-
+r=title
 
 Mrs. Gardiner’s caution to Elizabeth was punctually and kindly given on the first favourable opportunity of speaking to her alone; after honestly telling her what she thought, she thus went on:
 e:mrsgardiner=serious;e:lizzy=neutral
@@ -6404,7 +6404,7 @@ Mr. Collins no sooner saw the two girls than he began to congratulate them on th
 e:collins=excited;e:charlotte=neutral
 
 ## XXIX
-
+r=title
 
 Mr. Collins’s triumph in consequence of this invitation was complete.
 e:collins=happy
@@ -6722,7 +6722,7 @@ But her commendation, though costing her some trouble, could by no means satisfy
 e:collins=smirking
 
 ## XXX
-
+r=title
 
 Sir William stayed only a week at Hunsford; but his visit was long enough to convince him of his daughter’s being most comfortably settled, and of her possessing such a husband and such a neighbour as were not often met with.
 
@@ -6857,7 +6857,7 @@ The subject was pursued no farther, and the gentlemen soon afterwards went away.
 e:lizzy=contemplative;e:darcy=neutral
 
 ## XXXI
-
+r=title
 
 Colonel Fitzwilliam’s manners were very much admired at the parsonage, and the ladies all felt that he must add considerably to the pleasure of their engagements at Rosings.
 
@@ -7091,7 +7091,7 @@ Elizabeth received them with all the forbearance of civility; and at the request
 e:lizzy=neutral
 
 ## XXXII
-
+r=title
 
 Elizabeth was sitting by herself the next morning, and writing to Jane, while Mrs. Collins and Maria were gone on business into the village, when she was startled by a ring at the door, the certain signal of a visitor.
 e:lizzy=neutral
@@ -7328,7 +7328,7 @@ but, to counterbalance these advantages, Mr. Darcy had considerable patronage in
 
 
 ## XXXIII
-
+r=title
 
 More than once did Elizabeth in her ramble within the Park, unexpectedly meet Mr. Darcy.
 e:lizzy=surprised;e:darcy=neutral
@@ -7580,7 +7580,7 @@ Mrs. Collins, seeing that she was really unwell, did not press her to go, and as
 e:charlotte=nervous;e:collins=fearful
 
 ## XXXIV
-
+r=title
 
 When they were gone, Elizabeth, as if intending to exasperate herself as much as possible against Mr. Darcy, chose for her employment the examination of all the letters which Jane had written to her since her being in Kent.
 e:lizzy=angry
@@ -7850,7 +7850,7 @@ She continued in very agitating reflections till the sound of Lady Catherine’s
 e:lizzy=nervous
 
 ## XXXV
-
+r=title
 
 Elizabeth awoke the next morning to the same thoughts and meditations which had at length closed her eyes.
 e:lizzy=thinking
@@ -8150,7 +8150,7 @@ e:darcy=sadsmile
 s=none
 
 ## XXXVI
-
+r=title
 
 If Elizabeth, when Mr. Darcy gave her the letter, did not expect it to contain a renewal of his offers, she had formed no expectation at all of its contents.
 e:lizzy=neutral
@@ -8342,7 +8342,7 @@ Colonel Fitzwilliam was no longer an object. She could think only of her letter.
 e:lizzy=contemplative
 
 ## XXXVII
-
+r=title
 
 The two gentlemen left Rosings the next morning; and Mr. Collins having been in waiting near the lodges, to make them his parting obeisance, was able to bring home the pleasing intelligence, of their appearing in very good health, and in as tolerable spirits as could be expected, after the melancholy scene so lately gone through at Rosings.
 e:collins=happy
@@ -8522,7 +8522,7 @@ and Miss de Bourgh exerted herself so far as to curtsey and hold out her hand to
 e:anne=neutral
 
 ## XXXVIII
-
+r=title
 
 On Saturday morning Elizabeth and Mr. Collins met for breakfast a few minutes before the others appeared; and he took the opportunity of paying the parting civilities which he deemed indispensably necessary.
 e:lizzy=neutral;e:collins=serious
@@ -8645,7 +8645,7 @@ To know that she had the power of revealing what would so exceedingly astonish J
 e:lizzy=contemplative
 
 ## XXXIX
-
+r=title
 
 It was the second week in May, in which the three young ladies set out together from Gracechurch-street, for the town of ——— in Hertfordshire; and, as they drew near the appointed inn where Mr. Bennet’s carriage was to meet them, they quickly perceived, in token of the coachman’s punctuality, both Kitty and Lydia looking out of a dining-room upstairs.
 
@@ -8846,7 +8846,7 @@ Elizabeth saw directly that her father had not the smallest intention of yieldin
 e:mrbennet=smirking;e:mrsbennet=annoyed
 
 ## XL
-
+r=title
 
 Elizabeth’s impatience to acquaint Jane with what had happened could no longer be overcome; and at length resolving to suppress every particular in which her sister was concerned, and preparing her to be surprised, she related to her the next morning the chief of the scene between Mr. Darcy and herself.
 e:lizzy=serious;e:jane=curious
@@ -9365,7 +9365,7 @@ and in the clamorous happiness of Lydia herself in bidding farewell, the more ge
 e:lydia=happy
 
 ## XLII
-
+r=title
 
 Had Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.
 e:lizzy=contemplative
@@ -9530,7 +9530,7 @@ To Pemberley, therefore, they were to go.
 
 
 ## XLIII
-
+r=title
 
 Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.
 e:lizzy=nervous
@@ -10049,7 +10049,7 @@ The occurrences of the day were too full of interest to leave Elizabeth much att
 e:lizzy=contemplative
 
 ## XLIV
-
+r=title
 
 Elizabeth had settled it that Mr. Darcy would bring his sister to visit her, the very day after her reaching Pemberley; and was consequently resolved not to be out of sight of the inn the whole of that morning.
 e:lizzy=thinking
@@ -10253,7 +10253,7 @@ The fishing scheme had been renewed the day before, and a positive engagement ma
 e:mrgardiner=happy
 
 ## XLV
-
+r=title
 
 Convinced as Elizabeth now was that Miss Bingley’s dislike of her had originated in jealousy, she could not help feeling how very unwelcome her appearance at Pemberley must be to her, and was curious to know with how much civility on that lady’s side, the acquaintance would now be renewed.
 e:lizzy=thinking
@@ -10403,7 +10403,7 @@ They talked of his sister, his friends, his house, his fruit, of everything but 
 e:lizzy=contemplative;e:mrsgardiner=curious
 
 ## XLVI
-
+r=title
 
 Elizabeth had been a good deal disappointed in not finding a letter from Jane, on their first arrival at Lambton; and this disappointment had been renewed on each of the mornings that had now been spent there; but on the third, her repining was over, and her sister justified by the receipt of two letters from her at once, on one of which was marked that it had been missent elsewhere.
 e:lizzy=neutral
@@ -10700,7 +10700,7 @@ and Elizabeth, after all the misery of the morning, found herself, in a shorter 
 e:lizzy=contemplative
 
 ## XLVII
-
+r=title
 
 “I have been thinking it over again, Elizabeth,” said her uncle, as they drove from the town; “and really, upon serious consideration, I am much more inclined than I was to judge as your eldest sister does of the matter.”
 s=mrgardiner;e:mrgardiner=thinking
@@ -11783,7 +11783,7 @@ She felt it so; and though, in looking forward, neither rational happiness nor w
 
 
 ## L
-
+r=title
 
 Mr. Bennet had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife, if she survived him. He now wished it more than ever.
 e:mrbennet=unhappy
@@ -11993,7 +11993,7 @@ Elizabeth was surprised, however, that Wickham should consent to such a scheme, 
 e:lizzy=annoyed
 
 ## LI
-
+r=title
 
 Their sister’s wedding day arrived; and Jane and Elizabeth felt for her probably more than she felt for herself.
 e:jane=unhappy;e:lizzy=unhappy
@@ -12269,7 +12269,7 @@ Jane’s delicate sense of honour would not allow her to speak to Elizabeth priv
 s=none;e:jane=serious;e:lizzy=thinking
 
 ## LII
-
+r=title
 
 Elizabeth had the satisfaction of receiving an answer to her letter, as soon as she possibly could.
 e:lizzy=happy
@@ -12653,7 +12653,7 @@ She held out her hand; he kissed it with affectionate gallantry, though he hardl
 s=none;e:wickham=nervous;e:lizzy=neutral
 
 ## LIII
-
+r=title
 
 Mr. Wickham was so perfectly satisfied with this conversation, that he never again distressed himself, or provoked his dear sister Elizabeth, by introducing the subject of it; and she was pleased to find that she had said enough to keep him quiet.
 e:wickham=smirking;e:lizzy=thinking
@@ -13073,7 +13073,7 @@ but, though she always kept a very good table, she did not think anything less t
 e:mrsbennet=smirking
 
 ## LIV
-
+r=title
 
 As soon as they were gone, Elizabeth walked out to recover her spirits; or in other words, to dwell without interruption on those subjects that must deaden them more.
 e:lizzy=unhappy
@@ -13670,7 +13670,7 @@ The Bennets were speedily pronounced to be the luckiest family in the world, tho
 e:mrsbennet=happy
 
 ## LVI
-
+r=title
 
 One morning, about a week after Bingley’s engagement with Jane had been formed, as he and the females of the family were sitting together in the dining-room, their attention was suddenly drawn to the window by the sound of a carriage; and they perceived a chaise and four driving up the lawn.
 
@@ -14117,7 +14117,7 @@ Elizabeth was forced to give into a little falsehood here; for to acknowledge th
 s=none;e:lizzy=nervous
 
 ## LVII
-
+r=title
 
 The discomposure of spirits which this extraordinary visit threw Elizabeth into could not be easily overcome; nor could she for many hours learn to think of it less than incessantly.
 e:lizzy=upset
@@ -14318,7 +14318,7 @@ Her father had most cruelly mortified her, by what he said of Mr. Darcy’s indi
 e:lizzy=unhappy
 
 ## LVIII
-
+r=title
 
 Instead of receiving any such letter of excuse from his friend, as Elizabeth half expected Mr. Bingley to do, he was able to bring Darcy with him to Longbourn before many days had passed after Lady Catherine’s visit.
 e:lizzy=thinking
@@ -14660,7 +14660,7 @@ In anticipating the happiness of Bingley, which of course was to be inferior onl
 e:darcy=happy;e:lizzy=happy
 
 ## LIX
-
+r=title
 
 “My dear Lizzy, where can you have been walking to?” was a question which Elizabeth received from Jane as soon as she entered the room, and from all the others when they sat down to table.
 m=dialogue
@@ -15155,7 +15155,7 @@ and she looked forward with delight to the time when they should be removed from
 e:lizzy=happy
 
 ## LXI
-
+r=title
 
 Happy for all her maternal feelings was the day on which Mrs. Bennet got rid of her two most deserving daughters.
 e:mrsbennet=happy
