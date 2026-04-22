@@ -1138,23 +1138,20 @@ s=mrsbennet
 “It is from Miss Bingley,” said Jane, and then read it aloud.
 s=jane
 
-“My dear Friend,”
-
+<span class='upper'>“My dear Friend,”</span>
+m=margin;s=
 
 “If you are not so compassionate as to dine today with Louisa and me, we shall be in danger of hating each other for the rest of our lives, for a whole day’s tête-à-tête between two women can never end without a quarrel.”
 n:louisa=Louisa Bingley Hurst
 
-“Come as soon as you can on the receipt of this.”
+“Come as soon as you can on the receipt of this. My brother and the gentlemen are to dine with the officers. Yours ever,”
 
 
-“My brother and the gentlemen are to dine with the officers. Yours ever,”
-
-
-“Caroline Bingley.”
+<span class='upper fright'>“Caroline Bingley.”</span>
 n:caroline=Caroline Bingley
 
 “With the officers!” cried Lydia.
-s=lydia;e:lydia=surprised
+s=lydia;e:lydia=surprised;m=
 
 “I wonder my aunt did not tell us of *that*.”
 e:lydia=thinking
@@ -1210,8 +1207,8 @@ s=none;e:mrsbennet=neutral
 Breakfast was scarcely over when a servant from Netherfield brought the following note for Elizabeth:
 
 
-“My dearest Lizzy,”
-s=lizzy
+<span class='upper'>“My dearest Lizzy,”</span>
+m=margin
 
 “I find myself very unwell this morning, which, I suppose, is to be imputed to my getting wet through yesterday.”
 
@@ -1222,11 +1219,11 @@ s=lizzy
 “They insist also on my seeing Mr. Jones﻿—therefore do not be alarmed if you should hear of his having been to me﻿—and excepting a sore-throat and headache there is not much the matter with me.”
 
 
-“Yours, etc.”
+<span class='upper fright'>“Yours, etc.”</span>
 
 
 “Well, my dear,” said Mr. Bennet, when Elizabeth had read the note aloud, “if your daughter should have a dangerous fit of illness, if she should die, it would be a comfort to know that it was all in pursuit of Mr. Bingley, and under your orders.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;m=
 
 “Oh! I am not at all afraid of her dying. People do not die of little trifling colds.”
 s=mrsbennet;e:mrsbennet=annoyed
@@ -2515,23 +2512,20 @@ e:mrsbennet=scowling
 “Why, indeed, he does seem to have had some filial scruples on that head, as you will hear.”
 s=mrbennet;e:mrbennet=smirking
 
-Hunsford, near Westerham, Kent,
-s=none
+<span class='italics fright'>Hunsford, near Westerham, Kent,</span><br><span class='italics fright'>15th October</span>
+s=none;m=margin
 
-15th October
-
-
-Dear Sir,
+<span class='upper'>Dear Sir,</span>
 
 
 The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach; but for some time I was kept back by my own doubts, fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone, with whom it had always pleased him to be at variance.—
 e:mrbennet=serious;m=allowbreak;m=nospace
 
 “There, Mrs. Bennet.”—
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;m=;;m=allowbreak;m=nospace
 
 My mind however is now made up on the subject, for having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh, widow of Sir Lewis de Bourgh, whose bounty and beneficence has preferred me to the valuable rectory of this parish, where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England.
-s=none;e:mrbennet=serious;m=
+s=none;e:mrbennet=serious;m=;m=margin
 
 As a clergyman, moreover, I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence; and on these grounds I flatter myself that my present overtures of goodwill are highly commendable, and that the circumstance of my being next in the entail of Longbourn estate, will be kindly overlooked on your side, and not lead you to reject the offered olive branch.
 
@@ -2542,14 +2536,11 @@ I cannot be otherwise than concerned at being the means of injuring your amiable
 If you should have no objection to receive me into your house, I propose myself the satisfaction of waiting on you and your family, Monday, November 18th, by four o’clock, and shall probably trespass on your hospitality till the Saturday se’night following, which I can do without any inconvenience, as Lady Catherine is far from objecting to my occasional absence on a Sunday, provided that some other clergyman is engaged to do the duty of the day.
 
 
-I remain, dear sir, with respectful compliments to your lady and daughters, your well-wisher and friend,
-
-
-William Collins.
+I remain, dear sir, with respectful compliments to your lady and daughters, your well-wisher and friend,<br><span class='upper fright'>William Collins.</span>
 n:collins=William Collins
 
 “At four o’clock, therefore, we may expect this peacemaking gentleman,” said Mr. Bennet, as he folded up the letter.
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;m=
 
 “He seems to be a most conscientious and polite young man, upon my word; and I doubt not will prove a valuable acquaintance, especially if Lady Catherine should be so indulgent as to let him come to us again.”
 e:mrbennet=smirking
@@ -5540,7 +5531,7 @@ The letter which she wrote on this occasion to her sister, will prove what she f
 e:jane=crying
 
 “My dearest Lizzy will, I am sure, be incapable of triumphing in her better judgment, at my expense, when I confess myself to have been entirely deceived in Miss Bingley’s regard for me.”
-e:jane=sadsmile
+e:jane=sadsmile;m=margin
 
 “But, my dear sister, though the event has proved you right, do not think me obstinate if I still assert, that, considering what her behaviour was, my confidence was as natural as your suspicion.”
 e:jane=serious
@@ -5587,11 +5578,11 @@ e:jane=weary
 “Pray go to see them, with Sir William and Maria. I am sure you will be very comfortable there.”
 e:jane=happy
 
-“Yours, etc.”
+<span class='upper fright'>“Yours, etc.”</span>
 
 
 This letter gave Elizabeth some pain; but her spirits returned as she considered that Jane would no longer be duped, by the sister at least.
-s=none;e:lizzy=serious
+s=none;e:lizzy=serious;m=
 
 All expectation from the brother was now absolutely over. She would not even wish for any renewal of his attentions.
 
@@ -7325,7 +7316,7 @@ It was dated from Rosings, at eight o’clock in the morning, and was as follows
 
 
 “Be not alarmed, Madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments, or renewal of those offers, which were last night so disgusting to you.”
-e:darcy=serious
+e:darcy=serious;m=margin
 
 “I write without any intention of paining you, or humbling myself, by dwelling on wishes, which, for the happiness of both, cannot be too soon forgotten; and the effort which the formation, and the perusal of this letter must occasion, should have been spared, had not my character required it to be written and read.”
 e:darcy=weary
@@ -7567,7 +7558,7 @@ e:darcy=serious
 “I will only add, God bless you.”
 e:darcy=sadsmile
 
-“Fitzwilliam Darcy.”
+<span class='upper fright'>“Fitzwilliam Darcy.”</span>
 s=none
 
 ## XXXVI
@@ -9770,7 +9761,7 @@ It was to this effect:
 
 
 “Since writing the above, dearest Lizzy, something has occurred of a most unexpected and serious nature; but I am afraid of alarming you—be assured that we are all well.”
-e:jane=nervous
+e:jane=nervous;m=margin
 
 “What I have to say relates to poor Lydia. An express came at twelve last night, just as we were all gone to bed, from Colonel Forster, to inform us that she was gone off to Scotland with one of his officers; to own the truth, with Wickham!—Imagine our surprise.”
 e:jane=upset
@@ -9779,7 +9770,7 @@ e:jane=upset
 e:jane=crying;m=allowbreak;m=nospace
 
 “But I am willing to hope the best, and that his character has been misunderstood. Thoughtless and indiscreet I can easily believe him, but this step (and let us rejoice over it) marks nothing bad at heart.”
-e:jane=neutral;m=
+e:jane=neutral;m=;m=margin
 
 “His choice is disinterested at least, for he must know my father can give her nothing. Our poor mother is sadly grieved. My father bears it better.”
 e:jane=unhappy
@@ -9797,10 +9788,10 @@ e:jane=nervous
 e:jane=weary
 
 Without allowing herself time for consideration, and scarcely knowing what she felt, Elizabeth on finishing this letter instantly seized the other, and opening it with the utmost impatience, read as follows: it had been written a day later than the conclusion of the first.
-s=none;e:lizzy=upset
+s=none;e:lizzy=upset;m=
 
 “By this time, my dearest sister, you have received my hurried letter; I wish this may be more intelligible, but though not confined for time, my head is so bewildered that I cannot answer for being coherent.”
-e:jane=upset
+e:jane=upset;m=margin
 
 “Dearest Lizzy, I hardly know what I would write, but I have bad news for you, and it cannot be delayed.”
 
@@ -9860,10 +9851,13 @@ e:jane=fearful
 
 
 “Oh! where, where is my uncle?” cried Elizabeth, darting from her seat as she finished the letter, in eagerness to follow him, without losing a moment of the time so precious; but as she reached the door, it was opened by a servant, and Mr. Darcy appeared.
-s=lizzy;e:lizzy=fearful
+s=lizzy;e:lizzy=fearful;m=
 
-Her pale face and impetuous manner made him start, and before he could recover himself enough to speak, she, in whose mind every idea was superseded by Lydia’s situation, hastily exclaimed, “I beg your pardon, but I must leave you. I must find Mr. Gardiner this moment, on business that cannot be delayed; I have not an instant to lose.”
-e:darcy=surprised;e:lizzy=nervous
+Her pale face and impetuous manner made him start, and before he could recover himself enough to speak, she, in whose mind every idea was superseded by Lydia’s situation, hastily exclaimed,
+e:darcy=surprised;e:lizzy=nervous;s=
+
+“I beg your pardon, but I must leave you. I must find Mr. Gardiner this moment, on business that cannot be delayed; I have not an instant to lose.”
+s=lizzy
 
 “Good God! what is the matter?” cried he, with more feeling than politeness; then recollecting himself, “I will not detain you a minute, but let me, or let the servant, go after Mr. and Mrs. Gardiner. You are not well enough;—you cannot go yourself.”
 s=darcy;e:darcy=surprised
@@ -10429,8 +10423,8 @@ s=jane;e:jane=neutral
 Jane then took it from her pocketbook, and gave it to Elizabeth. These were the contents:
 s=none
 
-“My dear Harriet,”
-e:lydia=excited
+<span class='upper'>“My dear Harriet,”</span>
+e:lydia=excited;m=margin
 
 “You will laugh when you know where I am gone, and I cannot help laughing myself at your surprise tomorrow morning, as soon as I am missed.”
 
@@ -10459,14 +10453,11 @@ e:lydia=neutral
 “Goodbye. Give my love to Colonel Forster, I hope you will drink to our good journey.”
 
 
-“Your affectionate friend,”
-
-
-“Lydia Bennet.”
+<span class='fright'>“Your affectionate friend,</span><br><span class='upper fright'>Lydia Bennet.”</span>
 
 
 “Oh! thoughtless, thoughtless Lydia!” cried Elizabeth when she had finished it.
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;m=
 
 “What a letter is this, to be written at such a moment. But at least it shows, that *she* was serious in the object of her journey.”
 e:lizzy=serious
@@ -10580,7 +10571,7 @@ There was also a postscript to this effect—
 
 
 “I have written to Colonel Forster to desire him to find out, if possible, from some of the young man’s intimates in the regiment, whether Wickham has any relations or connections who would be likely to know in what part of the town he has now concealed himself.”
-e:mrgardiner=serious
+e:mrgardiner=serious;m=margin
 
 “If there were anyone that one could apply to with a probability of gaining such a clue as that, it might be of essential consequence.”
 
@@ -10595,7 +10586,7 @@ e:mrgardiner=serious
 
 
 Elizabeth was at no loss to understand from whence this deference for her authority proceeded; but it was not in her power to give any information of so satisfactory a nature, as the compliment deserved.
-s=none;e:lizzy=unhappy
+s=none;e:lizzy=unhappy;m=
 
 She had never heard of his having had any relations, except a father and mother, both of whom had been dead many years.
 e:lizzy=thinking
@@ -10618,8 +10609,8 @@ But before they heard again from Mr. Gardiner, a letter arrived for their father
 It was as follows:
 
 
-“My dear Sir,”
-e:collins=serious
+<span class='upper'>“My dear Sir,”</span>
+e:collins=serious;m=margin
 
 “I feel myself called upon, by our relationship, and my situation in life, to condole with you on the grievous affliction you are now suffering under, of which we were yesterday informed by a letter from Hertfordshire.”
 
@@ -10648,11 +10639,11 @@ e:collins=smirking
 “Let me advise you then, my dear Sir, to console yourself as much as possible, to throw off your unworthy child from your affection forever, and leave her to reap the fruits of her own heinous offence.”
 
 
-“I am, dear Sir, etc. etc.”
+<span class='upper fright'>“I am, dear Sir, etc. etc.”</span>
 
 
 Mr. Gardiner did not write again till he had received an answer from Colonel Forster; and then he had nothing of a pleasant nature to send.
-s=none
+s=none;m=
 
 It was not known that Wickham had a single relation, with whom he kept up any connection, and it was certain that he had no near one living.
 
@@ -10840,10 +10831,10 @@ Jane now came up.
 “Read it aloud,” said their father, “for I hardly know myself what it is about.”
 s=mrbennet
 
-“Gracechurch-street, Monday,<br>August 2.”
-s=lizzy;e:lizzy=serious
+<span class='italics fright'>“Gracechurch-street, Monday,</span><br><span class='italics fright'>August 2.”</span>
+e:lizzy=serious;m=margin;s=
 
-“My dear Brother,”
+<span class='upper'>“My dear Brother,”</span>
 
 
 “At last I am able to send you some tidings of my niece, and such as, upon the whole, I hope will give you satisfaction.”
@@ -10856,13 +10847,13 @@ s=lizzy;e:lizzy=serious
 
 
 “Then it is, as I always hoped,” cried Jane; “they are married!”
-s=jane;e:jane=happy
+s=jane;e:jane=happy;m=
 
 Elizabeth read on;
 s=
 
 “I have seen them both. They are not married, nor can I find there was any intention of being so; but if you are willing to perform the engagements which I have ventured to make on your side, I hope it will not be long before they are.”
-e:lizzy=serious;s=lizzy
+e:lizzy=serious;s=lizzy;m=margin;s=
 
 “All that is required of you is, to assure to your daughter, by settlement, her equal share of the five thousand pounds, secured among your children after the decease of yourself and my sister; and, moreover, to enter into an engagement of allowing her, during your life, one hundred pounds per annum.”
 
@@ -10894,11 +10885,11 @@ e:lizzy=surprised
 “She comes to us today. I shall write again as soon as anything more is determined on. Yours, etc.”
 
 
-“Edw. Gardiner.”
+<span class='upper fright'>“Edw. Gardiner.”</span>
 n:mrgardiner=Edward Gardiner
 
 “Is it possible!” cried Elizabeth, when she had finished. “Can it be possible that he will marry her?”
-e:lizzy=surprised
+e:lizzy=surprised;m=;s=lizzy
 
 “Wickham is not so undeserving, then, as we have thought him;” said her sister. “My dear father, I congratulate you.”
 s=jane;e:jane=happy
@@ -11267,7 +11258,7 @@ The principal purport of his letter was to inform them, that Mr. Wickham had res
 e:mrgardiner=neutral
 
 “It was greatly my wish that he should do so,” he added, “as soon as his marriage was fixed on. And I think you will agree with me, in considering a removal from that corps as highly advisable, both on his account and my niece’s.”
-e:mrgardiner=serious
+e:mrgardiner=serious;m=margin
 
 “It is Mr. Wickham’s intention to go into the regulars; and, among his former friends, there are still some who are able and willing to assist him in the army.”
 e:mrgardiner=neutral
@@ -11293,11 +11284,11 @@ e:mrgardiner=neutral
 “She is well, and begs to be dutifully remembered to you and her mother. Yours, etc.”
 e:mrgardiner=happy
 
-“E. Gardiner.”
+<span class='upper fright'>“E. Gardiner.”</span>
 
 
 Mr. Bennet and his daughters saw all the advantages of Wickham’s removal from the ——shire, as clearly as Mr. Gardiner could do. But Mrs. Bennet was not so well pleased with it.
-s=none;e:mrbennet=neutral;e:mrsbennet=upset
+s=none;e:mrbennet=neutral;e:mrsbennet=upset;m=
 
 Lydia’s being settled in the North, just when she had expected most pleasure and pride in her company, for she had by no means given up her plan of their residing in Hertfordshire, was a severe disappointment; and besides, it was such a pity that Lydia should be taken from a regiment where she was acquainted with everybody, and had so many favourites.
 e:mrsbennet=unhappy
@@ -11554,10 +11545,10 @@ e:lizzy=happy
 She was no sooner in possession of it, than hurrying into the little copse, where she was least likely to be interrupted, she sat down on one of the benches, and prepared to be happy; for the length of the letter convinced her that it did not contain a denial.
 e:lizzy=excited
 
-“Gracechurch-street, Sept. 6.”
-e:mrsgardiner=neutral
+<span class='italics fright'>“Gracechurch-street, Sept. 6.”</span>
+e:mrsgardiner=neutral;m=margin
 
-“My dear niece,”
+<span class='upper'>“My dear niece,”</span>
 
 
 “I have just received your letter, and shall devote this whole morning to answering it, as I foresee that a *little* writing will not comprise what I have to tell you.”
@@ -11768,7 +11759,7 @@ e:mrsgardiner=neutral
 
 
 The contents of this letter threw Elizabeth into a flutter of spirits, in which it was difficult to determine whether pleasure or pain bore the greatest share.
-s=none;e:lizzy=confused
+s=none;e:lizzy=confused;m=
 
 The vague and unsettled suspicions which uncertainty had produced of what Mr. Darcy might have been doing to forward her sister’s match, which she had feared to encourage, as an exertion of goodness too great to be probable, and at the same time dreaded to be just, from the pain of obligation, were proved beyond their greatest extent to be true!
 e:lizzy=surprised
@@ -14189,7 +14180,7 @@ From an unwillingness to confess how much her intimacy with Mr. Darcy had been o
 s=none;e:lizzy=happy
 
 “I would have thanked you before, my dear aunt, as I ought to have done, for your long, kind, satisfactory, detail of particulars; but to say the truth, I was too cross to write.”
-e:lizzy=neutral
+e:lizzy=neutral;m=margin
 
 “You supposed more than really existed. But *now* suppose as much as you choose; give a loose to your fancy, indulge your imagination in every possible flight which the subject will afford, and unless you believe me actually married, you cannot greatly err.”
 e:lizzy=excited
@@ -14209,14 +14200,14 @@ e:lizzy=happy
 “Mr. Darcy sends you all the love in the world, that he can spare from me. You are all to come to Pemberley at Christmas.”
 e:lizzy=smirking
 
-“Yours, etc.”
+<span class='upper fright'>“Yours, etc.”</span>
 e:lizzy=happy
 
 Mr. Darcy’s letter to Lady Catherine, was in a different style; and still different from either, was what Mr. Bennet sent to Mr. Collins, in reply to his last.
-s=none;e:darcy=serious;e:mrbennet=smirking
+s=none;e:darcy=serious;e:mrbennet=smirking;m=
 
-“Dear Sir,”
-
+<span class='upper'>“Dear Sir,”</span>
+m=margin
 
 “I must trouble you once more for congratulations. Elizabeth will soon be the wife of Mr. Darcy.”
 
@@ -14224,11 +14215,11 @@ s=none;e:darcy=serious;e:mrbennet=smirking
 “Console Lady Catherine as well as you can. But, if I were you, I would stand by the nephew. He has more to give.”
 e:mrbennet=smirking
 
-“Yours sincerely, etc.”
+<span class='upper fright'>“Yours sincerely, etc.”</span>
 
 
 Miss Bingley’s congratulations to her brother, on his approaching marriage, were all that was affectionate and insincere.
-s=none;e:caroline=smirking
+s=none;e:caroline=smirking;m=
 
 She wrote even to Jane on the occasion to express her delight, and repeat all her former professions of regard.
 e:caroline=happy
@@ -14329,13 +14320,10 @@ e:lizzy=weary;e:lydia=happy
 The letter was to this effect:
 
 
-“My dear Lizzy,”
-e:lydia=happy
+<span class='upper'>“My dear Lizzy,”</span>
+e:lydia=happy;m=margin
 
-“I wish you joy.”
-
-
-“If you love Mr. Darcy half as well as I do my dear Wickham, you must be very happy.”
+“I wish you joy. If you love Mr. Darcy half as well as I do my dear Wickham, you must be very happy.”
 
 
 “It is a great comfort to have you so rich, and when you have nothing else to do, I hope you will think of us.”
@@ -14347,11 +14335,11 @@ e:lydia=thinking
 “Any place would do, of about three or four hundred a year; but, however, do not speak to Mr. Darcy about it, if you had rather not.”
 e:lydia=wary
 
-“Yours, etc.”
+<span class='upper fright'>“Yours, etc.”</span>
 
 
 As it happened that Elizabeth had *much* rather not, she endeavoured in her answer to put an end to every entreaty and expectation of the kind.
-s=none;e:lizzy=annoyed
+s=none;e:lizzy=annoyed;m=
 
 Such relief, however, as it was in her power to afford, by the practice of what might be called economy in her own private expenses, she frequently sent them.
 e:lizzy=sadsmile
