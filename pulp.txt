@@ -12652,4 +12652,424 @@ s=lizzy;e:lizzy=sadsmile
 She held out her hand; he kissed it with affectionate gallantry, though he hardly knew how to look, and they entered the house.
 s=none;e:wickham=nervous;e:lizzy=neutral
 
+## LIII
+
+
+Mr. Wickham was so perfectly satisfied with this conversation, that he never again distressed himself, or provoked his dear sister Elizabeth, by introducing the subject of it; and she was pleased to find that she had said enough to keep him quiet.
+e:wickham=smirking;e:lizzy=thinking
+
+The day of his and Lydia’s departure soon came, and Mrs. Bennet was forced to submit to a separation, which, as her husband by no means entered into her scheme of their all going to Newcastle, was likely to continue at least a twelvemonth.
+e:mrsbennet=unhappy
+
+“Oh! my dear Lydia,” she cried, “when shall we meet again?”
+s=mrsbennet;e:mrsbennet=crying
+
+“Oh, lord! I don’t know. Not these two or three years perhaps.”
+s=lydia;e:lydia=neutral
+
+“Write to me very often, my dear.”
+s=mrsbennet;e:mrsbennet=sadsmile
+
+“As often as I can. But you know married women have never much time for writing.”
+s=lydia;e:lydia=smirking
+
+“My sisters may write to *me*. They will have nothing else to do.”
+
+
+Mr. Wickham’s adieus were much more affectionate than his wife’s. He smiled, looked handsome, and said many pretty things.
+s=none;e:wickham=happy
+
+“He is as fine a fellow,” said Mr. Bennet, as soon as they were out of the house, “as ever I saw.”
+s=mrbennet;e:mrbennet=smirking
+
+“He simpers, and smirks, and makes love to us all. I am prodigiously proud of him.”
+
+
+“I defy even Sir William Lucas himself to produce a more valuable son-in-law.”
+
+
+The loss of her daughter made Mrs. Bennet very dull for several days.
+s=none;e:mrsbennet=unhappy
+
+“I often think,” said she, “that there is nothing so bad as parting with one’s friends. One seems so forlorn without them.”
+s=mrsbennet;e:mrsbennet=sadsmile
+
+“This is the consequence you see, Madam, of marrying a daughter,” said Elizabeth.
+s=lizzy;e:lizzy=smirking
+
+“It must make you better satisfied that your other four are single.”
+e:lizzy=neutral
+
+“It is no such thing. Lydia does not leave me because she is married; but only because her husband’s regiment happens to be so far off.”
+s=mrsbennet;e:mrsbennet=annoyed
+
+“If that had been nearer, she would not have gone so soon.”
+
+
+But the spiritless condition which this event threw her into was shortly relieved, and her mind opened again to the agitation of hope by an article of news, which then began to be in circulation.
+s=none;e:mrsbennet=neutral
+
+The housekeeper at Netherfield had received orders to prepare for the arrival of her master, who was coming down in a day or two, to shoot there for several weeks.
+
+
+Mrs. Bennet was quite in the fidgets. She looked at Jane, and smiled, and shook her head by turns.
+e:mrsbennet=excited;e:jane=neutral
+
+“Well, well, and so Mr. Bingley is coming down, sister,” (for Mrs. Philips first brought her the news.) “Well, so much the better.”
+s=mrsbennet;e:mrsbennet=smirking
+
+“Not that I care about it, though. He is nothing to us, you know, and I am sure *I* never want to see him again.”
+e:mrsbennet=annoyed
+
+“But, however, he is very welcome to come to Netherfield, if he likes it. And who knows what *may* happen? But that is nothing to us.”
+e:mrsbennet=excited
+
+“You know, sister, we agreed long ago never to mention a word about it. And so, is it quite certain he is coming?”
+e:mrsbennet=curious
+
+“You may depend on it,” replied the other, “for Mrs. Nicholls was in Meryton last night; I saw her passing by, and went out myself on purpose to know the truth of it; and she told me that it was certain true.”
+s=mrsphilips;e:mrsphilips=excited
+
+“He comes down on Thursday at the latest, very likely on Wednesday.”
+
+
+“She was going to the butcher’s, she told me, on purpose to order in some meat on Wednesday, and she has got three couple of ducks, just fit to be killed.”
+
+
+Miss Bennet had not been able to hear of his coming, without changing colour.
+s=none;e:jane=nervous
+
+It was many months since she had mentioned his name to Elizabeth; but now, as soon as they were alone together, she said﻿—
+e:jane=nervous;e:lizzy=curious
+
+“I saw you look at me today, Lizzy, when my aunt told us of the present report; and I know I appeared distressed.”
+s=jane;e:jane=upset
+
+“But don’t imagine it was from any silly cause. I was only confused for the moment, because I felt that I *should* be looked at.”
+e:jane=serious
+
+“I do assure you, that the news does not affect me either with pleasure or pain.”
+e:jane=neutral
+
+“I am glad of one thing, that he comes alone; because we shall see the less of him.”
+
+
+“Not that I am afraid of *myself*, but I dread other people’s remarks.”
+e:jane=wary
+
+Elizabeth did not know what to make of it.
+s=none;e:lizzy=confused
+
+Had she not seen him in Derbyshire, she might have supposed him capable of coming there, with no other view than what was acknowledged; but she still thought him partial to Jane, and she wavered as to the greater probability of his coming there *with* his friend’s permission, or being bold enough to come without it.
+e:lizzy=thinking
+
+“Yet it is hard,” she sometimes thought, “that this poor man cannot come to a house, which he has legally hired, without raising all this speculation! I *will* leave him to himself.”
+s=lizzy;e:lizzy=annoyed
+
+In spite of what her sister declared, and really believed to be her feelings, in the expectation of his arrival, Elizabeth could easily perceive that her spirits were affected by it.
+s=none;e:jane=upset;e:lizzy=contemplative
+
+They were more disturbed, more unequal, than she had often seen them.
+
+
+The subject which had been so warmly canvassed between their parents, about a twelvemonth ago, was now brought forward again.
+
+
+“As soon as ever Mr. Bingley comes, my dear,” said Mrs. Bennet, “you will wait on him of course.”
+s=mrsbennet;e:mrsbennet=excited
+
+“No, no. You forced me into visiting him last year, and promised if I went to see him, he should marry one of my daughters.”
+s=mrbennet;e:mrbennet=annoyed
+
+“But it ended in nothing, and I will not be sent on a fool’s errand again.”
+e:mrbennet=scowling
+
+His wife represented to him how absolutely necessary such an attention would be from all the neighbouring gentlemen, on his returning to Netherfield.
+s=none;e:mrsbennet=upset
+
+“ ’Tis an etiquette I despise,” said he. “If he wants our society, let him seek it.”
+s=mrbennet;e:mrbennet=annoyed
+
+“He knows where we live. I will not spend *my* hours in running after my neighbours every time they go away, and come back again.”
+
+
+“Well, all I know is, that it will be abominably rude if you do not wait on him.”
+s=mrsbennet;e:mrsbennet=scowling
+
+“But, however, that shan’t prevent my asking him to dine here, I am determined.”
+e:mrsbennet=smirking
+
+“We must have Mrs. Long and the Gouldings soon. That will make thirteen with ourselves, so there will be just room at table for him.”
+e:mrsbennet=excited
+
+Consoled by this resolution, she was the better able to bear her husband’s incivility; though it was very mortifying to know that her neighbours might all see Mr. Bingley in consequence of it, before *they* did.
+s=none;e:mrsbennet=neutral
+
+As the day of his arrival drew near, “I begin to be sorry that he comes at all,” said Jane to her sister.
+s=jane;e:jane=unhappy
+
+“It would be nothing; I could see him with perfect indifference, but I can hardly bear to hear it thus perpetually talked of.”
+e:jane=upset
+
+“My mother means well; but she does not know, no one can know how much I suffer from what she says.”
+e:jane=weary
+
+“Happy shall I be when his stay at Netherfield is over!”
+
+
+“I wish I could say anything to comfort you,” replied Elizabeth;
+s=lizzy;e:lizzy=sadsmile
+
+“but it is wholly out of my power. You must feel it; and the usual satisfaction of preaching patience to a sufferer is denied me, because you have always so much.”
+e:lizzy=neutral
+
+Mr. Bingley arrived.
+s=none
+
+Mrs. Bennet, through the assistance of servants, contrived to have the earliest tidings of it, that the period of anxiety and fretfulness on her side, might be as long as it could.
+e:mrsbennet=nervous
+
+She counted the days that must intervene before their invitation could be sent; hopeless of seeing him before.
+e:mrsbennet=thinking
+
+But on the third morning after his arrival in Hertfordshire, she saw him from her dressing-room window, enter the paddock, and ride towards the house.
+e:mrsbennet=surprised
+
+Her daughters were eagerly called to partake of her joy. Jane resolutely kept her place at the table;
+e:mrsbennet=excited;e:jane=nervous
+
+but Elizabeth, to satisfy her mother, went to the window﻿—she looked﻿—she saw Mr. Darcy with him, and sat down again by her sister.
+e:lizzy=surprised
+
+“There is a gentleman with him, mamma,” said Kitty; “who can it be?”
+s=kitty;e:kitty=curious
+
+“Some acquaintance or other, my dear, I suppose; I am sure I do not know.”
+s=mrsbennet;e:mrsbennet=neutral
+
+“La!” replied Kitty, “it looks just like that man that used to be with him before.”
+s=kitty;e:kitty=surprised
+
+“Mr. what’s his name. That tall, proud man.”
+e:kitty=thinking
+
+“Good gracious! Mr. Darcy!﻿—and so it does I vow.”
+s=mrsbennet;e:mrsbennet=surprised
+
+“Well, any friend of Mr. Bingley’s will always be welcome here to be sure; but else I must say that I hate the very sight of him.”
+e:mrsbennet=annoyed
+
+Jane looked at Elizabeth with surprise and concern.
+s=none;e:jane=surprised;e:lizzy=wary
+
+She knew but little of their meeting in Derbyshire, and therefore felt for the awkwardness which must attend her sister, in seeing him almost for the first time after receiving his explanatory letter.
+e:jane=wary
+
+Both sisters were uncomfortable enough. Each felt for the other, and of course for themselves;
+e:jane=nervous;e:lizzy=nervous
+
+and their mother talked on, of her dislike of Mr. Darcy, and her resolution to be civil to him only as Mr. Bingley’s friend, without being heard by either of them.
+e:mrsbennet=annoyed
+
+But Elizabeth had sources of uneasiness which could not be suspected by Jane, to whom she had never yet had courage to show Mrs. Gardiner’s letter, or to relate her own change of sentiment towards him.
+e:lizzy=wary
+
+To Jane, he could be only a man whose proposals she had refused, and whose merit she had undervalued;
+
+
+but to her own more extensive information, he was the person, to whom the whole family were indebted for the first of benefits, and whom she regarded herself with an interest, if not quite so tender, at least as reasonable and just, as what Jane felt for Bingley.
+e:lizzy=contemplative
+
+Her astonishment at his coming﻿—at his coming to Netherfield, to Longbourn, and voluntarily seeking her again, was almost equal to what she had known on first witnessing his altered behaviour in Derbyshire.
+e:lizzy=surprised
+
+The colour which had been driven from her face returned for half a minute with an additional glow, and a smile of delight added lustre to her eyes, as she thought for that space of time, that his affection and wishes must still be unshaken.
+e:lizzy=happy
+
+But she would not be secure.
+e:lizzy=wary
+
+“Let me first see how he behaves,” said she;
+s=lizzy;e:lizzy=thinking
+
+“it will then be early enough for expectation.”
+e:lizzy=serious
+
+She sat intently at work, striving to be composed, and without daring to lift up her eyes, till anxious curiosity carried them to the face of her sister, as the servant was approaching the door.
+s=none;e:lizzy=nervous
+
+Jane looked a little paler than usual, but more sedate than Elizabeth had expected.
+e:jane=neutral
+
+On the gentlemen’s appearing, her colour increased; yet she received them with tolerable ease, and with a propriety of behaviour equally free from any symptom of resentment, or any unnecessary complaisance.
+e:jane=nervous;e:bingley=nervous
+
+Elizabeth said as little to either as civility would allow, and sat down again to her work, with an eagerness which it did not often command.
+e:lizzy=wary
+
+She had ventured only one glance at Darcy. He looked serious as usual;
+e:lizzy=curious;e:darcy=serious
+
+and she thought, more as he had been used to look in Hertfordshire, than as she had seen him at Pemberley.
+e:lizzy=thinking
+
+But, perhaps he could not in her mother’s presence be what he was before her uncle and aunt.
+
+
+It was a painful, but not an improbable, conjecture.
+e:lizzy=weary
+
+Bingley, she had likewise seen for an instant, and in that short period saw him looking both pleased and embarrassed.
+e:bingley=nervous
+
+He was received by Mrs. Bennet with a degree of civility, which made her two daughters ashamed, especially when contrasted with the cold and ceremonious politeness of her curtsey and address to his friend.
+e:mrsbennet=happy;e:lizzy=upset
+
+Elizabeth particularly, who knew that her mother owed to the latter the preservation of her favourite daughter from irremediable infamy, was hurt and distressed to a most painful degree by a distinction so ill applied.
+e:lizzy=wary
+
+Darcy, after enquiring of her how Mr. and Mrs. Gardiner did, a question which she could not answer without confusion, said scarcely anything.
+e:darcy=serious;e:lizzy=nervous
+
+He was not seated by her; perhaps that was the reason of his silence; but it had not been so in Derbyshire.
+e:lizzy=thinking
+
+There he had talked to her friends, when he could not to herself.
+
+
+But now several minutes elapsed, without bringing the sound of his voice;
+e:lizzy=curious
+
+and when occasionally, unable to resist the impulse of curiosity, she raised her eyes to his face, she as often found him looking at Jane, as at herself, and frequently on no object but the ground.
+e:darcy=contemplative
+
+More thoughtfulness, and less anxiety to please than when they last met, were plainly expressed.
+
+
+She was disappointed, and angry with herself for being so.
+e:lizzy=annoyed
+
+“Could I expect it to be otherwise!” said she.
+s=lizzy;e:lizzy=angry
+
+“Yet why did he come?”
+e:lizzy=confused
+
+She was in no humour for conversation with anyone but himself; and to him she had hardly courage to speak.
+s=none;e:lizzy=nervous
+
+She enquired after his sister, but could do no more.
+e:lizzy=neutral
+
+“It is a long time, Mr. Bingley, since you went away,” said Mrs. Bennet.
+s=mrsbennet;e:mrsbennet=smirking
+
+He readily agreed to it.
+s=none;e:bingley=nervous
+
+“I began to be afraid you would never come back again.”
+s=mrsbennet;e:mrsbennet=scowling
+
+“People *did* say, you meant to quit the place entirely at Michaelmas; but, however, I hope it is not true.”
+e:mrsbennet=neutral
+
+“A great many changes have happened in the neighbourhood, since you went away. Miss Lucas is married and settled. And one of my own daughters.”
+e:mrsbennet=happy
+
+“I suppose you have heard of it; indeed, you must have seen it in the papers. It was in the Times and the Courier, I know; though it was not put in as it ought to be.”
+e:mrsbennet=annoyed
+
+“It was only said, ‘Lately, George Wickham, Esq. to Miss Lydia Bennet,’ without there being a syllable said of her father, or the place where she lived, or anything.”
+e:mrsbennet=scowling
+
+“It was my brother Gardiner’s drawing up too, and I wonder how he came to make such an awkward business of it. Did you see it?”
+e:mrsbennet=curious
+
+Bingley replied that he did, and made his congratulations.
+s=none;e:bingley=happy
+
+Elizabeth dared not lift up her eyes.
+e:lizzy=nervous
+
+How Mr. Darcy looked, therefore, she could not tell.
+e:lizzy=curious
+
+“It is a delightful thing, to be sure, to have a daughter well married,” continued her mother, “but at the same time, Mr. Bingley, it is very hard to have her taken such a way from me.”
+s=mrsbennet;e:mrsbennet=unhappy
+
+“They are gone down to Newcastle, a place quite northward, it seems, and there they are to stay, I do not know how long.”
+
+
+“His regiment is there; for I suppose you have heard of his leaving the —﻿—﻿shire, and of his being gone into the regulars.”
+e:mrsbennet=neutral
+
+“Thank Heaven! he has *some* friends, though perhaps not so many as he deserves.”
+e:mrsbennet=smirking
+
+Elizabeth, who knew this to be levelled at Mr. Darcy, was in such misery of shame, that she could hardly keep her seat.
+s=none;e:lizzy=upset
+
+It drew from her, however, the exertion of speaking, which nothing else had so effectually done before; and she asked Bingley whether he meant to make any stay in the country at present.
+e:lizzy=nervous
+
+A few weeks, he believed.
+e:bingley=neutral
+
+“When you have killed all your own birds, Mr. Bingley,” said her mother, “I beg you will come here, and shoot as many as you please, on Mr. Bennet’s manor.”
+s=mrsbennet;e:mrsbennet=smirking
+
+“I am sure he will be vastly happy to oblige you, and will save all the best of the covies for you.”
+e:mrsbennet=happy
+
+Elizabeth’s misery increased, at such unnecessary, such officious attention!
+s=none;e:lizzy=upset
+
+Were the same fair prospect to arise at present as had flattered them a year ago, everything, she was persuaded, would be hastening to the same vexatious conclusion.
+e:lizzy=weary
+
+At that instant she felt that years of happiness could not make Jane or herself amends for moments of such painful confusion.
+e:lizzy=sadsmile
+
+“The first wish of my heart,” said she to herself, “is never more to be in company with either of them.”
+s=lizzy;e:lizzy=upset
+
+“Their society can afford no pleasure, that will atone for such wretchedness as this! Let me never see either one or the other again!”
+e:lizzy=angry
+
+Yet the misery, for which years of happiness were to offer no compensation, received soon afterwards material relief, from observing how much the beauty of her sister rekindled the admiration of her former lover.
+s=none;e:lizzy=surprised;e:bingley=happy
+
+When first he came in, he had spoken to her but little; but every five minutes seemed to be giving her more of his attention.
+e:bingley=smirking
+
+He found her as handsome as she had been last year; as good natured, and as unaffected, though not quite so chatty.
+e:jane=neutral
+
+Jane was anxious that no difference should be perceived in her at all, and was really persuaded that she talked as much as ever.
+e:jane=nervous
+
+But her mind was so busily engaged, that she did not always know when she was silent.
+e:jane=contemplative
+
+When the gentlemen rose to go away, Mrs. Bennet was mindful of her intended civility, and they were invited and engaged to dine at Longbourn in a few days’ time.
+e:mrsbennet=excited
+
+“You are quite a visit in my debt, Mr. Bingley,” she added, “for when you went to town last winter, you promised to take a family dinner with us, as soon as you returned.”
+s=mrsbennet;e:mrsbennet=smirking
+
+“I have not forgot, you see; and I assure you, I was very much disappointed that you did not come back and keep your engagement.”
+e:mrsbennet=annoyed
+
+Bingley looked a little silly at this reflection, and said something of his concern, at having been prevented by business.
+s=none;e:bingley=nervous
+
+They then went away.
+
+
+Mrs. Bennet had been strongly inclined to ask them to stay and dine there, that day;
+e:mrsbennet=thinking
+
+but, though she always kept a very good table, she did not think anything less than two courses could be good enough for a man on whom she had such anxious designs, or satisfy the appetite and pride of one who had ten thousand a year.
+e:mrsbennet=smirking
+
 
