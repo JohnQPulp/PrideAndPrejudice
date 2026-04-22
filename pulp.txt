@@ -1390,4 +1390,295 @@ e:caroline=annoyed;e:jane=sadsmile
 Elizabeth most thankfully consented, and a servant was dispatched to Longbourn to acquaint the family with her stay, and bring back a supply of clothes.
 e:lizzy=happy
 
+## VIII
+
+
+At five o’clock the two ladies retired to dress, and at half past six Elizabeth was summoned to dinner.
+e:lizzy=neutral
+
+To the civil enquiries which then poured in, and amongst which she had the pleasure of distinguishing the much superior solicitude of Mr. Bingley’s, she could not make a very favourable answer.
+e:bingley=serious;e:lizzy=unhappy
+
+Jane was by no means better.
+e:jane=unhappy
+
+The sisters, on hearing this, repeated three or four times how much they were grieved, how shocking it was to have a bad cold, and how excessively they disliked being ill themselves;
+e:louisa=annoyed;e:caroline=annoyed
+
+and then thought no more of the matter: and their indifference towards Jane when not immediately before them, restored Elizabeth to the enjoyment of all her original dislike.
+e:lizzy=scowling
+
+Their brother, indeed, was the only one of the party whom she could regard with any complacency.
+e:lizzy=neutral
+
+His anxiety for Jane was evident, and his attentions to herself most pleasing, and they prevented her feeling herself so much an intruder as she believed she was considered by the others.
+e:bingley=nervous
+
+She had very little notice from any but him. Miss Bingley was engrossed by Mr. Darcy, her sister scarcely less so;
+e:caroline=smirking;e:darcy=neutral
+
+and as for Mr. Hurst, by whom Elizabeth sat, he was an indolent man, who lived only to eat, drink, and play at cards, who when he found her prefer a plain dish to a ragout, had nothing to say to her.
+n:mrhurst=Mr. Hurst;e:mrhurst=neutral
+
+When dinner was over, she returned directly to Jane, and Miss Bingley began abusing her as soon as she was out of the room.
+e:caroline=scowling
+
+Her manners were pronounced to be very bad indeed, a mixture of pride and impertinence;
+
+
+she had no conversation, no style, no taste, no beauty.
+
+
+Mrs. Hurst thought the same, and added—
+e:louisa=scowling
+
+“She has nothing, in short, to recommend her, but being an excellent walker. I shall never forget her appearance this morning. She really looked almost wild.”
+s=louisa;e:louisa=smirking
+
+“She did indeed, Louisa. I could hardly keep my countenance.”
+s=caroline;e:caroline=smirking
+
+“Very nonsensical to come at all! Why must *she* be scampering about the country, because her sister had a cold? Her hair so untidy, so blowsy!”
+e:caroline=scowling
+
+“Yes, and her petticoat; I hope you saw her petticoat, six inches deep in mud, I am absolutely certain; and the gown which had been let down to hide it, not doing its office.”
+s=louisa;e:louisa=annoyed
+
+“Your picture may be very exact, Louisa,” said Bingley; “but this was all lost upon me.”
+s=bingley;e:bingley=serious
+
+“I thought Miss Elizabeth Bennet looked remarkably well, when she came into the room this morning. Her dirty petticoat quite escaped my notice.”
+e:bingley=happy
+
+“*You* observed it, Mr. Darcy, I am sure,” said Miss Bingley;
+s=caroline;e:caroline=smirking
+
+“and I am inclined to think that you would not wish to see *your sister* make such an exhibition.”
+
+
+“Certainly not.”
+s=darcy;e:darcy=serious
+
+“To walk three miles, or four miles, or five miles, or whatever it is, above her ankles in dirt, and alone, quite alone! what could she mean by it?”
+s=caroline;e:caroline=scowling
+
+“It seems to me to show an abominable sort of conceited independence, a most country town indifference to decorum.”
+e:caroline=annoyed
+
+“It shows an affection for her sister that is very pleasing,” said Bingley.
+s=bingley;e:bingley=serious
+
+“I am afraid, Mr. Darcy,” observed Miss Bingley, in a half whisper, “that this adventure has rather affected your admiration of her fine eyes.”
+s=caroline;e:caroline=smirking
+
+“Not at all,” he replied; “they were brightened by the exercise.”—
+s=darcy;e:darcy=neutral;m=nospace;m=allowbreak
+
+A short pause followed this speech, and Mrs. Hurst began again.
+s=none;m=
+
+“I have an excessive regard for Jane Bennet, she is really a very sweet girl, and I wish with all my heart she were well settled.”
+s=louisa;e:louisa=sadsmile
+
+“But with such a father and mother, and such low connections, I am afraid there is no chance of it.”
+e:louisa=smirking
+
+“I think I have heard you say, that their uncle is an attorney in Meryton.”
+s=caroline
+
+“Yes; and they have another, who lives somewhere near Cheapside.”
+s=louisa
+
+“That is capital,” added her sister, and they both laughed heartily.
+s=caroline;e:caroline=happy;e:louisa=happy
+
+“If they had uncles enough to fill *all* Cheapside,” cried Bingley, “it would not make them one jot less agreeable.”
+s=bingley;e:bingley=angry
+
+“But it must very materially lessen their chance of marrying men of any consideration in the world,” replied Darcy.
+s=darcy;e:darcy=serious
+
+To this speech Bingley made no answer; but his sisters gave it their hearty assent, and indulged their mirth for some time at the expense of their dear friend’s vulgar relations.
+s=none;e:bingley=unhappy;e:caroline=smirking;e:louisa=smirking
+
+With a renewal of tenderness, however, they repaired to her room on leaving the dining-parlour, and sat with her till summoned to coffee.
+e:caroline=neutral;e:louisa=neutral
+
+She was still very poorly, and Elizabeth would not quit her at all, till late in the evening, when she had the comfort of seeing her asleep, and when it appeared to her rather right than pleasant that she should go downstairs herself.
+e:lizzy=weary;e:jane=weary
+
+On entering the drawing-room she found the whole party at loo, and was immediately invited to join them;
+e:lizzy=neutral
+
+but suspecting them to be playing high she declined it, and making her sister the excuse, said she would amuse herself for the short time she could stay below with a book.
+e:lizzy=thinking
+
+Mr. Hurst looked at her with astonishment.
+e:mrhurst=surprised
+
+“Do you prefer reading to cards?” said he; “that is rather singular.”
+s=mrhurst
+
+“Miss Eliza Bennet,” said Miss Bingley, “despises cards. She is a great reader and has no pleasure in anything else.”
+s=caroline;e:caroline=smirking
+
+“I deserve neither such praise nor such censure,” cried Elizabeth;
+s=lizzy;e:lizzy=serious
+
+“I am *not* a great reader, and I have pleasure in many things.”
+
+
+“In nursing your sister I am sure you have pleasure,” said Bingley;
+s=bingley;e:bingley=sadsmile
+
+“and I hope it will soon be increased by seeing her quite well.”
+e:bingley=happy
+
+Elizabeth thanked him from her heart, and then walked towards a table where a few books were lying.
+s=none;e:lizzy=sadsmile
+
+He immediately offered to fetch her others; all that his library afforded.
+
+
+“And I wish my collection were larger for your benefit and my own credit; but I am an idle fellow, and though I have not many, I have more than I ever look into.”
+s=bingley;e:bingley=sadsmile
+
+Elizabeth assured him that she could suit herself perfectly with those in the room.
+s=none
+
+“I am astonished,” said Miss Bingley, “that my father should have left so small a collection of books. What a delightful library you have at Pemberley, Mr. Darcy!”
+s=caroline;e:caroline=smirking
+
+“It ought to be good,” he replied, “it has been the work of many generations.”
+s=darcy;e:darcy=neutral
+
+“And then you have added so much to it yourself, you are always buying books.”
+s=caroline
+
+“I cannot comprehend the neglect of a family library in such days as these.”
+s=darcy;e:darcy=serious
+
+“Neglect! I am sure you neglect nothing that can add to the beauties of that noble place.”
+s=caroline;e:caroline=smirking
+
+“Charles, when you build *your* house, I wish it may be half as delightful as Pemberley.”
+
+
+“I wish it may.”
+s=bingley;e:bingley=neutral
+
+“But I would really advise you to make your purchase in that neighbourhood, and take Pemberley for a kind of model. There is not a finer county in England than Derbyshire.”
+s=caroline;e:caroline=smirking
+
+“With all my heart; I will buy Pemberley itself if Darcy will sell it.”
+s=bingley;e:bingley=happy
+
+“I am talking of possibilities, Charles.”
+s=caroline;e:caroline=annoyed
+
+“Upon my word, Caroline, I should think it more possible to get Pemberley by purchase than by imitation.”
+s=bingley;e:bingley=smirking
+
+Elizabeth was so much caught by what passed, as to leave her very little attention for her book;
+s=none;e:lizzy=curious
+
+and soon laying it wholly aside, she drew near the card-table, and stationed herself between Mr. Bingley and his eldest sister, to observe the game.
+e:lizzy=neutral
+
+“Is Miss Darcy much grown since the spring?” said Miss Bingley; “will she be as tall as I am?”
+s=caroline
+
+“I think she will. She is now about Miss Elizabeth Bennet’s height, or rather taller.”
+s=darcy
+
+“How I long to see her again! I never met with anybody who delighted me so much.”
+s=caroline;e:caroline=excited
+
+“Such a countenance, such manners! and so extremely accomplished for her age! Her performance on the pianoforte is exquisite.”
+
+
+“It is amazing to me,” said Bingley, “how young ladies can have patience to be so very accomplished, as they all are.”
+s=bingley;e:bingley=thinking
+
+“All young ladies accomplished! My dear Charles, what do you mean?”
+s=caroline;e:caroline=surprised
+
+“Yes, all of them, I think. They all paint tables, cover screens and net purses.”
+s=bingley;e:bingley=neutral
+
+“I scarcely know anyone who cannot do all this, and I am sure I never heard a young lady spoken of for the first time, without being informed that she was very accomplished.”
+
+
+“Your list of the common extent of accomplishments,” said Darcy, “has too much truth. The word is applied to many a woman who deserves it no otherwise than by netting a purse, or covering a screen.”
+s=darcy;e:darcy=serious
+
+“But I am very far from agreeing with you in your estimation of ladies in general. I cannot boast of knowing more than half a dozen, in the whole range of my acquaintance, that are really accomplished.”
+
+
+“Nor I, I am sure,” said Miss Bingley.
+s=caroline;e:caroline=smirking
+
+“Then,” observed Elizabeth, “you must comprehend a great deal in your idea of an accomplished woman.”
+s=lizzy;e:lizzy=smirking
+
+“Yes; I do comprehend a great deal in it.”
+s=darcy
+
+“Oh! certainly,” cried his faithful assistant, “no one can be really esteemed accomplished, who does not greatly surpass what is usually met with.”
+s=caroline;e:caroline=smirking
+
+“A woman must have a thorough knowledge of music, singing, drawing, dancing, and the modern languages, to deserve the word;”
+
+
+“and besides all this, she must possess a certain something in her air and manner of walking, the tone of her voice, her address and expressions, or the word will be but half deserved.”
+
+
+“All this she must possess,” added Darcy, “and to all this she must yet add something more substantial, in the improvement of her mind by extensive reading.”
+s=darcy;e:darcy=serious
+
+“I am no longer surprised at your knowing *only* six accomplished women. I rather wonder now at your knowing *any*.”
+s=lizzy;e:lizzy=smirking
+
+“Are you so severe upon your own sex, as to doubt the possibility of all this?”
+s=darcy;e:darcy=curious
+
+“*I* never saw such a woman. *I* never saw such capacity, and taste, and application, and elegance, as you describe, united.”
+s=lizzy;e:lizzy=serious
+
+Mrs. Hurst and Miss Bingley both cried out against the injustice of her implied doubt, and were both protesting that they knew many women who answered this description, when Mr. Hurst called them to order, with bitter complaints of their inattention to what was going forward.
+s=none;e:louisa=annoyed;e:caroline=annoyed;e:mrhurst=angry
+
+As all conversation was thereby at an end, Elizabeth soon afterwards left the room.
+e:lizzy=neutral
+
+“Eliza Bennet,” said Miss Bingley, when the door was closed on her, “is one of those young ladies who seek to recommend themselves to the other sex, by undervaluing their own; and with many men, I dare say, it succeeds.”
+s=caroline;e:caroline=scowling
+
+“But, in my opinion, it is a paltry device, a very mean art.”
+
+
+“Undoubtedly,” replied Darcy, to whom this remark was chiefly addressed, “there is meanness in *all* the arts which ladies sometimes condescend to employ for captivation. Whatever bears affinity to cunning is despicable.”
+s=darcy;e:darcy=serious
+
+Miss Bingley was not so entirely satisfied with this reply as to continue the subject.
+s=none;e:caroline=nervous
+
+Elizabeth joined them again only to say that her sister was worse, and that she could not leave her.
+e:lizzy=unhappy
+
+Bingley urged Mr. Jones’s being sent for immediately; while his sisters, convinced that no country advice could be of any service, recommended an express to town for one of the most eminent physicians.
+e:bingley=nervous;e:caroline=serious;e:louisa=serious
+
+This, she would not hear of; but she was not so unwilling to comply with their brother’s proposal;
+e:lizzy=neutral
+
+and it was settled that Mr. Jones should be sent for early in the morning, if Miss Bennet were not decidedly better.
+
+
+Bingley was quite uncomfortable; his sisters declared that they were miserable.
+e:bingley=unhappy;e:caroline=sadsmile;e:louisa=sadsmile
+
+They solaced their wretchedness, however, by duets after supper, while he could find no better relief to his feelings than by giving his housekeeper directions that every possible attention might be paid to the sick lady and her sister.
+e:bingley=serious;e:caroline=happy;e:louisa=happy
+
 
