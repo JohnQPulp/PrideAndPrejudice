@@ -3403,10 +3403,10 @@ s=collins;e:collins=neutral;e:collins=smirking
 Elizabeth felt herself completely taken in.
 s=none;e:lizzy=surprised
 
-She had fully proposed being engaged by Wickham for those very dances:﻿—and to have Mr. Collins instead!
+She had fully proposed being engaged by Wickham for those very dances:﻿—and to have Mr. Collins instead! her liveliness had been never worse timed.
 e:lizzy=upset
 
-her liveliness had been never worse timed. There was no help for it however.
+There was no help for it however.
 e:lizzy=weary
 
 Mr. Wickham’s happiness and her own was per force delayed a little longer, and Mr. Collins’s proposal accepted with as good a grace as she could.
@@ -7261,11 +7261,8 @@ e:lizzy=crying
 Her astonishment, as she reflected on what had passed, was increased by every review of it.
 e:lizzy=surprised
 
-That she should receive an offer of marriage from Mr. Darcy!
+That she should receive an offer of marriage from Mr. Darcy! that he should have been in love with her for so many months!
 e:lizzy=confused
-
-that he should have been in love with her for so many months!
-e:lizzy=surprised
 
 so much in love as to wish to marry her in spite of all the objections which had made him prevent his friend’s marrying her sister, and which must appear at least with equal force in his own case, was almost incredible!
 e:lizzy=thinking
@@ -8659,11 +8656,17 @@ s=wickham;e:wickham=thinking
 “Yes, very different. But I think Mr. Darcy improves on acquaintance.”
 s=lizzy;e:lizzy=smirking
 
-“Indeed!” cried Wickham with a look which did not escape her. “And pray may I ask?”
+“Indeed!” cried Wickham with a look which did not escape her.
 s=wickham;e:wickham=surprised
 
-but checking himself, he added in a gayer tone, “Is it in address that he improves? Has he deigned to add ought of civility to his ordinary style? for I dare not hope,” he continued in a lower and more serious tone, “that he is improved in essentials.”
-e:wickham=serious
+“And pray may I ask?”
+
+
+but checking himself, he added in a gayer tone,
+s=
+
+“Is it in address that he improves? Has he deigned to add ought of civility to his ordinary style? for I dare not hope,” he continued in a lower and more serious tone, “that he is improved in essentials.”
+s=wickham;e:wickham=serious
 
 “Oh, no!” said Elizabeth. “In essentials, I believe, he is very much what he ever was.”
 s=lizzy;e:lizzy=neutral
