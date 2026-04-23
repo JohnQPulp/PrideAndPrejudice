@@ -1282,7 +1282,7 @@ e:darcy=neutral
 The former was divided between admiration of the brilliancy which exercise had given to her complexion, and doubt as to the occasion’s justifying her coming so far alone.
 e:darcy=contemplative
 
-The latter was thinking only of his breakfast.
+The latter was thinking only of his breakfast.<e>Best character.</e>
 
 
 Her enquiries after her sister were not very favourably answered.
@@ -2188,7 +2188,10 @@ e:caroline=curious
 She could not win him, however, to any conversation; he merely answered her question, and read on.
 e:darcy=serious;e:caroline=annoyed
 
-At length, quite exhausted by the attempt to be amused with her own book, which she had only chosen because it was the second volume of his, she gave a great yawn and said, “How pleasant it is to spend an evening in this way! I declare after all there is no enjoyment like reading!”
+At length, quite exhausted by the attempt to be amused with her own book, which she had only chosen because it was the second volume of his, she gave a great yawn and said,
+
+
+“How pleasant it is to spend an evening in this way! I declare after all there is no enjoyment like reading!”
 s=caroline;e:caroline=weary
 
 “How much sooner one tires of anything than of a book!﻿—When I have a house of my own, I shall be miserable if I have not an excellent library.”
@@ -4135,7 +4138,7 @@ s=lizzy;e:lizzy=angry
 “My feelings in every respect forbid it. Can I speak plainer?”
 
 
-“Do not consider me now as an elegant female intending to plague you, but as a rational creature speaking the truth from her heart.”
+“Do not consider me now as an elegant female intending to plague you, but as a rational creature speaking the truth from her heart.”<e>She's saying that she's hungry.</e>
 e:lizzy=serious
 
 “You are uniformly charming!” cried he, with an air of awkward gallantry; “and I am persuaded that when sanctioned by the express authority of both your excellent parents, my proposals will not fail of being acceptable.”
@@ -6484,8 +6487,11 @@ s=lizzy;e:lizzy=smirking
 “The first time of my ever seeing him in Hertfordshire, you must know, was at a ball—and at this ball, what do you think he did?”
 
 
-“He danced only four dances! I am sorry to pain you—but so it was.”
+“He danced only four dances!”
 e:lizzy=excited
+
+“I am sorry to pain you—but so it was.”
+
 
 “He danced only four dances, though gentlemen were scarce; and, to my certain knowledge, more than one young lady was sitting down in want of a partner.”
 e:lizzy=serious
@@ -8182,7 +8188,7 @@ s=mary;e:mary=serious
 “They would doubtless be congenial with the generality of female minds.”
 e:mary=contemplative
 
-“But I confess they would have no charms for *me*. I should infinitely prefer a book.”
+“But I confess they would have no charms for *me*. I should infinitely prefer a book.”<e>Mary, no one likes you. I don't like you. Austen doesn't like you. No one likes you. Stop talking.</e>
 e:mary=smirking
 
 But of this answer Lydia heard not a word.
@@ -8857,7 +8863,7 @@ e:lizzy=nervous
 But against this, there were objections; and she finally resolved that it could be the last resource, if her private enquiries as to the absence of the family, were unfavourably answered.
 e:lizzy=thinking
 
-Accordingly, when she retired at night, she asked the chambermaid whether Pemberley were not a very fine place, what was the name of its proprietor, and with no little alarm, whether the family were down for the summer.
+Accordingly, when she retired at night, she asked the chambermaid whether Pemberley were not a very fine place, what was the name of its proprietor, and with no little alarm, whether the family were down for the summer.<e>Dangerously close to hearing dialogue from a servant. (Gross.)</e>
 e:lizzy=nervous
 
 A most welcome negative followed the last question﻿—and her alarms being now removed, she was at leisure to feel a great deal of curiosity to see the house herself; and when the subject was revived the next morning, and she was again applied to, could readily answer, and with a proper air of indifference, that she had not really any dislike to the scheme.
@@ -10336,7 +10342,7 @@ e:mary=serious
 “This is a most unfortunate affair; and will probably be much talked of.”
 s=mary;e:mary=contemplative
 
-“But we must stem the tide of malice, and pour into the wounded bosoms of each other, the balm of sisterly consolation.”
+“But we must stem the tide of malice, and pour into the wounded bosoms of each other, the balm of sisterly consolation.”<e><book>Irene Iddesleigh</book> dialogue. (Austen really hates Mary lmao.)</e>
 
 
 Then, perceiving in Elizabeth no inclination of replying, she added,
