@@ -1094,7 +1094,7 @@ s=none;e:darcy=neutral
 r=title
 
 Mr. Bennet’s property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed in default of heirs male, on a distant relation; and their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his.
-
+b=bennet-wide
 
 Her father had been an attorney in Meryton, and had left her four thousand pounds.
 
@@ -1103,18 +1103,18 @@ She had a sister married to a Mr. Philips, who had been a clerk to their father,
 
 
 The village of Longbourn was only one mile from Meryton; a most convenient distance for the young ladies, who were usually tempted thither three or four times a week, to pay their duty to their aunt and to a milliner’s shop just over the way.
+b=meryton-wide
+
+The two youngest of the family, Catherine and Lydia, were particularly frequent in these attentions;
 
 
-The two youngest of the family, Catherine and Lydia, were particularly frequent in these attentions; their minds were more vacant than their sisters’, and when nothing better offered, a walk to Meryton was necessary to amuse their morning hours and furnish conversation for the evening; and however bare of news the country in general might be, they always contrived to learn some from their aunt.
+their minds were more vacant than their sisters’, and when nothing better offered, a walk to Meryton was necessary to amuse their morning hours and furnish conversation for the evening; and however bare of news the country in general might be, they always contrived to learn some from their aunt.
 
 
 At present, indeed, they were well supplied both with news and happiness by the recent arrival of a militia regiment in the neighbourhood; it was to remain the whole winter, and Meryton was the head quarters.
 
 
-Their visits to Mrs. Philips were now productive of the most interesting intelligence.
-
-
-Every day added something to their knowledge of the officers’ names and connections.
+Their visits to Mrs. Philips were now productive of the most interesting intelligence. Every day added something to their knowledge of the officers’ names and connections.
 
 
 Their lodgings were not long a secret, and at length they began to know the officers themselves.
@@ -1124,19 +1124,25 @@ Mr. Philips visited them all, and this opened to his nieces a source of felicity
 
 
 They could talk of nothing but officers; and Mr. Bingley’s large fortune, the mention of which gave animation to their mother, was worthless in their eyes when opposed to the regimentals of an ensign.
-
+b=bennet-big
 
 After listening one morning to their effusions on this subject, Mr. Bennet coolly observed﻿—
 
 
-“From all that I can collect by your manner of talking, you must be two of the silliest girls in the country. I have suspected it some time, but I am now convinced.”
+“From all that I can collect by your manner of talking, you must be two of the silliest girls in the country.”
 s=mrbennet;e:mrbennet=smirking
+
+“I have suspected it some time, but I am now convinced.”
+
 
 Catherine was disconcerted, and made no answer; but Lydia, with perfect indifference, continued to express her admiration of Captain Carter, and her hope of seeing him in the course of the day, as he was going the next morning to London.
 s=none;e:kitty=wary;e:lydia=excited
 
-“I am astonished, my dear,” said Mrs. Bennet, “that you should be so ready to think your own children silly. If I wished to think slightingly of anybody’s children, it should not be of my own however.”
+“I am astonished, my dear,” said Mrs. Bennet, “that you should be so ready to think your own children silly.”
 s=mrsbennet;e:mrsbennet=annoyed
+
+“If I wished to think slightingly of anybody’s children, it should not be of my own however.”
+
 
 “If my children are silly I must hope to be always sensible of it.”
 s=mrbennet;e:mrbennet=smirking
@@ -1144,11 +1150,17 @@ s=mrbennet;e:mrbennet=smirking
 “Yes﻿—but as it happens, they are all of them very clever.”
 s=mrsbennet;e:mrsbennet=serious
 
-“This is the only point, I flatter myself, on which we do not agree. I had hoped that our sentiments coincided in every particular, but I must so far differ from you as to think our two youngest daughters uncommonly foolish.”
+“This is the only point, I flatter myself, on which we do not agree.”
 s=mrbennet;e:mrbennet=neutral
 
-“My dear Mr. Bennet, you must not expect such girls to have the sense of their father and mother. When they get to our age I dare say they will not think about officers any more than we do.”
+“I had hoped that our sentiments coincided in every particular, but I must so far differ from you as to think our two youngest daughters uncommonly foolish.”
+
+
+“My dear Mr. Bennet, you must not expect such girls to have the sense of their father and mother.”
 s=mrsbennet;e:mrsbennet=thinking
+
+“When they get to our age I dare say they will not think about officers any more than we do.”
+
 
 “I remember the time when I liked a red coat myself very well﻿—and indeed so I do still at my heart; and if a smart young colonel, with five or six thousand a year, should want one of my girls, I shall not say nay to him; and I thought Colonel Forster looked very becoming the other night at Sir William’s in his regimentals.”
 e:mrsbennet=smirking
@@ -1204,8 +1216,11 @@ s=mrsbennet;e:mrsbennet=excited
 “I had much rather go in the coach.”
 s=jane;e:jane=nervous
 
-“But, my dear, your father cannot spare the horses, I am sure. They are wanted in the farm, Mr. Bennet, are not they?”
+“But, my dear, your father cannot spare the horses, I am sure.”
 s=mrsbennet;e:mrsbennet=wary
+
+“They are wanted in the farm, Mr. Bennet, are not they?”
+
 
 “They are wanted in the farm much oftener than I can get them.”
 s=mrbennet;e:mrbennet=weary
@@ -1220,7 +1235,7 @@ Jane was therefore obliged to go on horseback, and her mother attended her to th
 e:mrsbennet=happy
 
 Her hopes were answered; Jane had not been gone long before it rained hard.
-
+b=bennet-wide-rain
 
 Her sisters were uneasy for her, but her mother was delighted.
 e:lizzy=wary;e:mrsbennet=excited
@@ -1229,13 +1244,10 @@ The rain continued the whole evening without intermission; Jane certainly could 
 
 
 “This was a lucky idea of mine, indeed!” said Mrs. Bennet, more than once, as if the credit of making it rain were all her own.
-s=mrsbennet;e:mrsbennet=happy
+e:mrsbennet=happy
 
-Till the next morning, however, she was not aware of all the felicity of her contrivance.
-s=none;e:mrsbennet=neutral
-
-Breakfast was scarcely over when a servant from Netherfield brought the following note for Elizabeth:
-
+Till the next morning, however, she was not aware of all the felicity of her contrivance. Breakfast was scarcely over when a servant from Netherfield brought the following note for Elizabeth:
+s=none;e:mrsbennet=neutral;b=bennet-big
 
 <span class='upper'>“My dearest Lizzy,”</span>
 m=margin
@@ -1270,8 +1282,11 @@ s=none;e:lizzy=upset
 She declared her resolution.
 e:lizzy=serious
 
-“How can you be so silly,” cried her mother, “as to think of such a thing, in all this dirt! You will not be fit to be seen when you get there.”
+“How can you be so silly,” cried her mother, “as to think of such a thing, in all this dirt!”
 s=mrsbennet;e:mrsbennet=scowling
+
+“You will not be fit to be seen when you get there.”
+
 
 “I shall be very fit to see Jane﻿—which is all I want.”
 s=lizzy;e:lizzy=serious
@@ -1279,26 +1294,29 @@ s=lizzy;e:lizzy=serious
 “Is this a hint to me, Lizzy,” said her father, “to send for the horses?”
 s=mrbennet;e:mrbennet=curious
 
-“No, indeed. I do not wish to avoid the walk. The distance is nothing, when one has a motive; only three miles. I shall be back by dinner.”
+“No, indeed. I do not wish to avoid the walk. The distance is nothing, when one has a motive; only three miles.”
 s=lizzy;e:lizzy=serious
 
-“I admire the activity of your benevolence,” observed Mary, “but every impulse of feeling should be guided by reason; and, in my opinion, exertion should always be in proportion to what is required.”
+“I shall be back by dinner.”
+
+
+“I admire the activity of your benevolence,” observed Mary, “but every impulse of feeling should be guided by reason; and, in my opinion, exertion should always be in proportion to what is required.”<e>Least ponderous Mary dialogue.</e>
 s=mary;e:mary=serious
 
 “We will go as far as Meryton with you,” said Catherine and Lydia.
 m=dialogue
 
 Elizabeth accepted their company, and the three young ladies set off together.
-s=none;e:lizzy=neutral;m=
+s=none;e:lizzy=neutral;m=;x:lizzy=bonnet;x:kitty=bonnet;x:lydia=bonnet
 
 “If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter before he goes.”
-s=lydia;e:lydia=excited
+s=lydia;e:lydia=excited;b=light
 
 In Meryton they parted; the two youngest repaired to the lodgings of one of the officers’ wives, and Elizabeth continued her walk alone, crossing field after field at a quick pace, jumping over stiles and springing over puddles with impatient activity, and finding herself at last within view of the house, with weary ankles, dirty stockings, and a face glowing with the warmth of exercise.
-s=none;e:lizzy=weary
+s=none;e:lizzy=weary;x:lizzy=bonnet,dirty
 
 She was shown into the breakfast-parlour, where all but Jane were assembled, and where her appearance created a great deal of surprise.
-e:caroline=surprised
+e:caroline=surprised;b=netherfield-parlor
 
 That she should have walked three miles so early in the day, in such dirty weather, and by herself, was almost incredible to Mrs. Hurst and Miss Bingley; and Elizabeth was convinced that they held her in contempt for it.
 e:louisa=surprised
@@ -1315,14 +1333,11 @@ e:darcy=contemplative
 The latter was thinking only of his breakfast.<e>Best character.</e>
 
 
-Her enquiries after her sister were not very favourably answered.
-
-
-Miss Bennet had slept ill, and though up, was very feverish and not well enough to leave her room.
+Her enquiries after her sister were not very favourably answered. Miss Bennet had slept ill, and though up, was very feverish and not well enough to leave her room.
 e:jane=unhappy
 
 Elizabeth was glad to be taken to her immediately; and Jane, who had only been withheld by the fear of giving alarm or inconvenience, from expressing in her note how much she longed for such a visit, was delighted at her entrance.
-e:lizzy=happy;e:jane=happy
+e:lizzy=happy;e:jane=happy;b=netherfield-bedroom
 
 She was not equal, however, to much conversation, and when Miss Bingley left them together, could attempt little beside expressions of gratitude for the extraordinary kindness she was treated with.
 e:jane=weary
