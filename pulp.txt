@@ -2252,7 +2252,7 @@ e:jane=happy
 r=title
 
 When the ladies removed after dinner, Elizabeth ran up to her sister, and seeing her well guarded from cold, attended her into the drawing-room; where she was welcomed by her two friends with many professions of pleasure; and Elizabeth had never seen them so agreeable as they were during the hour which passed before the gentlemen appeared.
-e:lizzy=happy;e:caroline=happy;e:louisa=happy
+e:lizzy=happy;e:caroline=happy;e:louisa=happy;b=netherfield-drawing-night
 
 Their powers of conversation were considerable. They could describe an entertainment with accuracy, relate an anecdote with humour, and laugh at their acquaintance with spirit.
 
@@ -2374,8 +2374,11 @@ s=darcy;e:darcy=smirking
 “You either choose this method of passing the evening because you are in each other’s confidence and have secret affairs to discuss, or because you are conscious that your figures appear to the greatest advantage in walking;﻿—if the first, I should be completely in your way;﻿—and if the second, I can admire you much better as I sit by the fire.”
 
 
-“Oh! shocking!” cried Miss Bingley. “I never heard anything so abominable. How shall we punish him for such a speech?”
+“Oh! shocking!” cried Miss Bingley.
 s=caroline;e:caroline=excited
+
+“I never heard anything so abominable. How shall we punish him for such a speech?”
+
 
 “Nothing so easy, if you have but the inclination,” said Elizabeth.
 s=lizzy;e:lizzy=smirking
@@ -2386,14 +2389,20 @@ s=lizzy;e:lizzy=smirking
 “But upon my honour I do *not*. I do assure you that my intimacy has not yet taught me *that*.”
 s=caroline;e:caroline=serious
 
-“Tease calmness of temper and presence of mind! No, no﻿—I feel he may defy us there.”
+“Tease calmness of temper and presence of mind!”
+
+
+“No, no﻿—I feel he may defy us there.”
 
 
 “And as to laughter, we will not expose ourselves, if you please, by attempting to laugh without a subject. Mr. Darcy may hug himself.”
 e:caroline=smirking
 
-“Mr. Darcy is not to be laughed at!” cried Elizabeth. “That is an uncommon advantage, and uncommon I hope it will continue, for it would be a great loss to *me* to have many such acquaintance.”
+“Mr. Darcy is not to be laughed at!” cried Elizabeth.
 s=lizzy;e:lizzy=surprised
+
+“That is an uncommon advantage, and uncommon I hope it will continue, for it would be a great loss to *me* to have many such acquaintance.”
+
 
 “I dearly love a laugh.”
 e:lizzy=happy
@@ -2404,11 +2413,8 @@ s=darcy;e:darcy=serious
 “The wisest and the best of men, nay, the wisest and best of their actions, may be rendered ridiculous by a person whose first object in life is a joke.”
 
 
-“Certainly,” replied Elizabeth﻿—“there are such people, but I hope I am not one of *them*.”
+“Certainly,” replied Elizabeth﻿—“there are such people, but I hope I am not one of *them*. I hope I never ridicule what is wise or good.”
 s=lizzy;e:lizzy=serious
-
-“I hope I never ridicule what is wise or good.”
-
 
 “Follies and nonsense, whims and inconsistencies *do* divert me, I own, and I laugh at them whenever I can.”
 e:lizzy=smirking
@@ -2416,11 +2422,8 @@ e:lizzy=smirking
 “But these, I suppose, are precisely what you are without.”
 
 
-“Perhaps that is not possible for anyone.”
+“Perhaps that is not possible for anyone. But it has been the study of my life to avoid those weaknesses which often expose a strong understanding to ridicule.”
 s=darcy;e:darcy=serious
-
-“But it has been the study of my life to avoid those weaknesses which often expose a strong understanding to ridicule.”
-
 
 “Such as vanity and pride.”
 s=lizzy;e:lizzy=smirking
@@ -2455,16 +2458,13 @@ e:darcy=contemplative
 “I cannot forget the follies and vices of others so soon as I ought, nor their offences against myself.”
 
 
-“My feelings are not puffed about with every attempt to move them.”
-
-
-“My temper would perhaps be called resentful. My good opinion once lost is lost forever.”
+“My feelings are not puffed about with every attempt to move them. My temper would perhaps be called resentful. My good opinion once lost is lost forever.”
 e:darcy=serious
 
-“*That* is a failing indeed!”﻿—cried Elizabeth. “Implacable resentment *is* a shade in a character.”
+“*That* is a failing indeed!”﻿—cried Elizabeth.
 s=lizzy;e:lizzy=surprised
 
-“But you have chosen your fault well. I really cannot *laugh* at it. You are safe from me.”
+“Implacable resentment *is* a shade in a character. But you have chosen your fault well. I really cannot *laugh* at it. You are safe from me.”
 e:lizzy=smirking
 
 “There is, I believe, in every disposition a tendency to some particular evil, a natural defect, which not even the best education can overcome.”
