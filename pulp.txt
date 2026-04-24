@@ -1928,10 +1928,13 @@ s=none;e:lizzy=weary;e:darcy=serious;e:caroline=smirking
 r=title
 
 The day passed much as the day before had done.
+b=netherfield-bedroom
 
-
-Mrs. Hurst and Miss Bingley had spent some hours of the morning with the invalid, who continued, though slowly, to mend; and in the evening Elizabeth joined their party in the drawing-room.
+Mrs. Hurst and Miss Bingley had spent some hours of the morning with the invalid, who continued, though slowly, to mend;
 e:louisa=neutral;e:caroline=neutral
+
+and in the evening Elizabeth joined their party in the drawing-room.
+b=netherfield-drawing-night
 
 The loo table, however, did not appear.
 e:lizzy=neutral
@@ -2056,11 +2059,8 @@ s=darcy;e:darcy=smirking
 “Your conduct would be quite as dependant on chance as that of any man I know; and if, as you were mounting your horse, a friend were to say, ‘Bingley, you had better stay till next week,’ you would probably do it, you would probably not go﻿—and, at another word, might stay a month.”
 e:darcy=neutral
 
-“You have only proved by this,” cried Elizabeth, “that Mr. Bingley did not do justice to his own disposition.”
+“You have only proved by this,” cried Elizabeth, “that Mr. Bingley did not do justice to his own disposition. You have shown him off now much more than he did himself.”
 s=lizzy;e:lizzy=smirking
-
-“You have shown him off now much more than he did himself.”
-e:lizzy=happy
 
 “I am exceedingly gratified,” said Bingley, “by your converting what my friend says into a compliment on the sweetness of my temper.”
 s=bingley;e:bingley=happy
@@ -2092,13 +2092,16 @@ s=lizzy;e:lizzy=thinking
 “A regard for the requester would often make one readily yield to a request, without waiting for arguments to reason one into it.”
 
 
-“I am not particularly speaking of such a case as you have supposed about Mr. Bingley. We may as well wait, perhaps, till the circumstance occurs, before we discuss the discretion of his behaviour thereupon.”
+“I am not particularly speaking of such a case as you have supposed about Mr. Bingley.”
 e:lizzy=neutral
+
+“We may as well wait, perhaps, till the circumstance occurs, before we discuss the discretion of his behaviour thereupon.”
+
 
 “But in general and ordinary cases between friend and friend, where one of them is desired by the other to change a resolution of no very great moment, should you think ill of that person for complying with the desire, without waiting to be argued into it?”
 e:lizzy=curious
 
-“Will it not be advisable, before we proceed on this subject, to arrange with rather more precision the degree of importance which is to appertain to this request, as well as the degree of intimacy subsisting between the parties?”
+“Will it not be advisable, before we proceed on this subject, to arrange with rather more precision the degree of importance which is to appertain to this request, as well as the degree of intimacy subsisting between the parties?”<e>You think you're being real funny with this conversation, don't you, Austen?</e>
 s=darcy;e:darcy=serious
 
 “By all means,” cried Bingley; “let us hear all the particulars, not forgetting their comparative height and size; for that will have more weight in the argument, Miss Bennet, than you may be aware of.”
@@ -2116,8 +2119,11 @@ s=none;e:darcy=smirking;e:lizzy=nervous
 Miss Bingley warmly resented the indignity he had received, in an expostulation with her brother for talking such nonsense.
 e:caroline=annoyed
 
-“I see your design, Bingley,” said his friend. “You dislike an argument, and want to silence this.”
+“I see your design, Bingley,” said his friend.
 s=darcy;e:darcy=neutral
+
+“You dislike an argument, and want to silence this.”
+
 
 “Perhaps I do. Arguments are too much like disputes.”
 s=bingley;e:bingley=weary
@@ -2186,7 +2192,7 @@ She often tried to provoke Darcy into disliking her guest, by talking of their s
 e:caroline=smirking
 
 “I hope,” said she, as they were walking together in the shrubbery the next day, “you will give your mother-in-law a few hints, when this desirable event takes place, as to the advantage of holding her tongue; and if you can compass it, do cure the younger girls of running after the officers.”
-s=caroline;e:caroline=smirking
+s=caroline;e:caroline=smirking;b=netherfield-gardens;x:caroline=bonnet
 
 “And, if I may mention so delicate a subject, endeavour to check that little something, bordering on conceit and impertinence, which your lady possesses.”
 e:caroline=scowling
@@ -2213,7 +2219,7 @@ s=none;e:louisa=neutral;e:lizzy=neutral
 s=caroline;e:caroline=nervous
 
 “You used us abominably ill,” answered Mrs. Hurst, “in running away without telling us that you were coming out.”
-s=louisa;e:louisa=annoyed
+s=louisa;e:louisa=annoyed;x:louisa=bonnet
 
 Then taking the disengaged arm of Mr. Darcy, she left Elizabeth to walk by herself.
 s=none;e:louisa=smirking
@@ -2231,7 +2237,7 @@ But Elizabeth, who had not the least inclination to remain with them, laughingly
 s=none;e:lizzy=happy
 
 “No, no; stay where you are. You are charmingly group’d, and appear to uncommon advantage.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;x:lizzy=bonnet
 
 “The picturesque would be spoilt by admitting a fourth. Goodbye.”
 
