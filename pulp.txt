@@ -155,7 +155,7 @@ e:mrsbennet=thinking;e:mrsbennet=happy
 r=title
 
 Mr. Bennet was among the earliest of those who waited on Mr. Bingley.
-e:mrbennet=neutral;b=bennet-big
+e:mrbennet=neutral;b=bennet-sitting
 
 He had always intended to visit him, though to the last always assuring his wife that he should not go; and till the evening after the visit was paid, she had no knowledge of it.
 e:mrsbennet=neutral
@@ -440,7 +440,7 @@ They returned therefore in good spirits to Longbourn, the village where they liv
 b=longbourn-wide-night
 
 They found Mr. Bennet still up.
-e:mrbennet=neutral;e:mrbennet=curious;b=bennet-tbd-night
+e:mrbennet=neutral;e:mrbennet=curious;b=bennet-drawing-night
 
 With a book he was regardless of time; and on the present occasion he had a good deal of curiosity as to the event of an evening which had raised such splendid expectations.
 
@@ -1124,7 +1124,7 @@ Mr. Philips visited them all, and this opened to his nieces a source of felicity
 
 
 They could talk of nothing but officers; and Mr. Bingley’s large fortune, the mention of which gave animation to their mother, was worthless in their eyes when opposed to the regimentals of an ensign.
-b=bennet-big
+b=bennet-sitting
 
 After listening one morning to their effusions on this subject, Mr. Bennet coolly observed﻿—
 
@@ -1247,7 +1247,7 @@ The rain continued the whole evening without intermission; Jane certainly could 
 e:mrsbennet=happy
 
 Till the next morning, however, she was not aware of all the felicity of her contrivance. Breakfast was scarcely over when a servant from Netherfield brought the following note for Elizabeth:
-s=none;e:mrsbennet=neutral;b=bennet-big
+s=none;e:mrsbennet=neutral;b=bennet-sitting
 
 <span class='upper'>“My dearest Lizzy,”</span>
 m=margin
@@ -1370,7 +1370,7 @@ e:lizzy=happy
 r=title
 
 At five o’clock the two ladies retired to dress, and at half past six Elizabeth was summoned to dinner.
-e:lizzy=neutral
+e:lizzy=neutral;b=netherfield-dining
 
 To the civil enquiries which then poured in, and amongst which she had the pleasure of distinguishing the much superior solicitude of Mr. Bingley’s, she could not make a very favourable answer.
 e:bingley=serious;e:lizzy=unhappy
@@ -1394,7 +1394,7 @@ Miss Bingley was engrossed by Mr. Darcy, her sister scarcely less so; and as for
 n:mrhurst=Mr. Hurst;e:mrhurst=neutral
 
 When dinner was over, she returned directly to Jane, and Miss Bingley began abusing her as soon as she was out of the room.
-e:caroline=scowling
+e:caroline=scowling;b=netherfield-drawing-night
 
 Her manners were pronounced to be very bad indeed, a mixture of pride and impertinence; she had no conversation, no style, no taste, no beauty.
 
@@ -1402,14 +1402,20 @@ Her manners were pronounced to be very bad indeed, a mixture of pride and impert
 Mrs. Hurst thought the same, and added—
 e:louisa=scowling
 
-“She has nothing, in short, to recommend her, but being an excellent walker. I shall never forget her appearance this morning. She really looked almost wild.”
+“She has nothing, in short, to recommend her, but being an excellent walker.”
 s=louisa;e:louisa=smirking
+
+“I shall never forget her appearance this morning. She really looked almost wild.”
+
 
 “She did indeed, Louisa. I could hardly keep my countenance.”
 s=caroline;e:caroline=smirking
 
-“Very nonsensical to come at all! Why must *she* be scampering about the country, because her sister had a cold? Her hair so untidy, so blowsy!”
+“Very nonsensical to come at all!”
 e:caroline=scowling
+
+“Why must *she* be scampering about the country, because her sister had a cold? Her hair so untidy, so blowsy!”
+
 
 “Yes, and her petticoat; I hope you saw her petticoat, six inches deep in mud, I am absolutely certain; and the gown which had been let down to hide it, not doing its office.”
 s=louisa;e:louisa=annoyed
@@ -1417,8 +1423,11 @@ s=louisa;e:louisa=annoyed
 “Your picture may be very exact, Louisa,” said Bingley; “but this was all lost upon me.”
 s=bingley;e:bingley=serious
 
-“I thought Miss Elizabeth Bennet looked remarkably well, when she came into the room this morning. Her dirty petticoat quite escaped my notice.”
+“I thought Miss Elizabeth Bennet looked remarkably well, when she came into the room this morning.”
 e:bingley=happy
+
+“Her dirty petticoat quite escaped my notice.”<e>Somehow not the earliest instance of the phrase "dirty petticoat" in literature. Still, it seems untoward.</e>
+
 
 “*You* observed it, Mr. Darcy, I am sure,” said Miss Bingley; “and I am inclined to think that you would not wish to see *your sister* make such an exhibition.”
 s=caroline;e:caroline=smirking
@@ -1459,7 +1468,7 @@ s=louisa
 “That is capital,” added her sister, and they both laughed heartily.
 s=caroline;e:caroline=happy;e:louisa=happy
 
-“If they had uncles enough to fill *all* Cheapside,” cried Bingley, “it would not make them one jot less agreeable.”
+“If they had uncles enough to fill *all* Cheapside,” cried Bingley, “it would not make them one jot less agreeable.”<e>Protest much, Mr. Acquired-his-fortune-by-trade?</e>
 s=bingley;e:bingley=angry
 
 “But it must very materially lessen their chance of marrying men of any consideration in the world,” replied Darcy.
@@ -1469,13 +1478,13 @@ To this speech Bingley made no answer; but his sisters gave it their hearty asse
 s=none;e:bingley=unhappy;e:caroline=smirking;e:louisa=smirking
 
 With a renewal of tenderness, however, they repaired to her room on leaving the dining-parlour, and sat with her till summoned to coffee.
-e:caroline=neutral;e:louisa=neutral
+e:caroline=neutral;e:louisa=neutral;b=netherfield-bedroom-night
 
 She was still very poorly, and Elizabeth would not quit her at all, till late in the evening, when she had the comfort of seeing her asleep, and when it appeared to her rather right than pleasant that she should go downstairs herself.
 e:lizzy=weary;e:jane=weary
 
 On entering the drawing-room she found the whole party at loo, and was immediately invited to join them; but suspecting them to be playing high she declined it, and making her sister the excuse, said she would amuse herself for the short time she could stay below with a book.
-e:lizzy=neutral;e:lizzy=thinking
+e:lizzy=neutral;e:lizzy=thinking;b=netherfield-drawing-night
 
 Mr. Hurst looked at her with astonishment.
 e:mrhurst=surprised
@@ -1504,8 +1513,11 @@ s=bingley;e:bingley=sadsmile
 Elizabeth assured him that she could suit herself perfectly with those in the room.
 s=none
 
-“I am astonished,” said Miss Bingley, “that my father should have left so small a collection of books. What a delightful library you have at Pemberley, Mr. Darcy!”
+“I am astonished,” said Miss Bingley, “that my father should have left so small a collection of books.”
 s=caroline;e:caroline=smirking
+
+“What a delightful library you have at Pemberley, Mr. Darcy!”
+
 
 “It ought to be good,” he replied, “it has been the work of many generations.”
 s=darcy;e:darcy=neutral
@@ -1525,8 +1537,11 @@ n:bingley=Charles Bingley
 “I wish it may.”
 s=bingley;e:bingley=neutral
 
-“But I would really advise you to make your purchase in that neighbourhood, and take Pemberley for a kind of model. There is not a finer county in England than Derbyshire.”
+“But I would really advise you to make your purchase in that neighbourhood, and take Pemberley for a kind of model.”
 s=caroline;e:caroline=smirking
+
+“There is not a finer county in England than Derbyshire.”
+
 
 “With all my heart; I will buy Pemberley itself if Darcy will sell it.”
 s=bingley;e:bingley=happy
@@ -1546,10 +1561,16 @@ s=caroline
 “I think she will. She is now about Miss Elizabeth Bennet’s height, or rather taller.”
 s=darcy
 
-“How I long to see her again! I never met with anybody who delighted me so much.”
+“How I long to see her again!”
 s=caroline;e:caroline=excited
 
-“Such a countenance, such manners! and so extremely accomplished for her age! Her performance on the pianoforte is exquisite.”
+“I never met with anybody who delighted me so much.”
+
+
+“Such a countenance, such manners! and so extremely accomplished for her age!”
+
+
+“Her performance on the pianoforte is exquisite.”
 
 
 “It is amazing to me,” said Bingley, “how young ladies can have patience to be so very accomplished, as they all are.”
@@ -1564,10 +1585,16 @@ s=bingley;e:bingley=neutral
 “I scarcely know anyone who cannot do all this, and I am sure I never heard a young lady spoken of for the first time, without being informed that she was very accomplished.”
 
 
-“Your list of the common extent of accomplishments,” said Darcy, “has too much truth. The word is applied to many a woman who deserves it no otherwise than by netting a purse, or covering a screen.”
+“Your list of the common extent of accomplishments,” said Darcy, “has too much truth.”
 s=darcy;e:darcy=serious
 
-“But I am very far from agreeing with you in your estimation of ladies in general. I cannot boast of knowing more than half a dozen, in the whole range of my acquaintance, that are really accomplished.”
+“The word is applied to many a woman who deserves it no otherwise than by netting a purse, or covering a screen.”
+
+
+“But I am very far from agreeing with you in your estimation of ladies in general.”
+
+
+“I cannot boast of knowing more than half a dozen, in the whole range of my acquaintance, that are really accomplished.”
 
 
 “Nor I, I am sure,” said Miss Bingley.
@@ -1609,8 +1636,11 @@ s=caroline;e:caroline=scowling
 “But, in my opinion, it is a paltry device, a very mean art.”
 
 
-“Undoubtedly,” replied Darcy, to whom this remark was chiefly addressed, “there is meanness in *all* the arts which ladies sometimes condescend to employ for captivation. Whatever bears affinity to cunning is despicable.”
+“Undoubtedly,” replied Darcy, to whom this remark was chiefly addressed, “there is meanness in *all* the arts which ladies sometimes condescend to employ for captivation.”
 s=darcy;e:darcy=serious
+
+“Whatever bears affinity to cunning is despicable.”
+
 
 Miss Bingley was not so entirely satisfied with this reply as to continue the subject.
 s=none;e:caroline=nervous
