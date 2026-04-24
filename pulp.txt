@@ -2492,7 +2492,7 @@ e:darcy=wary
 r=title
 
 In consequence of an agreement between the sisters, Elizabeth wrote the next morning to her mother, to beg that the carriage might be sent for them in the course of the day.
-e:lizzy=thinking
+e:lizzy=thinking;b=netherfield-wide
 
 But Mrs. Bennet, who had calculated on her daughters remaining at Netherfield till the following Tuesday, which would exactly finish Jane’s week, could not bring herself to receive them with pleasure before.
 e:mrsbennet=annoyed
@@ -2503,8 +2503,11 @@ e:mrsbennet=annoyed;e:lizzy=weary
 Mrs. Bennet sent them word that they could not possibly have the carriage before Tuesday; and in her postscript it was added, that if Mr. Bingley and his sister pressed them to stay longer, she could spare them very well.
 e:mrsbennet=smirking
 
-Against staying longer, however, Elizabeth was positively resolved﻿—nor did she much expect it would be asked; and fearful, on the contrary, as being considered as intruding themselves needlessly long, she urged Jane to borrow Mr. Bingley’s carriage immediately, and at length it was settled that their original design of leaving Netherfield that morning should be mentioned, and the request made.
+Against staying longer, however, Elizabeth was positively resolved﻿—nor did she much expect it would be asked;
 e:lizzy=nervous;e:jane=neutral
+
+and fearful, on the contrary, as being considered as intruding themselves needlessly long, she urged Jane to borrow Mr. Bingley’s carriage immediately, and at length it was settled that their original design of leaving Netherfield that morning should be mentioned, and the request made.
+
 
 The communication excited many professions of concern; and enough was said of wishing them to stay at least till the following day to work on Jane; and till the morrow, their going was deferred.
 e:bingley=sadsmile;e:jane=happy
@@ -2537,7 +2540,7 @@ Elizabeth took leave of the whole party in the liveliest spirits.
 e:lizzy=happy
 
 They were not welcomed home very cordially by their mother.
-e:mrsbennet=annoyed;e:lizzy=neutral;e:jane=neutral
+e:mrsbennet=annoyed;e:lizzy=neutral;e:jane=neutral;b=bennet-wide
 
 Mrs. Bennet wondered at their coming, and thought them very wrong to give so much trouble, and was sure Jane would have caught cold again.
 e:mrsbennet=scowling
@@ -2561,12 +2564,12 @@ e:lydia=excited;e:kitty=excited
 r=title
 
 “I hope, my dear,” said Mr. Bennet to his wife, as they were at breakfast the next morning, “that you have ordered a good dinner today, because I have reason to expect an addition to our family party.”
-s=mrbennet;e:mrbennet=smirking;e:mrsbennet=neutral
+s=mrbennet;e:mrbennet=smirking;e:mrsbennet=neutral;b=bennet-parlor
 
-“Who do you mean, my dear? I know of nobody that is coming I am sure, unless Charlotte Lucas should happen to call in, and I hope *my* dinners are good enough for her.”
+“Who do you mean, my dear?”
 s=mrsbennet;e:mrsbennet=curious
 
-“I do not believe she often sees such at home.”
+“I know of nobody that is coming I am sure, unless Charlotte Lucas should happen to call in, and I hope *my* dinners are good enough for her. I do not believe she often sees such at home.”
 e:mrsbennet=smirking
 
 “The person of whom I speak, is a gentleman and a stranger.”
@@ -2575,14 +2578,23 @@ s=mrbennet;e:mrbennet=smirking
 Mrs. Bennet’s eyes sparkled.
 s=none;e:mrsbennet=excited
 
-“A gentleman and a stranger! It is Mr. Bingley I am sure. Why Jane—you never dropped a word of this; you sly thing!”
+“A gentleman and a stranger!”
 s=mrsbennet;e:mrsbennet=excited
+
+“It is Mr. Bingley I am sure.”
+
+
+“Why Jane—you never dropped a word of this; you sly thing!”
+
 
 “Well, I am sure I shall be extremely glad to see Mr. Bingley.”
 e:mrsbennet=happy
 
-“But—good lord! how unlucky! there is not a bit of fish to be got today. Lydia, my love, ring the bell. I must speak to Hill, this moment.”
+“But—good lord! how unlucky! there is not a bit of fish to be got today.”
 e:mrsbennet=upset
+
+“Lydia, my love, ring the bell. I must speak to Hill, this moment.”
+
 
 “It is *not* Mr. Bingley,” said her husband; “it is a person whom I never saw in the whole course of my life.”
 s=mrbennet;e:mrbennet=smirking
@@ -2632,7 +2644,10 @@ s=none;m=margin
 <span class='upper'>Dear Sir,</span>
 
 
-The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach; but for some time I was kept back by my own doubts, fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone, with whom it had always pleased him to be at variance.—
+The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach;
+
+
+but for some time I was kept back by my own doubts, fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone, with whom it had always pleased him to be at variance.—
 e:mrbennet=serious;m=allowbreak;m=nospace
 
 “There, Mrs. Bennet.”—
@@ -2641,7 +2656,10 @@ s=mrbennet;e:mrbennet=smirking;m=;;m=allowbreak;m=nospace
 My mind however is now made up on the subject, for having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh, widow of Sir Lewis de Bourgh, whose bounty and beneficence has preferred me to the valuable rectory of this parish, where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England.
 s=none;e:mrbennet=serious;m=;m=margin
 
-As a clergyman, moreover, I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence; and on these grounds I flatter myself that my present overtures of goodwill are highly commendable, and that the circumstance of my being next in the entail of Longbourn estate, will be kindly overlooked on your side, and not lead you to reject the offered olive branch.
+As a clergyman, moreover, I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence;
+
+
+and on these grounds I flatter myself that my present overtures of goodwill are highly commendable, and that the circumstance of my being next in the entail of Longbourn estate, will be kindly overlooked on your side, and not lead you to reject the offered olive branch.
 
 
 I cannot be otherwise than concerned at being the means of injuring your amiable daughters, and beg leave to apologise for it, as well as to assure you of my readiness to make them every possible amends—but of this hereafter.
@@ -2668,14 +2686,17 @@ s=jane;e:jane=thinking
 Elizabeth was chiefly struck with his extraordinary deference for Lady Catherine, and his kind intention of christening, marrying, and burying his parishioners whenever it were required.
 s=none;e:lizzy=contemplative
 
-“He must be an oddity, I think,” said she. “I cannot make him out.”
+“He must be an oddity, I think,” said she.
 s=lizzy;e:lizzy=curious
 
-“There is something very pompous in his style.”
+“I cannot make him out. There is something very pompous in his style.”
 e:lizzy=thinking
 
-“And what can he mean by apologizing for being next in the entail?—We cannot suppose he would help it, if he could. Can he be a sensible man, sir?”
+“And what can he mean by apologizing for being next in the entail?—We cannot suppose he would help it, if he could.”
 e:lizzy=confused
+
+“Can he be a sensible man, sir?”
+
 
 “No, my dear; I think not. I have great hopes of finding him quite the reverse.”
 s=mrbennet;e:mrbennet=happy
@@ -2683,11 +2704,8 @@ s=mrbennet;e:mrbennet=happy
 “There is a mixture of servility and self-importance in his letter, which promises well. I am impatient to see him.”
 e:mrbennet=smirking
 
-“In point of composition,” said Mary, “his letter does not seem defective.”
+“In point of composition,” said Mary, “his letter does not seem defective. The idea of the olive branch perhaps is not wholly new, yet I think it is well expressed.”<e>Didn't realize this book was titled <i>Pride and Prejudice and Mary</i>. Talk about hogging the conversation.</e>
 s=mary;e:mary=serious
-
-“The idea of the olive branch perhaps is not wholly new, yet I think it is well expressed.”
-e:mary=contemplative
 
 To Catherine and Lydia, neither the letter nor its writer were in any degree interesting.
 s=none;e:kitty=annoyed;e:lydia=annoyed
@@ -2699,15 +2717,12 @@ As for their mother, Mr. Collins’s letter had done away much of her ill-will, 
 e:mrsbennet=neutral
 
 Mr. Collins was punctual to his time, and was received with great politeness by the whole family.
-e:collins=serious
+e:collins=serious;b=bennet-drawing
 
 Mr. Bennet indeed said little; but the ladies were ready enough to talk, and Mr. Collins seemed neither in need of encouragement, nor inclined to be silent himself.
 e:mrbennet=neutral
 
-He was a tall, heavy looking young man of five and twenty.
-
-
-His air was grave and stately, and his manners were very formal.
+He was a tall, heavy looking young man of five and twenty. His air was grave and stately, and his manners were very formal.
 
 
 He had not been long seated before he complimented Mrs. Bennet on having so fine a family of daughters, said he had heard much of their beauty, but that, in this instance, fame had fallen short of the truth; and added, that he did not doubt her seeing them all in due time well disposed of in marriage.
@@ -2716,8 +2731,11 @@ e:collins=smirking;e:collins=happy
 This gallantry was not much to the taste of some of his hearers, but Mrs. Bennet, who quarrelled with no compliments, answered most readily—
 e:lizzy=annoyed;e:mrsbennet=happy
 
-“You are very kind, sir, I am sure; and I wish with all my heart it may prove so; for else they will be destitute enough. Things are settled so oddly.”
+“You are very kind, sir, I am sure; and I wish with all my heart it may prove so; for else they will be destitute enough.”
 s=mrsbennet;e:mrsbennet=unhappy
+
+“Things are settled so oddly.”
+
 
 “You allude perhaps to the entail of this estate.”
 s=collins;e:collins=serious
@@ -2725,8 +2743,11 @@ s=collins;e:collins=serious
 “Ah! sir, I do indeed. It is a grievous affair to my poor girls, you must confess.”
 s=mrsbennet;e:mrsbennet=upset
 
-“Not that I mean to find fault with *you*, for such things I know are all chance in this world. There is no knowing how estates will go when once they come to be entailed.”
+“Not that I mean to find fault with *you*, for such things I know are all chance in this world.”
 e:mrsbennet=neutral
+
+“There is no knowing how estates will go when once they come to be entailed.”
+
 
 “I am very sensible, madam, of the hardship to my fair cousins—and could say much on the subject, but that I am cautious of appearing forward and precipitate.”
 s=collins;e:collins=serious
@@ -2741,7 +2762,7 @@ They were not the only objects of Mr. Collins’s admiration.
 e:collins=curious
 
 The hall, the dining-room, and all its furniture were examined and praised; and his commendation of everything would have touched Mrs. Bennet’s heart, but for the mortifying supposition of his viewing it all as his own future property.
-e:collins=excited;e:mrsbennet=wary
+e:collins=excited;e:mrsbennet=wary;b=netherfield-dining
 
 The dinner too in its turn was highly admired; and he begged to know to which of his fair cousins, the excellence of its cookery was owing.
 e:collins=happy
