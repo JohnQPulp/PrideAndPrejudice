@@ -2915,7 +2915,7 @@ e:mrsbennet=nervous;e:collins=serious
 r=title
 
 Mr. Collins was not a sensible man, and the deficiency of nature had been but little assisted by education or society; the greatest part of his life having been spent under the guidance of an illiterate and miserly father; and though he belonged to one of the universities, he had merely kept the necessary terms, without forming at it any useful acquaintance.
-e:collins=neutral
+e:collins=neutral;b=light
 
 The subjection in which his father had brought him up, had given him originally great humility of manner, but it was now a good deal counteracted by the self-conceit of a weak head, living in retirement, and the consequential feelings of early and unexpected prosperity.
 e:collins=smirking
@@ -2936,7 +2936,7 @@ Miss Bennet’s lovely face confirmed his views, and established all his stricte
 e:collins=smirking
 
 The next morning, however, made an alteration; for in a quarter of an hour’s tête-à-tête with Mrs. Bennet before breakfast, a conversation beginning with his parsonage-house, and leading naturally to the avowal of his hopes, that a mistress for it might be found at Longbourn, produced from her, amid very complaisant smiles and general encouragement, a caution against the very Jane he had fixed on.
-e:mrsbennet=happy;e:collins=surprised
+e:mrsbennet=happy;e:collins=surprised;b=bennet-sitting
 
 “As to her *younger* daughters she could not take upon her to say—she could not positively answer—but she did not *know* of any prepossession;—her *eldest* daughter, she must just mention—she felt it incumbent on her to hint, was likely to be very soon engaged.”
 s=mrsbennet;e:mrsbennet=smirking
@@ -2950,17 +2950,23 @@ e:collins=happy
 Mrs. Bennet treasured up the hint, and trusted that she might soon have two daughters married; and the man whom she could not bear to speak of the day before, was now high in her good graces.
 e:mrsbennet=excited
 
-Lydia’s intention of walking to Meryton was not forgotten; every sister except Mary agreed to go with her; and Mr. Collins was to attend them, at the request of Mr. Bennet, who was most anxious to get rid of him, and have his library to himself; for thither Mr. Collins had followed him after breakfast, and there he would continue, nominally engaged with one of the largest folios in the collection, but really talking to Mr. Bennet, with little cessation, of his house and garden at Hunsford.
-e:lydia=excited;e:mrbennet=annoyed
+Lydia’s intention of walking to Meryton was not forgotten; every sister except Mary agreed to go with her; and Mr. Collins was to attend them, at the request of Mr. Bennet, who was most anxious to get rid of him, and have his library to himself;
+e:lydia=excited;e:mrbennet=annoyed;b=bennet-wide
+
+for thither Mr. Collins had followed him after breakfast, and there he would continue, nominally engaged with one of the largest folios in the collection, but really talking to Mr. Bennet, with little cessation, of his house and garden at Hunsford.
+
 
 Such doings discomposed Mr. Bennet exceedingly.
 e:mrbennet=annoyed
 
-In his library he had been always sure of leisure and tranquillity; and though prepared, as he told Elizabeth, to meet with folly and conceit in every other room in the house, he was used to be free from them there; his civility, therefore, was most prompt in inviting Mr. Collins to join his daughters in their walk; and Mr. Collins, being in fact much better fitted for a walker than a reader, was extremely well pleased to close his large book, and go.
-e:mrbennet=smirking;e:collins=happy
+In his library he had been always sure of leisure and tranquillity; and though prepared, as he told Elizabeth, to meet with folly and conceit in every other room in the house, he was used to be free from them there;
+e:mrbennet=smirking;e:collins=happy;b=bennet-library
+
+his civility, therefore, was most prompt in inviting Mr. Collins to join his daughters in their walk; and Mr. Collins, being in fact much better fitted for a walker than a reader, was extremely well pleased to close his large book, and go.
+
 
 In pompous nothings on his side, and civil assents on that of his cousins, their time passed till they entered Meryton.
-e:lizzy=weary
+e:lizzy=weary;b=meryton-wide
 
 The attention of the younger ones was then no longer to be gained by *him*.
 e:kitty=curious;e:lydia=curious
@@ -2969,7 +2975,7 @@ Their eyes were immediately wandering up in the street in quest of the officers,
 e:kitty=excited;e:lydia=excited
 
 But the attention of every lady was soon caught by a young man, whom they had never seen before, of most gentleman-like appearance, walking with an officer on the other side of the way.
-e:lizzy=curious;e:jane=curious
+e:lizzy=curious;e:jane=curious;b=meryton-street
 
 The officer was the very Mr. Denny, concerning whose return from London Lydia came to inquire, and he bowed as they passed.
 
@@ -3014,13 +3020,13 @@ In another minute Mr. Bingley, but without seeming to have noticed what passed, 
 e:bingley=happy;e:darcy=scowling
 
 Mr. Denny and Mr. Wickham walked with the young ladies to the door of Mr. Philips’s house, and then made their bows, in spite of Miss Lydia’s pressing entreaties that they would come in, and even in spite of Mrs. Philips’ throwing up the parlour window, and loudly seconding the invitation.
-e:wickham=neutral;n:mrsphilips=Mrs. Philips;e:mrsphilips=excited
+e:wickham=neutral;n:mrsphilips=Mrs. Philips;e:mrsphilips=excited;b=philips-ext
 
 Mrs. Philips was always glad to see her nieces, and the two eldest, from their recent absence, were particularly welcome, and she was eagerly expressing her surprise at their sudden return home, which, as their own carriage had not fetched them, she should have known nothing about, if she had not happened to see Mr. Jones’s shop boy in the street, who had told her that they were not to send any more draughts to Netherfield because the Miss Bennets were come away, when her civility was claimed towards Mr. Collins by Jane’s introduction of him.
 e:mrsphilips=happy;e:jane=neutral;e:collins=happy
 
 She received him with her very best politeness, which he returned with as much more, apologising for his intrusion, without any previous acquaintance with her, which he could not help flattering himself however might be justified by his relationship to the young ladies who introduced him to her notice.
-e:collins=smirking
+e:collins=smirking;b=philips-sitting
 
 Mrs. Philips was quite awed by such an excess of good breeding; but her contemplation of one stranger was soon put an end to by exclamations and inquiries about the other, of whom, however, she could only tell her nieces what they already knew, that Mr. Denny had brought him from London, and that he was to have a lieutenant’s commission in the ——shire.
 e:mrsphilips=surprised
@@ -3041,10 +3047,10 @@ Mr. Collins repeated his apologies in quitting the room, and was assured with un
 e:collins=happy;e:mrsphilips=happy
 
 As they walked home, Elizabeth related to Jane what she had seen pass between the two gentlemen; but though Jane would have defended either or both, had they appeared to be wrong, she could no more explain such behaviour than her sister.
-e:lizzy=confused;e:jane=thinking
+e:lizzy=confused;e:jane=thinking;b=meryton-wide
 
 Mr. Collins on his return highly gratified Mrs. Bennet by admiring Mrs. Philips’s manners and politeness.
-e:collins=excited;e:mrsbennet=happy
+e:collins=excited;e:mrsbennet=happy;b=bennet-sitting
 
 He protested that except Lady Catherine and her daughter, he had never seen a more elegant woman; for she had not only received him with the utmost civility, but had even pointedly included him in her invitation for the next evening, although utterly unknown to her before.
 e:collins=happy
