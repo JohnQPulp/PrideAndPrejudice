@@ -4190,13 +4190,13 @@ Elizabeth was the least dear to her of all her children; and though the man and 
 r=title
 
 The next day opened a new scene at Longbourn. Mr. Collins made his declaration in form.
-e:collins=serious
+e:collins=serious;b=bennet-wide
 
 Having resolved to do it without loss of time, as his leave of absence extended only to the following Saturday, and having no feelings of diffidence to make it distressing to himself even at the moment, he set about it in a very orderly manner, with all the observances which he supposed a regular part of the business.
 
 
 On finding Mrs. Bennet, Elizabeth, and one of the younger girls together, soon after breakfast, he addressed the mother in these words:
-e:collins=smirking
+e:collins=smirking;b=bennet-parlor
 
 “May I hope, Madam, for your interest with your fair daughter Elizabeth, when I solicit for the honour of a private audience with her in the course of this morning?”
 s=collins
@@ -4204,8 +4204,14 @@ s=collins
 Before Elizabeth had time for anything but a blush of surprise, Mrs. Bennet instantly answered,
 s=none;e:lizzy=surprised;e:mrsbennet=excited
 
-“Oh dear!—Yes—certainly. I am sure Lizzy will be very happy—I am sure she can have no objection. Come, Kitty, I want you upstairs.”
+“Oh dear!—Yes—certainly.”
 s=mrsbennet
+
+“I am sure Lizzy will be very happy—I am sure she can have no objection.”
+
+
+“Come, Kitty, I want you upstairs.”
+
 
 And gathering her work together, she was hastening away, when Elizabeth called out—
 s=none;e:lizzy=nervous
@@ -4216,8 +4222,11 @@ s=lizzy
 “No, no, nonsense, Lizzy. I desire you will stay where you are.”
 s=mrsbennet;e:mrsbennet=annoyed;m=allowbreak;m=nospace
 
-—And upon Elizabeth’s seeming really, with vexed and embarrassed looks, about to escape, she added, “Lizzy, I *insist* upon your staying and hearing Mr. Collins.”
-e:lizzy=upset;e:mrsbennet=angry;m=
+—And upon Elizabeth’s seeming really, with vexed and embarrassed looks, about to escape, she added,
+e:lizzy=upset;e:mrsbennet=angry;m=;s=
+
+“Lizzy, I *insist* upon your staying and hearing Mr. Collins.”
+s=mrsbennet
 
 Elizabeth would not oppose such an injunction—and a moment’s consideration making her also sensible that it would be wisest to get it over as soon and as quietly as possible, she sat down again, and tried to conceal by incessant employment the feelings which were divided between distress and diversion.
 s=none;e:lizzy=weary
@@ -4249,13 +4258,13 @@ s=collins
 “Secondly, that I am convinced it will add very greatly to my happiness; and thirdly—which perhaps I ought to have mentioned earlier, that it is the particular advice and recommendation of the very noble lady whom I have the honour of calling patroness.”
 
 
-“Twice has she condescended to give me her opinion (unasked too!) on this subject; and it was but the very Saturday night before I left Hunsford—between our pools at quadrille, while Mrs. Jenkinson was arranging Miss de Bourgh’s footstool, that she said, ‘Mr. Collins, you must marry.”
+“Twice has she condescended to give me her opinion (unasked too!) on this subject; and it was but the very Saturday night before I left Hunsford—between our pools at quadrille, while Mrs. Jenkinson was arranging Miss de Bourgh’s footstool, that she said, ‘Mr. Collins, you must marry.’”
 e:collins=excited
 
-“A clergyman like you must marry. Choose properly, choose a gentlewoman for *my* sake; and for your *own*, let her be an active, useful sort of person, not brought up high, but able to make a small income go a good way.”
+“‘A clergyman like you must marry. Choose properly, choose a gentlewoman for *my* sake; and for your *own*, let her be an active, useful sort of person, not brought up high, but able to make a small income go a good way.’”
 
 
-“This is my advice. Find such a woman as soon as you can, bring her to Hunsford, and I will visit her.’”
+“‘This is my advice. Find such a woman as soon as you can, bring her to Hunsford, and I will visit her.’”
 e:collins=smirking
 
 “Allow me, by the way, to observe, my fair cousin, that I do not reckon the notice and kindness of Lady Catherine de Bourgh as among the least of the advantages in my power to offer.”
@@ -4285,20 +4294,20 @@ e:collins=smirking
 It was absolutely necessary to interrupt him now.
 s=none;e:lizzy=annoyed
 
-“You are too hasty, Sir,” she cried. “You forget that I have made no answer.”
+“You are too hasty, Sir,” she cried.
 s=lizzy;e:lizzy=angry
 
-“Let me do it without farther loss of time. Accept my thanks for the compliment you are paying me.”
+“You forget that I have made no answer. Let me do it without farther loss of time.”
+
+
+“Accept my thanks for the compliment you are paying me. I am very sensible of the honour of your proposals, but it is impossible for me to do otherwise than decline them.”
 e:lizzy=serious
 
-“I am very sensible of the honour of your proposals, but it is impossible for me to do otherwise than decline them.”
-
-
 “I am not now to learn,” replied Mr. Collins, with a formal wave of the hand, “that it is usual with young ladies to reject the addresses of the man whom they secretly mean to accept, when he first applies for their favour; and that sometimes the refusal is repeated a second or even a third time.”
-s=collins;e:collins=smirking
+s=collins;e:collins=formalwave
 
 “I am therefore by no means discouraged by what you have just said, and shall hope to lead you to the altar ere long.”
-
+e:collins=serious
 
 “Upon my word, Sir,” cried Elizabeth, “your hope is rather an extraordinary one after my declaration.”
 s=lizzy;e:lizzy=surprised
@@ -4333,8 +4342,11 @@ e:lizzy=serious
 And rising as she thus spoke, she would have quitted the room, had not Mr. Collins thus addressed her:
 s=none
 
-“When I do myself the honour of speaking to you next on this subject I shall hope to receive a more favourable answer than you have now given me; though I am far from accusing you of cruelty at present, because I know it to be the established custom of your sex to reject a man on the first application, and perhaps you have even now said as much to encourage my suit as would be consistent with the true delicacy of the female character.”
+“When I do myself the honour of speaking to you next on this subject I shall hope to receive a more favourable answer than you have now given me;”
 s=collins;e:collins=smirking
+
+“though I am far from accusing you of cruelty at present, because I know it to be the established custom of your sex to reject a man on the first application, and perhaps you have even now said as much to encourage my suit as would be consistent with the true delicacy of the female character.”
+
 
 “Really, Mr. Collins,” cried Elizabeth with some warmth, “you puzzle me exceedingly.”
 s=lizzy;e:lizzy=upset
@@ -4357,32 +4369,32 @@ s=collins;e:collins=smirking
 “As I must therefore conclude that you are not serious in your rejection of me, I shall choose to attribute it to your wish of increasing my love by suspense, according to the usual practice of elegant females.”
 e:collins=happy
 
-“I do assure you, Sir, that I have no pretension whatever to that kind of elegance which consists in tormenting a respectable man.”
+“I do assure you, Sir, that I have no pretension whatever to that kind of elegance which consists in tormenting a respectable man. I would rather be paid the compliment of being believed sincere.”
 s=lizzy;e:lizzy=angry
-
-“I would rather be paid the compliment of being believed sincere.”
-
 
 “I thank you again and again for the honour you have done me in your proposals, but to accept them is absolutely impossible.”
 
 
-“My feelings in every respect forbid it. Can I speak plainer?”
+“My feelings in every respect forbid it. Can I speak plainer?”<e>Classic women and their inscrutable signals.</e>
 
 
-“Do not consider me now as an elegant female intending to plague you, but as a rational creature speaking the truth from her heart.”<e>She's saying that she's hungry.</e>
+“Do not consider me now as an elegant female intending to plague you, but as a rational creature speaking the truth from her heart.”
 e:lizzy=serious
 
 “You are uniformly charming!” cried he, with an air of awkward gallantry; “and I am persuaded that when sanctioned by the express authority of both your excellent parents, my proposals will not fail of being acceptable.”
 s=collins;e:collins=happy
 
-To such perseverance in wilful self-deception Elizabeth would make no reply, and immediately and in silence withdrew; determined, if he persisted in considering her repeated refusals as flattering encouragement, to apply to her father, whose negative might be uttered in such a manner as must be decisive, and whose behaviour at least could not be mistaken for the affectation and coquetry of an elegant female.
+To such perseverance in wilful self-deception Elizabeth would make no reply, and immediately and in silence withdrew;
 s=none;e:lizzy=annoyed
+
+determined, if he persisted in considering her repeated refusals as flattering encouragement, to apply to her father, whose negative might be uttered in such a manner as must be decisive, and whose behaviour at least could not be mistaken for the affectation and coquetry of an elegant female.
+
 
 ## XX
 r=title
 
 Mr. Collins was not left long to the silent contemplation of his successful love; for Mrs. Bennet, having dawdled about in the vestibule to watch for the end of the conference, no sooner saw Elizabeth open the door and with quick step pass her towards the staircase, than she entered the breakfast-room, and congratulated both him and herself in warm terms on the happy prospect of their nearer connection.
-e:collins=thinking;e:mrsbennet=excited
+e:collins=thinking;e:mrsbennet=excited;b=bennet-parlor
 
 Mr. Collins received and returned these felicitations with equal pleasure, and then proceeded to relate the particulars of their interview, with the result of which he trusted he had every reason to be satisfied, since the refusal which his cousin had steadfastly given him would naturally flow from her bashful modesty and the genuine delicacy of her character.
 e:collins=happy
@@ -4390,11 +4402,8 @@ e:collins=happy
 This information, however, startled Mrs. Bennet;—she would have been glad to be equally satisfied that her daughter had meant to encourage him by protesting against his proposals, but she dared not to believe it, and could not help saying so.
 e:mrsbennet=surprised
 
-“But depend upon it, Mr. Collins,” she added, “that Lizzy shall be brought to reason.”
+“But depend upon it, Mr. Collins,” she added, “that Lizzy shall be brought to reason. I will speak to her about it myself directly.”
 s=mrsbennet;e:mrsbennet=angry
-
-“I will speak to her about it myself directly.”
-
 
 “She is a very headstrong foolish girl, and does not know her own interest; but I will *make* her know it.”
 
@@ -4408,17 +4417,14 @@ s=collins;e:collins=wary
 “Sir, you quite misunderstand me,” said Mrs. Bennet, alarmed.
 s=mrsbennet;e:mrsbennet=fearful
 
-“Lizzy is only headstrong in such matters as these.”
-
-
-“In everything else she is as good natured a girl as ever lived.”
+“Lizzy is only headstrong in such matters as these. In everything else she is as good natured a girl as ever lived.”
 
 
 “I will go directly to Mr. Bennet, and we shall very soon settle it with her, I am sure.”
 e:mrsbennet=nervous
 
 She would not give him time to reply, but hurrying instantly to her husband, called out as she entered the library,
-s=none;e:mrsbennet=excited
+s=none;e:mrsbennet=excited;b=bennet-library
 
 “Oh! Mr. Bennet, you are wanted immediately; we are all in an uproar.”
 s=mrsbennet
@@ -4444,17 +4450,11 @@ s=mrsbennet;e:mrsbennet=upset
 “And what am I to do on the occasion?—It seems a hopeless business.”
 s=mrbennet
 
-“Speak to Lizzy about it yourself.”
+“Speak to Lizzy about it yourself. Tell her that you insist upon her marrying him.”
 s=mrsbennet;e:mrsbennet=angry
 
-“Tell her that you insist upon her marrying him.”
-
-
-“Let her be called down.”
+“Let her be called down. She shall hear my opinion.”
 s=mrbennet;e:mrbennet=serious
-
-“She shall hear my opinion.”
-
 
 Mrs. Bennet rang the bell, and Miss Elizabeth was summoned to the library.
 s=none
@@ -4462,10 +4462,7 @@ s=none
 “Come here, child,” cried her father as she appeared.
 s=mrbennet
 
-“I have sent for you on an affair of importance.”
-
-
-“I understand that Mr. Collins has made you an offer of marriage.”
+“I have sent for you on an affair of importance. I understand that Mr. Collins has made you an offer of marriage.”
 
 
 “Is it true?”
@@ -4480,26 +4477,17 @@ s=mrbennet
 “I have, Sir.”
 s=lizzy
 
-“Very well.”
+“Very well. We now come to the point.”
 s=mrbennet
 
-“We now come to the point.”
-
-
-“Your mother insists upon your accepting it.”
-
-
-“Is not it so, Mrs. Bennet?”
+“Your mother insists upon your accepting it. Is not it so, Mrs. Bennet?”
 
 
 “Yes, or I will never see her again.”
 s=mrsbennet;e:mrsbennet=angry
 
-“An unhappy alternative is before you, Elizabeth.”
+“An unhappy alternative is before you, Elizabeth. From this day you must be a stranger to one of your parents.”
 s=mrbennet;e:mrbennet=smirking
-
-“From this day you must be a stranger to one of your parents.”
-
 
 “Your mother will never see you again if you do *not* marry Mr. Collins, and I will never see you again if you *do*.”
 
@@ -4526,7 +4514,7 @@ Not yet, however, in spite of her disappointment in her husband, did Mrs. Bennet
 s=none;e:mrsbennet=annoyed
 
 She talked to Elizabeth again and again; coaxed and threatened her by turns.
-e:lizzy=weary
+e:lizzy=weary;b=bennet-wide
 
 She endeavoured to secure Jane in her interest, but Jane with all possible mildness declined interfering;—and Elizabeth sometimes with real earnestness and sometimes with playful gaiety replied to her attacks.
 e:jane=nervous;e:lizzy=smirking
@@ -4547,13 +4535,16 @@ While the family were in this confusion, Charlotte Lucas came to spend the day w
 e:charlotte=happy
 
 She was met in the vestibule by Lydia, who, flying to her, cried in a half whisper,
-e:lydia=excited
+e:lydia=excited;b=bennet-vestibule
 
 “I am glad you are come, for there is such fun here!—What do you think has happened this morning?—Mr. Collins has made an offer to Lizzy, and she will not have him.”
 s=lydia
 
-Charlotte had hardly time to answer, before they were joined by Kitty, who came to tell the same news, and no sooner had they entered the breakfast-room, where Mrs. Bennet was alone, than she likewise began on the subject, calling on Miss Lucas for her compassion, and entreating her to persuade her friend Lizzy to comply with the wishes of all her family.
-s=none;e:charlotte=surprised;e:kitty=excited;e:mrsbennet=upset
+Charlotte had hardly time to answer, before they were joined by Kitty, who came to tell the same news,
+s=none;e:charlotte=surprised;e:kitty=excited;e:mrsbennet=upset;m=allowbreak
+
+and no sooner had they entered the breakfast-room, where Mrs. Bennet was alone, than she likewise began on the subject, calling on Miss Lucas for her compassion, and entreating her to persuade her friend Lizzy to comply with the wishes of all her family.
+b=bennet-parlor;m=
 
 “Pray do, my dear Miss Lucas,” she added in a melancholy tone, “for nobody is on my side, nobody takes part with me, I am cruelly used, nobody feels for my poor nerves.”
 s=mrsbennet;e:mrsbennet=crying
@@ -4567,16 +4558,10 @@ s=mrsbennet;e:mrsbennet=angry
 “But I tell you what, Miss Lizzy, if you take it into your head to go on refusing every offer of marriage in this way, you will never get a husband at all—and I am sure I do not know who is to maintain you when your father is dead.”
 
 
-“*I* shall not be able to keep you—and so I warn you.”
+“*I* shall not be able to keep you—and so I warn you. I have done with you from this very day.”
 
 
-“I have done with you from this very day.”
-
-
-“I told you in the library, you know, that I should never speak to you again, and you will find me as good as my word.”
-
-
-“I have no pleasure in talking to undutiful children.”
+“I told you in the library, you know, that I should never speak to you again, and you will find me as good as my word. I have no pleasure in talking to undutiful children.”
 
 
 “Not that I have much pleasure indeed in talking to anybody.”
@@ -4624,10 +4609,7 @@ e:collins=smirking
 “You will not, I hope, consider me as showing any disrespect to your family, my dear Madam, by thus withdrawing my pretensions to your daughter’s favour, without having paid yourself and Mr. Bennet the compliment of requesting you to interpose your authority in my behalf.”
 e:collins=neutral
 
-“My conduct may I fear be objectionable in having accepted my dismission from your daughter’s lips instead of your own.”
-
-
-“But we are all liable to error.”
+“My conduct may I fear be objectionable in having accepted my dismission from your daughter’s lips instead of your own. But we are all liable to error.”
 
 
 “I have certainly meant well through the whole affair.”
