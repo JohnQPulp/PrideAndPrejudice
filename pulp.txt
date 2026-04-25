@@ -5621,12 +5621,12 @@ e:mrsgardiner=scowling;e:wickham=sadsmile;n:darcy=Fitzwilliam Darcy
 r=title
 
 Mrs. Gardiner’s caution to Elizabeth was punctually and kindly given on the first favourable opportunity of speaking to her alone; after honestly telling her what she thought, she thus went on:
-e:mrsgardiner=serious;e:lizzy=neutral
+e:mrsgardiner=serious;e:lizzy=neutral;b=bennet-sitting
 
 “You are too sensible a girl, Lizzy, to fall in love merely because you are warned against it; and, therefore, I am not afraid of speaking openly.”
 s=mrsgardiner
 
-“Seriously, I would have you be on your guard.”
+“Seriously, I would have you be on your guard.”<e>"Seriously"</e>
 
 
 “Do not involve yourself, or endeavour to involve him in an affection which the want of fortune would make so very imprudent.”
@@ -5635,26 +5635,20 @@ s=mrsgardiner
 “I have nothing to say against *him*; he is a most interesting young man; and if he had the fortune he ought to have, I should think you could not do better.”
 e:mrsgardiner=smirking
 
-“But as it is—you must not let your fancy run away with you.”
+“But as it is—you must not let your fancy run away with you. You have sense, and we all expect you to use it.”
 e:mrsgardiner=serious
-
-“You have sense, and we all expect you to use it.”
-
 
 “Your father would depend on *your* resolution and good conduct, I am sure. You must not disappoint your father.”
 
 
-“My dear aunt, this is being serious indeed.”
+“My dear aunt, this is being serious indeed.”<e>Seriously being serious.</e>
 s=lizzy;e:lizzy=nervous
 
 “Yes, and I hope to engage you to be serious likewise.”
 s=mrsgardiner;e:mrsgardiner=serious
 
-“Well, then, you need not be under any alarm.”
+“Well, then, you need not be under any alarm. I will take care of myself, and of Mr. Wickham too.”
 s=lizzy;e:lizzy=smirking
-
-“I will take care of myself, and of Mr. Wickham too.”
-
 
 “He shall not be in love with me, if I can prevent it.”
 
@@ -5674,20 +5668,20 @@ e:lizzy=thinking
 “I see the imprudence of it.”
 
 
-“Oh! *that* abominable Mr. Darcy!—My father’s opinion of me does me the greatest honour; and I should be miserable to forfeit it.”
-e:lizzy=angry
+“Oh! *that* abominable Mr. Darcy!—”
+e:lizzy=angry;m=allowbreak;m=nospace
 
-“My father, however, is partial to Mr. Wickham.”
-e:lizzy=thinking
+“My father’s opinion of me does me the greatest honour; and I should be miserable to forfeit it. My father, however, is partial to Mr. Wickham.”
+e:lizzy=thinking;m=
 
-“In short, my dear aunt, I should be very sorry to be the means of making any of you unhappy; but since we see every day that where there is affection, young people are seldom withheld by immediate want of fortune, from entering into engagements with each other, how can I promise to be wiser than so many of my fellow creatures if I am tempted, or how am I even to know that it would be wisdom to resist?”
+“In short, my dear aunt, I should be very sorry to be the means of making any of you unhappy;”
 e:lizzy=contemplative
 
-“All that I can promise you, therefore, is not to be in a hurry.”
+“but since we see every day that where there is affection, young people are seldom withheld by immediate want of fortune, from entering into engagements with each other, how can I promise to be wiser than so many of my fellow creatures if I am tempted, or how am I even to know that it would be wisdom to resist?”
+
+
+“All that I can promise you, therefore, is not to be in a hurry. I will not be in a hurry to believe myself his first object.”
 e:lizzy=serious
-
-“I will not be in a hurry to believe myself his first object.”
-
 
 “When I am in company with him, I will not be wishing. In short, I will do my best.”
 
@@ -5701,11 +5695,8 @@ s=mrsgardiner;e:mrsgardiner=thinking
 “As I did the other day,” said Elizabeth, with a conscious smile; “very true, it will be wise in me to refrain from *that*.”
 s=lizzy;e:lizzy=smirking
 
-“But do not imagine that he is always here so often.”
+“But do not imagine that he is always here so often. It is on your account that he has been so frequently invited this week.”
 e:lizzy=serious
-
-“It is on your account that he has been so frequently invited this week.”
-
 
 “You know my mother’s ideas as to the necessity of constant company for her friends.”
 e:lizzy=weary
@@ -5717,7 +5708,7 @@ Her aunt assured her that she was; and Elizabeth having thanked her for the kind
 s=none;e:mrsgardiner=happy
 
 Mr. Collins returned into Hertfordshire soon after it had been quitted by the Gardiners and Jane; but as he took up his abode with the Lucases, his arrival was no great inconvenience to Mrs. Bennet.
-e:mrsbennet=neutral
+e:mrsbennet=neutral;b=bennet-wide-winter
 
 His marriage was now fast approaching, and she was at length so far resigned as to think it inevitable, and even repeatedly to say in an ill-natured tone that she “*wished* they might be happy.”
 e:mrsbennet=annoyed
@@ -5726,10 +5717,10 @@ Thursday was to be the wedding day, and on Wednesday Miss Lucas paid her farewel
 e:lizzy=unhappy;e:charlotte=neutral
 
 As they went downstairs together, Charlotte said—
-
+b=bennet-vestibule
 
 “I shall depend on hearing from you very often, Eliza.”
-s=charlotte;e:charlotte=happy
+s=charlotte;e:charlotte=happy;x:charlotte=bonnet
 
 “*That* you certainly shall.”
 s=lizzy;e:lizzy=happy
@@ -5740,11 +5731,8 @@ s=charlotte;e:charlotte=curious
 “We shall often meet, I hope, in Hertfordshire.”
 s=lizzy;e:lizzy=nervous
 
-“I am not likely to leave Kent for some time.”
+“I am not likely to leave Kent for some time. Promise me, therefore, to come to Hunsford.”
 s=charlotte;e:charlotte=serious
-
-“Promise me, therefore, to come to Hunsford.”
-
 
 Elizabeth could not refuse, though she foresaw little pleasure in the visit.
 s=none;e:lizzy=unhappy
@@ -5756,7 +5744,7 @@ s=charlotte;e:charlotte=happy
 
 
 The wedding took place; the bride and bridegroom set off for Kent from the church door, and everybody had as much to say or to hear on the subject as usual.
-s=none;e:charlotte=happy;e:collins=happy;n:charlotte=Charlotte Lucas Collins
+s=none;e:charlotte=happy;e:collins=happy;n:charlotte=Charlotte Lucas Collins;b=light
 
 Elizabeth soon heard from her friend; and their correspondence was as regular and frequent as it had ever been; that it should be equally unreserved was impossible.
 e:lizzy=contemplative
@@ -5765,7 +5753,7 @@ Elizabeth could never address her without feeling that all the comfort of intima
 e:lizzy=sadsmile
 
 Charlotte’s first letters were received with a good deal of eagerness; there could not but be curiosity to know how she would speak of her new home, how she would like Lady Catherine, and how happy she would dare pronounce herself to be; though, when the letters were read, Elizabeth felt that Charlotte expressed herself on every point exactly as she might have foreseen.
-e:lizzy=thinking
+e:lizzy=thinking;b=bennet-wide-winter
 
 She wrote cheerfully, seemed surrounded with comforts, and mentioned nothing which she could not praise.
 
@@ -5783,36 +5771,27 @@ Her impatience for this second letter was as well rewarded as impatience general
 e:lizzy=weary
 
 Jane had been a week in town, without either seeing or hearing from Caroline.
-
+b=london-wide
 
 She accounted for it, however, by supposing that her last letter to her friend from Longbourn, had by some accident been lost.
 e:jane=thinking
 
 “My aunt,” she continued, “is going tomorrow into that part of the town, and I shall take the opportunity of calling in Grosvenor-street.”
-s=jane;e:jane=happy
+;e:jane=happy
 
 She wrote again when the visit was paid, and she had seen Miss Bingley.
 s=none;e:jane=neutral
 
 “I did not think Caroline in spirits,” were her words, “but she was very glad to see me, and reproached me for giving her no notice of my coming to London.”
-s=jane;e:jane=thinking
+;e:jane=thinking
 
 “I was right, therefore; my last letter had never reached her.”
 
 
-“I enquired after their brother, of course.”
-
-
-“He was well, but so much engaged with Mr. Darcy, that they scarcely ever saw him.”
+“I enquired after their brother, of course. He was well, but so much engaged with Mr. Darcy, that they scarcely ever saw him.”
 e:jane=unhappy
 
-“I found that Miss Darcy was expected to dinner.”
-
-
-“I wish I could see her.”
-
-
-“My visit was not long, as Caroline and Mrs. Hurst were going out.”
+“I found that Miss Darcy was expected to dinner. I wish I could see her. My visit was not long, as Caroline and Mrs. Hurst were going out.”
 e:jane=weary
 
 “I dare say I shall soon see them here.”
@@ -5872,10 +5851,13 @@ e:jane=suspicious
 “But I will endeavour to banish every painful thought, and think only of what will make me happy, your affection, and the invariable kindness of my dear uncle and aunt.”
 e:jane=sadsmile
 
-“Let me hear from you very soon. Miss Bingley said something of his never returning to Netherfield again, of giving up the house, but not with any certainty.”
+“Let me hear from you very soon.”
 e:jane=weary
 
-“We had better not mention it. I am extremely glad that you have such pleasant accounts from our friends at Hunsford.”
+“Miss Bingley said something of his never returning to Netherfield again, of giving up the house, but not with any certainty. We had better not mention it.”
+
+
+“I am extremely glad that you have such pleasant accounts from our friends at Hunsford.”
 
 
 “Pray go to see them, with Sir William and Maria. I am sure you will be very comfortable there.”
@@ -5885,7 +5867,7 @@ e:jane=happy
 
 
 This letter gave Elizabeth some pain; but her spirits returned as she considered that Jane would no longer be duped, by the sister at least.
-s=none;e:lizzy=serious;m=
+s=none;e:lizzy=serious;m=;b=bennet-sitting
 
 All expectation from the brother was now absolutely over. She would not even wish for any renewal of his attentions.
 
