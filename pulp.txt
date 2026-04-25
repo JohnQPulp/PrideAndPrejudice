@@ -3061,11 +3061,17 @@ e:collins=smirking
 ## XVI
 r=title
 
-As no objection was made to the young people’s engagement with their aunt, and all Mr. Collins’s scruples of leaving Mr. and Mrs. Bennet for a single evening during his visit were most steadily resisted, the coach conveyed him and his five cousins at a suitable hour to Meryton; and the girls had the pleasure of hearing, as they entered the drawing-room, that Mr. Wickham had accepted their uncle’s invitation, and was then in the house.
+As no objection was made to the young people’s engagement with their aunt, and all Mr. Collins’s scruples of leaving Mr. and Mrs. Bennet for a single evening during his visit were most steadily resisted, the coach conveyed him and his five cousins at a suitable hour to Meryton;
+b=merytone-wide-night
 
+and the girls had the pleasure of hearing, as they entered the drawing-room, that Mr. Wickham had accepted their uncle’s invitation, and was then in the house.
+b=philips-drawing-night
 
-When this information was given, and they had all taken their seats, Mr. Collins was at leisure to look around him and admire, and he was so much struck with the size and furniture of the apartment, that he declared he might almost have supposed himself in the small summer breakfast parlour at Rosings; a comparison that did not at first convey much gratification; but when Mrs. Philips understood from him what Rosings was, and who was its proprietor, when she had listened to the description of only one of Lady Catherine’s drawing-rooms, and found that the chimneypiece alone had cost eight hundred pounds, she felt all the force of the compliment, and would hardly have resented a comparison with the housekeeper’s room.
+When this information was given, and they had all taken their seats, Mr. Collins was at leisure to look around him and admire, and he was so much struck with the size and furniture of the apartment, that he declared he might almost have supposed himself in the small summer breakfast parlour at Rosings; a comparison that did not at first convey much gratification;
 e:collins=happy;e:mrsphilips=surprised
+
+but when Mrs. Philips understood from him what Rosings was, and who was its proprietor, when she had listened to the description of only one of Lady Catherine’s drawing-rooms, and found that the chimneypiece alone had cost eight hundred pounds, she felt all the force of the compliment, and would hardly have resented a comparison with the housekeeper’s room.
+
 
 In describing to her all the grandeur of Lady Catherine and her mansion, with occasional digressions in praise of his own humble abode, and the improvements it was receiving, he was happily employed until the gentlemen joined them; and he found in Mrs. Philips a very attentive listener, whose opinion of his consequence increased with what she heard, and who was resolving to retail it all among her neighbours as soon as she could.
 e:mrsphilips=happy
@@ -3109,23 +3115,23 @@ e:lizzy=thinking
 She dared not even mention that gentleman.
 
 
-Her curiosity however was unexpectedly relieved.
+Her curiosity however was unexpectedly relieved. Mr. Wickham began the subject himself.
 e:lizzy=surprised
-
-Mr. Wickham began the subject himself.
-
 
 He inquired how far Netherfield was from Meryton; and, after receiving her answer, asked in a hesitating manner how long Mr. Darcy had been staying there.
 e:wickham=nervous
 
-“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”
+“About a month,” said Elizabeth;
 s=lizzy;e:lizzy=curious
 
-“Yes,” replied Wickham;—“his estate there is a noble one.”
+and then, unwilling to let the subject drop, added,
+s=
+
+“He is a man of very large property in Derbyshire, I understand.”
+s=lizzy
+
+“Yes,” replied Wickham;—“his estate there is a noble one. A clear ten thousand per annum.”
 s=wickham;e:wickham=serious
-
-“A clear ten thousand per annum.”
-
 
 “You could not have met with a person more capable of giving you certain information on that head than myself—for I have been connected with his family in a particular manner from my infancy.”
 e:wickham=contemplative
@@ -3145,10 +3151,7 @@ s=lizzy;e:lizzy=annoyed
 “I have no right to give *my* opinion,” said Wickham, “as to his being agreeable or otherwise.”
 s=wickham;e:wickham=contemplative
 
-“I am not qualified to form one. I have known him too long and too well to be a fair judge.”
-
-
-“It is impossible for *me* to be impartial.”
+“I am not qualified to form one. I have known him too long and too well to be a fair judge. It is impossible for *me* to be impartial.”
 
 
 “But I believe your opinion of him would in general astonish—and perhaps you would not express it quite so strongly anywhere else.”
@@ -3160,11 +3163,8 @@ s=wickham;e:wickham=contemplative
 “Upon my word I say no more *here* than I might say in any house in the neighbourhood, except Netherfield.”
 s=lizzy;e:lizzy=serious
 
-“He is not at all liked in Hertfordshire. Everybody is disgusted with his pride.”
+“He is not at all liked in Hertfordshire. Everybody is disgusted with his pride. You will not find him more favourably spoken of by anyone.”
 e:lizzy=annoyed
-
-“You will not find him more favourably spoken of by anyone.”
-
 
 “I cannot pretend to be sorry,” said Wickham, after a short interruption, “that he or that any man should not be estimated beyond their deserts; but with *him* I believe it does not often happen.”
 s=wickham;e:wickham=serious
@@ -3229,8 +3229,11 @@ s=lizzy;e:lizzy=surprised
 “Yes—the late Mr. Darcy bequeathed me the next presentation of the best living in his gift.”
 s=wickham;e:wickham=serious
 
-“He was my godfather, and excessively attached to me. I cannot do justice to his kindness. He meant to provide for me amply, and thought he had done it; but when the living fell, it was given elsewhere.”
+“He was my godfather, and excessively attached to me. I cannot do justice to his kindness.”
 e:wickham=sadsmile
+
+“He meant to provide for me amply, and thought he had done it; but when the living fell, it was given elsewhere.”
+
 
 “Good heavens!” cried Elizabeth; “but how could *that* be?—How could his will be disregarded?—Why did not you seek legal redress?”
 s=lizzy;e:lizzy=angry
@@ -3277,14 +3280,26 @@ e:wickham=serious
 “I had not thought Mr. Darcy so bad as this—though I have never liked him, I had not thought so very ill of him—I had supposed him to be despising his fellow-creatures in general, but did not suspect him of descending to such malicious revenge, such injustice, such inhumanity as this!”
 s=lizzy;e:lizzy=angry
 
-After a few minutes reflection, however, she continued, “I *do* remember his boasting one day, at Netherfield, of the implacability of his resentments, of his having an unforgiving temper. His disposition must be dreadful.”
-e:lizzy=scowling
+After a few minutes reflection, however, she continued,
+s=
+
+“I *do* remember his boasting one day, at Netherfield, of the implacability of his resentments, of his having an unforgiving temper. His disposition must be dreadful.”
+e:lizzy=scowling;s=lizzy
 
 “I will not trust myself on the subject,” replied Wickham, “*I* can hardly be just to him.”
 s=wickham;e:wickham=weary
 
-Elizabeth was again deep in thought, and after a time exclaimed, “To treat in such a manner, the godson, the friend, the favourite of his father!”—She could have added, “A young man too, like *you*, whose very countenance may vouch for your being amiable”—but she contented herself with “And one, too, who had probably been his own companion from childhood, connected together, as I think you said, in the closest manner!”
-s=lizzy;e:lizzy=thinking
+Elizabeth was again deep in thought, and after a time exclaimed,
+s=
+
+“To treat in such a manner, the godson, the friend, the favourite of his father!”—
+s=lizzy;e:lizzy=thinking;m=allowbreak;m=nospace
+
+She could have added, “A young man too, like *you*, whose very countenance may vouch for your being amiable”—
+s=
+
+but she contented herself with “And one, too, who had probably been his own companion from childhood, connected together, as I think you said, in the closest manner!”
+s=lizzy;m=
 
 “We were born in the same parish, within the same park, the greatest part of our youth was passed together; inmates of the same house, sharing the same amusements, objects of the same parental care.”
 s=wickham;e:wickham=contemplative
@@ -3304,10 +3319,10 @@ s=lizzy;e:lizzy=surprised;m=allowbreak;m=nospace
 “If from no better motive, that he should not have been too proud to be dishonest—for dishonesty I must call it.”
 m=
 
-“It *is* wonderful,”—replied Wickham—“for almost all his actions may be traced to pride;—and pride has often been his best friend.”
+“It *is* wonderful,”—replied Wickham—“for almost all his actions may be traced to pride;—and pride has often been his best friend. It has connected him nearer with virtue than any other feeling.”
 s=wickham;e:wickham=serious
 
-“It has connected him nearer with virtue than any other feeling. But we are none of us consistent; and in his behaviour to me, there were stronger impulses even than pride.”
+“But we are none of us consistent; and in his behaviour to me, there were stronger impulses even than pride.”
 e:wickham=thinking
 
 “Can such abominable pride as his, have ever done him good?”
@@ -3349,10 +3364,10 @@ e:wickham=serious
 After many pauses and many trials of other subjects, Elizabeth could not help reverting once more to the first, and saying—
 s=none;e:lizzy=contemplative
 
-“I am astonished at his intimacy with Mr. Bingley! How can Mr. Bingley, who seems good humour itself, and is, I really believe, truly amiable, be in friendship with such a man?”
+“I am astonished at his intimacy with Mr. Bingley!”
 s=lizzy;e:lizzy=confused
 
-“How can they suit each other?—Do you know Mr. Bingley?”
+“How can Mr. Bingley, who seems good humour itself, and is, I really believe, truly amiable, be in friendship with such a man? How can they suit each other?—Do you know Mr. Bingley?”
 e:lizzy=curious
 
 “Not at all.”
@@ -3385,7 +3400,7 @@ e:collins=serious;e:mrsphilips=upset
 “I know very well, madam,” said he, “that when persons sit down to a card table, they must take their chance of these things—and happily I am not in such circumstances as to make five shillings any object.”
 s=collins;e:collins=smirking
 
-“There are undoubtedly many who could not say the same, but thanks to Lady Catherine de Bourgh, I am removed far beyond the necessity of regarding little matters.”
+“There are undoubtedly many who could not say the same, but thanks to Lady Catherine de Bourgh, I am removed far beyond the necessity of regarding little matters.”<e>"Also, please excuse my eating of fifteen shillings worth of coffee and muffins."</e>
 e:collins=happy
 
 Mr. Wickham’s attention was caught; and after observing Mr. Collins for a few moments, he asked Elizabeth in a low voice whether her relation were very intimately acquainted with the family of de Bourgh.
@@ -3400,10 +3415,10 @@ s=lizzy;e:lizzy=neutral
 “You know of course that Lady Catherine de Bourgh and Lady Anne Darcy were sisters; consequently that she is aunt to the present Mr. Darcy.”
 s=wickham;e:wickham=serious
 
-“No, indeed, I did not. I knew nothing at all of Lady Catherine’s connections.”
+“No, indeed, I did not.”
 s=lizzy;e:lizzy=surprised
 
-“I never heard of her existence till the day before yesterday.”
+“I knew nothing at all of Lady Catherine’s connections. I never heard of her existence till the day before yesterday.”
 
 
 “Her daughter, Miss de Bourgh, will have a very large fortune, and it is believed that she and her cousin will unite the two estates.”
@@ -3415,7 +3430,7 @@ s=none;e:lizzy=smirking
 Vain indeed must be all her attentions, vain and useless her affection for his sister and her praise of himself, if he were already self-destined to another.
 e:lizzy=happy
 
-“Mr. Collins,” said she, “speaks highly both of Lady Catherine and her daughter; but from some particulars that he has related of her ladyship, I suspect his gratitude misleads him, and that in spite of her being his patroness, she is an arrogant, conceited woman.”
+“Mr. Collins,” said she, “speaks highly both of Lady Catherine and her daughter; but from some particulars that he has related of her ladyship, I suspect his gratitude misleads him, and that in spite of her being his patroness, she is an arrogant, conceited woman.”<e>For a woman she's never even met, Lizzy sure seems to have some sort of predisposition or predilection or preconception or… something against her. (If there was a better word, I'm sure it would have come up by now.)</e>
 s=lizzy;e:lizzy=smirking
 
 “I believe her to be both in a great degree,” replied Wickham; “I have not seen her for many years, but I very well remember that I never liked her, and that her manners were dictatorial and insolent.”
@@ -3428,7 +3443,7 @@ Elizabeth allowed that he had given a very rational account of it, and they cont
 s=none;e:lizzy=happy;e:wickham=happy
 
 There could be no conversation in the noise of Mrs. Philips’s supper party, but his manners recommended him to everybody.
-e:mrsphilips=happy
+e:mrsphilips=happy;b=meryton-wide-night
 
 Whatever he said, was said well; and whatever he did, done gracefully.
 
@@ -3446,7 +3461,7 @@ e:collins=excited
 r=title
 
 Elizabeth related to Jane the next day, what had passed between Mr. Wickham and herself.
-e:lizzy=neutral;e:jane=neutral
+e:lizzy=neutral;e:jane=neutral;b=bennet-private
 
 Jane listened with astonishment and concern;﻿—she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet, it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.
 e:jane=upset;e:jane=contemplative
