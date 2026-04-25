@@ -5924,7 +5924,7 @@ e:lizzy=sadsmile
 r=title
 
 With no greater events than these in the Longbourn family, and otherwise diversified by little beyond the walks to Meryton, sometimes dirty and sometimes cold, did January and February pass away.
-
+b=bennet-wide-winter
 
 March was to take Elizabeth to Hunsford.
 
@@ -5939,28 +5939,31 @@ There was novelty in the scheme, and as, with such a mother and such uncompanion
 e:lizzy=weary
 
 The journey would moreover give her a peep at Jane; and, in short, as the time drew near, she would have been very sorry for any delay.
-e:lizzy=happy
+e:lizzy=happy;b=london-wide;f:b:london-wide=blur(3px)
 
-Everything, however, went on smoothly, and was finally settled according to Charlotte’s first sketch.
-
-
-She was to accompany Sir William and his second daughter.
+Everything, however, went on smoothly, and was finally settled according to Charlotte’s first sketch. She was to accompany Sir William and his second daughter.
 
 
 The improvement of spending a night in London was added in time, and the plan became perfect as plan could be.
 
 
 The only pain was in leaving her father, who would certainly miss her, and who, when it came to the point, so little liked her going, that he told her to write to him, and almost promised to answer her letter.
-e:lizzy=sadsmile
+e:lizzy=sadsmile;b=bennet-drawing
 
 The farewell between herself and Mr. Wickham was perfectly friendly; on his side even more.
 e:wickham=happy
 
-His present pursuit could not make him forget that Elizabeth had been the first to excite and to deserve his attention, the first to listen and to pity, the first to be admired; and in his manner of bidding her adieu, wishing her every enjoyment, reminding her of what she was to expect in Lady Catherine de Bourgh, and trusting their opinion of her﻿—their opinion of everybody﻿—would always coincide, there was a solicitude, an interest which she felt must ever attach her to him with a most sincere regard; and she parted from him convinced, that whether married or single, he must always be her model of the amiable and pleasing.
+His present pursuit could not make him forget that Elizabeth had been the first to excite and to deserve his attention, the first to listen and to pity, the first to be admired;
 e:wickham=smirking;e:lizzy=happy
 
+and in his manner of bidding her adieu, wishing her every enjoyment, reminding her of what she was to expect in Lady Catherine de Bourgh, and trusting their opinion of her﻿—their opinion of everybody﻿—would always coincide, there was a solicitude, an interest which she felt must ever attach her to him with a most sincere regard;
+
+
+and she parted from him convinced, that whether married or single, he must always be her model of the amiable and pleasing.
+
+
 Her fellow-travellers the next day were not of a kind to make her think him less agreeable.
-e:lizzy=weary
+e:lizzy=weary;b=chaise-road
 
 Sir William Lucas, and his daughter Maria, a good humoured girl, but as empty-headed as himself, had nothing to say that could be worth hearing, and were listened to with about as much delight as the rattle of the chaise.
 e:william=happy;e:lizzy=weary
@@ -5975,19 +5978,19 @@ It was a journey of only twenty-four miles, and they began it so early as to be 
 
 
 As they drove to Mr. Gardiner’s door, Jane was at a drawing-room window watching their arrival; when they entered the passage she was there to welcome them, and Elizabeth, looking earnestly in her face, was pleased to see it healthful and lovely as ever.
-e:jane=happy;e:lizzy=happy
+e:jane=happy;e:lizzy=happy;b=london-wide;f:b:london-wide=
 
 On the stairs were a troop of little boys and girls, whose eagerness for their cousin’s appearance would not allow them to wait in the drawing-room, and whose shyness, as they had not seen her for a twelvemonth, prevented their coming lower.
 
 
-All was joy and kindness.
+All was joy and kindness. The day passed most pleasantly away; the morning in bustle and shopping,
+m=allowbreak
 
-
-The day passed most pleasantly away; the morning in bustle and shopping, and the evening at one of the theatres.
-
+and the evening at one of the theatres.
+m=;b=london-theatre
 
 Elizabeth then contrived to sit by her aunt.
-
+b=gardiner-drawing
 
 Their first subject was her sister; and she was more grieved than astonished to hear, in reply to her minute enquiries, that though Jane always struggled to support her spirits, there were periods of dejection.
 e:lizzy=sadsmile;e:mrsgardiner=serious
@@ -6002,7 +6005,7 @@ Mrs. Gardiner then rallied her niece on Wickham’s desertion, and complimented 
 e:mrsgardiner=smirking
 
 “But, my dear Elizabeth,” she added, “what sort of girl is Miss King? I should be sorry to think our friend mercenary.”
-s=mrsgardiner;e:mrsgardiner=curious
+s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=fancy;x:lizzy=fancy
 
 “Pray, my dear aunt, what is the difference in matrimonial affairs, between the mercenary and the prudent motive? Where does discretion end, and avarice begin?”
 s=lizzy;e:lizzy=thinking
@@ -6055,10 +6058,10 @@ e:mrsgardiner=unhappy
 “Oh! if that is all, I have a very poor opinion of young men who live in Derbyshire; and their intimate friends who live in Hertfordshire are not much better.”
 s=lizzy;e:lizzy=annoyed
 
-“I am sick of them all.”
+“I am sick of them all. Thank Heaven!”
 e:lizzy=upset
 
-“Thank Heaven! I am going tomorrow where I shall find a man who has not one agreeable quality, who has neither manner nor sense to recommend him.”
+“I am going tomorrow where I shall find a man who has not one agreeable quality, who has neither manner nor sense to recommend him.”
 e:lizzy=scowling
 
 “Stupid men are the only ones worth knowing, after all.”
@@ -6076,14 +6079,17 @@ s=mrsgardiner;e:mrsgardiner=happy
 No scheme could have been more agreeable to Elizabeth, and her acceptance of the invitation was most ready and grateful.
 s=none;e:lizzy=excited
 
-“My dear, dear aunt,” she rapturously cried, “what delight! what felicity! You give me fresh life and vigour.”
+“My dear, dear aunt,” she rapturously cried, “what delight! what felicity!”
 s=lizzy;e:lizzy=excited
 
-“Adieu to disappointment and spleen. What are men to rocks and mountains?”
+“You give me fresh life and vigour. Adieu to disappointment and spleen. What are men to rocks and mountains?”
 e:lizzy=happy
 
-“Oh! what hours of transport we shall spend! And when we *do* return, it shall not be like other travellers, without being able to give one accurate idea of anything.”
+“Oh! what hours of transport we shall spend!”
 e:lizzy=excited
+
+“And when we *do* return, it shall not be like other travellers, without being able to give one accurate idea of anything.”
+
 
 “We *will* know where we have gone﻿—we *will* recollect what we have seen.”
 e:lizzy=serious
@@ -6091,17 +6097,20 @@ e:lizzy=serious
 “Lakes, mountains, and rivers, shall not be jumbled together in our imaginations; nor, when we attempt to describe any particular scene, will we begin quarrelling about its relative situation.”
 e:lizzy=contemplative
 
-“Let *our* first effusions be less insupportable than those of the generality of travellers.”
+“Let *our* first effusions be less insupportable than those of the generality of travellers.”<e>Elizabeth Bennet or <book>Eat, Pray, Love|Elizabeth Gilbert</book>?</e>
 e:lizzy=smirking
 
 ## XXVIII
 r=title
 
 Every object in the next day’s journey was new and interesting to Elizabeth; and her spirits were in a state for enjoyment; for she had seen her sister looking so well as to banish all fear for her health, and the prospect of her northern tour was a constant source of delight.
-e:lizzy=happy
+e:lizzy=happy;b=rosings-wide
 
-When they left the high road for the lane to Hunsford, every eye was in search of the Parsonage, and every turning expected to bring it in view. The paling of Rosings Park was their boundary on one side.
+When they left the high road for the lane to Hunsford, every eye was in search of the Parsonage, and every turning expected to bring it in view.
 e:lizzy=curious
+
+The paling of Rosings Park was their boundary on one side.
+
 
 Elizabeth smiled at the recollection of all that she had heard of its inhabitants.
 e:lizzy=smirking
