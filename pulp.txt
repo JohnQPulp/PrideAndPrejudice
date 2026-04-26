@@ -6917,7 +6917,7 @@ e:lizzy=neutral
 r=title
 
 Elizabeth was sitting by herself the next morning, and writing to Jane, while Mrs. Collins and Maria were gone on business into the village, when she was startled by a ring at the door, the certain signal of a visitor.
-e:lizzy=neutral
+e:lizzy=neutral;b=hunsford-drawing
 
 As she had heard no carriage, she thought it not unlikely to be Lady Catherine, and under that apprehension was putting away her half-finished letter that she might escape all impertinent questions, when the door opened, and to her very great surprise, Mr. Darcy, and Mr. Darcy only, entered the room.
 e:lizzy=surprised;e:darcy=neutral
@@ -6970,11 +6970,11 @@ s=none;e:lizzy=wary
 She was afraid of talking longer of his friend; and, having nothing else to say, was now determined to leave the trouble of finding a subject to him.
 e:lizzy=neutral
 
-He took the hint, and soon began with, “This seems a very comfortable house.”
-s=darcy;e:darcy=thinking
+He took the hint, and soon began with,
 
-“Lady Catherine, I believe, did a great deal to it when Mr. Collins first came to Hunsford.”
-e:darcy=neutral
+
+“This seems a very comfortable house. Lady Catherine, I believe, did a great deal to it when Mr. Collins first came to Hunsford.”
+s=darcy;e:darcy=thinking
 
 “I believe she did﻿—and I am sure she could not have bestowed her kindness on a more grateful object.”
 s=lizzy;e:lizzy=smirking
@@ -7003,17 +7003,11 @@ s=darcy;e:darcy=smirking
 “Yes, I call it a *very* easy distance.”
 
 
-“I should never have considered the distance as one of the *advantages* of the match,” cried Elizabeth.
+“I should never have considered the distance as one of the *advantages* of the match,” cried Elizabeth. “I should never have said Mrs. Collins was settled *near* her family.”
 s=lizzy;e:lizzy=annoyed
 
-“I should never have said Mrs. Collins was settled *near* her family.”
-
-
-“It is a proof of your own attachment to Hertfordshire.”
+“It is a proof of your own attachment to Hertfordshire. Anything beyond the very neighbourhood of Longbourn, I suppose, would appear far.”
 s=darcy;e:darcy=smirking
-
-“Anything beyond the very neighbourhood of Longbourn, I suppose, would appear far.”
-
 
 As he spoke there was a sort of smile, which Elizabeth fancied she understood; he must be supposing her to be thinking of Jane and Netherfield, and she blushed as she answered﻿—
 s=none;e:lizzy=thinking;e:lizzy=upset
@@ -7021,10 +7015,7 @@ s=none;e:lizzy=thinking;e:lizzy=upset
 “I do not mean to say that a woman may not be settled too near her family.”
 s=lizzy;e:lizzy=serious
 
-“The far and the near must be relative, and depend on many varying circumstances.”
-
-
-“Where there is fortune to make the expense of travelling unimportant, distance becomes no evil.”
+“The far and the near must be relative, and depend on many varying circumstances. Where there is fortune to make the expense of travelling unimportant, distance becomes no evil.”
 
 
 “But that is not the case *here*.”
@@ -7033,11 +7024,11 @@ s=lizzy;e:lizzy=serious
 “Mr. and Mrs. Collins have a comfortable income, but not such a one as will allow of frequent journeys﻿—and I am persuaded my friend would not call herself *near* her family under less than *half* the present distance.”
 
 
-Mr. Darcy drew his chair a little towards her, and said, “*You* cannot have a right to such very strong local attachment.”
+Mr. Darcy drew his chair a little towards her, and said,
+s=
+
+“*You* cannot have a right to such very strong local attachment. *You* cannot have been always at Longbourn.”
 s=darcy;e:darcy=curious
-
-“*You* cannot have been always at Longbourn.”
-
 
 Elizabeth looked surprised.
 s=none;e:lizzy=surprised
@@ -7058,7 +7049,7 @@ Mr. Darcy related the mistake which had occasioned his intruding on Miss Bennet,
 
 
 “What can be the meaning of this!” said Charlotte, as soon as he was gone.
-s=charlotte;e:charlotte=curious
+s=charlotte;e:charlotte=curious;x:charlotte=bonnet
 
 “My dear Eliza, he must be in love with you, or he would never have called on us in this familiar way.”
 e:charlotte=excited
@@ -7066,17 +7057,17 @@ e:charlotte=excited
 But when Elizabeth told of his silence, it did not seem very likely, even to Charlotte’s wishes, to be the case; and after various conjectures, they could at last only suppose his visit to proceed from the difficulty of finding anything to do, which was the more probable from the time of year.
 s=none;e:charlotte=thinking;e:charlotte=neutral
 
-All field sports were over.
-
-
-Within doors there was Lady Catherine, books, and a billiard table, but gentlemen cannot be always within doors; and in the nearness of the Parsonage, or the pleasantness of the walk to it, or of the people who lived in it, the two cousins found a temptation from this period of walking thither almost every day.
-
+All field sports were over. Within doors there was Lady Catherine, books, and a billiard table, but gentlemen cannot be always within doors; and in the nearness of the Parsonage, or the pleasantness of the walk to it, or of the people who lived in it, the two cousins found a temptation from this period of walking thither almost every day.
+b=rosings-trees-wide
 
 They called at various times of the morning, sometimes separately, sometimes together, and now and then accompanied by their aunt.
 
 
-It was plain to them all that Colonel Fitzwilliam came because he had pleasure in their society, a persuasion which of course recommended him still more; and Elizabeth was reminded by her own satisfaction in being with him, as well as by his evident admiration of her, of her former favourite George Wickham; and though, in comparing them, she saw there was less captivating softness in Colonel Fitzwilliam’s manners, she believed he might have the best informed mind.
+It was plain to them all that Colonel Fitzwilliam came because he had pleasure in their society, a persuasion which of course recommended him still more; and Elizabeth was reminded by her own satisfaction in being with him, as well as by his evident admiration of her, of her former favourite George Wickham;
 e:lizzy=happy;e:lizzy=thinking
+
+and though, in comparing them, she saw there was less captivating softness in Colonel Fitzwilliam’s manners, she believed he might have the best informed mind.
+
 
 But why Mr. Darcy came so often to the Parsonage, it was more difficult to understand.
 e:lizzy=confused
@@ -7102,8 +7093,11 @@ e:darcy=contemplative
 It was an earnest, steadfast gaze, but she often doubted whether there were much admiration in it, and sometimes it seemed nothing but absence of mind.
 
 
-She had once or twice suggested to Elizabeth the possibility of his being partial to her, but Elizabeth always laughed at the idea; and Mrs. Collins did not think it right to press the subject, from the danger of raising expectations which might only end in disappointment; for in her opinion it admitted not of a doubt, that all her friend’s dislike would vanish, if she could suppose him to be in her power.
+She had once or twice suggested to Elizabeth the possibility of his being partial to her, but Elizabeth always laughed at the idea; and Mrs. Collins did not think it right to press the subject, from the danger of raising expectations which might only end in disappointment;
 e:lizzy=happy;e:charlotte=wary
+
+for in her opinion it admitted not of a doubt, that all her friend’s dislike would vanish, if she could suppose him to be in her power.
+
 
 In her kind schemes for Elizabeth, she sometimes planned her marrying Colonel Fitzwilliam.
 e:charlotte=thinking
@@ -7115,7 +7109,7 @@ He was beyond comparison the pleasantest man; he certainly admired her, and his 
 r=title
 
 More than once did Elizabeth in her ramble within the Park, unexpectedly meet Mr. Darcy.
-e:lizzy=surprised;e:darcy=neutral
+e:lizzy=surprised;e:darcy=neutral;b=rosings-wide
 
 She felt all the perverseness of the mischance that should bring him where no one else was brought; and to prevent its ever happening again, took care to inform him at first, that it was a favourite haunt of hers.
 e:lizzy=annoyed
