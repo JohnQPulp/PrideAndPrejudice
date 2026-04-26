@@ -662,7 +662,7 @@ That the Miss Lucases and the Miss Bennets should meet to talk over a ball was a
 
 
 and the morning after the assembly brought the former to Longbourn to hear and to communicate.
-b=bennet-wide
+b=bennet-drawing
 
 “*You* began the evening well, Charlotte,” said Mrs. Bennet with civil self-command to Miss Lucas.
 s=mrsbennet;e:mrsbennet=smirking
@@ -2192,7 +2192,7 @@ She often tried to provoke Darcy into disliking her guest, by talking of their s
 e:caroline=smirking
 
 “I hope,” said she, as they were walking together in the shrubbery the next day, “you will give your mother-in-law a few hints, when this desirable event takes place, as to the advantage of holding her tongue; and if you can compass it, do cure the younger girls of running after the officers.”
-s=caroline;e:caroline=smirking;b=netherfield-gardens;x:caroline=bonnet
+s=caroline;e:caroline=smirking;b=netherfield-gardens;x:caroline=bonnet;x:darcy=hat
 
 “And, if I may mention so delicate a subject, endeavour to check that little something, bordering on conceit and impertinence, which your lady possesses.”
 e:caroline=scowling
