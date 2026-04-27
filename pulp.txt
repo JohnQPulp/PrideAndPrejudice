@@ -11527,26 +11527,41 @@ s=mrbennet;e:mrbennet=sadsmile
 ## XLIX
 r=title
 
-Two days after Mr. Bennet’s return, as Jane and Elizabeth were walking together in the shrubbery behind the house, they saw the housekeeper coming towards them, and, concluding that she came to call them to their mother, went forward to meet her; but, instead of the expected summons, when they approached her, she said to Miss Bennet, “I beg your pardon, madam, for interrupting you, but I was in hopes you might have got some good news from town, so I took the liberty of coming to ask.”
-s=none;e:jane=neutral;e:lizzy=neutral;n:mrshill=Housekeeper;s=mrshill;e:mrshill=nervous
+Two days after Mr. Bennet’s return, as Jane and Elizabeth were walking together in the shrubbery behind the house, they saw the housekeeper coming towards them, and, concluding that she came to call them to their mother, went forward to meet her; but, instead of the expected summons, when they approached her, she said to Miss Bennet,
+s=none;e:jane=neutral;e:lizzy=neutral;n:mrshill=Housekeeper;e:mrshill=nervous;b=bennet-gardens;x:jane=bonnet;x:lizzy=bonnet
+
+“I beg your pardon, madam, for interrupting you, but I was in hopes you might have got some good news from town, so I took the liberty of coming to ask.”
+s=mrshill;
 
 “What do you mean, Hill? We have heard nothing from town.”
 s=jane;e:jane=confused;n:mrshill=Mrs. Hill
 
-“Dear madam,” cried Mrs. Hill, in great astonishment, “don’t you know there is an express come for master from Mr. Gardiner? He has been here this half hour, and master has had a letter.”
+“Dear madam,” cried Mrs. Hill, in great astonishment, “don’t you know there is an express come for master from Mr. Gardiner?”
 s=mrshill;e:mrshill=surprised
+
+“He has been here this half hour, and master has had a letter.”
+e:mrshill=serious
 
 Away ran the girls, too eager to get in to have time for speech.
 s=none;e:jane=excited;e:lizzy=excited
 
-They ran through the vestibule into the breakfast room; from thence to the library;﻿—their father was in neither; and they were on the point of seeking him upstairs with their mother, when they were met by the butler, who said﻿—
+They ran through the vestibule into the breakfast room;
+b=bennet-parlor
 
+from thence to the library;﻿—their father was in neither;
+b=bennet-library
+
+and they were on the point of seeking him upstairs with their mother, when they were met by the butler, who said﻿—
+b=bennet-vestibule
 
 “If you are looking for my master, ma’am, he is walking towards the little copse.”
 n:butler=Butler;s=butler;e:butler=neutral
 
-Upon this information, they instantly passed through the hall once more, and ran across the lawn after their father, who was deliberately pursuing his way towards a small wood on one side of the paddock.
-s=none
+Upon this information, they instantly passed through the hall once more,
+s=none;m=allowbreak
+
+and ran across the lawn after their father, who was deliberately pursuing his way towards a small wood on one side of the paddock.
+m=;b=bennet-small-wood
 
 Jane, who was not so light, nor so much in the habit of running as Elizabeth, soon lagged behind, while her sister, panting for breath, came up with him, and eagerly cried out﻿—
 e:lizzy=excited
@@ -11555,7 +11570,7 @@ e:lizzy=excited
 s=lizzy
 
 “Yes, I have had a letter from him by express.”
-s=mrbennet;e:mrbennet=serious
+s=mrbennet;e:mrbennet=serious;x:mrbennet=hat
 
 “Well, and what news does it bring? good or bad?”
 s=lizzy;e:lizzy=nervous
@@ -11587,7 +11602,7 @@ e:lizzy=serious;m=margin;s=
 “It is enough to know they are discovered, I have seen them both﻿—”
 
 
-“Then it is, as I always hoped,” cried Jane; “they are married!”
+“Then it is, as I always hoped,” cried Jane; “they are married!”<e>Jane…</e>
 s=jane;e:jane=happy;m=
 
 Elizabeth read on;
@@ -11629,11 +11644,17 @@ e:lizzy=surprised
 <span class='upper fright'>“Edw. Gardiner.”</span>
 n:mrgardiner=Edward Gardiner
 
-“Is it possible!” cried Elizabeth, when she had finished. “Can it be possible that he will marry her?”
+“Is it possible!” cried Elizabeth, when she had finished.<e>"I didn't know my uncle's name was Edward!"</e>
 e:lizzy=surprised;m=;s=lizzy
 
-“Wickham is not so undeserving, then, as we have thought him;” said her sister. “My dear father, I congratulate you.”
+“Can it be possible that he will marry her?”
+
+
+“Wickham is not so undeserving, then, as we have thought him;” said her sister.
 s=jane;e:jane=happy
+
+“My dear father, I congratulate you.”
+
 
 “And have you answered the letter?” said Elizabeth.
 s=lizzy;e:lizzy=curious
@@ -11692,17 +11713,26 @@ s=mrbennet;e:mrbennet=serious
 “I should be sorry to think so ill of him, in the very beginning of our relationship.”
 e:mrbennet=smirking
 
-“Ten thousand pounds! Heaven forbid! How is half such a sum to be repaid?”
+“Ten thousand pounds! Heaven forbid!”
 s=lizzy;e:lizzy=fearful
+
+“How is half such a sum to be repaid?”
+
 
 Mr. Bennet made no answer, and each of them, deep in thought, continued silent till they reached the house.
 s=none;e:mrbennet=contemplative;e:lizzy=thinking;e:jane=thinking
 
 Their father then went to the library to write, and the girls walked into the breakfast-room.
+b=bennet-parlor
 
-
-“And they are really to be married!” cried Elizabeth, as soon as they were by themselves. “How strange this is! And for *this* we are to be thankful.”
+“And they are really to be married!” cried Elizabeth, as soon as they were by themselves.
 s=lizzy;e:lizzy=surprised
+
+“How strange this is!”
+
+
+“And for *this* we are to be thankful.”
+
 
 “That they should marry, small as is their chance of happiness, and wretched as is his character, we are forced to rejoice! Oh, Lydia!”
 e:lizzy=upset
@@ -11719,14 +11749,14 @@ s=jane;e:jane=thinking
 “If we are ever able to learn what Wickham’s debts have been,” said Elizabeth, “and how much is settled on his side on our sister, we shall exactly know what Mr. Gardiner has done for them, because Wickham has not sixpence of his own.”
 s=lizzy;e:lizzy=serious
 
-“The kindness of my uncle and aunt can never be requited. Their taking her home, and affording her their personal protection and countenance, is such a sacrifice to her advantage as years of gratitude cannot enough acknowledge.”
+“The kindness of my uncle and aunt can never be requited.”
 
 
-“By this time she is actually with them! If such goodness does not make her miserable now, she will never deserve to be happy!”
+“Their taking her home, and affording her their personal protection and countenance, is such a sacrifice to her advantage as years of gratitude cannot enough acknowledge.”
+
+
+“By this time she is actually with them! If such goodness does not make her miserable now, she will never deserve to be happy! What a meeting for her, when she first sees my aunt!”
 e:lizzy=angry
-
-“What a meeting for her, when she first sees my aunt!”
-
 
 “We must endeavour to forget all that has passed on either side,” said Jane: “I hope and trust they will yet be happy.”
 s=jane;e:jane=sadsmile
@@ -11744,13 +11774,13 @@ It now occurred to the girls that their mother was in all likelihood perfectly i
 s=none;e:lizzy=thinking;e:jane=thinking
 
 They went to the library, therefore, and asked their father whether he would not wish them to make it known to her.
-
+b=bennet-library
 
 He was writing, and, without raising his head, coolly replied﻿—
 
 
 “Just as you please.”
-s=mrbennet;e:mrbennet=neutral
+s=mrbennet;e:mrbennet=neutral;x:mrbennet=
 
 “May we take my uncle’s letter to read to her?”
 s=lizzy;e:lizzy=curious
@@ -11762,7 +11792,7 @@ Elizabeth took the letter from his writing table, and they went upstairs togethe
 s=none;e:lizzy=neutral
 
 Mary and Kitty were both with Mrs. Bennet: one communication would, therefore, do for all.
-e:mrsbennet=neutral;e:mary=neutral;e:kitty=neutral
+e:mrsbennet=neutral;e:mary=neutral;e:kitty=neutral;b=bennet-dressing
 
 After a slight preparation for good news, the letter was read aloud.
 
@@ -11780,25 +11810,34 @@ She was disturbed by no fear for her felicity, nor humbled by any remembrance of
 
 
 “My dear, dear Lydia!” she cried: “This is delightful indeed!﻿—She will be married!﻿—I shall see her again!﻿—She will be married at sixteen!—My good, kind brother!﻿—I knew how it would be﻿—I knew he would manage everything.”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=excited;x:mrsbennet-undressed
 
 “How I long to see her! and to see dear Wickham too!”
 
 
-“But the clothes, the wedding clothes! I will write to my sister Gardiner about them directly.”
-e:mrsbennet=excited
+“But the clothes, the wedding clothes!”
+e:mrsbennet=nervous
 
-“Lizzy, my dear, run down to your father, and ask him how much he will give her. Stay, stay, I will go myself.”
+“I will write to my sister Gardiner about them directly. Lizzy, my dear, run down to your father, and ask him how much he will give her.”
+e:mrsbennet=serious
 
+“Stay, stay, I will go myself.”
+e:mrsbennet=thinking
 
-“Ring the bell, Kitty, for Hill. I will put on my things in a moment. My dear, dear Lydia!﻿—How merry we shall be together when we meet!”
+“Ring the bell, Kitty, for Hill. I will put on my things in a moment.”
+e:mrsbennet=serious;i=2
 
+“My dear, dear Lydia!﻿—How merry we shall be together when we meet!”
+e:mrsbennet=excited;i=3
 
 Her eldest daughter endeavoured to give some relief to the violence of these transports, by leading her thoughts to the obligations which Mr. Gardiner’s behaviour laid them all under.
 s=none;e:jane=serious
 
-“For we must attribute this happy conclusion,” she added, “in a great measure, to his kindness. We are persuaded that he has pledged himself to assist Mr. Wickham with money.”
+“For we must attribute this happy conclusion,” she added, “in a great measure, to his kindness.”
 s=jane
+
+“We are persuaded that he has pledged himself to assist Mr. Wickham with money.”
+
 
 “Well,” cried her mother, “it is all very right; who should do it but her own uncle?”
 s=mrsbennet;e:mrsbennet=smirking
@@ -11830,14 +11869,17 @@ s=mrsbennet;e:mrsbennet=excited
 “Kitty, run down and order the carriage. An airing would do me a great deal of good, I am sure. Girls, can I do anything for you in Meryton?”
 
 
-“Oh! here comes Hill. My dear Hill, have you heard the good news? Miss Lydia is going to be married; and you shall all have a bowl of punch, to make merry at her wedding.”
+“Oh! here comes Hill.”
 e:mrshill=neutral
+
+“My dear Hill, have you heard the good news? Miss Lydia is going to be married; and you shall all have a bowl of punch, to make merry at her wedding.”
+
 
 Mrs. Hill began instantly to express her joy.
 s=none;e:mrshill=happy
 
 Elizabeth received her congratulations amongst the rest, and then, sick of this folly, took refuge in her own room, that she might think with freedom.
-e:lizzy=annoyed
+e:lizzy=annoyed;b=bennet-bedroom
 
 Poor Lydia’s situation must, at best, be bad enough; but that it was no worse, she had need to be thankful.
 e:lizzy=contemplative
