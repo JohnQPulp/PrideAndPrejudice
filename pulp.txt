@@ -12392,7 +12392,7 @@ s=none;e:jane=serious;e:lizzy=thinking
 r=title
 
 Elizabeth had the satisfaction of receiving an answer to her letter, as soon as she possibly could.
-e:lizzy=happy
+e:lizzy=happy;b=bennet-small-wood
 
 She was no sooner in possession of it, than hurrying into the little copse, where she was least likely to be interrupted, she sat down on one of the benches, and prepared to be happy; for the length of the letter convinced her that it did not contain a denial.
 e:lizzy=excited
@@ -12421,11 +12421,8 @@ e:mrsgardiner=neutral
 “But if you are really innocent and ignorant, I must be more explicit.”
 
 
-“On the very day of my coming home from Longbourn, your uncle had a most unexpected visitor.”
-
-
-“Mr. Darcy called, and was shut up with him several hours.”
-
+“On the very day of my coming home from Longbourn, your uncle had a most unexpected visitor. Mr. Darcy called, and was shut up with him several hours.”
+b=london-wide;f:b:london-wide=blur(3px)
 
 “It was all over before I arrived; so my curiosity was not so dreadfully racked as *yours* seems to have been.”
 e:mrsgardiner=smirking
@@ -12439,7 +12436,10 @@ e:mrsgardiner=serious
 “The motive professed was his conviction of its being owing to himself that Wickham’s worthlessness had not been so well known, as to make it impossible for any young woman of character to love or confide in him.”
 
 
-“He generously imputed the whole to his mistaken pride, and confessed that he had before thought it beneath him, to lay his private actions open to the world. His character was to speak for itself.”
+“He generously imputed the whole to his mistaken pride, and confessed that he had before thought it beneath him, to lay his private actions open to the world.”
+
+
+“His character was to speak for itself.”
 
 
 “He called it, therefore, his duty to step forward, and endeavour to remedy an evil which had been brought on by himself.”
@@ -12452,7 +12452,7 @@ e:mrsgardiner=smirking
 e:mrsgardiner=serious
 
 “There is a lady, it seems, a Mrs. Younge, who was some time ago governess to Miss Darcy, and was dismissed from her charge on some cause of disapprobation, though he did not say what.”
-
+b=london-real-wide;f:b:london-real-wide=blur(3px)
 
 “She then took a large house in Edward-street, and has since maintained herself by letting lodgings.”
 
@@ -12506,7 +12506,7 @@ e:mrsgardiner=serious
 
 
 “Everything being settled between *them*, Mr. Darcy’s next step was to make your uncle acquainted with it, and he first called in Gracechurch-street the evening before I came home.”
-
+b=london-wide
 
 “But Mr. Gardiner could not be seen, and Mr. Darcy found, on further enquiry, that your father was still with him, but would quit town the next morning.”
 
@@ -12541,11 +12541,8 @@ e:mrsgardiner=serious
 “But at last your uncle was forced to yield, and instead of being allowed to be of use to his niece, was forced to put up with only having the probable credit of it, which went sorely against the grain; and I really believe your letter this morning gave him great pleasure, because it required an explanation that would rob him of his borrowed feathers, and give the praise where it was due.”
 e:mrsgardiner=happy
 
-“But, Lizzy, this must go no farther than yourself, or Jane at most.”
+“But, Lizzy, this must go no farther than yourself, or Jane at most. You know pretty well, I suppose, what has been done for the young people.”
 e:mrsgardiner=serious
-
-“You know pretty well, I suppose, what has been done for the young people.”
-
 
 “His debts are to be paid, amounting, I believe, to considerably more than a thousand pounds, another thousand in addition to her own settled upon *her*, and his commission purchased.”
 
@@ -12565,11 +12562,17 @@ e:mrsgardiner=smirking
 “When all this was resolved on, he returned again to his friends, who were still staying at Pemberley; but it was agreed that he should be in London once more when the wedding took place, and all money matters were then to receive the last finish.”
 e:mrsgardiner=serious
 
-“I believe I have now told you everything. It is a relation which you tell me is to give you great surprise; I hope at least it will not afford you any displeasure.”
-e:mrsgardiner=happy
+“I believe I have now told you everything.”
+e:mrsgardiner=happy;b=bennet-small-wood
 
-“Lydia came to us; and Wickham had constant admission to the house. *He* was exactly what he had been, when I knew him in Hertfordshire; but I would not tell you how little I was satisfied with *her* behaviour while she stayed with us, if I had not perceived, by Jane’s letter last Wednesday, that her conduct on coming home was exactly of a piece with it, and therefore what I now tell you, can give you no fresh pain.”
+“It is a relation which you tell me is to give you great surprise; I hope at least it will not afford you any displeasure.”
+
+
+“Lydia came to us; and Wickham had constant admission to the house.”
 e:mrsgardiner=neutral;e:mrsgardiner=annoyed
+
+“*He* was exactly what he had been, when I knew him in Hertfordshire; but I would not tell you how little I was satisfied with *her* behaviour while she stayed with us, if I had not perceived, by Jane’s letter last Wednesday, that her conduct on coming home was exactly of a piece with it, and therefore what I now tell you, can give you no fresh pain.”
+
 
 “I talked to her repeatedly in the most serious manner, representing to her all the wickedness of what she had done, and all the unhappiness she had brought on her family.”
 e:mrsgardiner=serious
@@ -12580,11 +12583,8 @@ e:mrsgardiner=annoyed
 “I was sometimes quite provoked, but then I recollected my dear Elizabeth and Jane, and for their sakes had patience with her.”
 e:mrsgardiner=sadsmile
 
-“Mr. Darcy was punctual in his return, and as Lydia informed you, attended the wedding.”
+“Mr. Darcy was punctual in his return, and as Lydia informed you, attended the wedding. He dined with us the next day, and was to leave town again on Wednesday or Thursday.”
 e:mrsgardiner=neutral
-
-“He dined with us the next day, and was to leave town again on Wednesday or Thursday.”
-
 
 “Will you be very angry with me, my dear Lizzy, if I take this opportunity of saying (what I was never bold enough to say before) how much I like him.”
 e:mrsgardiner=happy
@@ -12616,32 +12616,44 @@ s=none;e:lizzy=confused;m=
 The vague and unsettled suspicions which uncertainty had produced of what Mr. Darcy might have been doing to forward her sister’s match, which she had feared to encourage, as an exertion of goodness too great to be probable, and at the same time dreaded to be just, from the pain of obligation, were proved beyond their greatest extent to be true!
 e:lizzy=surprised
 
-He had followed them purposely to town, he had taken on himself all the trouble and mortification attendant on such a research; in which supplication had been necessary to a woman whom he must abominate and despise, and where he was reduced to meet, frequently meet, reason with, persuade, and finally bribe, the man whom he always most wished to avoid, and whose very name it was punishment to him to pronounce.
-e:lizzy=thinking
+He had followed them purposely to town, he had taken on himself all the trouble and mortification attendant on such a research; in which supplication had been necessary to a woman whom he must abominate and despise,
+e:lizzy=thinking;m=allowbreak
 
-He had done all this for a girl whom he could neither regard nor esteem. Her heart did whisper, that he had done it for her.
+and where he was reduced to meet, frequently meet, reason with, persuade, and finally bribe, the man whom he always most wished to avoid, and whose very name it was punishment to him to pronounce.
+m=
+
+He had done all this for a girl whom he could neither regard nor esteem.
 e:lizzy=sadsmile
+
+Her heart did whisper, that he had done it for her.
+
 
 But it was a hope shortly checked by other considerations, and she soon felt that even her vanity was insufficient, when required to depend on his affection for her, for a woman who had already refused him, as able to overcome a sentiment so natural as abhorrence against relationship with Wickham.
 e:lizzy=unhappy
 
-Brother-in-law of Wickham! Every kind of pride must revolt from the connection. He had to be sure done much.
+Brother-in-law of Wickham! Every kind of pride must revolt from the connection.
 e:lizzy=upset
 
-She was ashamed to think how much. But he had given a reason for his interference, which asked no extraordinary stretch of belief.
+He had to be sure done much. She was ashamed to think how much. But he had given a reason for his interference, which asked no extraordinary stretch of belief.
 e:lizzy=thinking
 
 It was reasonable that he should feel he had been wrong; he had liberality, and he had the means of exercising it; and though she would not place herself as his principal inducement, she could, perhaps, believe, that remaining partiality for her, might assist his endeavours in a cause where her peace of mind must be materially concerned.
 e:lizzy=neutral;e:lizzy=contemplative
 
-It was painful, exceedingly painful, to know that they were under obligations to a person who could never receive a return. They owed the restoration of Lydia, her character, everything to him. Oh! how heartily did she grieve over every ungracious sensation she had ever encouraged, every saucy speech she had ever directed towards him.
+It was painful, exceedingly painful, to know that they were under obligations to a person who could never receive a return. They owed the restoration of Lydia, her character, everything to him.
+
+
+Oh! how heartily did she grieve over every ungracious sensation she had ever encouraged, every saucy speech she had ever directed towards him.
 e:lizzy=crying
 
 For herself she was humbled; but she was proud of him. Proud that in a cause of compassion and honour, he had been able to get the better of himself.
 e:lizzy=sadsmile
 
-She read over her aunt’s commendation of him again and again. It was hardly enough; but it pleased her.
+She read over her aunt’s commendation of him again and again.
 e:lizzy=happy
+
+It was hardly enough; but it pleased her.
+
 
 She was even sensible of some pleasure, though mixed with regret, on finding how steadfastly both she and her uncle had been persuaded that affection and confidence subsisted between Mr. Darcy and herself.
 e:lizzy=contemplative
@@ -12650,7 +12662,7 @@ She was roused from her seat, and her reflections, by someone’s approach; and 
 e:lizzy=surprised;e:wickham=neutral
 
 “I am afraid I interrupt your solitary ramble, my dear sister?” said he, as he joined her.
-s=wickham;e:wickham=smirking
+s=wickham;e:wickham=smirking;x:wickham=hat;x:lizzy=bonnet
 
 “You certainly do,” she replied with a smile; “but it does not follow that the interruption must be unwelcome.”
 s=lizzy;e:lizzy=sadsmile
@@ -12686,7 +12698,7 @@ s=wickham;e:wickham=nervous
 s=lizzy;e:lizzy=smirking
 
 “Certainly,” he replied, biting his lips.
-s=wickham;e:wickham=annoyed
+s=wickham;e:wickham=biting
 
 Elizabeth hoped she had silenced him; but he soon afterwards said﻿—
 s=none;e:lizzy=neutral
@@ -12727,8 +12739,14 @@ s=wickham
 “I do not recollect that we did.”
 s=lizzy
 
-“I mention it, because it is the living which I ought to have had. A most delightful place!﻿—Excellent Parsonage House! It would have suited me in every respect.”
+“I mention it, because it is the living which I ought to have had.”
 s=wickham;e:wickham=unhappy
+
+“A most delightful place!﻿—Excellent Parsonage House!”
+
+
+“It would have suited me in every respect.”
+
 
 “How should you have liked making sermons?”
 s=lizzy;e:lizzy=smirking
@@ -12751,11 +12769,14 @@ s=wickham;e:wickham=nervous
 “I *did* hear, too, that there was a time, when sermon-making was not so palatable to you as it seems to be at present; that you actually declared your resolution of never taking orders, and that the business had been compromised accordingly.”
 s=lizzy;e:lizzy=smirking
 
-“You did! and it was not wholly without foundation. You may remember what I told you on that point, when first we talked of it.”
+“You did! and it was not wholly without foundation.”
 s=wickham;e:wickham=nervous
 
+“You may remember what I told you on that point, when first we talked of it.”
+
+
 They were now almost at the door of the house, for she had walked fast to get rid of him; and unwilling for her sister’s sake, to provoke him, she only said in reply, with a good-humoured smile﻿—
-s=none;e:lizzy=annoyed
+s=none;e:lizzy=annoyed;b=bennet-wide
 
 “Come, Mr. Wickham, we are brother and sister, you know. Do not let us quarrel about the past. In future, I hope we shall be always of one mind.”
 s=lizzy;e:lizzy=sadsmile
