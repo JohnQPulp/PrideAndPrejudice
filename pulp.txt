@@ -9392,13 +9392,13 @@ A most welcome negative followed the last question﻿—and her alarms being now
 e:lizzy=curious
 
 To Pemberley, therefore, they were to go.
-b=pemberley-wide
+b=pemberley-woods-wide
 
 ## XLIII
 r=title
 
 Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.
-e:lizzy=nervous
+e:lizzy=nervous;b=pemberley-woods-wide
 
 The park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood, stretching over a wide extent.
 e:lizzy=neutral
@@ -9407,15 +9407,15 @@ Elizabeth’s mind was too full for conversation, but she saw and admired every 
 e:lizzy=contemplative
 
 They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of a valley, into which the road with some abruptness wound.
-e:lizzy=surprised
+e:lizzy=surprised;b=pemberley-wide
 
 It was a large, handsome, stone building, standing well on rising ground, and backed by a ridge of high woody hills;﻿—and in front, a stream of some natural importance was swelled into greater, but without any artificial appearance.
 e:lizzy=neutral
 
-Its banks were neither formal, nor falsely adorned. Elizabeth was delighted.
+Its banks were neither formal, nor falsely adorned.
 e:lizzy=excited
 
-She had never seen a place for which nature had done more, or where natural beauty had been so little counteracted by an awkward taste.
+Elizabeth was delighted. She had never seen a place for which nature had done more, or where natural beauty had been so little counteracted by an awkward taste.
 e:lizzy=happy
 
 They were all of them warm in their admiration; and at that moment she felt that to be mistress of Pemberley might be something!
@@ -9424,11 +9424,17 @@ e:lizzy=thinking
 They descended the hill, crossed the bridge, and drove to the door; and, while examining the nearer aspect of the house, all her apprehensions of meeting its owner returned.
 e:lizzy=nervous
 
-She dreaded lest the chambermaid had been mistaken. On applying to see the place, they were admitted into the hall; and Elizabeth, as they waited for the housekeeper, had leisure to wonder at her being where she was.
-e:lizzy=wary
+She dreaded lest the chambermaid had been mistaken.
 
-The housekeeper came; a respectable-looking, elderly woman, much less fine, and more civil, than she had any notion of finding her. They followed her into the dining-parlour.
+
+On applying to see the place, they were admitted into the hall; and Elizabeth, as they waited for the housekeeper, had leisure to wonder at her being where she was.
+e:lizzy=wary;b=pemberley-hall
+
+The housekeeper came; a respectable-looking, elderly woman, much less fine, and more civil, than she had any notion of finding her.
 n:mrsreynolds=Mrs. Reynolds;e:lizzy=surprised
+
+They followed her into the dining-parlour.
+b=pemberley-dining
 
 It was a large, well-proportioned room, handsomely fitted up. Elizabeth, after slightly surveying it, went to a window to enjoy its prospect.
 e:lizzy=neutral
@@ -9440,34 +9446,40 @@ Every disposition of the ground was good; and she looked on the whole scene, the
 e:lizzy=excited
 
 As they passed into other rooms, these objects were taking different positions; but from every window there were beauties to be seen.
-e:lizzy=happy
+e:lizzy=happy;b=pemberley-wide
 
 The rooms were lofty and handsome, and their furniture suitable to the fortune of their proprietor; but Elizabeth saw, with admiration of his taste, that it was neither gaudy nor uselessly fine; with less of splendor, and more real elegance, than the furniture of Rosings.
 e:lizzy=contemplative
 
 “And of this place,” thought she, “I might have been mistress! With these rooms I might now have been familiarly acquainted!”
-s=lizzy;e:lizzy=thinking
+t=lizzy;e:lizzy=thinking;x:lizzy=bonnet
 
 “Instead of viewing them as a stranger, I might have rejoiced in them as my own, and welcomed to them as visitors my uncle and aunt.”
-e:lizzy=happy
+
 
 “But no,”﻿—recollecting herself﻿—“that could never be: my uncle and aunt would have been lost to me: I should not have been allowed to invite them.”
-e:lizzy=sadsmile
+e:lizzy=serious
 
 This was a lucky recollection﻿—it saved her from something like regret.
-s=none;e:lizzy=neutral
+s=none;e:lizzy=neutral;t=
 
 She longed to enquire of the housekeeper, whether her master were really absent, but had not courage for it.
 e:lizzy=wary
 
-At length, however, the question was asked by her uncle; and she turned away with alarm, while Mrs. Reynolds replied, that he was, adding, “but we expect him tomorrow, with a large party of friends.”
+At length, however, the question was asked by her uncle; and she turned away with alarm, while Mrs. Reynolds replied, that he was, adding,
+
+
+“but we expect him tomorrow, with a large party of friends.”
 s=mrsreynolds;e:mrsreynolds=neutral;e:lizzy=fearful
 
 How rejoiced was Elizabeth that their own journey had not by any circumstance been delayed a day!
 s=none;e:lizzy=happy
 
-Her aunt now called her to look at a picture. She approached, and saw the likeness of Mr. Wickham suspended, amongst several other miniatures, over the mantelpiece.
-e:lizzy=neutral
+Her aunt now called her to look at a picture.
+e:lizzy=neutral;b=pemberley-picture
+
+She approached, and saw the likeness of Mr. Wickham suspended, amongst several other miniatures, over the mantelpiece.
+
 
 Her aunt asked her, smilingly, how she liked it.
 e:mrsgardiner=happy
@@ -9481,10 +9493,16 @@ s=mrsreynolds;e:mrsreynolds=unhappy
 Mrs. Gardiner looked at her niece with a smile, but Elizabeth could not return it.
 s=none;e:mrsgardiner=smirking;e:lizzy=serious
 
-“And that,” said Mrs. Reynolds, pointing to another of the miniatures, “is my master﻿—and very like him. It was drawn at the same time as the other﻿—about eight years ago.”
-s=mrsreynolds;e:mrsreynolds=happy
+“And that,” said Mrs. Reynolds, pointing to another of the miniatures, “is my master﻿—and very like him.”
+s=mrsreynolds;e:mrsreynolds=pointing
 
-“I have heard much of your master’s fine person,” said Mrs. Gardiner, looking at the picture; “it is a handsome face. But, Lizzy, you can tell us whether it is like or not.”
+“It was drawn at the same time as the other﻿—about eight years ago.”
+e:mrsreynolds=thinking
+
+“I have heard much of your master’s fine person,” said Mrs. Gardiner, looking at the picture; “it is a handsome face.”
+s=mrsgardiner;e:mrsgardiner=looking;x:mrsgardiner=bonnet
+
+“But, Lizzy, you can tell us whether it is like or not.”
 s=mrsgardiner;e:mrsgardiner=smirking
 
 Mrs. Reynolds’s respect for Elizabeth seemed to increase on this intimation of her knowing her master.
@@ -9493,8 +9511,11 @@ s=none;e:mrsreynolds=surprised
 “Does that young lady know Mr. Darcy?”
 s=mrsreynolds;e:mrsreynolds=curious
 
-Elizabeth coloured, and said﻿—“A little.”
-s=lizzy;e:lizzy=nervous
+Elizabeth coloured, and said﻿—
+m=allowbreak;m=nospace;s=
+
+“A little.”
+s=lizzy;e:lizzy=nervous;m=
 
 “And do not you think him a very handsome gentleman, Ma’am?”
 s=mrsreynolds;e:mrsreynolds=happy
@@ -9533,10 +9554,10 @@ s=mrgardiner;e:mrgardiner=curious
 s=mrsreynolds;e:mrsreynolds=neutral
 
 “Except,” thought Elizabeth, “when she goes to Ramsgate.”
-s=lizzy;e:lizzy=suspicious
+t=lizzy;e:lizzy=contemplative;s=
 
 “If your master would marry, you might see more of him.”
-s=mrgardiner;e:mrgardiner=smirking
+s=mrgardiner;e:mrgardiner=smirking;t=
 
 “Yes, Sir; but I do not know when *that* will be. I do not know who is good enough for him.”
 s=mrsreynolds;e:mrsreynolds=happy
@@ -9544,13 +9565,19 @@ s=mrsreynolds;e:mrsreynolds=happy
 Mr. and Mrs. Gardiner smiled.
 s=none;e:mrgardiner=happy;e:mrsgardiner=happy
 
-Elizabeth could not help saying, “It is very much to his credit, I am sure, that you should think so.”
+Elizabeth could not help saying,
+s=
+
+“It is very much to his credit, I am sure, that you should think so.”
 s=lizzy;e:lizzy=smirking
 
 “I say no more than the truth, and what everybody will say that knows him,” replied the other.
 s=mrsreynolds;e:mrsreynolds=serious
 
-Elizabeth thought this was going pretty far; and she listened with increasing astonishment as the housekeeper added, “I have never had a cross word from him in my life, and I have known him ever since he was four years old.”
+Elizabeth thought this was going pretty far; and she listened with increasing astonishment as the housekeeper added,
+s=
+
+“I have never had a cross word from him in my life, and I have known him ever since he was four years old.”
 s=mrsreynolds;e:lizzy=surprised
 
 This was praise, of all others most extraordinary, most opposite to her ideas. That he was not a good-tempered man, had been her firmest opinion.
@@ -9572,10 +9599,10 @@ Elizabeth almost stared at her.
 s=none;e:lizzy=surprised
 
 “Can this be Mr. Darcy!” thought she.
-s=lizzy;e:lizzy=confused
+t=lizzy;e:lizzy=surprised
 
 “His father was an excellent man,” said Mrs. Gardiner.
-s=mrsgardiner;e:mrsgardiner=neutral
+s=mrsgardiner;e:mrsgardiner=neutral;t=
 
 “Yes, Ma’am, that he was indeed; and his son will be just like him﻿—just as affable to the poor.”
 s=mrsreynolds;e:mrsreynolds=happy
@@ -9583,8 +9610,11 @@ s=mrsreynolds;e:mrsreynolds=happy
 Elizabeth listened, wondered, doubted, and was impatient for more.
 s=none;e:lizzy=curious
 
-Mrs. Reynolds could interest her on no other point. She related the subject of the pictures, the dimensions of the rooms, and the price of the furniture, in vain.
-e:lizzy=thinking
+Mrs. Reynolds could interest her on no other point.
+
+
+She related the subject of the pictures, the dimensions of the rooms, and the price of the furniture, in vain.
+e:lizzy=thinking;b=pemberley-staircase
 
 Mr. Gardiner, highly amused by the kind of family prejudice, to which he attributed her excessive commendation of her master, soon led again to the subject; and she dwelt with energy on his many merits, as they proceeded together up the great staircase.
 e:mrgardiner=smirking
@@ -9599,10 +9629,10 @@ e:mrsreynolds=happy
 e:mrsreynolds=neutral
 
 “In what an amiable light does this place him!” thought Elizabeth.
-s=lizzy;e:lizzy=contemplative
+t=lizzy;e:lizzy=confused;s=
 
 “This fine account of him,” whispered her aunt, as they walked, “is not quite consistent with his behaviour to our poor friend.”
-s=mrsgardiner;e:mrsgardiner=suspicious
+s=mrsgardiner;e:mrsgardiner=suspicious;t=
 
 “Perhaps we might be deceived.”
 s=lizzy;e:lizzy=thinking
@@ -9611,7 +9641,7 @@ s=lizzy;e:lizzy=thinking
 s=mrsgardiner;e:mrsgardiner=serious
 
 On reaching the spacious lobby above, they were shown into a very pretty sitting-room, lately fitted up with greater elegance and lightness than the apartments below; and were informed that it was but just done, to give pleasure to Miss Darcy, who had taken a liking to the room, when last at Pemberley.
-s=none;e:lizzy=neutral
+s=none;e:lizzy=neutral;b=pemberley-sitting
 
 “He is certainly a good brother,” said Elizabeth, as she walked towards one of the windows.
 s=lizzy;e:lizzy=sadsmile
@@ -9619,23 +9649,26 @@ s=lizzy;e:lizzy=sadsmile
 Mrs. Reynolds anticipated Miss Darcy’s delight, when she should enter the room.
 s=none;e:mrsreynolds=happy
 
-“And this is always the way with him,” she added. “Whatever can give his sister any pleasure, is sure to be done in a moment.”
+“And this is always the way with him,” she added.
 s=mrsreynolds;e:mrsreynolds=excited
 
-“There is nothing he would not do for her.”
+“Whatever can give his sister any pleasure, is sure to be done in a moment. There is nothing he would not do for her.”
 e:mrsreynolds=happy
 
 The picture gallery, and two or three of the principal bedrooms, were all that remained to be shown.
 s=none;e:lizzy=neutral
 
 In the former were many good paintings; but Elizabeth knew nothing of the art; and from such as had been already visible below, she had willingly turned to look at some drawings of Miss Darcy’s, in crayons, whose subjects were usually more interesting, and also more intelligible.
-e:lizzy=contemplative
+e:lizzy=contemplative;b=pemberley-gallery
 
 In the gallery there were many family portraits, but they could have little to fix the attention of a stranger.
 e:lizzy=neutral
 
-Elizabeth walked on in quest of the only face whose features would be known to her. At last it arrested her﻿—and she beheld a striking resemblance of Mr. Darcy, with such a smile over the face, as she remembered to have sometimes seen, when he looked at her.
+Elizabeth walked on in quest of the only face whose features would be known to her.
 e:lizzy=surprised
+
+At last it arrested her﻿—and she beheld a striking resemblance of Mr. Darcy, with such a smile over the face, as she remembered to have sometimes seen, when he looked at her.
+
 
 She stood several minutes before the picture in earnest contemplation, and returned to it again before they quitted the gallery.
 e:lizzy=contemplative
@@ -9646,7 +9679,10 @@ e:mrsreynolds=neutral
 There was certainly at this moment, in Elizabeth’s mind, a more gentle sensation towards the original, than she had ever felt in the height of their acquaintance.
 e:lizzy=sadsmile
 
-The commendation bestowed on him by Mrs. Reynolds was of no trifling nature. What praise is more valuable than the praise of an intelligent servant?
+The commendation bestowed on him by Mrs. Reynolds was of no trifling nature.
+
+
+What praise is more valuable than the praise of an intelligent servant?<e>A non-servant?</e>
 e:lizzy=thinking
 
 As a brother, a landlord, a master, she considered how many people’s happiness were in his guardianship!﻿—How much of pleasure or pain it was in his power to bestow!﻿—How much of good or evil must be done by him!
@@ -9656,7 +9692,7 @@ Every idea that had been brought forward by the housekeeper was favourable to hi
 e:lizzy=happy
 
 When all of the house that was open to general inspection had been seen, they returned downstairs, and taking leave of the housekeeper, were consigned over to the gardener, who met them at the hall door.
-e:lizzy=neutral
+e:lizzy=neutral;b=pemberley-wide
 
 As they walked across the lawn towards the river, Elizabeth turned back to look again; her uncle and aunt stopped also, and while the former was conjecturing as to the date of the building, the owner of it himself suddenly came forward from the road, which led behind it to the stables.
 e:lizzy=surprised
@@ -9691,14 +9727,20 @@ e:darcy=serious
 The others then joined her, and expressed their admiration of his figure; but Elizabeth heard not a word, and, wholly engrossed by her own feelings, followed them in silence.
 e:lizzy=confused
 
-She was overpowered by shame and vexation. Her coming there was the most unfortunate, the most ill-judged thing in the world!
+She was overpowered by shame and vexation.
 e:lizzy=upset
+
+Her coming there was the most unfortunate, the most ill-judged thing in the world!
+
 
 How strange must it appear to him! In what a disgraceful light might it not strike so vain a man! It might seem as if she had purposely thrown herself in his way again!
 e:lizzy=fearful
 
-Oh! why did she come? or, why did he thus come a day before he was expected? Had they been only ten minutes sooner, they should have been beyond the reach of his discrimination, for it was plain that he was that moment arrived, that moment alighted from his horse or his carriage.
+Oh! why did she come? or, why did he thus come a day before he was expected?
 e:lizzy=nervous
+
+Had they been only ten minutes sooner, they should have been beyond the reach of his discrimination, for it was plain that he was that moment arrived, that moment alighted from his horse or his carriage.
+
 
 She blushed again and again over the perverseness of the meeting. And his behaviour, so strikingly altered﻿—what could it mean?
 e:lizzy=surprised
@@ -9709,11 +9751,14 @@ e:lizzy=surprised
 Never in her life had she seen his manners so little dignified, never had he spoken with such gentleness as on this unexpected meeting.
 e:lizzy=thinking
 
-What a contrast did it offer to his last address in Rosing’s Park, when he put his letter into her hand! She knew not what to think, nor how to account for it.
+What a contrast did it offer to his last address in Rosings Park, when he put his letter into her hand! She knew not what to think, nor how to account for it.
 e:lizzy=confused
 
-They had now entered a beautiful walk by the side of the water, and every step was bringing forward a nobler fall of ground, or a finer reach of the woods to which they were approaching; but it was some time before Elizabeth was sensible of any of it; and, though she answered mechanically to the repeated appeals of her uncle and aunt, and seemed to direct her eyes to such objects as they pointed out, she distinguished no part of the scene.
-e:lizzy=thinking
+They had now entered a beautiful walk by the side of the water, and every step was bringing forward a nobler fall of ground, or a finer reach of the woods to which they were approaching; but it was some time before Elizabeth was sensible of any of it;
+e:lizzy=thinking;b=pemberley-water
+
+and, though she answered mechanically to the repeated appeals of her uncle and aunt, and seemed to direct her eyes to such objects as they pointed out, she distinguished no part of the scene.
+
 
 Her thoughts were all fixed on that one spot of Pemberley House, whichever it might be, where Mr. Darcy then was.
 e:lizzy=contemplative
@@ -9721,14 +9766,17 @@ e:lizzy=contemplative
 She longed to know what at that moment was passing in his mind; in what manner he thought of her, and whether, in defiance of everything, she was still dear to him.
 e:lizzy=curious
 
-Perhaps he had been civil, only because he felt himself at ease; yet there had been *that* in his voice, which was not like ease. Whether he had felt more of pain or of pleasure in seeing her, she could not tell, but he certainly had not seen her with composure.
+Perhaps he had been civil, only because he felt himself at ease; yet there had been *that* in his voice, which was not like ease.
 e:lizzy=thinking
+
+Whether he had felt more of pain or of pleasure in seeing her, she could not tell, but he certainly had not seen her with composure.
+
 
 At length, however, the remarks of her companions on her absence of mind roused her, and she felt the necessity of appearing more like herself.
 e:lizzy=serious
 
 They entered the woods, and bidding adieu to the river for a while, ascended some of the higher grounds; whence, in spots where the opening of the trees gave the eye power to wander, were many charming views of the valley, the opposite hills, with the long range of woods overspreading many, and occasionally part of the stream.
-e:lizzy=neutral
+e:lizzy=neutral;b=pemberley-woods-wide
 
 Mr. Gardiner expressed a wish of going round the whole Park, but feared it might be beyond a walk. With a triumphant smile, they were told that it was ten miles round.
 e:mrgardiner=happy
@@ -9742,8 +9790,11 @@ e:lizzy=contemplative
 Elizabeth longed to explore its windings; but when they had crossed the bridge, and perceived their distance from the house, Mrs. Gardiner, who was not a great walker, could go no farther, and thought only of returning to the carriage as quickly as possible.
 e:mrsgardiner=weary
 
-Her niece was, therefore, obliged to submit, and they took their way towards the house on the opposite side of the river, in the nearest direction; but their progress was slow, for Mr. Gardiner, though seldom able to indulge the taste, was very fond of fishing, and was so much engaged in watching the occasional appearance of some trout in the water, and talking to the man about them, that he advanced but little.
-e:lizzy=neutral;e:mrgardiner=excited
+Her niece was, therefore, obliged to submit, and they took their way towards the house on the opposite side of the river, in the nearest direction;
+e:lizzy=neutral;e:mrgardiner=excited;b=pemberley-water
+
+but their progress was slow, for Mr. Gardiner, though seldom able to indulge the taste, was very fond of fishing, and was so much engaged in watching the occasional appearance of some trout in the water, and talking to the man about them, that he advanced but little.
+
 
 Whilst wandering on in this slow manner, they were again surprised, and Elizabeth’s astonishment was quite equal to what it had been at first, by the sight of Mr. Darcy approaching them, and at no great distance.
 e:lizzy=surprised;e:mrgardiner=surprised
@@ -9751,8 +9802,11 @@ e:lizzy=surprised;e:mrgardiner=surprised
 The walk being here less sheltered than on the other side, allowed them to see him before they met. Elizabeth, however astonished, was at least more prepared for an interview than before, and resolved to appear and to speak with calmness, if he really intended to meet them.
 e:lizzy=serious
 
-For a few moments, indeed, she felt that he would probably strike into some other path. This idea lasted while a turning in the walk concealed him from their view; the turning past, he was immediately before them.
+For a few moments, indeed, she felt that he would probably strike into some other path.
 e:lizzy=wary
+
+This idea lasted while a turning in the walk concealed him from their view; the turning past, he was immediately before them.
+
 
 With a glance she saw, that he had lost none of his recent civility; and, to imitate his politeness, she began, as they met, to admire the beauty of the place; but she had not got beyond the words “delightful,” and “charming,” when some unlucky recollections obtruded, and she fancied that praise of Pemberley from her might be mischievously construed.
 e:lizzy=nervous
@@ -9766,17 +9820,23 @@ e:darcy=neutral
 This was a stroke of civility for which she was quite unprepared; and she could hardly suppress a smile, at his being now seeking the acquaintance of some of those very people, against whom his pride had revolted, in his offer to herself.
 e:lizzy=smirking
 
-“What will be his surprise,” thought she, “when he knows who they are! He takes them now for people of fashion.”
-s=lizzy;e:lizzy=smirking
+“What will be his surprise,” thought she, “when he knows who they are!”
+t=lizzy;e:lizzy=thinking
+
+“He takes them now for people of fashion.”
+e:lizzy=smirking
 
 The introduction, however, was immediately made; and as she named their relationship to herself, she stole a sly look at him, to see how he bore it; and was not without the expectation of his decamping as fast as he could from such disgraceful companions.
-s=none;e:lizzy=suspicious
+s=none;e:lizzy=suspicious;t=
 
 That he was *surprised* by the connection was evident; he sustained it however with fortitude, and so far from going away, turned back with them, and entered into conversation with Mr. Gardiner.
 e:darcy=surprised
 
-Elizabeth could not but be pleased, could not but triumph. It was consoling, that he should know she had some relations for whom there was no need to blush.
+Elizabeth could not but be pleased, could not but triumph.
 e:lizzy=happy
+
+It was consoling, that he should know she had some relations for whom there was no need to blush.
+
 
 She listened most attentively to all that passed between them, and gloried in every expression, every sentence of her uncle, which marked his intelligence, his taste, or his good manners.
 e:lizzy=excited
@@ -9790,7 +9850,10 @@ e:mrsgardiner=surprised
 Elizabeth said nothing, but it gratified her exceedingly; the compliment must be all for herself.
 e:lizzy=happy
 
-Her astonishment, however, was extreme; and continually was she repeating, “Why is he so altered? From what can it proceed? It cannot be for *me*, it cannot be for *my* sake that his manners are thus softened.”
+Her astonishment, however, was extreme; and continually was she repeating,
+
+
+“Why is he so altered? From what can it proceed? It cannot be for *me*, it cannot be for *my* sake that his manners are thus softened.”
 s=lizzy;e:lizzy=confused
 
 “My reproofs at Hunsford could not work such a change as this. It is impossible that he should still love me.”
@@ -9805,14 +9868,17 @@ e:mrsgardiner=weary
 Mr. Darcy took her place by her niece, and they walked on together. After a short silence, the lady first spoke.
 e:darcy=neutral
 
-She wished him to know that she had been assured of his absence before she came to the place, and accordingly began by observing that his arrival had been very unexpected﻿—“for your housekeeper,” she added, “informed us that you would certainly not be here till tomorrow; and indeed, before we left Bakewell, we understood that you were not immediately expected in the country.”
-s=lizzy;e:lizzy=nervous
+She wished him to know that she had been assured of his absence before she came to the place, and accordingly began by observing that his arrival had been very unexpected﻿—
+m=allowbreak;m=nospace
+
+“for your housekeeper,” she added, “informed us that you would certainly not be here till tomorrow; and indeed, before we left Bakewell, we understood that you were not immediately expected in the country.”
+s=lizzy;e:lizzy=nervous;m=
 
 He acknowledged the truth of it all; and said that business with his steward had occasioned his coming forward a few hours before the rest of the party with whom he had been travelling.
 s=none;e:darcy=serious
 
 “They will join me early tomorrow,” he continued, “and among them are some who will claim an acquaintance with you﻿—Mr. Bingley and his sisters.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;x:darcy=hat
 
 Elizabeth answered only by a slight bow.
 s=none;e:lizzy=nervous
@@ -9830,7 +9896,7 @@ She immediately felt that whatever desire Miss Darcy might have of being acquain
 e:lizzy=happy
 
 They now walked on in silence; each of them deep in thought.
-e:lizzy=thinking;e:darcy=thinking
+e:lizzy=thinking;e:darcy=thinking;b=pemberley-wide
 
 Elizabeth was not comfortable; that was impossible; but she was flattered and pleased. His wish of introducing his sister to her, was a compliment of the highest kind.
 e:lizzy=happy
@@ -9857,7 +9923,7 @@ Mr. Darcy handed the ladies into the carriage, and when it drove off, Elizabeth
 e:darcy=neutral
 
 The observations of her uncle and aunt now began; and each of them pronounced him to be infinitely superior to anything they had expected.
-e:mrgardiner=surprised;e:mrsgardiner=surprised
+e:mrgardiner=surprised;e:mrsgardiner=surprised;b=pemberley-woods-wide
 
 “He is perfectly well behaved, polite, and unassuming,” said her uncle.
 s=mrgardiner;e:mrgardiner=happy
@@ -9871,14 +9937,20 @@ e:mrsgardiner=happy
 “I was never more surprised than by his behaviour to us. It was more than civil; it was really attentive; and there was no necessity for such attention. His acquaintance with Elizabeth was very trifling.”
 s=mrgardiner;e:mrgardiner=surprised
 
-“To be sure, Lizzy,” said her aunt, “he is not so handsome as Wickham; or rather he has not Wickham’s countenance, for his features are perfectly good. But how came you to tell us that he was so disagreeable?”
+“To be sure, Lizzy,” said her aunt, “he is not so handsome as Wickham; or rather he has not Wickham’s countenance, for his features are perfectly good.”
 s=mrsgardiner;e:mrsgardiner=curious
+
+“But how came you to tell us that he was so disagreeable?”
+
 
 Elizabeth excused herself as well as she could; said that she had liked him better when they met in Kent than before, and that she had never seen him so pleasant as this morning.
 s=none;e:lizzy=nervous
 
-“But perhaps he may be a little whimsical in his civilities,” replied her uncle. “Your great men often are; and therefore I shall not take him at his word about fishing, as he might change his mind another day, and warn me off his grounds.”
+“But perhaps he may be a little whimsical in his civilities,” replied her uncle.
 s=mrgardiner;e:mrgardiner=smirking
+
+“Your great men often are; and therefore I shall not take him at his word about fishing, as he might change his mind another day, and warn me off his grounds.”
+
 
 Elizabeth felt that they had entirely mistaken his character, but said nothing.
 s=none;e:lizzy=thinking
@@ -9886,10 +9958,10 @@ s=none;e:lizzy=thinking
 “From what we have seen of him,” continued Mrs. Gardiner, “I really should not have thought that he could have behaved in so cruel a way by anybody, as he has done by poor Wickham.”
 s=mrsgardiner;e:mrsgardiner=serious
 
-“He has not an ill-natured look. On the contrary, there is something pleasing about his mouth when he speaks.”
+“He has not an ill-natured look.”
 e:mrsgardiner=happy
 
-“And there is something of dignity in his countenance, that would not give one an unfavourable idea of his heart.”
+“On the contrary, there is something pleasing about his mouth when he speaks. And there is something of dignity in his countenance, that would not give one an unfavourable idea of his heart.”
 e:mrsgardiner=thinking
 
 “But to be sure, the good lady who showed us the house, did give him a most flaming character! I could hardly help laughing aloud sometimes.”
@@ -9908,7 +9980,7 @@ Mrs. Gardiner was surprised and concerned; but as they were now approaching the
 e:mrsgardiner=excited
 
 Fatigued as she had been by the morning’s walk, they had no sooner dined than she set off again in quest of her former acquaintance, and the evening was spent in the satisfactions of an intercourse renewed after many years discontinuance.
-e:mrsgardiner=happy
+e:mrsgardiner=happy;b=light
 
 The occurrences of the day were too full of interest to leave Elizabeth much attention for any of these new friends; and she could do nothing but think, and think with wonder, of Mr. Darcy’s civility, and above all, of his wishing her to be acquainted with his sister.
 e:lizzy=contemplative
