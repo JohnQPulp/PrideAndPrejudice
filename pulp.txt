@@ -13202,13 +13202,13 @@ e:mrsbennet=thinking;e:mrsbennet=smirking
 r=title
 
 As soon as they were gone, Elizabeth walked out to recover her spirits; or in other words, to dwell without interruption on those subjects that must deaden them more.
-e:lizzy=unhappy
+e:lizzy=unhappy;b=bennet-gardens
 
 Mr. Darcy’s behaviour astonished and vexed her.
 e:lizzy=annoyed
 
 “Why, if he came only to be silent, grave, and indifferent,” said she, “did he come at all?”
-s=lizzy;e:lizzy=annoyed
+s=lizzy;e:lizzy=annoyed;x:lizzy=bonnet
 
 She could settle it in no way that gave her pleasure.
 s=none;e:lizzy=unhappy
@@ -13216,32 +13216,32 @@ s=none;e:lizzy=unhappy
 “He could be still amiable, still pleasing, to my uncle and aunt, when he was in town; and why not to me?”
 s=lizzy;e:lizzy=thinking
 
-“If he fears me, why come hither?”
-
-
-“If he no longer cares for me, why silent?”
+“If he fears me, why come hither? If he no longer cares for me, why silent?”
 e:lizzy=upset
 
-“Teasing, teasing, man! I will think no more about him.”
+“Teasing, teasing, man!”
+
+
+“I will think no more about him.”
 e:lizzy=angry
 
 Her resolution was for a short time involuntarily kept by the approach of her sister, who joined her with a cheerful look, which showed her better satisfied with their visitors than Elizabeth.
 s=none;e:jane=happy
 
 “Now,” said she, “that this first meeting is over, I feel perfectly easy.”
-s=jane
+s=jane;x:jane=bonnet
 
-“I know my own strength, and I shall never be embarrassed again by his coming.”
-
-
-“I am glad he dines here on Tuesday.”
+“I know my own strength, and I shall never be embarrassed again by his coming. I am glad he dines here on Tuesday.”
 
 
 “It will then be publicly seen, that on both sides, we meet only as common and indifferent acquaintance.”
 e:jane=neutral
 
-“Yes, very indifferent indeed,” said Elizabeth, laughingly. “Oh, Jane, take care.”
+“Yes, very indifferent indeed,” said Elizabeth, laughingly.
 s=lizzy;e:lizzy=smirking
+
+“Oh, Jane, take care.”
+
 
 “My dear Lizzy, you cannot think me so weak, as to be in danger now.”
 s=jane;e:jane=serious
@@ -13253,22 +13253,19 @@ s=lizzy;e:lizzy=smirking
 s=none
 
 They did not see the gentlemen again till Tuesday; and Mrs. Bennet, in the meanwhile, was giving way to all the happy schemes, which the good humour, and common politeness of Bingley, in half an hour’s visit, had revived.
-e:mrsbennet=excited
+e:mrsbennet=excited;b=bennet-wide
 
 On Tuesday there was a large party assembled at Longbourn; and the two who were most anxiously expected, to the credit of their punctuality as sportsmen, were in very good time.
 
 
 When they repaired to the dining-room, Elizabeth eagerly watched to see whether Bingley would take the place, which, in all their former parties, had belonged to him, by her sister.
-e:lizzy=curious
+e:lizzy=curious;b=bennet-dining
 
 Her prudent mother, occupied by the same ideas, forbore to invite him to sit by herself.
 e:mrsbennet=smirking
 
-On entering the room, he seemed to hesitate; but Jane happened to look round, and happened to smile: it was decided.
+On entering the room, he seemed to hesitate; but Jane happened to look round, and happened to smile: it was decided. He placed himself by her.
 e:bingley=nervous;e:jane=happy
-
-He placed himself by her.
-
 
 Elizabeth, with a triumphant sensation, looked towards his friend.
 e:lizzy=happy
@@ -13282,16 +13279,10 @@ e:lizzy=contemplative
 Though she dared not depend upon the consequence, she yet received pleasure from observing his behaviour.
 e:lizzy=happy
 
-It gave her all the animation that her spirits could boast; for she was in no cheerful humour.
+It gave her all the animation that her spirits could boast; for she was in no cheerful humour. Mr. Darcy was almost as far from her, as the table could divide them.
 e:lizzy=unhappy
 
-Mr. Darcy was almost as far from her, as the table could divide them.
-
-
-He was on one side of her mother.
-
-
-She knew how little such a situation would give pleasure to either, or make either appear to advantage.
+He was on one side of her mother. She knew how little such a situation would give pleasure to either, or make either appear to advantage.
 
 
 She was not near enough to hear any of their discourse, but she could see how seldom they spoke to each other, and how formal and cold was their manner, whenever they did.
@@ -13304,7 +13295,7 @@ She was in hopes that the evening would afford some opportunity of bringing them
 e:lizzy=thinking
 
 Anxious and uneasy, the period which passed in the drawing-room, before the gentlemen came, was wearisome and dull to a degree, that almost made her uncivil.
-e:lizzy=annoyed
+e:lizzy=annoyed;b=bennet-drawing;x:lizzy=;x:jane=
 
 She looked forward to their entrance, as the point on which all her chance of pleasure for the evening must depend.
 
@@ -13318,20 +13309,17 @@ s=none;e:lizzy=annoyed
 And on the gentlemen’s approaching, one of the girls moved closer to her than ever, and said, in a whisper—
 
 
-“The men shan’t come and part us, I am determined. We want none of them; do we?”
-
+“The men shan’t come and part us, I am determined. We want none of them; do we?”<e>Unattributed dialogue. But since it grates, assume Mary.</e>
+m=dialogue
 
 Darcy had walked away to another part of the room.
-
+m=
 
 She followed him with her eyes, envied everyone to whom he spoke, had scarcely patience enough to help anybody to coffee; and then was enraged against herself for being so silly!
 e:lizzy=angry
 
-“A man who has once been refused!”
-s=lizzy
-
-“How could I ever be foolish enough to expect a renewal of his love?”
-
+“A man who has once been refused! How could I ever be foolish enough to expect a renewal of his love?”
+t=lizzy
 
 “Is there one among the sex, who would not protest against such a weakness as a second proposal to the same woman?”
 
@@ -13340,7 +13328,7 @@ s=lizzy
 e:lizzy=upset
 
 She was a little revived, however, by his bringing back his coffee cup himself; and she seized the opportunity of saying,
-s=none;e:lizzy=surprised
+s=none;e:lizzy=surprised;t=
 
 “Is your sister at Pemberley still?”
 s=lizzy;e:lizzy=curious
@@ -13375,13 +13363,7 @@ e:mrsbennet=annoyed
 “Well girls,” said she, as soon as they were left to themselves, “What say you to the day?”
 s=mrsbennet;e:mrsbennet=excited
 
-“I think everything has passed off uncommonly well, I assure you.”
-
-
-“The dinner was as well dressed as any I ever saw.”
-
-
-“The venison was roasted to a turn—and everybody said they never saw so fat a haunch.”
+“I think everything has passed off uncommonly well, I assure you. The dinner was as well dressed as any I ever saw. The venison was roasted to a turn—and everybody said they never saw so fat a haunch.”
 
 
 “The soup was fifty times better than what we had at the Lucas’s last week; and even Mr. Darcy acknowledged, that the partridges were remarkably well done; and I suppose he has two or three French cooks at least.”
@@ -13390,10 +13372,7 @@ s=mrsbennet;e:mrsbennet=excited
 “And, my dear Jane, I never saw you look in greater beauty.”
 e:mrsbennet=happy
 
-“Mrs. Long said so too, for I asked her whether you did not.”
-
-
-“And what do you think she said besides?”
+“Mrs. Long said so too, for I asked her whether you did not. And what do you think she said besides?”
 
 
 “‘Ah! Mrs. Bennet, we shall have her at Netherfield at last.’”
@@ -13411,23 +13390,14 @@ s=none;e:mrsbennet=happy
 “It has been a very agreeable day,” said Miss Bennet to Elizabeth.
 s=jane;e:jane=happy
 
-“The party seemed so well selected, so suitable one with the other.”
-
-
-“I hope we may often meet again.”
+“The party seemed so well selected, so suitable one with the other. I hope we may often meet again.”
 
 
 Elizabeth smiled.
 s=none;e:lizzy=smirking
 
-“Lizzy, you must not do so.”
+“Lizzy, you must not do so. You must not suspect me. It mortifies me.”
 s=jane;e:jane=upset
-
-“You must not suspect me.”
-
-
-“It mortifies me.”
-
 
 “I assure you that I have now learnt to enjoy his conversation as an agreeable and sensible young man, without having a wish beyond it.”
 e:jane=serious
@@ -13450,11 +13420,8 @@ s=lizzy;e:lizzy=smirking
 “But why should you wish to persuade me that I feel more than I acknowledge?”
 s=jane;e:jane=serious
 
-“That is a question which I hardly know how to answer.”
+“That is a question which I hardly know how to answer. We all love to instruct, though we can teach only what is not worth knowing.”
 s=lizzy;e:lizzy=contemplative
-
-“We all love to instruct, though we can teach only what is not worth knowing.”
-e:lizzy=sadsmile
 
 “Forgive me; and if you persist in indifference, do not make *me* your confidante.”
 e:lizzy=smirking
