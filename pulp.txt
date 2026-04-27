@@ -11810,7 +11810,7 @@ She was disturbed by no fear for her felicity, nor humbled by any remembrance of
 
 
 “My dear, dear Lydia!” she cried: “This is delightful indeed!﻿—She will be married!﻿—I shall see her again!﻿—She will be married at sixteen!—My good, kind brother!﻿—I knew how it would be﻿—I knew he would manage everything.”
-s=mrsbennet;e:mrsbennet=excited;x:mrsbennet-undressed
+s=mrsbennet;e:mrsbennet=excited;x:mrsbennet=undressed
 
 “How I long to see her! and to see dear Wickham too!”
 
@@ -11890,8 +11890,11 @@ She felt it so; and though, in looking forward, neither rational happiness nor w
 ## L
 r=title
 
-Mr. Bennet had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife, if she survived him. He now wished it more than ever.
-e:mrbennet=unhappy
+Mr. Bennet had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife, if she survived him.
+e:mrbennet=unhappy;b=bennet-library
+
+He now wished it more than ever.
+
 
 Had he done his duty in that respect, Lydia need not have been indebted to her uncle, for whatever of honour or credit could now be purchased for her.
 e:mrbennet=contemplative
@@ -11908,8 +11911,11 @@ e:mrbennet=thinking
 Five daughters successively entered the world, but yet the son was to come; and Mrs. Bennet, for many years after Lydia’s birth, had been certain that he would.
 e:mrsbennet=thinking
 
-This event had at last been despaired of, but it was then too late to be saving. Mrs. Bennet had no turn for economy, and her husband’s love of independence had alone prevented their exceeding their income.
+This event had at last been despaired of, but it was then too late to be saving.
 e:mrbennet=contemplative;e:mrsbennet=neutral
+
+Mrs. Bennet had no turn for economy, and her husband’s love of independence had alone prevented their exceeding their income.
+
 
 Five thousand pounds was settled by marriage articles on Mrs. Bennet and the children. But in what proportions it should be divided amongst the latter, depended on the will of the parents.
 
@@ -11933,7 +11939,7 @@ When the first transports of rage which had produced his activity in seeking her
 e:mrbennet=weary
 
 His letter was soon dispatched; for though dilatory in undertaking business, he was quick in its execution.
-e:mrbennet=neutral
+e:mrbennet=neutral;b=bennet-wide
 
 He begged to know farther particulars of what he was indebted to his brother; but was too angry with Lydia to send any message to her.
 e:mrbennet=angry
@@ -11948,10 +11954,13 @@ But there was much to be talked of, in marrying her; and the good-natured wishes
 e:lydia=neutral
 
 It was a fortnight since Mrs. Bennet had been downstairs, but on this happy day, she again took her seat at the head of her table, and in spirits oppressively high.
-e:mrsbennet=excited
+e:mrsbennet=excited;b=bennet-parlor
 
-No sentiment of shame gave a damp to her triumph. The marriage of a daughter, which had been the first object of her wishes since Jane was sixteen, was now on the point of accomplishment, and her thoughts and her words ran wholly on those attendants of elegant nuptials, fine muslins, new carriages, and servants.
+No sentiment of shame gave a damp to her triumph.
 e:mrsbennet=happy
+
+The marriage of a daughter, which had been the first object of her wishes since Jane was sixteen, was now on the point of accomplishment, and her thoughts and her words ran wholly on those attendants of elegant nuptials, fine muslins, new carriages, and servants.
+
 
 She was busily searching through the neighbourhood for a proper situation for her daughter, and, without knowing or considering what their income might be, rejected many as deficient in size and importance.
 e:mrsbennet=thinking
@@ -11962,10 +11971,10 @@ s=mrsbennet;e:mrsbennet=thinking
 “I could not bear to have her ten miles from me; and as for Purvis Lodge, the attics are dreadful.”
 e:mrsbennet=annoyed
 
-Her husband allowed her to talk on without interruption, while the servants remained.
+Her husband allowed her to talk on without interruption, while the servants remained. But when they had withdrawn, he said to her,
 s=none;e:mrbennet=neutral
 
-But when they had withdrawn, he said to her, “Mrs. Bennet, before you take any, or all of these houses, for your son and daughter, let us come to a right understanding.”
+“Mrs. Bennet, before you take any, or all of these houses, for your son and daughter, let us come to a right understanding.”
 s=mrbennet;e:mrbennet=serious
 
 “Into *one* house in this neighbourhood, they shall never have admittance. I will not encourage the impudence of either, by receiving them at Longbourn.”
@@ -11974,7 +11983,10 @@ e:mrbennet=angry
 A long dispute followed this declaration; but Mr. Bennet was firm: it soon led to another; and Mrs. Bennet found, with amazement and horror, that her husband would not advance a guinea to buy clothes for his daughter.
 s=none;e:mrsbennet=surprised;e:mrbennet=angry
 
-He protested that she should receive from him no mark of affection whatever, on the occasion. Mrs. Bennet could hardly comprehend it.
+He protested that she should receive from him no mark of affection whatever, on the occasion.
+
+
+Mrs. Bennet could hardly comprehend it.
 e:mrsbennet=confused
 
 That his anger could be carried to such a point of inconceivable resentment, as to refuse his daughter a privilege, without which her marriage would scarcely seem valid, exceeded all that she could believe possible.
@@ -11995,7 +12007,10 @@ e:lizzy=contemplative
 Had Lydia’s marriage been concluded on the most honourable terms, it was not to be supposed that Mr. Darcy would connect himself with a family, where to every other objection would now be added, an alliance and relationship of the nearest kind with the man whom he so justly scorned.
 e:lizzy=weary
 
-From such a connection she could not wonder that he should shrink. The wish of procuring her regard, which she had assured herself of his feeling in Derbyshire, could not in rational expectation survive such a blow as this.
+From such a connection she could not wonder that he should shrink.
+
+
+The wish of procuring her regard, which she had assured herself of his feeling in Derbyshire, could not in rational expectation survive such a blow as this.
 e:lizzy=unhappy
 
 She was humbled, she was grieved; she repented, though she hardly knew of what.
@@ -12013,7 +12028,10 @@ e:lizzy=thinking
 He was as generous, she doubted not, as the most generous of his sex. But while he was mortal, there must be a triumph.
 e:lizzy=contemplative
 
-She began now to comprehend that he was exactly the man, who, in disposition and talents, would most suit her. His understanding and temper, though unlike her own, would have answered all her wishes.
+She began now to comprehend that he was exactly the man, who, in disposition and talents, would most suit her.
+
+
+His understanding and temper, though unlike her own, would have answered all her wishes.
 e:lizzy=sadsmile
 
 It was an union that must have been to the advantage of both; by her ease and liveliness, his mind might have been softened, his manners improved, and from his judgment, information, and knowledge of the world, she must have received benefit of greater importance.
@@ -12022,7 +12040,7 @@ e:lizzy=thinking
 But no such happy marriage could now teach the admiring multitude what connubial felicity really was.
 e:lizzy=weary
 
-An union of a different tendency, and precluding the possibility of the other, was soon to be formed in their family.
+An union of a different tendency, and precluding the possibility of the other, was soon to be formed in their family.<e>Stop writing "an union".</e>
 e:lizzy=contemplative
 
 How Wickham and Lydia were to be supported in tolerable independence, she could not imagine.
@@ -12034,14 +12052,20 @@ e:lizzy=contemplative
 —
 
 
-Mr. Gardiner soon wrote again to his brother. To Mr. Bennet’s acknowledgments he briefly replied, with assurances of his eagerness to promote the welfare of any of his family; and concluded with entreaties that the subject might never be mentioned to him again.
+Mr. Gardiner soon wrote again to his brother.
+b=bennet-drawing
+
+To Mr. Bennet’s acknowledgments he briefly replied, with assurances of his eagerness to promote the welfare of any of his family; and concluded with entreaties that the subject might never be mentioned to him again.
 e:mrgardiner=serious
 
 The principal purport of his letter was to inform them, that Mr. Wickham had resolved on quitting the militia.
 e:mrgardiner=neutral
 
-“It was greatly my wish that he should do so,” he added, “as soon as his marriage was fixed on. And I think you will agree with me, in considering a removal from that corps as highly advisable, both on his account and my niece’s.”
+“It was greatly my wish that he should do so,” he added, “as soon as his marriage was fixed on.”
 e:mrgardiner=serious;m=margin
+
+“And I think you will agree with me, in considering a removal from that corps as highly advisable, both on his account and my niece’s.”
+
 
 “It is Mr. Wickham’s intention to go into the regulars; and, among his former friends, there are still some who are able and willing to assist him in the army.”
 e:mrgardiner=neutral
