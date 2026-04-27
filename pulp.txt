@@ -9206,16 +9206,22 @@ and in the clamorous happiness of Lydia herself in bidding farewell, the more ge
 r=title
 
 Had Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.
-e:lizzy=contemplative
+e:lizzy=contemplative;b=bennet-wide
 
-Her father, captivated by youth and beauty, and that appearance of good humour which youth and beauty generally give, had married a woman whose weak understanding and illiberal mind, had very early in their marriage put an end to all real affection for her. Respect, esteem, and confidence, had vanished forever; and all his views of domestic happiness were overthrown.
+Her father, captivated by youth and beauty, and that appearance of good humour which youth and beauty generally give, had married a woman whose weak understanding and illiberal mind, had very early in their marriage put an end to all real affection for her.
 e:mrbennet=unhappy;e:mrsbennet=neutral
+
+Respect, esteem, and confidence, had vanished forever; and all his views of domestic happiness were overthrown.
+
 
 But Mr. Bennet was not of a disposition to seek comfort for the disappointment which his own imprudence had brought on, in any of those pleasures which too often console the unfortunate for their folly or their vice.
 e:mrbennet=thinking
 
-He was fond of the country and of books; and from these tastes had arisen his principal enjoyments. To his wife he was very little otherwise indebted, than as her ignorance and folly had contributed to his amusement.
+He was fond of the country and of books; and from these tastes had arisen his principal enjoyments.
 e:mrbennet=smirking
+
+To his wife he was very little otherwise indebted, than as her ignorance and folly had contributed to his amusement.
+
 
 This is not the sort of happiness which a man would in general wish to owe to his wife; but where other powers of entertainment are wanting, the true philosopher will derive benefit from such as are given.
 
@@ -9232,7 +9238,10 @@ e:lizzy=contemplative
 When Elizabeth had rejoiced over Wickham’s departure, she found little other cause for satisfaction in the loss of the regiment.
 e:lizzy=weary
 
-Their parties abroad were less varied than before; and at home she had a mother and sister whose constant repinings at the dullness of everything around them, threw a real gloom over their domestic circle; and, though Kitty might in time regain her natural degree of sense, since the disturbers of her brain were removed, her other sister, from whose disposition greater evil might be apprehended, was likely to be hardened in all her folly and assurance, by a situation of such double danger as a watering place and a camp.
+Their parties abroad were less varied than before; and at home she had a mother and sister whose constant repinings at the dullness of everything around them, threw a real gloom over their domestic circle;
+
+
+and, though Kitty might in time regain her natural degree of sense, since the disturbers of her brain were removed, her other sister, from whose disposition greater evil might be apprehended, was likely to be hardened in all her folly and assurance, by a situation of such double danger as a watering place and a camp.
 
 
 Upon the whole, therefore, she found, what has been sometimes found before, that an event to which she had looked forward with impatient desire did not, in taking place, bring all the satisfaction she had promised herself.
@@ -9256,23 +9265,35 @@ s=lizzy;e:lizzy=contemplative
 When Lydia went away, she promised to write very often and very minutely to her mother and Kitty; but her letters were always long expected, and always very short.
 s=none;e:lydia=neutral
 
-Those to her mother, contained little else, than that they were just returned from the library, where such and such officers had attended them, and where she had seen such beautiful ornaments as made her quite wild; that she had a new gown, or a new parasol, which she would have described more fully, but was obliged to leave off in a violent hurry, as Mrs. Forster called her, and they were going to the camp;﻿—and from her correspondence with her sister, there was still less to be learnt﻿—for her letters to Kitty, though rather longer, were much too full of lines under the words to be made public.
+Those to her mother, contained little else, than that they were just returned from the library, where such and such officers had attended them, and where she had seen such beautiful ornaments as made her quite wild;
 
 
-After the first fortnight or three weeks of her absence, health, good humour and cheerfulness began to reappear at Longbourn.
+that she had a new gown, or a new parasol, which she would have described more fully, but was obliged to leave off in a violent hurry, as Mrs. Forster called her, and they were going to the camp;
+m=allowbreak;m=nospace
+
+﻿—and from her correspondence with her sister, there was still less to be learnt﻿—for her letters to Kitty, though rather longer, were much too full of lines under the words to be made public.
+m=
+
+After the first fortnight or three weeks of her absence, health, good humour and cheerfulness began to reappear at Longbourn. Everything wore a happier aspect.
 e:lizzy=happy
 
-Everything wore a happier aspect. The families who had been in town for the winter came back again, and summer finery and summer engagements arose.
+The families who had been in town for the winter came back again, and summer finery and summer engagements arose.
+b=meryton-wide
 
-
-Mrs. Bennet was restored to her usual querulous serenity, and by the middle of June Kitty was so much recovered as to be able to enter Meryton without tears; an event of such happy promise as to make Elizabeth hope, that by the following Christmas, she might be so tolerably reasonable as not to mention an officer above once a day, unless by some cruel and malicious arrangement at the war-office, another regiment should be quartered in Meryton.
+Mrs. Bennet was restored to her usual querulous serenity, and by the middle of June Kitty was so much recovered as to be able to enter Meryton without tears;
 e:mrsbennet=neutral;e:kitty=happy;e:lizzy=smirking
 
-The time fixed for the beginning of their Northern tour was now fast approaching; and a fortnight only was wanting of it, when a letter arrived from Mrs. Gardiner, which at once delayed its commencement and curtailed its extent.
-e:lizzy=excited
+an event of such happy promise as to make Elizabeth hope, that by the following Christmas, she might be so tolerably reasonable as not to mention an officer above once a day, unless by some cruel and malicious arrangement at the war-office, another regiment should be quartered in Meryton.
 
-Mr. Gardiner would be prevented by business from setting out till a fortnight later in July, and must be in London again within a month; and as that left too short a period for them to go so far, and see so much as they had proposed, or at least to see it with the leisure and comfort they had built on, they were obliged to give up the Lakes, and substitute a more contracted tour; and, according to the present plan, were to go no farther northward than Derbyshire.
+
+The time fixed for the beginning of their Northern tour was now fast approaching; and a fortnight only was wanting of it, when a letter arrived from Mrs. Gardiner, which at once delayed its commencement and curtailed its extent.
+e:lizzy=excited;b=bennet-sitting
+
+Mr. Gardiner would be prevented by business from setting out till a fortnight later in July, and must be in London again within a month;
 e:mrgardiner=serious;e:lizzy=unhappy
+
+and as that left too short a period for them to go so far, and see so much as they had proposed, or at least to see it with the leisure and comfort they had built on, they were obliged to give up the Lakes, and substitute a more contracted tour; and, according to the present plan, were to go no farther northward than Derbyshire.
+
 
 In that county, there was enough to be seen, to occupy the chief of their three weeks; and to Mrs. Gardiner it had a peculiarly strong attraction.
 e:mrsgardiner=happy
@@ -9286,10 +9307,7 @@ e:lizzy=upset
 But it was her business to be satisfied﻿—and certainly her temper to be happy; and all was soon right again.
 e:lizzy=sadsmile
 
-With the mention of Derbyshire, there were many ideas connected.
-
-
-It was impossible for her to see the word without thinking of Pemberley and its owner.
+With the mention of Derbyshire, there were many ideas connected. It was impossible for her to see the word without thinking of Pemberley and its owner.
 e:lizzy=nervous
 
 “But surely,” said she, “I may enter his county with impunity, and rob it of a few petrified spars without his perceiving me.”
@@ -9299,7 +9317,7 @@ The period of expectation was now doubled. Four weeks were to pass away before h
 s=none;e:lizzy=weary
 
 But they did pass away, and Mr. and Mrs. Gardiner, with their four children, did at length appear at Longbourn.
-e:mrgardiner=happy;e:mrsgardiner=happy
+e:mrgardiner=happy;e:mrsgardiner=happy;b=bennet-wide
 
 The children, two girls of six and eight years old, and two younger boys, were to be left under the particular care of their cousin Jane, who was the general favourite, and whose steady sense and sweetness of temper exactly adapted her for attending to them in every way﻿—teaching them, playing with them, and loving them.
 e:jane=happy
@@ -9311,13 +9329,13 @@ One enjoyment was certain﻿—that of suitableness as companions; a suitablenes
 
 
 It is not the object of this work to give a description of Derbyshire, nor of any of the remarkable places through which their route thither lay; Oxford, Blenheim, Warwick, Kenelworth, Birmingham, etc. are sufficiently known.
-
+b=light
 
 A small part of Derbyshire is all the present concern.
 
 
 To the little town of Lambton, the scene of Mrs. Gardiner’s former residence, and where she had lately learned that some acquaintance still remained, they bent their steps, after having seen all the principal wonders of the country; and within five miles of Lambton, Elizabeth found from her aunt, that Pemberley was situated.
-e:mrsgardiner=curious;e:lizzy=surprised
+e:mrsgardiner=curious;e:lizzy=surprised;b=lambton-wide
 
 It was not in their direct road, nor more than a mile or two out of it.
 
@@ -9329,10 +9347,13 @@ Mr. Gardiner declared his willingness, and Elizabeth was applied to for her app
 e:mrgardiner=neutral;e:lizzy=nervous
 
 “My love, should not you like to see a place of which you have heard so much?” said her aunt.
-s=mrsgardiner;e:mrsgardiner=curious
+s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=bonnet
 
-“A place too, with which so many of your acquaintance are connected. Wickham passed all his youth there, you know.”
+“A place too, with which so many of your acquaintance are connected.”
 
+
+“Wickham passed all his youth there, you know.”
+e:mrsgardiner=contemplative
 
 Elizabeth was distressed. She felt that she had no business at Pemberley, and was obliged to assume a disinclination for seeing it.
 s=none;e:lizzy=upset
@@ -9344,28 +9365,34 @@ Mrs. Gardiner abused her stupidity.
 e:mrsgardiner=annoyed
 
 “If it were merely a fine house richly furnished,” said she, “I should not care about it myself; but the grounds are delightful.”
-s=mrsgardiner;e:mrsgardiner=excited
+s=mrsgardiner;e:mrsgardiner=thinking
 
 “They have some of the finest woods in the country.”
+e:mrsgardiner=happy
 
-
-Elizabeth said no more﻿—but her mind could not acquiesce. The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.
+Elizabeth said no more﻿—but her mind could not acquiesce.
 s=none;e:lizzy=fearful
 
-It would be dreadful! She blushed at the very idea; and thought it would be better to speak openly to her aunt, than to run such a risk.
+The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.<e>Thirty-one uses of "instantly" throughout the book, you hack author.</e>
+
+
+It would be dreadful!
+
+
+She blushed at the very idea; and thought it would be better to speak openly to her aunt, than to run such a risk.
 e:lizzy=nervous
 
 But against this, there were objections; and she finally resolved that it could be the last resource, if her private enquiries as to the absence of the family, were unfavourably answered.
 e:lizzy=thinking
 
 Accordingly, when she retired at night, she asked the chambermaid whether Pemberley were not a very fine place, what was the name of its proprietor, and with no little alarm, whether the family were down for the summer.<e>Dangerously close to hearing dialogue from a servant. (Gross.)</e>
-e:lizzy=nervous
+e:lizzy=nervous;b=light
 
 A most welcome negative followed the last question﻿—and her alarms being now removed, she was at leisure to feel a great deal of curiosity to see the house herself; and when the subject was revived the next morning, and she was again applied to, could readily answer, and with a proper air of indifference, that she had not really any dislike to the scheme.
 e:lizzy=curious
 
 To Pemberley, therefore, they were to go.
-
+b=pemberley-wide
 
 ## XLIII
 r=title
