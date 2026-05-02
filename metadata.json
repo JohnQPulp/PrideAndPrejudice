@@ -12,5 +12,6 @@
     "Wikipedia": "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
   },
   "blurb": "foo",
-  "blurb2": "bar"
+  "blurb2": "bar",
+  "useAvif": true
 }
