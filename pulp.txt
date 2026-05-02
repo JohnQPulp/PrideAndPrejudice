@@ -437,7 +437,7 @@ Mary had heard herself mentioned to Miss Bingley as the most accomplished girl i
 e:mary=smirking;e:kitty=happy;e:lydia=excited
 
 They returned therefore in good spirits to Longbourn, the village where they lived, and of which they were the principal inhabitants.
-b=longbourn-wide-night
+b=bennet-wide-night
 
 They found Mr. Bennet still up.
 e:mrbennet=neutral;e:mrbennet=curious;b=bennet-drawing-night
