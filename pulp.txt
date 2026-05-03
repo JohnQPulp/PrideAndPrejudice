@@ -11,7 +11,7 @@ However little known the feelings or views of such a man may be on his first ent
 
 
 “My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?”
-n:mrsbennet=Mrs. Bennet;s=mrsbennet;e:mrsbennet=curious
+n:mrsbennet=Mrs. Bennet;s=mrsbennet;e:mrsbennet=curious;z:mrsbennet=105,47,9
 
 Mr. Bennet replied that he had not.
 n:mrbennet=Mr. Bennet;s=none;e:mrbennet=neutral
@@ -26,7 +26,7 @@ s=none
 s=mrsbennet;e:mrsbennet=annoyed
 
 “*You* want to tell me, and I have no objection to hearing it.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;z:mrbennet=112,,11
 
 This was invitation enough.
 s=none
@@ -194,7 +194,7 @@ s=mrsbennet;e:mrsbennet=annoyed
 s=mrbennet;e:mrbennet=smirking
 
 “I do not cough for my own amusement,” replied Kitty fretfully.
-s=kitty;e:kitty=upset
+s=kitty;e:kitty=upset;z:kitty=117,,6
 
 “When is your next ball to be, Lizzy?”
 s=mrbennet
@@ -275,7 +275,7 @@ s=mrsbennet;e:mrsbennet=happy
 
 
 “Lydia, my love, though you *are* the youngest, I dare say Mr. Bingley will dance with you at the next ball.”
-n:lydia=Lydia Bennet
+n:lydia=Lydia Bennet;z:lydia=128,48,23
 
 “Oh!” said Lydia stoutly, “I am not afraid; for though I *am* the youngest, I’m the tallest.”
 s=lydia;e:lydia=excited
@@ -374,13 +374,13 @@ e:lizzy=weary;e:lizzy=curious;b=meryton-assembly-dance-conversation
 s=bingley;e:bingley=excited;x:bingley=fancy;x:darcy=fancy
 
 “I hate to see you standing about by yourself in this stupid manner. You had much better dance.”
-
+z:bingley=120,55,5
 
 “I certainly shall not.”
 s=darcy;e:darcy=annoyed
 
 “You know how I detest it, unless I am particularly acquainted with my partner. At such an assembly as this, it would be insupportable.”
-
+z:darcy=136,52,15
 
 “Your sisters are engaged, and there is not another woman in the room whom it would not be a punishment to me to stand up with.”
 
@@ -545,7 +545,7 @@ s=lizzy;e:lizzy=serious
 s=lizzy;e:lizzy=neutral
 
 “I would wish not to be hasty in censuring anyone; but I always speak what I think.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;z:jane=115,59,8
 
 “I know you do; and it is *that* which makes the wonder.”
 s=lizzy;e:lizzy=smirking
@@ -671,7 +671,7 @@ s=mrsbennet;e:mrsbennet=smirking
 e:mrsbennet=happy
 
 “Yes;﻿—but he seemed to like his second better.”
-s=charlotte;e:charlotte=smirking;x:charlotte=bonnet
+s=charlotte;e:charlotte=smirking;x:charlotte=bonnet;z:charlotte=112,55,8
 
 “Oh!﻿—you mean Jane, I suppose﻿—because he danced with her twice.”
 s=mrsbennet;e:mrsbennet=happy
@@ -752,13 +752,13 @@ s=mary;e:mary=contemplative
 e:mary=serious
 
 “Vanity and pride are different things, though the words are often used synonymously.”
-e:mary=thinking
+e:mary=thinking;z:mary=106,,4
 
 “A person may be proud without being vain. Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.”
 e:mary=neutral
 
 “If I were as rich as Mr. Darcy,” cried a young Lucas who came with his sisters, “I should not care how proud I was.”
-n:younglucas=Young Lucas;s=younglucas;e:younglucas=excited
+n:younglucas=Young Lucas;s=younglucas;e:younglucas=excited;z:younglucas=103,,4
 
 “I would keep a pack of foxhounds, and drink a bottle of wine every day.”
 e:younglucas=happy
@@ -959,7 +959,7 @@ Mr. Darcy stood near them in silent indignation at such a mode of passing the ev
 e:darcy=annoyed
 
 “What a charming amusement for young people this is, Mr. Darcy!﻿—There is nothing like dancing after all.”
-s=william;e:william=happy;x:william=fancy;x:darcy=fancy
+s=william;e:william=happy;x:william=fancy;x:darcy=fancy;z:william=119,45,7
 
 “I consider it as one of the first refinements of polished societies.”
 e:william=smirking
@@ -1040,7 +1040,7 @@ Her resistance had not injured her with the gentleman, and he was thinking of he
 e:darcy=smirking
 
 “I can guess the subject of your reverie.”
-s=caroline;e:caroline=smirking;x:caroline=fancy
+s=caroline;e:caroline=smirking;x:caroline=fancy;z:caroline=122,62,12
 
 “I should imagine not.”
 s=darcy;e:darcy=neutral
@@ -1226,7 +1226,7 @@ s=mrsbennet;e:mrsbennet=wary
 s=mrbennet;e:mrbennet=weary
 
 “But if you have got them today,” said Elizabeth, “my mother’s purpose will be answered.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;z:lizzy=115,53,8
 
 She did at last extort from her father an acknowledgment that the horses were engaged.
 s=none;e:lizzy=neutral
@@ -1403,7 +1403,7 @@ Mrs. Hurst thought the same, and added—
 e:louisa=scowling
 
 “She has nothing, in short, to recommend her, but being an excellent walker.”
-s=louisa;e:louisa=smirking
+s=louisa;e:louisa=smirking;z:louisa=120,,10
 
 “I shall never forget her appearance this morning. She really looked almost wild.”
 
@@ -1490,7 +1490,7 @@ Mr. Hurst looked at her with astonishment.
 e:mrhurst=surprised
 
 “Do you prefer reading to cards?” said he; “that is rather singular.”
-s=mrhurst
+s=mrhurst;z:mrhurst=117,52,5
 
 “Miss Eliza Bennet,” said Miss Bingley, “despises cards. She is a great reader and has no pleasure in anything else.”
 s=caroline;e:caroline=smirking
@@ -2750,7 +2750,7 @@ e:mrsbennet=neutral
 
 
 “I am very sensible, madam, of the hardship to my fair cousins—and could say much on the subject, but that I am cautious of appearing forward and precipitate.”
-s=collins;e:collins=serious
+s=collins;e:collins=serious;z:collins=120,56,9
 
 “But I can assure the young ladies that I come prepared to admire them. At present I will not say more, but perhaps when we are better acquainted—”
 e:collins=happy
@@ -3131,7 +3131,7 @@ s=
 s=lizzy
 
 “Yes,” replied Wickham;—“his estate there is a noble one. A clear ten thousand per annum.”
-s=wickham;e:wickham=serious
+s=wickham;e:wickham=serious;z:wickham=125,59,12
 
 “You could not have met with a person more capable of giving you certain information on that head than myself—for I have been connected with his family in a particular manner from my infancy.”
 e:wickham=contemplative
@@ -3614,7 +3614,7 @@ and though this was not exactly the case, the absolute fact of his absence was p
 
 
 “I do not imagine his business would have called him away just now, if he had not wished to avoid a certain gentleman here.”
-s=denny;x:denny=fancy
+s=denny;x:denny=fancy;z:denny=120,,5
 
 This part of his intelligence, though unheard by Lydia, was caught by Elizabeth, and as it assured her that Darcy was not less answerable for Wickham’s absence than if her first surmise had been just, every feeling of displeasure against the former was so sharpened by immediate disappointment, that she could hardly reply with tolerable civility to the polite inquiries which he directly afterwards approached to make.
 s=none;e:lizzy=angry
@@ -5540,7 +5540,7 @@ e:lizzy=thinking
 e:lizzy=smirking
 
 “Oh, yes!—of that kind of love which I suppose him to have felt. Poor Jane!”
-s=mrsgardiner;e:mrsgardiner=smirking
+s=mrsgardiner;e:mrsgardiner=smirking;z:mrsgardiner=112,54,10
 
 “I am sorry for her, because, with her disposition, she may not get over it immediately.”
 e:mrsgardiner=sadsmile
@@ -6221,7 +6221,7 @@ She opened the door, and met Maria in the landing place, who, breathless with ag
 e:maria=excited;e:lizzy=curious;b=hunsford-landing
 
 “Oh, my dear Eliza! pray make haste and come into the dining-room, for there is such a sight to be seen!”
-s=maria
+s=maria;z:maria=110,46,6
 
 “I will not tell you what it is. Make haste, and come down this moment.”
 
@@ -6431,7 +6431,7 @@ e:ladycatherine=curious
 s=lizzy;e:lizzy=neutral;x:lizzy=fancy
 
 “Oh! then﻿—some time or other we shall be happy to hear you.”
-s=ladycatherine;e:ladycatherine=smirking
+s=ladycatherine;e:ladycatherine=smirking;z:ladycatherine=128,52,26
 
 “Our instrument is a capital one, probably superior to﻿—You shall try it some day.”
 e:ladycatherine=curious
@@ -6854,7 +6854,7 @@ s=lizzy;e:lizzy=curious
 e:lizzy=smirking
 
 “I can answer your question,” said Fitzwilliam, “without applying to him.”
-s=fitzwilliam;e:fitzwilliam=smirking
+s=fitzwilliam;e:fitzwilliam=smirking;z:fitzwilliam=118,,11
 
 “It is because he will not give himself the trouble.”
 
@@ -9494,7 +9494,7 @@ Mrs. Gardiner looked at her niece with a smile, but Elizabeth could not return 
 s=none;e:mrsgardiner=smirking;e:lizzy=serious
 
 “And that,” said Mrs. Reynolds, pointing to another of the miniatures, “is my master﻿—and very like him.”
-s=mrsreynolds;e:mrsreynolds=pointing
+s=mrsreynolds;e:mrsreynolds=pointing;z:mrsreynolds=108,53,8
 
 “It was drawn at the same time as the other﻿—about eight years ago.”
 e:mrsreynolds=thinking
@@ -9536,7 +9536,7 @@ Mrs. Reynolds then directed their attention to one of Miss Darcy, drawn when sh
 e:mrsreynolds=neutral
 
 “And is Miss Darcy as handsome as her brother?” said Mr. Gardiner.
-s=mrgardiner;e:mrgardiner=curious
+s=mrgardiner;e:mrgardiner=curious;z:mrgardiner=119,,6
 
 “Oh! yes﻿—the handsomest young lady that ever was seen; and so accomplished!﻿—She plays and sings all day long.”
 s=mrsreynolds;e:mrsreynolds=excited
@@ -11531,7 +11531,7 @@ Two days after Mr. Bennet’s return, as Jane and Elizabeth were walking togeth
 s=none;e:jane=neutral;e:lizzy=neutral;n:mrshill=Housekeeper;e:mrshill=nervous;b=bennet-gardens;x:jane=bonnet;x:lizzy=bonnet
 
 “I beg your pardon, madam, for interrupting you, but I was in hopes you might have got some good news from town, so I took the liberty of coming to ask.”
-s=mrshill;
+s=mrshill;z:mrshill=105,,7
 
 “What do you mean, Hill? We have heard nothing from town.”
 s=jane;e:jane=confused;n:mrshill=Mrs. Hill
@@ -11555,7 +11555,7 @@ and they were on the point of seeking him upstairs with their mother, when they 
 b=bennet-vestibule
 
 “If you are looking for my master, ma’am, he is walking towards the little copse.”
-n:butler=Butler;s=butler;e:butler=neutral
+n:butler=Butler;s=butler;e:butler=neutral;z:butler=117,55,4
 
 Upon this information, they instantly passed through the hall once more,
 s=none;m=allowbreak
@@ -12878,7 +12878,7 @@ e:mrsbennet=curious
 s=mrsphilips;e:mrsphilips=excited;x:mrsphilips=bonnet
 
 “He comes down on Thursday at the latest, very likely on Wednesday.”
-
+z:mrsphilips=120,54,15
 
 “She was going to the butcher’s, she told me, on purpose to order in some meat on Wednesday, and she has got three couple of ducks, just fit to be killed.”
 
