@@ -1,5 +1,5 @@
 Pride and Prejudice<br>Jane Austen<e>TODO</e>
-b=title;t=author
+b=title;t=author;z:author=,,7
 
 ## I
 r=title
@@ -1577,7 +1577,7 @@ s=caroline;e:caroline=excited
 s=bingley;e:bingley=thinking
 
 “All young ladies accomplished! My dear Charles, what do you mean?”
-s=caroline;e:caroline=surprised
+s=caroline;e:caroline=serious
 
 “Yes, all of them, I think. They all paint tables, cover screens and net purses.”
 s=bingley;e:bingley=neutral
