@@ -2762,7 +2762,7 @@ They were not the only objects of Mr. Collins’s admiration.
 e:collins=curious
 
 The hall, the dining-room, and all its furniture were examined and praised; and his commendation of everything would have touched Mrs. Bennet’s heart, but for the mortifying supposition of his viewing it all as his own future property.
-e:collins=excited;e:mrsbennet=wary;b=netherfield-dining
+e:collins=excited;e:mrsbennet=wary;b=bennet-dining
 
 The dinner too in its turn was highly admired; and he begged to know to which of his fair cousins, the excellence of its cookery was owing.
 e:collins=happy
@@ -2780,7 +2780,7 @@ e:mrsbennet=neutral;e:collins=nervous
 r=title
 
 During dinner, Mr. Bennet scarcely spoke at all; but when the servants were withdrawn, he thought it time to have some conversation with his guest, and therefore started a subject in which he expected him to shine, by observing that he seemed very fortunate in his patroness.
-e:mrbennet=thinking;e:collins=neutral;b=netherfield-dining
+e:mrbennet=thinking;e:collins=neutral;b=bennet-dining-night
 
 Lady Catherine de Bourgh’s attention to his wishes, and consideration for his comfort, appeared very remarkable.
 
@@ -2975,7 +2975,7 @@ Their eyes were immediately wandering up in the street in quest of the officers,
 e:kitty=excited;e:lydia=excited
 
 But the attention of every lady was soon caught by a young man, whom they had never seen before, of most gentleman-like appearance, walking with an officer on the other side of the way.
-e:lizzy=curious;e:jane=curious;b=meryton-street
+e:lizzy=curious;e:jane=curious
 
 The officer was the very Mr. Denny, concerning whose return from London Lydia came to inquire, and he bowed as they passed.
 
