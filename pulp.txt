@@ -509,7 +509,7 @@ e:mrsbennet=upset
 r=title
 
 When Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.
-e:jane=happy;e:lizzy=neutral;x:jane=fancy;x:lizzy=fancy;b=bennet-private-night
+e:jane=happy;e:lizzy=neutral;x:jane=fancy;x:lizzy=fancy;b=bennet-bedroom-night
 
 “He is just what a young man ought to be,” said she, “sensible, good humoured, lively; and I never saw such happy manners!—so much ease, with such perfect good breeding!”
 s=jane;e:jane=excited
@@ -4670,7 +4670,7 @@ Jane recollected herself soon, and putting the letter away, tried to join with h
 
 
 When they had gained their own room, Jane taking out the letter, said,
-b=bennet-private
+b=bennet-bedroom
 
 “This is from Caroline Bingley; what it contains, has surprised me a good deal.”
 s=jane;e:jane=upset
@@ -8660,7 +8660,7 @@ e:mrbennet=smirking;e:mrsbennet=annoyed
 r=title
 
 Elizabeth’s impatience to acquaint Jane with what had happened could no longer be overcome; and at length resolving to suppress every particular in which her sister was concerned, and preparing her to be surprised, she related to her the next morning the chief of the scene between Mr. Darcy and herself.
-e:lizzy=serious;e:jane=curious;b=bennet-private
+e:lizzy=serious;e:jane=curious;b=bennet-bedroom
 
 Miss Bennet’s astonishment was soon lessened by the strong sisterly partiality which made any admiration of Elizabeth appear perfectly natural; and all surprise was shortly lost in other feelings.
 e:jane=surprised
@@ -12887,7 +12887,7 @@ Miss Bennet had not been able to hear of his coming, without changing colour.
 s=none;e:jane=nervous
 
 It was many months since she had mentioned his name to Elizabeth; but now, as soon as they were alone together, she said﻿—
-e:jane=nervous;e:lizzy=curious;b=bennet-private
+e:jane=nervous;e:lizzy=curious;b=bennet-bedroom
 
 “I saw you look at me today, Lizzy, when my aunt told us of the present report; and I know I appeared distressed.”
 s=jane;e:jane=upset
@@ -12950,7 +12950,7 @@ Consoled by this resolution, she was the better able to bear her husband’s inc
 s=none;e:mrsbennet=neutral
 
 As the day of his arrival drew near,
-b=bennet-private
+b=bennet-bedroom
 
 “I begin to be sorry that he comes at all,” said Jane to her sister.
 s=jane;e:jane=unhappy
@@ -14789,7 +14789,7 @@ She anticipated what would be felt in the family when her situation became known
 e:lizzy=thinking
 
 At night she opened her heart to Jane.
-e:jane=neutral;b=bennet-private
+e:jane=neutral;b=bennet-bedroom-night
 
 Though suspicion was very far from Miss Bennet’s general habits, she was absolutely incredulous here.
 e:jane=surprised
