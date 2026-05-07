@@ -589,7 +589,7 @@ Mr. Bingley intended it likewise, and sometimes made choice of his county; but a
 His sisters were very anxious for his having an estate of his own; but though he was now established only as a tenant, Miss Bingley was by no means unwilling to preside at his table, nor was Mrs. Hurst, who had married a man of more fashion than fortune, less disposed to consider his house as her home when it suited her.
 
 
-Mr. Bingley had not been of age two years, when he was tempted by an accidental recommendation to look at Netherfield House.
+Mr. Bingley had not been of age two years, when he was tempted by an accidental recommendation to look at Netherfield House.<e>Zoomer Bingley is 22 years old, apparently. Worth keeping in mind.</e>
 b=netherfield-wide
 
 He did look at it and into it for half an hour, was pleased with the situation and the principal rooms, satisfied with what the owner said in its praise, and took it immediately.
@@ -3331,7 +3331,7 @@ s=lizzy;e:lizzy=curious
 “Yes. It has often led him to be liberal and generous—to give his money freely, to display hospitality, to assist his tenants, and relieve the poor.”
 s=wickham;e:wickham=contemplative
 
-“Family pride, and *filial* pride, for he is very proud of what his father was, have done this.”
+“Family pride, and *filial* pride, for he is very proud of what his father was, have done this.”<e>This is why the title change to <i>Pride and Prejudice</i> was a bad idea. All it does is shine a spotlight on how badly the word "pride" is beaten to death in this book.</e>
 
 
 “Not to appear to disgrace his family, to degenerate from the popular qualities, or lose the influence of the Pemberley House, is a powerful motive.”
@@ -11044,7 +11044,7 @@ One came from her books, and the other from her toilette.
 The faces of both, however, were tolerably calm; and no change was visible in either, except that the loss of her favourite sister, or the anger which she had herself incurred in the business, had given something more of fretfulness than usual, to the accents of Kitty.
 e:kitty=annoyed;e:mary=neutral
 
-As for Mary, she was mistress enough of herself to whisper to Elizabeth with a countenance of grave reflection, soon after they were seated at table﻿—
+As for Mary, she was mistress enough of herself to whisper to Elizabeth with a countenance of grave reflection, soon after they were seated at table﻿—<e>Mistress Mary, quite contrary?</e>
 e:mary=serious
 
 “This is a most unfortunate affair; and will probably be much talked of. But we must stem the tide of malice, and pour into the wounded bosoms of each other, the balm of sisterly consolation.”<e>Would you shut up for just one scene, <book>Irene Iddesleigh</book>?</e>
