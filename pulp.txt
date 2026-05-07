@@ -290,7 +290,7 @@ s=none;e:mrsbennet=thinking
 r=title
 
 Not all that Mrs. Bennet, however, with the assistance of her five daughters, could ask on the subject was sufficient to draw from her husband any satisfactory description of Mr. Bingley.
-e:mrsbennet=annoyed;e:mrbennet=smirking;b=bennet-wide
+e:mrsbennet=annoyed;e:mrbennet=smirking;b=bennet-parlor
 
 They attacked him in various ways; with barefaced questions, ingenious suppositions, and distant surmises; but he eluded the skill of them all; and they were at last obliged to accept the secondhand intelligence of their neighbour Lady Lucas.
 e:mrsbennet=weary;e:mrbennet=neutral
@@ -311,13 +311,13 @@ To be fond of dancing was a certain step towards falling in love; and very livel
 s=mrsbennet
 
 In a few days Mr. Bingley returned Mr. Bennet’s visit, and sat about ten minutes with him in his library.
-s=none;n:bingley=Mr. Bingley;e:bingley=neutral
+s=none;n:bingley=Mr. Bingley;e:bingley=neutral;b=bennet-library
 
 He had entertained hopes of being admitted to a sight of the young ladies, of whose beauty he had heard much; but he saw only the father.
 e:bingley=curious
 
 The ladies were somewhat more fortunate, for they had the advantage of ascertaining from an upper window, that he wore a blue coat and rode a black horse.
-e:mrsbennet=happy
+e:mrsbennet=happy;b=bennet-wide
 
 An invitation to dinner was soon afterwards dispatched; and already had Mrs. Bennet planned the courses that were to do credit to her housekeeping, when an answer arrived which deferred it all.
 e:mrsbennet=upset
@@ -377,37 +377,37 @@ e:lizzy=weary;e:lizzy=curious;
 s=bingley;e:bingley=excited;x:bingley=fancy;x:darcy=fancy
 
 “I hate to see you standing about by yourself in this stupid manner. You had much better dance.”
-z:bingley=120,55,5
+z:bingley=120,55,5;e:bingley=happy;i=2
 
 “I certainly shall not.”
 s=darcy;e:darcy=annoyed
 
 “You know how I detest it, unless I am particularly acquainted with my partner. At such an assembly as this, it would be insupportable.”
-z:darcy=136,52,15
+z:darcy=132,52,15
 
 “Your sisters are engaged, and there is not another woman in the room whom it would not be a punishment to me to stand up with.”
-
+;e:darcy=leering;i=
 
 “I would not be so fastidious as you are,” cried Bingley, “for a kingdom!”
-s=bingley;e:bingley=happy
+s=bingley;e:bingley=happy;e:bingley=excited;i=
 
 “Upon my honour, I never met with so many pleasant girls in my life, as I have this evening; and there are several of them you see uncommonly pretty.”
-
+;e:bingley=happy;i=
 
 “*You* are dancing with the only handsome girl in the room,” said Mr. Darcy, looking at the eldest Miss Bennet.
-s=darcy;e:darcy=leering
+s=darcy;e:darcy=leering;e:darcy=smirking;i=2
 
 “Oh! she is the most beautiful creature I ever beheld!”
-s=bingley;e:bingley=excited
+s=bingley;e:bingley=excited;i=3
 
 “But there is one of her sisters sitting down just behind you, who is very pretty, and I dare say, very agreeable.”
-
+;e:bingley=happy;i=
 
 “Do let me ask my partner to introduce you.”
 
 
 “Which do you mean?”
-s=darcy;e:darcy=curious
+s=darcy;e:darcy=curious;e:darcy=leering;i=
 
 and turning round, he looked for a moment at Elizabeth, till catching her eye, he withdrew his own and coldly said,
 s=none;e:darcy=scowling;e:lizzy=wary
@@ -425,10 +425,10 @@ Mr. Darcy walked off; and Elizabeth remained with no very cordial feelings towar
 
 
 She told the story however with great spirit among her friends; for she had a lively, playful disposition, which delighted in anything ridiculous.
-e:lizzy=smirking
+e:lizzy=smirking;f:b:meryton-assembly=blur(3px)
 
 The evening altogether passed off pleasantly to the whole family.
-e:mrsbennet=happy
+e:mrsbennet=happy;b=meryton-wide-night
 
 Mrs. Bennet had seen her eldest daughter much admired by the Netherfield party. Mr. Bingley had danced with her twice, and she had been distinguished by his sisters.
 e:mrsbennet=excited
@@ -452,40 +452,37 @@ He had rather hoped that all his wife’s views on the stranger would be disappo
 e:mrbennet=thinking
 
 “Oh! my dear Mr. Bennet,” as she entered the room, “we have had a most delightful evening, a most excellent ball. I wish you had been there.”
-s=mrsbennet;e:mrsbennet=excited;x:mrsbennet=fancy
+s=mrsbennet;e:mrsbennet=excited;x:mrsbennet=fancy;e:mrsbennet=excited;i=2
 
 “Jane was so admired, nothing could be like it. Everybody said how well she looked; and Mr. Bingley thought her quite beautiful, and danced with her twice.”
-
+;e:mrsbennet=happy;i=2
 
 “Only think of *that* my dear; he actually danced with her twice; and she was the only creature in the room that he asked a second time.”
-e:mrsbennet=happy
+e:mrsbennet=happy;i=
 
 “First of all, he asked Miss Lucas. I was so vexed to see him stand up with her; but, however, he did not admire her at all: indeed, nobody can, you know; and he seemed quite struck with Jane as she was going down the dance.”
-e:mrsbennet=smirking
+;e:mrsbennet=annoyed;i=
 
 “So, he enquired who she was, and got introduced, and asked her for the two next.”
-
+e:mrsbennet=smirking
 
 “Then, the two third he danced with Miss King, and the two fourth with Maria Lucas, and the two fifth with Jane again, and the two sixth with Lizzy, and the Boulanger—”
-
+;e:mrsbennet=happy;i=
 
 “If he had had any compassion for *me*,” cried her husband impatiently, “he would not have danced half so much!”
 s=mrbennet;e:mrbennet=annoyed
 
 “For God’s sake, say no more of his partners.”
-
+;e:mrbennet=serious;i=
 
 “Oh! that he had sprained his ankle in the first dance!”
-
+;e:mrbennet=unhappy;i=
 
 “Oh! my dear,” continued Mrs. Bennet, “I am quite delighted with him. He is so excessively handsome! and his sisters are charming women.”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=excited;i=2
 
-“I never in my life saw anything more elegant than their dresses.”
-
-
-“I dare say the lace upon Mrs. Hurst’s gown—”
-e:mrsbennet=excited
+“I never in my life saw anything more elegant than their dresses. I dare say the lace upon Mrs. Hurst’s gown—”
+e:mrsbennet=happy
 
 Here she was interrupted again. Mr. Bennet protested against any description of finery.
 s=none;e:mrbennet=annoyed
@@ -494,19 +491,16 @@ She was therefore obliged to seek another branch of the subject, and related, wi
 e:mrsbennet=angry
 
 “But I can assure you,” she added, “that Lizzy does not lose much by not suiting *his* fancy; for he is a most disagreeable, horrid man, not at all worth pleasing.”
-s=mrsbennet;e:mrsbennet=scowling;e:mrsbennet=angry
+s=mrsbennet;e:mrsbennet=scowling;e:mrsbennet=angry;i=2
 
-“So high and so conceited that there was no enduring him!”
-
-
-“He walked here, and he walked there, fancying himself so very great! Not handsome enough to dance with!”
-e:mrsbennet=annoyed
+“So high and so conceited that there was no enduring him! He walked here, and he walked there, fancying himself so very great! Not handsome enough to dance with!”
+i=
 
 “I wish you had been there, my dear, to have given him one of your set downs.”
 e:mrsbennet=upset
 
 “I quite detest the man.”
-
+;e:mrsbennet=annoyed;i=
 
 ## IV
 r=title
