@@ -11,13 +11,13 @@ However little known the feelings or views of such a man may be on his first ent
 
 
 “My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?”
-n:mrsbennet=Mrs. Bennet;s=mrsbennet;e:mrsbennet=curious;z:mrsbennet=105,47,9
+n:mrsbennet=Mrs. Bennet;s=mrsbennet;e:mrsbennet=curious;z:mrsbennet=105,47,9;e:mrsbennet=;i=
 
 Mr. Bennet replied that he had not.
 n:mrbennet=Mr. Bennet;s=none;e:mrbennet=neutral
 
 “But it is,” returned she; “for Mrs. Long has just been here, and she told me all about it.”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=serious;i=
 
 Mr. Bennet made no answer.
 s=none
@@ -32,7 +32,7 @@ This was invitation enough.
 s=none
 
 “Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris immediately;”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=curious;i=
 
 “that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.”
 
@@ -44,25 +44,22 @@ s=mrbennet;e:mrbennet=neutral
 s=mrsbennet;e:mrsbennet=neutral
 
 “Is he married or single?”
-s=mrbennet
+s=mrbennet;e:mrbennet=unhappy;i=
 
 “Oh! single, my dear, to be sure!”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=happy;i=
 
-“A single man of large fortune; four or five thousand a year.”
-
-
-“What a fine thing for our girls!”
-e:mrsbennet=happy
+“A single man of large fortune; four or five thousand a year. What a fine thing for our girls!”
+e:mrsbennet=happy;e:mrsbennet=excited;i=2
 
 “How so? how can it affect them?”
-s=mrbennet;e:mrbennet=confused
+s=mrbennet;e:mrbennet=confused;e:mrbennet=happy;i=2
 
 “My dear Mr. Bennet,” replied his wife, “how can you be so tiresome!”
 s=mrsbennet;e:mrsbennet=annoyed
 
 “You must know that I am thinking of his marrying one of them.”
-e:mrsbennet=thinking
+e:mrsbennet=thinking;e:mrsbennet=thinking;i=2
 
 “Is that his design in settling here?”
 s=mrbennet;e:mrbennet=neutral
@@ -74,25 +71,25 @@ s=mrsbennet;e:mrsbennet=scowling
 e:mrsbennet=serious
 
 “I see no occasion for that.”
-s=mrbennet
+s=mrbennet;e:mrbennet=unhappy;i=
 
 “You and the girls may go, or you may send them by themselves, which perhaps will be still better, for as you are as handsome as any of them, Mr. Bingley might like you the best of the party.”
 e:mrbennet=smirking
 
 “My dear, you flatter me. I certainly *have* had my share of beauty, but I do not pretend to be anything extraordinary now.”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=happy;e:mrsbennet=;i=2
 
 “When a woman has five grown up daughters, she ought to give over thinking of her own beauty.”
-e:mrsbennet=smirking
+e:mrsbennet=smirking;e:mrsbennet=serious;i=
 
 “In such cases, a woman has not often much beauty to think of.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 “But, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood.”
 s=mrsbennet;e:mrsbennet=serious
 
 “It is more than I engage for, I assure you.”
-s=mrbennet;e:mrbennet=neutral
+s=mrbennet;e:mrbennet=neutral;e:mrbennet=unhappy;i=
 
 “But consider your daughters. Only think what an establishment it would be for one of them.”
 s=mrsbennet;e:mrsbennet=upset
@@ -104,10 +101,10 @@ e:mrsbennet=serious
 
 
 “You are over scrupulous surely.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=;i=
 
 “I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying which ever he chooses of the girls; though I must throw in a good word for my little Lizzy.”
-e:mrbennet=happy
+e:mrbennet=happy;e:mrbennet=happy;i=2
 
 “I desire you will do no such thing.”
 s=mrsbennet;e:mrsbennet=angry
@@ -122,16 +119,16 @@ s=mrbennet;e:mrbennet=neutral
 s=mrsbennet;e:mrsbennet=upset
 
 “You mistake me, my dear. I have a high respect for your nerves. They are my old friends.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=happy;i=
 
 “I have heard you mention them with consideration these twenty years at least.”
-
+e:mrbennet=smirking
 
 “Ah! you do not know what I suffer.”
-s=mrsbennet;e:mrsbennet=crying
+s=mrsbennet;e:mrsbennet=crying;e:mrsbennet=upset;i=2
 
 “But I hope you will get over it, and live to see many young men of four thousand a year come into the neighbourhood.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 “It will be no use to us, if twenty such should come since you will not visit them.”
 s=mrsbennet;e:mrsbennet=annoyed
