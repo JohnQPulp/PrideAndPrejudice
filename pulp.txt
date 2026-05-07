@@ -1,11 +1,11 @@
-Pride and Prejudice<br>Jane Austen<e>TODO</e>
+Pride and Prejudice<br>Jane Austen<e>Two centuries ago, Austen invented the concept that novels could be readable. Since then, the postmodernists have ruined everything, but literature had a good go of it, at least for a little while, thanks to Jane.</e>
 b=title;t=author;z:author=,,7
 
 ## I
 r=title
 
 It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
-b=bennet-tbd
+b=bennet-parlor
 
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.
 
@@ -15481,5 +15481,5 @@ With the Gardiners, they were always on the most intimate terms.
 Darcy, as well as Elizabeth, really loved them; and they were both ever sensible of the warmest gratitude towards the persons who, by bringing her into Derbyshire, had been the means of uniting them.
 e:darcy=happy;e:lizzy=happy;e:mrgardiner=happy;e:mrsgardiner=happy;e:darcy=sadsmile;e:lizzy=sadsmile
 
-<e>TODO</e>
-
+<e>The End. A very good book to be sure, despite the irreperable damage it has done to media two centuries on. For example: did you know they're making a whole TV show just about Mary? Will the horrible Austen adaptations never end!? (Speaking of which: look forward to <i>Sense and Sensibility: The Visual Novel</i>, coming soon.)</e>
+r=title
