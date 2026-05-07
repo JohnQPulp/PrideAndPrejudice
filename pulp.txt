@@ -365,7 +365,7 @@ Amongst the most violent against him was Mrs. Bennet, whose dislike of his gener
 e:mrsbennet=angry
 
 Elizabeth Bennet had been obliged, by the scarcity of gentlemen, to sit down for two dances; and during part of that time, Mr. Darcy had been standing near enough for her to overhear a conversation between him and Mr. Bingley, who came from the dance for a few minutes, to press his friend to join it.
-e:lizzy=weary;e:lizzy=curious;b=meryton-assembly-dance-conversation
+e:lizzy=weary;e:lizzy=curious;
 
 “Come, Darcy,” said he, “I must have you dance.”
 s=bingley;e:bingley=excited;x:bingley=fancy;x:darcy=fancy
@@ -419,10 +419,10 @@ Mr. Darcy walked off; and Elizabeth remained with no very cordial feelings towar
 
 
 She told the story however with great spirit among her friends; for she had a lively, playful disposition, which delighted in anything ridiculous.
-e:lizzy=smirking;f:b:meryton-assembly-dance-conversation=blur(3px)
+e:lizzy=smirking
 
 The evening altogether passed off pleasantly to the whole family.
-e:mrsbennet=happy;b=meryton-assembly
+e:mrsbennet=happy
 
 Mrs. Bennet had seen her eldest daughter much admired by the Netherfield party. Mr. Bingley had danced with her twice, and she had been distinguished by his sisters.
 e:mrsbennet=excited
@@ -7409,7 +7409,7 @@ Elizabeth was surprised, but said not a word.
 e:lizzy=surprised
 
 After a silence of several minutes he came towards her in an agitated manner, and thus began—
-e:darcy=nervous;b=darcy-lizzy-mantelepiece
+e:darcy=nervous;b=darcy-lizzy-mantelpiece
 
 “In vain have I struggled. It will not do. My feelings will not be repressed.”
 s=darcy;e:darcy=serious
