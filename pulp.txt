@@ -383,7 +383,7 @@ z:bingley=120,55,5;e:bingley=happy;i=2
 s=darcy;e:darcy=annoyed
 
 “You know how I detest it, unless I am particularly acquainted with my partner. At such an assembly as this, it would be insupportable.”
-z:darcy=132,52,15
+z:darcy=130,52,14
 
 “Your sisters are engaged, and there is not another woman in the room whom it would not be a punishment to me to stand up with.”
 ;e:darcy=leering;i=
@@ -652,10 +652,7 @@ Lady Lucas was a very good kind of woman, not too clever to be a valuable neighb
 They had several children. The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.
 n:charlotte=Charlotte Lucas
 
-That the Miss Lucases and the Miss Bennets should meet to talk over a ball was absolutely necessary;
-
-
-and the morning after the assembly brought the former to Longbourn to hear and to communicate.
+That the Miss Lucases and the Miss Bennets should meet to talk over a ball was absolutely necessary; and the morning after the assembly brought the former to Longbourn to hear and to communicate.
 b=bennet-drawing
 
 “*You* began the evening well, Charlotte,” said Mrs. Bennet with civil self-command to Miss Lucas.
@@ -665,22 +662,22 @@ s=mrsbennet;e:mrsbennet=smirking
 e:mrsbennet=happy
 
 “Yes;﻿—but he seemed to like his second better.”
-s=charlotte;e:charlotte=smirking;x:charlotte=bonnet;z:charlotte=112,55,8
+s=charlotte;e:charlotte=smirking;x:charlotte=bonnet;z:charlotte=112,55,8;e:charlotte=thinking;i=
 
 “Oh!﻿—you mean Jane, I suppose﻿—because he danced with her twice.”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=happy;e:mrsbennet=curious;i=
 
 “To be sure that *did* seem as if he admired her﻿—indeed I rather believe he *did*﻿—I heard something about it﻿—but I hardly know what﻿—something about Mr. Robinson.”
-e:mrsbennet=thinking
+e:mrsbennet=thinking;e:mrsbennet=smirking;i=
 
 “Perhaps you mean what I overheard between him and Mr. Robinson; did not I mention it to you?”
-s=charlotte;e:charlotte=curious
+s=charlotte;e:charlotte=curious;e:charlotte=smirking;i=
 
-“Mr. Robinson’s asking him how he liked our Meryton assemblies, and whether he did not think there were a great many pretty women in the room, and *which* he thought the prettiest?”
-e:charlotte=thinking
+“Mr. Robinson’s asking him how he liked our Meryton assemblies, and whether he did not think there were a great many pretty women in the room, and *which* he thought the prettiest? and his answering immediately to the last question﻿—”
+e:charlotte=thinking;m=allowbreak;m=nospace
 
-“and his answering immediately to the last question﻿—Oh! the eldest Miss Bennet beyond a doubt, there cannot be two opinions on that point.”
-e:charlotte=excited
+“Oh! the eldest Miss Bennet beyond a doubt, there cannot be two opinions on that point.”
+e:charlotte=excited;m=;e:charlotte=curious;i=
 
 “Upon my word!﻿—Well, that was very decided indeed﻿—that does seem as if﻿—but however, it may all come to nothing you know.”
 s=mrsbennet;e:mrsbennet=surprised
@@ -689,13 +686,13 @@ s=mrsbennet;e:mrsbennet=surprised
 s=charlotte;e:charlotte=smirking
 
 “Mr. Darcy is not so well worth listening to as his friend, is he?﻿—Poor Eliza!﻿—to be only just *tolerable*.”
-e:charlotte=sadsmile
+e:charlotte=sadsmile;e:charlotte=unhappy;i=
 
 “I beg you would not put it into Lizzy’s head to be vexed by his ill-treatment; for he is such a disagreeable man that it would be quite a misfortune to be liked by him.”
 s=mrsbennet;e:mrsbennet=annoyed
 
 “Mrs. Long told me last night that he sat close to her for half an hour without once opening his lips.”
-e:mrsbennet=scowling
+e:mrsbennet=scowling;e:mrsbennet=angry;i=
 
 “Are you quite sure, Ma’am?﻿—is not there a little mistake?” said Jane. “I certainly saw Mr. Darcy speaking to her.”
 s=jane;e:jane=wary
@@ -704,19 +701,19 @@ s=jane;e:jane=wary
 s=mrsbennet;e:mrsbennet=scowling
 
 “Miss Bingley told me,” said Jane, “that he never speaks much unless among his intimate acquaintance.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=confused;i=
 
 “With *them* he is remarkably agreeable.”
-
+;e:jane=thinking;i=
 
 “I do not believe a word of it, my dear.”
-s=mrsbennet;e:mrsbennet=annoyed
+s=mrsbennet;e:mrsbennet=annoyed;e:mrsbennet=contemplative;i=
 
 “If he had been so very agreeable he would have talked to Mrs. Long.”
 e:mrsbennet=angry
 
 “But I can guess how it was; everybody says that he is ate up with pride, and I dare say he had heard somehow that Mrs. Long does not keep a carriage, and had come to the ball in a hack chaise.”<e>Implied is the Machiavellian scheming by which Mrs. Bennet ensured Mr. Darcy was aware of Mrs. Long's ill-bred penchant for hack chaises.</e>
-e:mrsbennet=scowling
+e:mrsbennet=scowling;e:mrsbennet=smirking;i=2
 
 “I do not mind his not talking to Mrs. Long,” said Miss Lucas, “but I wish he had danced with Eliza.”
 s=charlotte;e:charlotte=unhappy
@@ -728,16 +725,16 @@ s=mrsbennet;e:mrsbennet=scowling
 s=lizzy;e:lizzy=smirking
 
 “His pride,” said Miss Lucas, “does not offend *me* so much as pride often does, because there is an excuse for it.”
-s=charlotte;e:charlotte=contemplative
+s=charlotte;e:charlotte=
 
 “One cannot wonder that so very fine a young man, with family, fortune, everything in his favour, should think highly of himself.”
 e:charlotte=thinking
 
 “If I may so express it, he has a *right* to be proud.”
-e:charlotte=neutral
+e:charlotte=contemplative
 
 “That is very true,” replied Elizabeth, “and I could easily forgive *his* pride, if he had not mortified *mine*.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=serious;i=2;e:lizzy=blushing;i=
 
 “Pride,” observed Mary, who piqued herself upon the solidity of her reflections, “is a very common failing I believe.”
 s=mary;e:mary=contemplative
@@ -746,16 +743,16 @@ s=mary;e:mary=contemplative
 e:mary=serious
 
 “Vanity and pride are different things, though the words are often used synonymously.”
-e:mary=thinking;z:mary=106,,4
+e:mary=;z:mary=106,,4
 
 “A person may be proud without being vain. Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.”
-e:mary=neutral
+e:mary=thinking
 
 “If I were as rich as Mr. Darcy,” cried a young Lucas who came with his sisters, “I should not care how proud I was.”
-n:younglucas=Young Lucas;s=younglucas;e:younglucas=excited;z:younglucas=103,,4
+n:younglucas=Young Lucas;s=younglucas;e:younglucas=happy;z:younglucas=103,,4
 
 “I would keep a pack of foxhounds, and drink a bottle of wine every day.”
-e:younglucas=happy
+e:younglucas=excited
 
 “Then you would drink a great deal more than you ought,” said Mrs. Bennet; “and if I were to see you at it I should take away your bottle directly.”
 s=mrsbennet;e:mrsbennet=scowling
@@ -791,13 +788,13 @@ b=lucas-private;x:lizzy=bonnet
 s=charlotte;e:charlotte=thinking
 
 “If a woman conceals her affection with the same skill from the object of it, she may lose the opportunity of fixing him; and it will then be but poor consolation to believe the world equally in the dark.”
-
+;e:charlotte=serious;i=2
 
 “There is so much of gratitude or vanity in almost every attachment, that it is not safe to leave any to itself.”
-
+;e:charlotte=serious;i=
 
 “We can all *begin* freely﻿—a slight preference is natural enough; but there are very few of us who have heart enough to be really in love without encouragement.”
-
+;e:charlotte=thinking;i=
 
 “In nine cases out of ten, a woman had better show *more* affection than she feels.”
 e:charlotte=serious
@@ -806,61 +803,58 @@ e:charlotte=serious
 
 
 “But she does help him on, as much as her nature will allow.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=thinking;i=
 
 “If *I* can perceive her regard for him, he must be a simpleton indeed not to discover it too.”
-
+e:lizzy=smirking
 
 “Remember, Eliza, that he does not know Jane’s disposition as you do.”
-s=charlotte;e:charlotte=neutral
+s=charlotte;e:charlotte=neutral;e:charlotte=thinking;i=2
 
 “But if a woman is partial to a man, and does not endeavour to conceal it, he must find it out.”
 s=lizzy;e:lizzy=serious
 
 “Perhaps he must, if he sees enough of her.”
-s=charlotte
+s=charlotte;e:charlotte=serious;i=
 
 “But though Bingley and Jane meet tolerably often, it is never for many hours together; and as they always see each other in large mixed parties, it is impossible that every moment should be employed in conversing together.”
-e:charlotte=thinking
+
 
 “Jane should therefore make the most of every half hour in which she can command his attention.”
-e:charlotte=serious
+e:charlotte=serious;e:charlotte=thinking;i=
 
 “When she is secure of him, there will be leisure for falling in love as much as she chooses.”
-e:charlotte=smirking
+e:charlotte=smirking;e:charlotte=serious;i=2
 
 “Your plan is a good one,” replied Elizabeth, “where nothing is in question but the desire of being well married; and if I were determined to get a rich husband, or any husband, I dare say I should adopt it.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=contemplative;i=
 
 “But these are not Jane’s feelings; she is not acting by design. As yet, she cannot even be certain of the degree of her own regard, nor of its reasonableness.”
 e:lizzy=serious
 
 “She has known him only a fortnight. She danced four dances with him at Meryton; she saw him one morning at his own house, and has since dined in company with him four times.”
-
+;e:lizzy=suspicious;i=
 
 “This is not quite enough to make her understand his character.”
-
+;e:lizzy=serious;i=
 
 “Not as you represent it.”
 s=charlotte
 
 “Had she merely *dined* with him, she might only have discovered whether he had a good appetite; but you must remember that four evenings have been also spent together﻿—and four evenings may do a great deal.”
-e:charlotte=smirking
+e:charlotte=smirking;e:charlotte=thinking;i=
 
 “Yes; these four evenings have enabled them to ascertain that they both like Vingt-un better than Commerce; but with respect to any other leading characteristic, I do not imagine that much has been unfolded.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “Well,” said Charlotte, “I wish Jane success with all my heart; and if she were married to him tomorrow, I should think she had as good a chance of happiness, as if she were to be studying his character for a twelvemonth.”
-s=charlotte;e:charlotte=neutral
+s=charlotte;e:charlotte=serious;i=
 
-“Happiness in marriage is entirely a matter of chance.”
-e:charlotte=serious
-
-“If the dispositions of the parties are ever so well known to each other, or ever so similar beforehand, it does not advance their felicity in the least.”
-
+“Happiness in marriage is entirely a matter of chance. If the dispositions of the parties are ever so well known to each other, or ever so similar beforehand, it does not advance their felicity in the least.”
+;e:charlotte=smirking;i=
 
 “They always continue to grow sufficiently unlike afterwards to have their share of vexation; and it is better to know as little as possible of the defects of the person with whom you are to pass your life.”
-e:charlotte=smirking
+e:charlotte=smirking;e:charlotte=thinking;i=
 
 “You make me laugh, Charlotte; but it is not sound. You know it is not sound, and that you would never act in this way yourself.”
 s=lizzy;e:lizzy=happy
@@ -890,7 +884,7 @@ His doing so drew her notice. It was at Sir William Lucas’s, where a large par
 n:william=Sir William Lucas;e:lizzy=suspicious;b=lucas-party
 
 “What does Mr. Darcy mean,” said she to Charlotte, “by listening to my conversation with Colonel Forster?”
-s=lizzy;e:lizzy=confused;x:lizzy=fancy;x:charlotte=fancy
+s=lizzy;e:lizzy=confused;x:lizzy=fancy;x:charlotte=fancy;e:lizzy=curious;i=
 
 “That is a question which Mr. Darcy only can answer.”
 s=charlotte;e:charlotte=smirking
@@ -899,31 +893,31 @@ s=charlotte;e:charlotte=smirking
 s=lizzy;e:lizzy=annoyed
 
 “He has a very satirical eye, and if I do not begin by being impertinent myself, I shall soon grow afraid of him.”
-e:lizzy=nervous
+e:lizzy=nervous;e:lizzy=confused;i=
 
 On his approaching them soon afterwards, though without seeming to have any intention of speaking, Miss Lucas defied her friend to mention such a subject to him, which immediately provoking Elizabeth to do it, she turned to him and said﻿—
 s=none;e:darcy=neutral;e:charlotte=smirking
 
 “Did not you think, Mr. Darcy, that I expressed myself uncommonly well just now, when I was teasing Colonel Forster to give us a ball at Meryton?”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=2
 
 “With great energy;﻿—but it is a subject which always makes a lady energetic.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=serious;i=2
 
 “You are severe on us.”
-s=lizzy;e:lizzy=annoyed
+s=lizzy;e:lizzy=thinking;i=
 
 “It will be *her* turn soon to be teased,” said Miss Lucas.
-s=charlotte;e:charlotte=happy
+s=charlotte;e:charlotte=happy;e:charlotte=happy;i=2
 
 “I am going to open the instrument, Eliza, and you know what follows.”
-
+;e:charlotte=smirking;i=
 
 “You are a very strange creature by way of a friend!﻿—always wanting me to play and sing before anybody and everybody!—”
 s=lizzy;e:lizzy=annoyed;m=allowbreak;m=nospace
 
 “If my vanity had taken a musical turn, you would have been invaluable, but as it is, I would really rather not sit down before those who must be in the habit of hearing the very best performers.”
-m=
+m=;e:lizzy=serious;i=2
 
 On Miss Lucas’s persevering, however, she added,
 s=none
@@ -935,7 +929,7 @@ And gravely glancing at Mr. Darcy,
 s=none;e:lizzy=serious
 
 “There is a fine old saying, which everybody here is of course familiar with﻿—‘Keep your breath to cool your porridge,’﻿—and I shall keep mine to swell my song.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=contemplative;i=
 
 Her performance was pleasing, though by no means capital.
 s=none
@@ -953,40 +947,40 @@ Mr. Darcy stood near them in silent indignation at such a mode of passing the ev
 e:darcy=annoyed
 
 “What a charming amusement for young people this is, Mr. Darcy!﻿—There is nothing like dancing after all.”
-s=william;e:william=happy;x:william=fancy;x:darcy=fancy;z:william=119,45,7
+s=william;e:william=happy;x:william=fancy;x:darcy=fancy;z:william=117,45,7
 
 “I consider it as one of the first refinements of polished societies.”
-e:william=smirking
+
 
 “Certainly, Sir;﻿—and it has the advantage also of being in vogue amongst the less polished societies of the world. Every savage can dance.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=smirking;i=2
 
 Sir William only smiled.
 s=none;e:william=happy
 
 “Your friend performs delightfully;” he continued after a pause, on seeing Bingley join the group;﻿—“and I doubt not that you are an adept in the science yourself, Mr. Darcy.”
-s=william;e:bingley=happy
+s=william;e:bingley=happy;e:william=curious;i=2
 
 “You saw me dance at Meryton, I believe, Sir.”
 s=darcy;e:darcy=serious
 
 “Yes, indeed, and received no inconsiderable pleasure from the sight.”
-s=william;e:william=curious
+s=william;e:william=curious;e:william=smirking;i=
 
 “Do you often dance at St. James’s?”
-
+e:william=curious
 
 “Never, sir.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=scowling;i=
 
 “Do you not think it would be a proper compliment to the place?”
-s=william
+s=william;e:william=thinking;i=
 
 “It is a compliment which I never pay to any place if I can avoid it.”
-s=darcy;e:darcy=scowling
+s=darcy;e:darcy=scowling;e:darcy=annoyed;i=2
 
 “You have a house in town, I conclude?”
-s=william
+s=william;e:william=curious;i=
 
 Mr. Darcy bowed.
 s=none;e:darcy=neutral
@@ -1006,11 +1000,8 @@ e:william=smirking
 And taking her hand, he would have given it to Mr. Darcy, who, though extremely surprised, was not unwilling to receive it, when she instantly drew back, and said with some discomposure to Sir William﻿—
 s=none;e:darcy=surprised
 
-“Indeed, Sir, I have not the least intention of dancing.”
-s=lizzy;e:lizzy=nervous
-
-“I entreat you not to suppose that I moved this way in order to beg for a partner.”
-
+“Indeed, Sir, I have not the least intention of dancing. I entreat you not to suppose that I moved this way in order to beg for a partner.”
+s=lizzy;e:lizzy=nervous;e:lizzy=serious;i=2
 
 Mr. Darcy with grave propriety requested to be allowed the honour of her hand; but in vain.
 s=none;e:darcy=serious;e:lizzy=annoyed
@@ -1019,10 +1010,10 @@ Elizabeth was determined; nor did Sir William at all shake her purpose by his at
 
 
 “You excel so much in the dance, Miss Eliza, that it is cruel to deny me the happiness of seeing you; and though this gentleman dislikes the amusement in general, he can have no objection, I am sure, to oblige us for one half hour.”
-s=william;e:william=sadsmile;e:william=smirking
+s=william;e:william=sadsmile;e:william=smirking;e:william=thinking;i=
 
 “Mr. Darcy is all politeness,” said Elizabeth, smiling.
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=2
 
 “He is indeed﻿—but considering the inducement, my dear Miss Eliza, we cannot wonder at his complaisance; for who would object to such a partner?”
 s=william;e:william=happy
@@ -1034,22 +1025,19 @@ Her resistance had not injured her with the gentleman, and he was thinking of he
 e:darcy=smirking
 
 “I can guess the subject of your reverie.”
-s=caroline;e:caroline=smirking;x:caroline=fancy;z:caroline=122,62,12
+s=caroline;e:caroline=smirking;x:caroline=fancy;z:caroline=122,62,12;e:caroline=smirking;i=2
 
 “I should imagine not.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=contemplative;i=
 
 “You are considering how insupportable it would be to pass many evenings in this manner﻿—in such society; and indeed I am quite of your opinion.”
-s=caroline;e:caroline=annoyed
+s=caroline;e:caroline=annoyed;e:caroline=angry;i=
 
 “I was never more annoyed! The insipidity and yet the noise; the nothingness and yet the self-importance of all these people!—What would I give to hear your strictures on them!”
 e:caroline=scowling
 
-“Your conjecture is totally wrong, I assure you. My mind was more agreeably engaged.”
-s=darcy;e:darcy=smirking
-
-“I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow.”
-e:darcy=contemplative
+“Your conjecture is totally wrong, I assure you. My mind was more agreeably engaged. I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow.”
+s=darcy;e:darcy=smirking;e:darcy=serious;i=
 
 Miss Bingley immediately fixed her eyes on his face, and desired he would tell her what lady had the credit of inspiring such reflections.
 s=none;e:caroline=surprised
@@ -1058,28 +1046,25 @@ Mr. Darcy replied with great intrepidity﻿—
 e:darcy=serious
 
 “Miss Elizabeth Bennet.”
-s=darcy
+s=darcy;e:darcy=leering;i=
 
 “Miss Elizabeth Bennet!” repeated Miss Bingley.
 s=caroline;e:caroline=surprised
 
 “I am all astonishment. How long has she been such a favourite?﻿—and pray when am I to wish you joy?”
-e:caroline=annoyed
+e:caroline=annoyed;e:caroline=scowling;i=
 
 “That is exactly the question which I expected you to ask.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=annoyed;i=
 
-“A lady’s imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.”
-
-
-“I knew you would be wishing me joy.”
-
+“A lady’s imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment. I knew you would be wishing me joy.”
+e:darcy=smirking
 
 “Nay, if you are so serious about it, I shall consider the matter as absolutely settled.”
-s=caroline;e:caroline=smirking
+s=caroline;e:caroline=smirking;e:caroline=angry;i=
 
 “You will have a charming mother-in-law, indeed, and of course she will be always at Pemberley with you.”
-e:caroline=annoyed
+e:caroline=smirking;i=2
 
 He listened to her with perfect indifference, while she chose to entertain herself in this manner, and as his composure convinced her that all was safe, her wit flowed long.
 s=none;e:darcy=neutral
