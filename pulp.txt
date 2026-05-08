@@ -5,7 +5,7 @@ b=title;t=author;z:author=,,7
 r=title
 
 It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
-b=bennet-parlor
+b=bennet-drawing
 
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.
 
@@ -1103,13 +1103,13 @@ Mr. Philips visited them all, and this opened to his nieces a source of felicity
 
 
 They could talk of nothing but officers; and Mr. Bingley’s large fortune, the mention of which gave animation to their mother, was worthless in their eyes when opposed to the regimentals of an ensign.
-b=bennet-sitting
+
 
 After listening one morning to their effusions on this subject, Mr. Bennet coolly observed﻿—
-
+b=bennet-sitting
 
 “From all that I can collect by your manner of talking, you must be two of the silliest girls in the country.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=annoyed;i=
 
 “I have suspected it some time, but I am now convinced.”
 
@@ -1121,10 +1121,10 @@ s=none;e:kitty=wary;e:lydia=excited
 s=mrsbennet;e:mrsbennet=annoyed
 
 “If I wished to think slightingly of anybody’s children, it should not be of my own however.”
-
+;e:mrsbennet=nervous;i=
 
 “If my children are silly I must hope to be always sensible of it.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=
 
 “Yes﻿—but as it happens, they are all of them very clever.”
 s=mrsbennet;e:mrsbennet=serious
@@ -1145,7 +1145,7 @@ s=mrsbennet;e:mrsbennet=thinking
 e:mrsbennet=smirking
 
 “Mama,” cried Lydia, “my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson’s as they did when they first came; she sees them now very often standing in Clarke’s library.”
-s=lydia;e:lydia=excited
+s=lydia;e:lydia=excited;e:lydia=happy;i=
 
 Mrs. Bennet was prevented replying by the entrance of the footman with a note for Miss Bennet; it came from Netherfield, and the servant waited for an answer.
 s=none;e:mrsbennet=surprised
@@ -1154,10 +1154,10 @@ Mrs. Bennet’s eyes sparkled with pleasure, and she was eagerly calling out, wh
 e:mrsbennet=excited;e:jane=neutral
 
 “Well, Jane, who is it from? what is it about? what does he say? Well, Jane, make haste and tell us; make haste, my love.”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=surprised;i=2
 
 “It is from Miss Bingley,” said Jane, and then read it aloud.
-s=jane
+s=jane;e:jane=thinking;i=
 
 <span class='upper'>“My dear Friend,”</span>
 m=margin;s=
@@ -1181,25 +1181,25 @@ e:lydia=thinking
 s=mrsbennet;e:mrsbennet=unhappy
 
 “Can I have the carriage?” said Jane.
-s=jane;e:jane=thinking
+s=jane;e:jane=thinking;e:jane=;i=
 
 “No, my dear, you had better go on horseback, because it seems likely to rain; and then you must stay all night.”
 s=mrsbennet;e:mrsbennet=smirking
 
 “That would be a good scheme,” said Elizabeth, “if you were sure that they would not offer to send her home.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 “Oh! but the gentlemen will have Mr. Bingley’s chaise to go to Meryton; and the Hursts have no horses to theirs.”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=excited;i=2
 
 “I had much rather go in the coach.”
 s=jane;e:jane=nervous
 
 “But, my dear, your father cannot spare the horses, I am sure.”
-s=mrsbennet;e:mrsbennet=wary
+s=mrsbennet;e:mrsbennet=wary;e:mrsbennet=serious;i=
 
 “They are wanted in the farm, Mr. Bennet, are not they?”
-
+;e:mrsbennet=annoyed;i=2
 
 “They are wanted in the farm much oftener than I can get them.”
 s=mrbennet;e:mrbennet=weary
@@ -1223,10 +1223,10 @@ The rain continued the whole evening without intermission; Jane certainly could 
 
 
 “This was a lucky idea of mine, indeed!” said Mrs. Bennet, more than once, as if the credit of making it rain were all her own.
-e:mrsbennet=happy
+e:mrsbennet=happy;m=dialogue
 
 Till the next morning, however, she was not aware of all the felicity of her contrivance. Breakfast was scarcely over when a servant from Netherfield brought the following note for Elizabeth:
-s=none;e:mrsbennet=neutral;b=bennet-sitting
+s=none;e:mrsbennet=neutral;b=bennet-parlor;m=
 
 <span class='upper'>“My dearest Lizzy,”</span>
 m=margin
@@ -1244,16 +1244,16 @@ m=margin
 
 
 “Well, my dear,” said Mr. Bennet, when Elizabeth had read the note aloud, “if your daughter should have a dangerous fit of illness, if she should die, it would be a comfort to know that it was all in pursuit of Mr. Bingley, and under your orders.”
-s=mrbennet;e:mrbennet=smirking;m=
+s=mrbennet;e:mrbennet=smirking;m=;e:mrbennet=;i=
 
 “Oh! I am not at all afraid of her dying. People do not die of little trifling colds.”
 s=mrsbennet;e:mrsbennet=annoyed
 
 “She will be taken good care of. As long as she stays there, it is all very well.”
-
+;e:mrsbennet=serious;i=
 
 “I would go and see her, if I could have the carriage.”
-
+;e:mrsbennet=thinking;i=2
 
 Elizabeth, feeling really anxious, was determined to go to her, though the carriage was not to be had; and as she was no horsewoman, walking was her only alternative.
 s=none;e:lizzy=upset
@@ -1265,7 +1265,7 @@ e:lizzy=serious
 s=mrsbennet;e:mrsbennet=scowling
 
 “You will not be fit to be seen when you get there.”
-
+;e:mrsbennet=serious;i=
 
 “I shall be very fit to see Jane﻿—which is all I want.”
 s=lizzy;e:lizzy=serious
@@ -1274,22 +1274,22 @@ s=lizzy;e:lizzy=serious
 s=mrbennet;e:mrbennet=curious
 
 “No, indeed. I do not wish to avoid the walk. The distance is nothing, when one has a motive; only three miles.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=serious;i=2
 
 “I shall be back by dinner.”
-
+;e:lizzy=serious;i=
 
 “I admire the activity of your benevolence,” observed Mary, “but every impulse of feeling should be guided by reason; and, in my opinion, exertion should always be in proportion to what is required.”<e>Least ponderous Mary dialogue.</e>
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=thinking;i=
 
 “We will go as far as Meryton with you,” said Catherine and Lydia.
-m=dialogue
+m=dialogue;s=
 
 Elizabeth accepted their company, and the three young ladies set off together.
-s=none;e:lizzy=neutral;m=;x:lizzy=bonnet;x:kitty=bonnet;x:lydia=bonnet
+s=none;e:lizzy=neutral;m=;x:lizzy=bonnet;x:kitty=bonnet;x:lydia=bonnet;b=bennet-road
 
 “If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter before he goes.”
-s=lydia;e:lydia=excited;b=light
+s=lydia;e:lydia=excited
 
 In Meryton they parted; the two youngest repaired to the lodgings of one of the officers’ wives, and Elizabeth continued her walk alone, crossing field after field at a quick pace, jumping over stiles and springing over puddles with impatient activity, and finding herself at last within view of the house, with weary ankles, dirty stockings, and a face glowing with the warmth of exercise.
 s=none;e:lizzy=weary;x:lizzy=bonnet,dirty
