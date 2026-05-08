@@ -7358,7 +7358,7 @@ Elizabeth was surprised, but said not a word.
 e:lizzy=surprised
 
 After a silence of several minutes he came towards her in an agitated manner, and thus began—
-e:darcy=nervous;b=darcy-lizzy-mantelpiece
+e:darcy=nervous
 
 “In vain have I struggled. It will not do. My feelings will not be repressed.”
 s=darcy;e:darcy=serious
@@ -8492,7 +8492,7 @@ Elizabeth was shocked to think that, however incapable of such coarseness of *ex
 s=none;e:lizzy=surprised
 
 As soon as all had ate, and the elder ones paid, the carriage was ordered; and after some contrivance, the whole party, with all their boxes, workbags, and parcels, and the unwelcome addition of Kitty’s and Lydia’s purchases, were seated in it.
-e:lizzy=weary;b=carriage-loaded
+e:lizzy=weary;b=inn-ext
 
 “How nicely we are crammed in!” cried Lydia. “I am glad I bought my bonnet, if it is only for the fun of having another bandbox!”
 s=lydia;e:lydia=happy
@@ -8534,7 +8534,7 @@ e:lydia=excited
 e:lydia=happy
 
 With such kind of histories of their parties and good jokes, did Lydia, assisted by Kitty’s hints and additions, endeavour to amuse her companions all the way to Longbourn.
-s=none;e:lydia=happy;e:kitty=happy
+s=none;e:lydia=happy;e:kitty=happy;b=light
 
 Elizabeth listened as little as she could, but there was no escaping the frequent mention of Wickham’s name.
 e:lizzy=annoyed
@@ -9560,7 +9560,7 @@ Mrs. Reynolds could interest her on no other point.
 
 
 She related the subject of the pictures, the dimensions of the rooms, and the price of the furniture, in vain.
-e:lizzy=thinking;b=pemberley-staircase
+e:lizzy=thinking;b=pemberley-hall
 
 Mr. Gardiner, highly amused by the kind of family prejudice, to which he attributed her excessive commendation of her master, soon led again to the subject; and she dwelt with energy on his many merits, as they proceeded together up the great staircase.
 e:mrgardiner=smirking
@@ -14453,7 +14453,7 @@ Had Elizabeth been able to encounter his eye, she might have seen how well the e
 e:lizzy=nervous;e:lizzy=happy
 
 They walked on, without knowing in what direction.
-e:darcy=contemplative;e:lizzy=contemplative;b=darcy-lizzy-walking
+e:darcy=contemplative;e:lizzy=contemplative;b=bennet-road
 
 There was too much to be thought, and felt, and said, for attention to any other objects.
 
