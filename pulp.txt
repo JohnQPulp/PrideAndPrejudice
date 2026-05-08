@@ -3611,7 +3611,7 @@ When the dancing recommenced, however, and Darcy approached to claim her hand, C
 s=none;e:charlotte=serious;e:darcy=neutral
 
 Elizabeth made no answer, and took her place in the set, amazed at the dignity to which she was arrived in being allowed to stand opposite to Mr. Darcy, and reading in her neighbours’ looks their equal amazement in beholding it.
-e:lizzy=wary;b=lizzy-darcy-dance
+e:lizzy=wary
 
 They stood for some time without speaking a word; and she began to imagine that their silence was to last through the two dances, and at first was resolved not to break it; till suddenly fancying that it would be the greater punishment to her partner to oblige him to talk, she made some slight observation on the dance.
 e:lizzy=annoyed;e:lizzy=smirking
@@ -3716,7 +3716,7 @@ The latter part of this address was scarcely heard by Darcy; but Sir William’s
 s=none;e:darcy=serious;e:darcy=thinking
 
 Recovering himself, however, shortly, he turned to his partner, and said—
-e:darcy=neutral;b=lizzy-darcy-dance
+e:darcy=neutral
 
 “Sir William’s interruption has made me forget what we were talking of.”
 s=darcy
@@ -6185,7 +6185,7 @@ Elizabeth asked questions in vain; Maria would tell her nothing more, and down t
 s=none;e:lizzy=confused
 
 it was two ladies stopping in a low phaeton at the garden gate.
-b=phaeton
+
 
 “And is this all?” cried Elizabeth.
 s=lizzy;e:lizzy=annoyed
@@ -6329,7 +6329,7 @@ After sitting a few minutes, they were all sent to one of the windows, to admire
 e:collins=happy;e:ladycatherine=smirking
 
 The dinner was exceedingly handsome, and there were all the servants, and all the articles of plate which Mr. Collins had promised; and, as he had likewise foretold, he took his seat at the bottom of the table, by her ladyship’s desire, and looked as if he felt that life could furnish nothing greater.
-e:collins=excited;b=rosings-dinner
+e:collins=excited;b=rosings-dining
 
 He carved, and ate, and praised with delighted alacrity; and every dish was commended, first by him, and then by Sir William, who was now enough recovered to echo whatever his son in law said, in a manner which Elizabeth wondered Lady Catherine could bear.
 e:collins=happy;e:william=happy;e:lizzy=confused
@@ -8138,7 +8138,7 @@ e:lizzy=smirking
 
 
 Their first subject was the diminution of the Rosings party.
-s=none;b=rosings-dinner
+s=none;b=rosings-dining
 
 “I assure you, I feel it exceedingly,” said Lady Catherine; “I believe nobody feels the loss of friends so much as I do.”
 s=ladycatherine;e:ladycatherine=unhappy
