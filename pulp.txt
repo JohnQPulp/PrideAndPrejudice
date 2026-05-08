@@ -782,7 +782,7 @@ but she considered with pleasure that it was not likely to be discovered by the 
 
 
 She mentioned this to her friend Miss Lucas.
-b=lucas-private;x:lizzy=bonnet
+b=lucas-dinner;x:lizzy=bonnet
 
 “It may perhaps be pleasant,” replied Charlotte, “to be able to impose on the public in such a case; but it is sometimes a disadvantage to be so very guarded.”
 s=charlotte;e:charlotte=thinking
@@ -6161,7 +6161,7 @@ She had already learnt that Lady Catherine was still in the country.
 
 
 It was spoken of again while they were at dinner, when Mr. Collins joining in, observed—
-b=hunsford-dinner
+b=hunsford-parlor
 
 “Yes, Miss Elizabeth, you will have the honour of seeing Lady Catherine de Bourgh on the ensuing Sunday at church, and I need not say you will be delighted with her.”
 s=collins;e:collins=happy
