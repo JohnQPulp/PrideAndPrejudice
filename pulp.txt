@@ -2522,28 +2522,22 @@ e:lydia=excited;e:kitty=excited
 r=title
 
 “I hope, my dear,” said Mr. Bennet to his wife, as they were at breakfast the next morning, “that you have ordered a good dinner today, because I have reason to expect an addition to our family party.”
-s=mrbennet;e:mrbennet=smirking;e:mrsbennet=neutral;b=bennet-parlor
+s=mrbennet;e:mrbennet=smirking;e:mrsbennet=neutral;b=bennet-parlor;e:mrbennet=;i=
 
 “Who do you mean, my dear?”
-s=mrsbennet;e:mrsbennet=curious
+s=mrsbennet;e:mrsbennet=curious;e:mrsbennet=nervous;i=
 
 “I know of nobody that is coming I am sure, unless Charlotte Lucas should happen to call in, and I hope *my* dinners are good enough for her. I do not believe she often sees such at home.”
-e:mrsbennet=smirking
+e:mrsbennet=smirking;e:mrsbennet=;i=2
 
 “The person of whom I speak, is a gentleman and a stranger.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 Mrs. Bennet’s eyes sparkled.
 s=none;e:mrsbennet=excited
 
-“A gentleman and a stranger!”
-s=mrsbennet;e:mrsbennet=excited
-
-“It is Mr. Bingley I am sure.”
-
-
-“Why Jane—you never dropped a word of this; you sly thing!”
-
+“A gentleman and a stranger! It is Mr. Bingley I am sure. Why Jane—you never dropped a word of this; you sly thing!”
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=curious;i=
 
 “Well, I am sure I shall be extremely glad to see Mr. Bingley.”
 e:mrsbennet=happy
@@ -2552,10 +2546,10 @@ e:mrsbennet=happy
 e:mrsbennet=upset
 
 “Lydia, my love, ring the bell. I must speak to Hill, this moment.”
-
+;e:mrsbennet=unhappy;i=2
 
 “It is *not* Mr. Bingley,” said her husband; “it is a person whom I never saw in the whole course of my life.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=;i=2
 
 This roused a general astonishment; and he had the pleasure of being eagerly questioned by his wife and five daughters at once.
 s=none;e:mrsbennet=surprised;e:jane=surprised;e:lizzy=surprised;e:mary=surprised;e:kitty=surprised;e:lydia=surprised
@@ -2567,7 +2561,7 @@ e:mrbennet=happy
 s=mrbennet;e:mrbennet=serious
 
 “It is from my cousin, Mr. Collins, who, when I am dead, may turn you all out of this house as soon as he pleases.”
-e:mrbennet=smirking
+e:mrbennet=smirking;e:mrbennet=sadsmile;i=
 
 “Oh! my dear,” cried his wife, “I cannot bear to hear that mentioned. Pray do not talk of that odious man.”
 s=mrsbennet;e:mrsbennet=upset
@@ -2582,16 +2576,16 @@ They had often attempted it before, but it was a subject on which Mrs. Bennet wa
 e:mrsbennet=annoyed;e:mrsbennet=angry
 
 “It certainly is a most iniquitous affair,” said Mr. Bennet, “and nothing can clear Mr. Collins from the guilt of inheriting Longbourn.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;;e:mrbennet=unhappy;i=
 
 “But if you will listen to his letter, you may perhaps be a little softened by his manner of expressing himself.”
-e:mrbennet=serious
+e:mrbennet=
 
 “No, that I am sure I shall not; and I think it was very impertinent of him to write to you at all, and very hypocritical.”
-s=mrsbennet;e:mrsbennet=angry
+s=mrsbennet;e:mrsbennet=angry;e:mrsbennet=annoyed;i=
 
 “I hate such false friends. Why could not he keep on quarrelling with you, as his father did before him?”
-e:mrsbennet=scowling
+e:mrsbennet=scowling;e:mrsbennet=serious;i=2
 
 “Why, indeed, he does seem to have had some filial scruples on that head, as you will hear.”
 s=mrbennet;e:mrbennet=smirking
@@ -2599,20 +2593,20 @@ s=mrbennet;e:mrbennet=smirking
 <span class='italics fright'>Hunsford, near Westerham, Kent,</span><br><span class='italics fright'>15th October</span>
 s=none;m=margin
 
-<span class='upper'>Dear Sir,</span>
-
-
-The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach;
+<span class='upper'>Dear Sir,</span><br>The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach;
 
 
 but for some time I was kept back by my own doubts, fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone, with whom it had always pleased him to be at variance.—
 e:mrbennet=serious;m=allowbreak;m=nospace
 
 “There, Mrs. Bennet.”—
-s=mrbennet;e:mrbennet=smirking;m=;;m=allowbreak;m=nospace
+s=mrbennet;e:mrbennet=smirking;m=;;m=allowbreak;m=nospace;e:mrbennet=happy;i=2
 
-My mind however is now made up on the subject, for having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh, widow of Sir Lewis de Bourgh, whose bounty and beneficence has preferred me to the valuable rectory of this parish, where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England.
-s=none;e:mrbennet=serious;m=;m=margin
+My mind however is now made up on the subject, for having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh, widow of Sir Lewis de Bourgh, whose bounty and beneficence has preferred me to the valuable rectory of this parish,
+s=none;e:mrbennet=serious;m=;m=margin;m=allowbreak
+
+where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England.
+m=;m=margin
 
 As a clergyman, moreover, I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence;
 
@@ -2623,23 +2617,26 @@ and on these grounds I flatter myself that my present overtures of goodwill are 
 I cannot be otherwise than concerned at being the means of injuring your amiable daughters, and beg leave to apologise for it, as well as to assure you of my readiness to make them every possible amends—but of this hereafter.
 
 
-If you should have no objection to receive me into your house, I propose myself the satisfaction of waiting on you and your family, Monday, November 18th, by four o’clock, and shall probably trespass on your hospitality till the Saturday se’night following, which I can do without any inconvenience, as Lady Catherine is far from objecting to my occasional absence on a Sunday, provided that some other clergyman is engaged to do the duty of the day.
+If you should have no objection to receive me into your house, I propose myself the satisfaction of waiting on you and your family, Monday, November 18th, by four o’clock, and shall probably trespass on your hospitality till the Saturday se’night following,
+m=allowbreak
 
+which I can do without any inconvenience, as Lady Catherine is far from objecting to my occasional absence on a Sunday, provided that some other clergyman is engaged to do the duty of the day.
+m=;m=margin
 
 I remain, dear sir, with respectful compliments to your lady and daughters, your well-wisher and friend,<br><span class='upper fright'>William Collins.</span>
 n:collins=William Collins
 
 “At four o’clock, therefore, we may expect this peacemaking gentleman,” said Mr. Bennet, as he folded up the letter.
-s=mrbennet;e:mrbennet=smirking;m=
+s=mrbennet;e:mrbennet=smirking;m=;e:mrbennet=happy;i=2
 
 “He seems to be a most conscientious and polite young man, upon my word; and I doubt not will prove a valuable acquaintance, especially if Lady Catherine should be so indulgent as to let him come to us again.”
 e:mrbennet=smirking
 
 “There is some sense in what he says about the girls however; and if he is disposed to make them any amends, I shall not be the person to discourage him.”
-s=mrsbennet;e:mrsbennet=thinking
+s=mrsbennet;e:mrsbennet=thinking;e:mrsbennet=thinking;i=2
 
 “Though it is difficult,” said Jane, “to guess in what way he can mean to make us the atonement he thinks our due, the wish is certainly to his credit.”
-s=jane;e:jane=thinking
+s=jane;e:jane=thinking;e:jane=confused;i=
 
 Elizabeth was chiefly struck with his extraordinary deference for Lady Catherine, and his kind intention of christening, marrying, and burying his parishioners whenever it were required.
 s=none;e:lizzy=contemplative
@@ -2651,19 +2648,19 @@ s=lizzy;e:lizzy=curious
 e:lizzy=thinking
 
 “And what can he mean by apologizing for being next in the entail?—We cannot suppose he would help it, if he could.”
-e:lizzy=confused
+e:lizzy=confused;e:lizzy=serious;i=
 
 “Can he be a sensible man, sir?”
 
 
 “No, my dear; I think not. I have great hopes of finding him quite the reverse.”
-s=mrbennet;e:mrbennet=happy
+s=mrbennet;e:mrbennet=happy;e:mrbennet=;i=
 
 “There is a mixture of servility and self-importance in his letter, which promises well. I am impatient to see him.”
 e:mrbennet=smirking
 
-“In point of composition,” said Mary, “his letter does not seem defective. The idea of the olive branch perhaps is not wholly new, yet I think it is well expressed.”<e>Didn't realize this book was titled <i>Pride and Prejudice and Mary</i>. Talk about hogging the conversation.</e>
-s=mary;e:mary=serious
+“In point of composition,” said Mary, “his letter does not seem defective. The idea of the olive branch perhaps is not wholly new, yet I think it is well expressed.”<e>Who asked, Mary?</e>
+s=mary;e:mary=serious;e:mary=contemplative;i=
 
 To Catherine and Lydia, neither the letter nor its writer were in any degree interesting.
 s=none;e:kitty=annoyed;e:lydia=annoyed
@@ -2675,7 +2672,7 @@ As for their mother, Mr. Collins’s letter had done away much of her ill-will, 
 e:mrsbennet=neutral
 
 Mr. Collins was punctual to his time, and was received with great politeness by the whole family.
-e:collins=serious;b=bennet-drawing
+e:collins=serious;b=bennet-wide
 
 Mr. Bennet indeed said little; but the ladies were ready enough to talk, and Mr. Collins seemed neither in need of encouragement, nor inclined to be silent himself.
 e:mrbennet=neutral
@@ -2684,7 +2681,7 @@ He was a tall, heavy looking young man of five and twenty. His air was grave and
 
 
 He had not been long seated before he complimented Mrs. Bennet on having so fine a family of daughters, said he had heard much of their beauty, but that, in this instance, fame had fallen short of the truth; and added, that he did not doubt her seeing them all in due time well disposed of in marriage.
-e:collins=smirking;e:collins=happy
+e:collins=smirking;e:collins=happy;b=bennet-drawing
 
 This gallantry was not much to the taste of some of his hearers, but Mrs. Bennet, who quarrelled with no compliments, answered most readily—
 e:lizzy=annoyed;e:mrsbennet=happy
@@ -2696,22 +2693,22 @@ s=mrsbennet;e:mrsbennet=unhappy
 
 
 “You allude perhaps to the entail of this estate.”
-s=collins;e:collins=serious
+s=collins;e:collins=serious;e:collins=;i=2
 
 “Ah! sir, I do indeed. It is a grievous affair to my poor girls, you must confess.”
 s=mrsbennet;e:mrsbennet=upset
 
 “Not that I mean to find fault with *you*, for such things I know are all chance in this world.”
-e:mrsbennet=neutral
+e:mrsbennet=neutral;e:mrsbennet=thinking;i=2
 
 “There is no knowing how estates will go when once they come to be entailed.”
-
+;e:mrsbennet=contemplative;i=
 
 “I am very sensible, madam, of the hardship to my fair cousins—and could say much on the subject, but that I am cautious of appearing forward and precipitate.”
-s=collins;e:collins=serious;z:collins=120,56,9
+s=collins;e:collins=serious;z:collins=121,56,10
 
 “But I can assure the young ladies that I come prepared to admire them. At present I will not say more, but perhaps when we are better acquainted—”
-e:collins=happy
+e:collins=happy;e:collins=smirking;i=
 
 He was interrupted by a summons to dinner; and the girls smiled on each other.
 s=none;e:lizzy=smirking;e:jane=smirking
