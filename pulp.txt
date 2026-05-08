@@ -1652,34 +1652,34 @@ Mrs. Bennet, accompanied by her two youngest girls, reached Netherfield soon aft
 e:mrsbennet=neutral
 
 Had she found Jane in any apparent danger, Mrs. Bennet would have been very miserable; but being satisfied on seeing her that her illness was not alarming, she had no wish of her recovering immediately, as her restoration to health would probably remove her from Netherfield.
-e:mrsbennet=happy
+e:mrsbennet=happy;b=netherfield-bedroom
 
 She would not listen therefore to her daughter’s proposal of being carried home; neither did the apothecary, who arrived about the same time, think it at all advisable.
 e:mrsbennet=thinking
 
 After sitting a little while with Jane, on Miss Bingley’s appearance and invitation, the mother and three daughters all attended her into the breakfast parlour.
-
+b=netherfield-parlor
 
 Bingley met them with hopes that Mrs. Bennet had not found Miss Bennet worse than she expected.
 e:bingley=nervous;b=netherfield-parlor
 
 “Indeed I have, Sir,” was her answer.
-s=mrsbennet;e:mrsbennet=upset
+s=mrsbennet;e:mrsbennet=upset;e:mrsbennet=thinking;i=2
 
 “She is a great deal too ill to be moved. Mr. Jones says we must not think of moving her.”
-
+;e:mrsbennet=;i=2
 
 “We must trespass a little longer on your kindness.”
-
+;e:mrsbennet=;i=
 
 “Removed!” cried Bingley. “It must not be thought of.”
 s=bingley;e:bingley=surprised
 
 “My sister, I am sure, will not hear of her removal.”
-
+;e:bingley=curious;i=2
 
 “You may depend upon it, Madam,” said Miss Bingley, with cold civility, “that Miss Bennet shall receive every possible attention while she remains with us.”
-s=caroline;e:caroline=smirking
+s=caroline;e:caroline=smirking;e:caroline=scowling;i=2
 
 Mrs. Bennet was profuse in her acknowledgments.
 s=none;e:mrsbennet=happy
@@ -1688,16 +1688,16 @@ s=none;e:mrsbennet=happy
 s=mrsbennet;e:mrsbennet=happy
 
 “I often tell my other girls they are nothing to *her*.”
-
+;e:mrsbennet=smirking;i=
 
 “You have a sweet room here, Mr. Bingley, and a charming prospect over that gravel walk.”
-e:mrsbennet=excited
+e:mrsbennet=excited;e:mrsbennet=curious;i=
 
 “I do not know a place in the country that is equal to Netherfield.”
-
+;e:mrsbennet=;i=2
 
 “You will not think of quitting it in a hurry I hope, though you have but a short lease.”
-e:mrsbennet=curious
+;e:mrsbennet=nervous;i=
 
 “Whatever I do is done in a hurry,” replied he; “and therefore if I should resolve to quit Netherfield, I should probably be off in five minutes.”
 s=bingley;e:bingley=happy
@@ -1706,7 +1706,7 @@ s=bingley;e:bingley=happy
 
 
 “That is exactly what I should have supposed of you,” said Elizabeth.
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 “You begin to comprehend me, do you?” cried he, turning towards her.
 s=bingley;e:bingley=curious
@@ -1715,28 +1715,22 @@ s=bingley;e:bingley=curious
 s=lizzy;e:lizzy=smirking
 
 “I wish I might take this for a compliment; but to be so easily seen through I am afraid is pitiful.”
-s=bingley;e:bingley=sadsmile
+s=bingley;e:bingley=sadsmile;e:bingley=weary;i=
 
 “That is as it happens. It does not necessarily follow that a deep, intricate character is more or less estimable than such a one as yours.”
-s=lizzy;e:lizzy=neutral
+s=lizzy;e:lizzy=neutral;e:lizzy=contemplative;i=
 
 “Lizzy,” cried her mother, “remember where you are, and do not run on in the wild manner that you are suffered to do at home.”
-s=mrsbennet;e:mrsbennet=scowling
+s=mrsbennet;e:mrsbennet=scowling;e:mrsbennet=scowling;i=2
 
-“I did not know before,” continued Bingley immediately, “that you were a studier of character.”
+“I did not know before,” continued Bingley immediately, “that you were a studier of character. It must be an amusing study.”
 s=bingley;e:bingley=curious
 
-“It must be an amusing study.”
-
-
-“Yes; but intricate characters are the *most* amusing.”
-s=lizzy;e:lizzy=smirking
-
-“They have at least that advantage.”
-
+“Yes; but intricate characters are the *most* amusing. They have at least that advantage.”
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 “The country,” said Darcy, “can in general supply but few subjects for such a study. In a country neighbourhood you move in a very confined and unvarying society.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=serious;i=2
 
 “But people themselves alter so much, that there is something new to be observed in them forever.”
 s=lizzy;e:lizzy=contemplative
@@ -1745,7 +1739,7 @@ s=lizzy;e:lizzy=contemplative
 s=mrsbennet;e:mrsbennet=annoyed
 
 “I assure you there is quite as much of *that* going on in the country as in town.”
-
+;e:mrsbennet=serious;i=
 
 Everybody was surprised; and Darcy, after looking at her for a moment, turned silently away.
 s=none;e:darcy=wary;e:mrsbennet=annoyed
@@ -1754,16 +1748,16 @@ Mrs. Bennet, who fancied she had gained a complete victory over him, continued h
 e:mrsbennet=smirking
 
 “I cannot see that London has any great advantage over the country for my part, except the shops and public places.”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=happy;e:mrsbennet=smirking;i=2
 
 “The country is a vast deal pleasanter, is not it, Mr. Bingley?”
-
+e:mrsbennet=happy
 
 “When I am in the country,” he replied, “I never wish to leave it; and when I am in town it is pretty much the same.”
-s=bingley;e:bingley=happy
+s=bingley;e:bingley=happy;i=2
 
 “They have each their advantages, and I can be equally happy in either.”
-
+i=
 
 “Aye—that is because you have the right disposition.”
 s=mrsbennet;e:mrsbennet=annoyed
@@ -1778,7 +1772,7 @@ s=lizzy;e:lizzy=blushing
 
 
 “Certainly, my dear, nobody said there were; but as to not meeting with many people in this neighbourhood, I believe there are few neighbourhoods larger.”
-s=mrsbennet;e:mrsbennet=scowling
+s=mrsbennet;e:mrsbennet=scowling;e:mrsbennet=serious;i=
 
 “I know we dine with four and twenty families.”
 e:mrsbennet=smirking
@@ -1796,13 +1790,13 @@ e:lizzy=nervous
 s=mrsbennet;e:mrsbennet=neutral
 
 “What an agreeable man Sir William is, Mr. Bingley—is not he? so much the man of fashion! so genteel and so easy!—He has always something to say to everybody.”
-e:mrsbennet=excited
+e:mrsbennet=excited;e:mrsbennet=curious;i=
 
 “*That* is my idea of good breeding; and those persons who fancy themselves very important and never open their mouths, quite mistake the matter.”
 e:mrsbennet=annoyed
 
 “Did Charlotte dine with you?”
-s=lizzy;e:lizzy=neutral
+s=lizzy;e:lizzy=neutral;e:lizzy=serious;i=
 
 “No, she would go home. I fancy she was wanted about the mince pies.”
 s=mrsbennet;e:mrsbennet=neutral
@@ -1811,13 +1805,13 @@ s=mrsbennet;e:mrsbennet=neutral
 e:mrsbennet=smirking
 
 “But everybody is to judge for themselves, and the Lucases are very good sort of girls, I assure you.”
-
+;e:mrsbennet=;i=2
 
 “It is a pity they are not handsome!”
-
+e:mrsbennet=smirking;i=2
 
 “Not that *I* think Charlotte so *very* plain—but then she is our particular friend.”
-
+;e:mrsbennet=curious;i=2
 
 “She seems a very pleasant young woman,” said Bingley.
 s=bingley;e:bingley=happy
@@ -1829,7 +1823,7 @@ s=mrsbennet;e:mrsbennet=smirking
 e:mrsbennet=happy
 
 “When she was only fifteen, there was a gentleman at my brother Gardiner’s in town, so much in love with her, that my sister-in-law was sure he would make her an offer before we came away. But however he did not.”
-
+;e:mrsbennet=;i=2
 
 “Perhaps he thought her too young. However, he wrote some verses on her, and very pretty they were.”
 e:mrsbennet=contemplative
@@ -1838,19 +1832,19 @@ e:mrsbennet=contemplative
 s=lizzy;e:lizzy=annoyed
 
 “There has been many a one, I fancy, overcome in the same way.”
-e:lizzy=smirking
+e:lizzy=smirking;e:lizzy=contemplative;i=
 
 “I wonder who first discovered the efficacy of poetry in driving away love!”
-
+;e:lizzy=smirking;i=
 
 “I have been used to consider poetry as the *food* of love,” said Darcy.
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=contemplative;i=
 
 “Of a fine, stout, healthy love it may. Everything nourishes what is strong already.”
 s=lizzy;e:lizzy=contemplative
 
 “But if it be only a slight, thin sort of inclination, I am convinced that one good sonnet will starve it entirely away.”
-e:lizzy=smirking
+e:lizzy=smirking;e:lizzy=;i=2
 
 Darcy only smiled; and the general pause which ensued made Elizabeth tremble lest her mother should be exposing herself again.
 s=none;e:darcy=sadsmile;e:lizzy=nervous
@@ -1886,7 +1880,7 @@ e:bingley=happy
 s=bingley;e:bingley=happy
 
 “But you would not wish to be dancing while she is ill.”
-e:bingley=neutral
+e:bingley=neutral;e:bingley=curious;i=2
 
 Lydia declared herself satisfied.
 s=none;e:lydia=happy
@@ -1895,7 +1889,7 @@ s=none;e:lydia=happy
 s=lydia;e:lydia=excited;x:lydia=bonnet
 
 “And when you have given *your* ball,” she added, “I shall insist on their giving one also. I shall tell Colonel Forster it will be quite a shame if he does not.”
-e:lydia=smirking
+e:lydia=smirking;e:lydia=thinking;i=
 
 Mrs. Bennet and her daughters then departed, and Elizabeth returned instantly to Jane, leaving her own and her relations’ behaviour to the remarks of the two ladies and Mr. Darcy; the latter of whom, however, could not be prevailed on to join in their censure of *her*, in spite of all Miss Bingley’s witticisms on *fine eyes*.
 s=none;e:lizzy=weary;e:darcy=serious;e:caroline=smirking
