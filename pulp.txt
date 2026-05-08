@@ -1922,22 +1922,22 @@ The perpetual commendations of the lady either on his handwriting, or on the eve
 
 
 “How delighted Miss Darcy will be to receive such a letter!”
-s=caroline;e:caroline=excited
+s=caroline;e:caroline=excited;e:caroline=excited;i=2
 
 He made no answer.
 s=none;e:darcy=neutral
 
 “You write uncommonly fast.”
-s=caroline;e:caroline=happy
+s=caroline;e:caroline=happy;e:caroline=curious;i=
 
 “You are mistaken. I write rather slowly.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 “How many letters you must have occasion to write in the course of the year! Letters of business too! How odious I should think them!”
-s=caroline;e:caroline=smirking
+s=caroline;e:caroline=smirking;e:caroline=excited;i=2
 
 “It is fortunate, then, that they fall to my lot instead of to yours.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;i=2
 
 “Pray tell your sister that I long to see her.”
 s=caroline;e:caroline=happy
@@ -1946,13 +1946,13 @@ s=caroline;e:caroline=happy
 s=darcy;e:darcy=weary
 
 “I am afraid you do not like your pen. Let me mend it for you. I mend pens remarkably well.”
-s=caroline;e:caroline=excited
+s=caroline;e:caroline=excited;e:caroline=curious;i=
 
 “Thank you﻿—but I always mend my own.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 “How can you contrive to write so even?”
-s=caroline;e:caroline=curious
+s=caroline;e:caroline=curious;e:caroline=serious;i=
 
 He was silent.
 s=none;e:darcy=neutral
@@ -1961,100 +1961,100 @@ s=none;e:darcy=neutral
 s=caroline;e:caroline=happy
 
 “Will you give me leave to defer your raptures till I write again?﻿—At present I have not room to do them justice.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=contemplative;i=2
 
 “Oh! it is of no consequence. I shall see her in January.”
-s=caroline;e:caroline=smirking
+s=caroline;e:caroline=happy;;e:caroline=excited;i=2
 
 “But do you always write such charming long letters to her, Mr. Darcy?”
 e:caroline=curious
 
 “They are generally long; but whether always charming, it is not for me to determine.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 “It is a rule with me, that a person who can write a long letter, with ease, cannot write ill.”
 s=caroline;e:caroline=happy
 
 “That will not do for a compliment to Darcy, Caroline,” cried her brother﻿—“because he does *not* write with ease.”
-s=bingley;e:bingley=smirking
+s=bingley;e:bingley=smirking;e:bingley=curious;i=2
 
 “He studies too much for words of four syllables. Do not you, Darcy?”
-e:bingley=happy
+e:bingley=happy;e:bingley=happy;i=2
 
 “My style of writing is very different from yours.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=serious;i=2
 
 “Oh!” cried Miss Bingley, “Charles writes in the most careless way imaginable.”
 s=caroline;e:caroline=smirking
 
 “He leaves out half his words, and blots the rest.”
-
+;e:caroline=excited;i=2
 
 “My ideas flow so rapidly that I have not time to express them﻿—by which means my letters sometimes convey no ideas at all to my correspondents.”
-s=bingley;e:bingley=happy
+s=bingley;e:bingley=happy;e:bingley=smirking;i=;e:bingley=;i=2
 
 “Your humility, Mr. Bingley,” said Elizabeth, “must disarm reproof.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “Nothing is more deceitful,” said Darcy, “than the appearance of humility.”
 s=darcy;e:darcy=serious
 
 “It is often only carelessness of opinion, and sometimes an indirect boast.”
-e:darcy=thinking
+e:darcy=thinking;e:darcy=contemplative;i=
 
 “And which of the two do you call *my* little recent piece of modesty?”
 s=bingley;e:bingley=curious
 
 “The indirect boast;﻿—for you are really proud of your defects in writing, because you consider them as proceeding from a rapidity of thought and carelessness of execution, which if not estimable, you think at least highly interesting.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=;i=2
 
 “The power of doing anything with quickness is always much prized by the possessor, and often without any attention to the imperfection of the performance.”
-e:darcy=thinking
+e:darcy=thinking;e:darcy=serious
 
 “When you told Mrs. Bennet this morning that if you ever resolved on quitting Netherfield you should be gone in five minutes, you meant it to be a sort of panegyric, of compliment to yourself﻿—and yet what is there so very laudable in a precipitance which must leave very necessary business undone, and can be of no real advantage to yourself or anyone else?”
 e:darcy=serious
 
 “Nay,” cried Bingley, “this is too much, to remember at night all the foolish things that were said in the morning.”
-s=bingley;e:bingley=surprised
+s=bingley;e:bingley=surprised;e:bingley=thinking;i=
 
 “And yet, upon my honour, I believed what I said of myself to be true, and I believe it at this moment.”
-e:bingley=serious
+e:bingley=serious;e:bingley=weary
 
 “At least, therefore, I did not assume the character of needless precipitance merely to show off before the ladies.”
-e:bingley=neutral
+e:bingley=weary;e:bingley=thinking;i=
 
 “I dare say you believed it; but I am by no means convinced that you would be gone with such celerity.”
 s=darcy;e:darcy=smirking
 
 “Your conduct would be quite as dependant on chance as that of any man I know; and if, as you were mounting your horse, a friend were to say, ‘Bingley, you had better stay till next week,’ you would probably do it, you would probably not go﻿—and, at another word, might stay a month.”
-e:darcy=neutral
+e:darcy=neutral;e:darcy=smirking;i=2
 
 “You have only proved by this,” cried Elizabeth, “that Mr. Bingley did not do justice to his own disposition. You have shown him off now much more than he did himself.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 “I am exceedingly gratified,” said Bingley, “by your converting what my friend says into a compliment on the sweetness of my temper.”
 s=bingley;e:bingley=happy
 
 “But I am afraid you are giving it a turn which that gentleman did by no means intend; for he would certainly think the better of me, if under such a circumstance I were to give a flat denial, and ride off as fast as I could.”
-e:bingley=smirking
+e:bingley=smirking;e:bingley=;i=
 
 “Would Mr. Darcy then consider the rashness of your original intention as atoned for by your obstinacy in adhering to it?”
 s=lizzy;e:lizzy=curious
 
 “Upon my word I cannot exactly explain the matter, Darcy must speak for himself.”
-s=bingley;e:bingley=neutral
+s=bingley;e:bingley=neutral;e:bingley=curious;i=2
 
 “You expect me to account for opinions which you choose to call mine, but which I have never acknowledged.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;i=2
 
 “Allowing the case, however, to stand according to your representation, you must remember, Miss Bennet, that the friend who is supposed to desire his return to the house, and the delay of his plan, has merely desired it, asked it without offering one argument in favour of its propriety.”
-e:darcy=thinking
+e:darcy=thinking;e:darcy=weary;i=
 
 “To yield readily﻿—easily﻿—to the *persuasion* of a friend is no merit with you.”
 s=lizzy;e:lizzy=serious
 
 “To yield without conviction is no compliment to the understanding of either.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;i=2
 
 “You appear to me, Mr. Darcy, to allow nothing for the influence of friendship and affection.”
 s=lizzy;e:lizzy=thinking
@@ -2062,17 +2062,14 @@ s=lizzy;e:lizzy=thinking
 “A regard for the requester would often make one readily yield to a request, without waiting for arguments to reason one into it.”
 
 
-“I am not particularly speaking of such a case as you have supposed about Mr. Bingley.”
-e:lizzy=neutral
-
-“We may as well wait, perhaps, till the circumstance occurs, before we discuss the discretion of his behaviour thereupon.”
-
+“I am not particularly speaking of such a case as you have supposed about Mr. Bingley. We may as well wait, perhaps, till the circumstance occurs, before we discuss the discretion of his behaviour thereupon.”
+e:lizzy=neutral;i=2
 
 “But in general and ordinary cases between friend and friend, where one of them is desired by the other to change a resolution of no very great moment, should you think ill of that person for complying with the desire, without waiting to be argued into it?”
 e:lizzy=curious
 
 “Will it not be advisable, before we proceed on this subject, to arrange with rather more precision the degree of importance which is to appertain to this request, as well as the degree of intimacy subsisting between the parties?”<e>You think you're being real funny with this conversation, don't you, Austen?</e>
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;i=2
 
 “By all means,” cried Bingley; “let us hear all the particulars, not forgetting their comparative height and size; for that will have more weight in the argument, Miss Bennet, than you may be aware of.”
 s=bingley;e:bingley=happy
@@ -2081,7 +2078,7 @@ s=bingley;e:bingley=happy
 e:bingley=smirking
 
 “I declare I do not know a more awful object than Darcy, on particular occasions, and in particular places; at his own house especially, and of a Sunday evening when he has nothing to do.”
-e:bingley=amused
+e:bingley=amused;e:bingley=happy;i=2
 
 Mr. Darcy smiled; but Elizabeth thought she could perceive that he was rather offended; and therefore checked her laugh.
 s=none;e:darcy=smirking;e:lizzy=nervous
@@ -2089,20 +2086,17 @@ s=none;e:darcy=smirking;e:lizzy=nervous
 Miss Bingley warmly resented the indignity he had received, in an expostulation with her brother for talking such nonsense.
 e:caroline=annoyed
 
-“I see your design, Bingley,” said his friend.
-s=darcy;e:darcy=neutral
-
-“You dislike an argument, and want to silence this.”
-
+“I see your design, Bingley,” said his friend. “You dislike an argument, and want to silence this.”
+s=darcy;e:darcy=neutral;e:darcy=scowling;i=2
 
 “Perhaps I do. Arguments are too much like disputes.”
 s=bingley;e:bingley=weary
 
 “If you and Miss Bennet will defer yours till I am out of the room, I shall be very thankful; and then you may say whatever you like of me.”
-e:bingley=smirking
+e:bingley=smirking;e:bingley=happy;i=2
 
 “What you ask,” said Elizabeth, “is no sacrifice on my side; and Mr. Darcy had much better finish his letter.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 Mr. Darcy took her advice, and did finish his letter.
 s=none;e:darcy=neutral
@@ -2129,7 +2123,7 @@ After playing some Italian songs, Miss Bingley varied the charm by a lively Scot
 e:caroline=excited;e:darcy=neutral
 
 “Do not you feel a great inclination, Miss Bennet, to seize such an opportunity of dancing a reel?”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=happy;i=2
 
 She smiled, but made no answer.
 s=none;e:lizzy=smirking
@@ -2138,16 +2132,16 @@ He repeated the question, with some surprise at her silence.
 e:darcy=confused
 
 “Oh!” said she, “I heard you before; but I could not immediately determine what to say in reply.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=
 
 “You wanted me, I know, to say ‘Yes,’ that you might have the pleasure of despising my taste; but I always delight in overthrowing those kind of schemes, and cheating a person of their premeditated contempt.”
-e:lizzy=happy
+e:lizzy=happy;e:lizzy=;i=2
 
 “I have therefore made up my mind to tell you, that I do not want to dance a reel at all﻿—and now despise me if you dare.”
 e:lizzy=smirking
 
 “Indeed I do not dare.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=serious;i=2
 
 Elizabeth, having rather expected to affront him, was amazed at his gallantry; but there was a mixture of sweetness and archness in her manner which made it difficult for her to affront anybody; and Darcy had never been so bewitched by any woman as he was by her.
 s=none;e:lizzy=surprised;e:lizzy=happy;e:darcy=contemplative
@@ -2156,7 +2150,7 @@ He really believed, that were it not for the inferiority of her connections, he 
 e:darcy=thinking
 
 Miss Bingley saw, or suspected enough to be jealous; and her great anxiety for the recovery of her dear friend Jane, received some assistance from her desire of getting rid of Elizabeth.
-e:caroline=scowling;e:jane=neutral
+e:caroline=scowling;e:jane=neutral;b=netherfield-wide-night
 
 She often tried to provoke Darcy into disliking her guest, by talking of their supposed marriage, and planning his happiness in such an alliance.
 e:caroline=smirking
@@ -2168,19 +2162,16 @@ s=caroline;e:caroline=smirking;b=netherfield-gardens;x:caroline=bonnet;x:darcy=h
 e:caroline=scowling
 
 “Have you anything else to propose for my domestic felicity?”
-s=darcy;e:darcy=annoyed
+s=darcy;e:darcy=annoyed;e:darcy=serious;i=
 
-“Oh! yes. Do let the portraits of your uncle and aunt Philips be placed in the gallery at Pemberley.”
-s=caroline;e:caroline=happy
-
-“Put them next to your great uncle the judge. They are in the same profession, you know; only in different lines.”
-e:caroline=smirking
+“Oh! yes. Do let the portraits of your uncle and aunt Philips be placed in the gallery at Pemberley. Put them next to your great uncle the judge. They are in the same profession, you know; only in different lines.”
+s=caroline;e:caroline=smirking
 
 “As for your Elizabeth’s picture, you must not attempt to have it taken, for what painter could do justice to those beautiful eyes?”
 e:caroline=scowling
 
 “It would not be easy, indeed, to catch their expression, but their colour and shape, and the eyelashes, so remarkably fine, might be copied.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=thinking;i=
 
 At that moment they were met from another walk, by Mrs. Hurst and Elizabeth herself.
 s=none;e:louisa=neutral;e:lizzy=neutral
@@ -2195,28 +2186,28 @@ Then taking the disengaged arm of Mr. Darcy, she left Elizabeth to walk by herse
 s=none;e:louisa=smirking
 
 The path just admitted three.
-
+z:darcy-xhat=134,52,14
 
 Mr. Darcy felt their rudeness and immediately said﻿—
 e:darcy=annoyed
 
 “This walk is not wide enough for our party. We had better go into the avenue.”
-s=darcy
+s=darcy;e:darcy=wary;i=
 
 But Elizabeth, who had not the least inclination to remain with them, laughingly answered﻿—
 s=none;e:lizzy=happy
 
 “No, no; stay where you are. You are charmingly group’d, and appear to uncommon advantage.”
-s=lizzy;e:lizzy=smirking;x:lizzy=bonnet
+s=lizzy;e:lizzy=smirking;x:lizzy=bonnet;e:lizzy=smirking;i=2
 
 “The picturesque would be spoilt by admitting a fourth. Goodbye.”
-
+;e:lizzy=smirking;i=3
 
 She then ran gaily off, rejoicing as she rambled about, in the hope of being at home again in a day or two.
 s=none;e:lizzy=happy
 
 Jane was already so much recovered as to intend leaving her room for a couple of hours that evening.
-e:jane=happy
+e:jane=happy;b=netherfield-wide
 
 ## XI
 r=title
