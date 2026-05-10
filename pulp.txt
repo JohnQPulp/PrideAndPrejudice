@@ -4912,11 +4912,14 @@ e:charlotte=neutral;e:charlotte=serious
 “I ask only a comfortable home; and considering Mr. Collins’s character, connections, and situation in life, I am convinced that my chance of happiness with him is as fair, as most people can boast on entering the marriage state.”
 ;e:charlotte=;i=2
 
-Elizabeth quietly answered “Undoubtedly;”﻿—and after an awkward pause, they returned to the rest of the family.
-s=;m=dialogue
+Elizabeth quietly answered “Undoubtedly;”﻿—
+s=;m=dialogue;m=allowbreak;m=nospace
+
+and after an awkward pause, they returned to the rest of the family.
+m=;b=bennet-drawing
 
 Charlotte did not stay much longer, and Elizabeth was then left to reflect on what she had heard.
-e:lizzy=thinking;f:b:bennet-sitting=blur(3px)
+e:lizzy=thinking;f:b:bennet-drawing=blur(3px)
 
 It was a long time before she became at all reconciled to the idea of so unsuitable a match.
 e:lizzy=unhappy
@@ -4937,13 +4940,13 @@ m=
 r=title
 
 Elizabeth was sitting with her mother and sisters, reflecting on what she had heard, and doubting whether she were authorised to mention it, when Sir William Lucas himself appeared, sent by his daughter to announce her engagement to the family.
-e:lizzy=thinking;e:william=happy;b=bennet-sitting
+e:lizzy=thinking;e:william=happy;b=bennet-drawing
 
 With many compliments to them, and much self-gratulation on the prospect of a connection between the houses, he unfolded the matter﻿—to an audience not merely wondering, but incredulous; for Mrs. Bennet, with more perseverance than politeness, protested he must be entirely mistaken, and Lydia, always unguarded and often uncivil, boisterously exclaimed﻿—
 e:mrsbennet=surprised;e:lydia=surprised;e:mrsbennet=angry;e:lydia=excited
 
 “Good Lord! Sir William, how can you tell such a story?﻿—Do not you know that Mr. Collins wants to marry Lizzy?”
-s=lydia
+s=lydia;e:lydia=annoyed;i=
 
 Nothing less than the complaisance of a courtier could have borne without anger such treatment; but Sir William’s good breeding carried him through it all; and though he begged leave to be positive as to the truth of his information, he listened to all their impertinence with the most forbearing courtesy.
 s=none;e:william=wary;e:william=neutral
@@ -4961,13 +4964,13 @@ In the first place, she persisted in disbelieving the whole of the matter; secon
 e:mrsbennet=angry;e:mrsbennet=scowling
 
 Two inferences, however, were plainly deduced from the whole; one, that Elizabeth was the real cause of all the mischief; and the other, that she herself had been barbarously used by them all; and on these two points she principally dwelt during the rest of the day.
-e:mrsbennet=upset
+e:mrsbennet=upset;f:b:bennet-drawing=blur(3px)
 
 Nothing could console and nothing appease her. Nor did that day wear out her resentment.
 
 
 A week elapsed before she could see Elizabeth without scolding her, a month passed away before she could speak to Sir William or Lady Lucas without being rude, and many months were gone before she could at all forgive their daughter.
-e:lizzy=weary;b=bennet-wide-winter
+e:lizzy=weary;b=bennet-wide;f:b:bennet-wide=blur(3px)
 
 Mr. Bennet’s emotions were much more tranquil on the occasion, and such as he did experience he pronounced to be of a most agreeable sort; for it gratified him, he said, to discover that Charlotte Lucas, whom he had been used to think tolerably sensible, was as foolish as his wife, and more foolish than his daughter!
 e:mrbennet=smirking;e:mrbennet=happy
@@ -4991,7 +4994,7 @@ Jane had sent Caroline an early answer to her letter, and was counting the days 
 e:jane=contemplative
 
 The promised letter of thanks from Mr. Collins arrived on Tuesday, addressed to their father, and written with all the solemnity of gratitude which a twelvemonth’s abode in the family might have prompted.
-
+f:b:bennet-wide=
 
 After discharging his conscience on that head, he proceeded to inform them, with many rapturous expressions, of his happiness in having obtained the affection of their amiable neighbour, Miss Lucas, and then explained that it was merely with the view of enjoying her society that he had been so ready to close with their kind wish of seeing him again at Longbourn, whither he hoped to be able to return on Monday fortnight;
 e:mrbennet=neutral
@@ -5015,7 +5018,7 @@ Neither Jane nor Elizabeth were comfortable on this subject.
 e:jane=unhappy;e:lizzy=unhappy;e:mrsbennet=angry
 
 Day after day passed away without bringing any other tidings of him than the report which shortly prevailed in Meryton of his coming no more to Netherfield the whole winter; a report which highly incensed Mrs. Bennet, and which she never failed to contradict as a most scandalous falsehood.
-
+f:b:bennet-wide=blur(3px)
 
 Even Elizabeth began to fear﻿—not that Bingley was indifferent﻿—but that his sisters would be successful in keeping him away.
 e:lizzy=wary
@@ -5036,7 +5039,7 @@ It needed all Jane’s steady mildness to bear these attacks with tolerable tran
 e:jane=weary
 
 Mr. Collins returned most punctually on the Monday fortnight, but his reception at Longbourn was not quite so gracious as it had been on his first introduction.
-e:collins=happy;e:mrsbennet=scowling;b=bennet-drawing
+e:collins=happy;e:mrsbennet=scowling;f:b:bennet-wide=
 
 He was too happy, however, to need much attention; and luckily for the others, the business of lovemaking relieved them from a great deal of his company.
 e:collins=excited
@@ -5057,31 +5060,31 @@ Whenever Charlotte came to see them she concluded her to be anticipating the hou
 e:mrsbennet=suspicious;e:mrsbennet=fearful
 
 She complained bitterly of all this to her husband.
-s=none
+s=none;b=bennet-parlor
 
 “Indeed, Mr. Bennet,” said she, “it is very hard to think that Charlotte Lucas should ever be mistress of this house, that I should be forced to make way for *her*, and live to see her take my place in it!”
-s=mrsbennet;e:mrsbennet=upset
+s=mrsbennet;e:mrsbennet=upset;e:mrsbennet=angry;i=
 
 “My dear, do not give way to such gloomy thoughts. Let us hope for better things.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=serious;e:mrbennet=serious;i=2
 
 “Let us flatter ourselves that *I* may be the survivor.”
-
+;e:mrbennet=sadsmile;i=
 
 This was not very consoling to Mrs. Bennet, and, therefore, instead of making any answer, she went on as before.
 s=none;e:mrsbennet=scowling
 
 “I cannot bear to think that they should have all this estate. If it was not for the entail I should not mind it.”
-s=mrsbennet;e:mrsbennet=angry
+s=mrsbennet;e:mrsbennet=angry;e:mrsbennet=annoyed;i=2
 
 “What should not you mind?”
-s=mrbennet;e:mrbennet=curious
+s=mrbennet;e:mrbennet=curious;e:mrbennet=thinking;i=
 
 “I should not mind anything at all.”
 s=mrsbennet
 
 “Let us be thankful that you are preserved from a state of such insensibility.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 “I never can be thankful, Mr. Bennet, for anything about the entail.”
 s=mrsbennet;e:mrsbennet=angry
@@ -5090,10 +5093,10 @@ s=mrsbennet;e:mrsbennet=angry
 m=allowbreak;m=nospace
 
 “Why should *he* have it more than anybody else?”
-m=
+m=;e:mrsbennet=serious;i=
 
 “I leave it to yourself to determine,” said Mr. Bennet.
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=;e:mrbennet=sadsmile;i=
 
 ## XXIV
 r=title
