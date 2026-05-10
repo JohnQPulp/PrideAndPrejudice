@@ -3416,16 +3416,16 @@ The possibility of his having really endured such unkindness, was enough to inte
 e:jane=sadsmile;e:jane=thinking
 
 “They have both,” said she, “been deceived, I dare say, in some way or other, of which we can form no idea.”
-s=jane
+s=jane;e:jane=confused;i=
 
 “Interested people have perhaps misrepresented each to the other.”
-
+e:jane=thinking
 
 “It is, in short, impossible for us to conjecture the causes or circumstances which may have alienated them, without actual blame on either side.”
 e:jane=contemplative
 
 “Very true, indeed;﻿—and now, my dear Jane, what have you got to say in behalf of the interested people who have probably been concerned in the business?—”
-s=lizzy;e:lizzy=smirking;m=allowbreak;m=nospace
+s=lizzy;e:lizzy=smirking;m=allowbreak;m=nospace;i=3
 
 “Do clear *them* too, or we shall be obliged to think ill of somebody.”
 m=
@@ -3437,22 +3437,22 @@ s=jane;e:jane=serious
 e:jane=upset
 
 “It is impossible. No man of common humanity, no man who had any value for his character, could be capable of it.”
-
+;e:jane=wary;i=
 
 “Can his most intimate friends be so excessively deceived in him? oh! no.”
-
+;e:jane=weary;i=
 
 “I can much more easily believe Mr. Bingley’s being imposed on, than that Mr. Wickham should invent such a history of himself as he gave me last night; names, facts, everything mentioned without ceremony.”
 s=lizzy;e:lizzy=serious
 
 “If it be not so, let Mr. Darcy contradict it.”
-e:lizzy=contemplative
+e:lizzy=contemplative;e:lizzy=;i=2
 
 “Besides, there was truth in his looks.”
-
+e:lizzy=contemplative
 
 “It is difficult indeed﻿—it is distressing. One does not know what to think.”
-s=jane;e:jane=weary
+s=jane;e:jane=weary;e:jane=confused;i=
 
 “I beg your pardon;﻿—one knows exactly what to think.”
 s=lizzy;e:lizzy=smirking
@@ -3464,10 +3464,10 @@ The two young ladies were summoned from the shrubbery where this conversation pa
 e:lizzy=neutral;e:bingley=happy;e:caroline=happy
 
 The two ladies were delighted to see their dear friend again, called it an age since they had met, and repeatedly asked what she had been doing with herself since their separation.
-e:jane=happy
+e:jane=happy;b=bennet-drawing
 
 To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.
-e:caroline=annoyed;b=bennet-drawing
+e:caroline=annoyed;
 
 They were soon gone again, rising from their seats with an activity which took their brother by surprise, and hurrying off as if eager to escape from Mrs. Bennet’s civilities.
 e:bingley=surprised
@@ -3490,7 +3490,7 @@ e:mary=neutral
 “While I can have my mornings to myself,” said she, “it is enough. I think it no sacrifice to join occasionally in evening engagements.”
 s=mary
 
-“Society has claims on us all; and I profess myself one of those who consider intervals of recreation and amusement as desirable for everybody.”<e>Another chapter ruined by the incessant yapping of Mary.</e>
+“Society has claims on us all; and I profess myself one of those who consider intervals of recreation and amusement as desirable for everybody.”<e>Another chapter ruined by Mary dialogue.</e>
 e:mary=contemplative
 
 Elizabeth’s spirits were so high on the occasion, that though she did not often speak unnecessarily to Mr. Collins, she could not help asking him whether he intended to accept Mr. Bingley’s invitation, and if he did, whether he would think it proper to join in the evening’s amusement;
@@ -3502,8 +3502,8 @@ and she was rather surprised to find that he entertained no scruple whatever on 
 “I am by no means of opinion, I assure you,” said he, “that a ball of this kind, given by a young man of character, to respectable people, can have any evil tendency;”
 s=collins;e:collins=neutral;e:collins=smirking
 
-“and I am so far from objecting to dancing myself that I shall hope to be honoured with the hands of all my fair cousins in the course of the evening, and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially﻿—a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect for her.”<e>Ew, you're planning on dancing with Mary?</e>
-
+“and I am so far from objecting to dancing myself that I shall hope to be honoured with the hands of all my fair cousins in the course of the evening, and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially﻿—a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect for her.”
+;e:collins=;i=2
 
 Elizabeth felt herself completely taken in.
 s=none;e:lizzy=surprised
@@ -3521,7 +3521,7 @@ She was not the better pleased with his gallantry, from the idea it suggested of
 e:lizzy=wary
 
 It now first struck her, that *she* was selected from among her sisters as worthy of being the mistress of Hunsford Parsonage, and of assisting to form a quadrille table at Rosings, in the absence of more eligible visitors.
-e:lizzy=surprised
+e:lizzy=surprised;f:b:bennet-drawing=blur(3px)
 
 The idea soon reached to conviction, as she observed his increasing civilities toward herself, and heard his frequent attempt at a compliment on her wit and vivacity; and though more astonished than gratified herself, by this effect of her charms, it was not long before her mother gave her to understand that the probability of their marriage was exceedingly agreeable to *her*.
 e:lizzy=suspicious;e:mrsbennet=happy;e:lizzy=annoyed
