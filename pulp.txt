@@ -4775,19 +4775,19 @@ Elizabeth took an opportunity of thanking her.
 e:lizzy=happy
 
 “It keeps him in good humour,” said she, “and I am more obliged to you than I can express.”
-s=lizzy
+s=lizzy;e:lizzy=smirking;i=3
 
 Charlotte assured her friend of her satisfaction in being useful, and that it amply repaid her for the little sacrifice of her time.
 s=none;e:charlotte=happy
 
 This was very amiable, but Charlotte’s kindness extended farther than Elizabeth had any conception of;—its object was nothing less, than to secure her from any return of Mr. Collins’s addresses, by engaging them towards herself.
-e:charlotte=thinking
+e:charlotte=thinking;f:b:lucas-dinner=blur(3px)
 
 Such was Miss Lucas’s scheme; and appearances were so favourable that when they parted at night, she would have felt almost sure of success if he had not been to leave Hertfordshire so very soon.
-e:charlotte=contemplative;b=light
+e:charlotte=contemplative
 
 But here, she did injustice to the fire and independence of his character, for it led him to escape out of Longbourn House the next morning with admirable slyness, and hasten to Lucas Lodge to throw himself at her feet.
-e:collins=excited
+e:collins=excited;b=bennet-wide;f:b:bennet-wide=blur(3px)
 
 He was anxious to avoid the notice of his cousins, from a conviction that if they saw him depart, they could not fail to conjecture his design, and he was not willing to have the attempt known till its success could be known likewise;
 e:collins=nervous;e:collins=wary
@@ -4798,10 +4798,7 @@ for though feeling almost secure, and with reason, for Charlotte had been tolera
 His reception however was of the most flattering kind.
 b=lucas-wide
 
-Miss Lucas perceived him from an upper window as he walked towards the house, and instantly set out to meet him accidentally in the lane.
-e:charlotte=happy
-
-But little had she dared to hope that so much love and eloquence awaited her there.
+Miss Lucas perceived him from an upper window as he walked towards the house, and instantly set out to meet him accidentally in the lane. But little had she dared to hope that so much love and eloquence awaited her there.
 e:charlotte=surprised
 
 In as short a time as Mr. Collins’s long speeches would allow, everything was settled between them to the satisfaction of both; and as they entered the house, he earnestly entreated her to name the day that was to make him the happiest of men; and though such a solicitation must be waived for the present, the lady felt no inclination to trifle with his happiness.
@@ -4825,10 +4822,7 @@ The whole family in short were properly overjoyed on the occasion.
 The younger girls formed hopes of *coming out* a year or two sooner than they might otherwise have done; and the boys were relieved from their apprehension of Charlotte’s dying an old maid.
 
 
-Charlotte herself was tolerably composed.
-e:charlotte=neutral
-
-She had gained her point, and had time to consider of it. Her reflections were in general satisfactory.
+Charlotte herself was tolerably composed. She had gained her point, and had time to consider of it. Her reflections were in general satisfactory.
 e:charlotte=contemplative
 
 Mr. Collins to be sure was neither sensible nor agreeable; his society was irksome, and his attachment to her must be imaginary. But still he would be her husband.
@@ -4862,22 +4856,22 @@ They were all astonished; and Mr. Bennet, who could by no means wish for so spee
 s=none;e:mrbennet=wary
 
 “But is there not danger of Lady Catherine’s disapprobation here, my good sir?﻿—You had better neglect your relations, than run the risk of offending your patroness.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=unhappy;i=
 
 “My dear sir,” replied Mr. Collins, “I am particularly obliged to you for this friendly caution, and you may depend upon my not taking so material a step without her ladyship’s concurrence.”
-s=collins;e:collins=serious
+s=collins;e:collins=serious;e:collins=smirking;i=
 
 “You cannot be too much on your guard.”
-s=mrbennet;e:mrbennet=serious;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=serious;e:mrbennet=curious;i=
 
 “Risk anything rather than her displeasure; and if you find it likely to be raised by your coming to us again, which I should think exceedingly probable, stay quietly at home, and be satisfied that *we* shall take no offence.”
-
+;e:mrbennet=happy;i=2
 
 “Believe me, my dear sir, my gratitude is warmly excited by such affectionate attention; and depend upon it, you will speedily receive from me a letter of thanks for this, as well as for every other mark of your regard during my stay in Hertfordshire.”
-s=collins;e:collins=happy
+s=collins;e:collins=happy;e:collins=happy;i=2
 
 “As for my fair cousins, though my absence may not be long enough to render it necessary, I shall now take the liberty of wishing them health and happiness, not excepting my cousin Elizabeth.”
-
+;e:collins=formalwave;i=
 
 With proper civilities the ladies then withdrew; all of them equally surprised to find that he meditated a quick return.
 s=none
@@ -4898,7 +4892,7 @@ The possibility of Mr. Collins’s fancying himself in love with her friend had 
 e:lizzy=thinking;e:lizzy=surprised
 
 “Engaged to Mr. Collins! my dear Charlotte﻿—impossible!”
-s=lizzy
+s=lizzy;e:lizzy=fearful;i=
 
 The steady countenance which Miss Lucas had commanded in telling her story, gave way to a momentary confusion here on receiving so direct a reproach; though, as it was no more than she expected, she soon regained her composure, and calmly replied﻿—
 s=none;e:charlotte=upset;e:charlotte=neutral;x:charlotte=bonnet
@@ -4910,25 +4904,19 @@ But Elizabeth had now recollected herself, and making a strong effort for it, wa
 s=none;e:lizzy=nervous
 
 “I see what you are feeling,” replied Charlotte﻿—“you must be surprised, very much surprised﻿—so lately as Mr. Collins was wishing to marry you.”
-s=charlotte;e:charlotte=serious
+s=charlotte;e:charlotte=serious;e:charlotte=unhappy;i=
 
-“But when you have had time to think it all over, I hope you will be satisfied with what I have done.”
-e:charlotte=neutral
-
-“I am not romantic you know. I never was.”
-
+“But when you have had time to think it all over, I hope you will be satisfied with what I have done. I am not romantic you know. I never was.”
+e:charlotte=neutral;e:charlotte=serious
 
 “I ask only a comfortable home; and considering Mr. Collins’s character, connections, and situation in life, I am convinced that my chance of happiness with him is as fair, as most people can boast on entering the marriage state.”
+;e:charlotte=;i=2
 
-
-Elizabeth quietly answered “Undoubtedly;”﻿—
-s=lizzy;e:lizzy=weary;m=allowbreak;m=nospace
-
-and after an awkward pause, they returned to the rest of the family.
-s=none;m=;
+Elizabeth quietly answered “Undoubtedly;”﻿—and after an awkward pause, they returned to the rest of the family.
+s=;m=dialogue
 
 Charlotte did not stay much longer, and Elizabeth was then left to reflect on what she had heard.
-e:lizzy=thinking;b=bennet-wide
+e:lizzy=thinking;f:b:bennet-sitting=blur(3px)
 
 It was a long time before she became at all reconciled to the idea of so unsuitable a match.
 e:lizzy=unhappy
