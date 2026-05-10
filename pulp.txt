@@ -4330,8 +4330,11 @@ s=none;e:lizzy=annoyed
 ## XX
 r=title
 
-Mr. Collins was not left long to the silent contemplation of his successful love; for Mrs. Bennet, having dawdled about in the vestibule to watch for the end of the conference, no sooner saw Elizabeth open the door and with quick step pass her towards the staircase, than she entered the breakfast-room, and congratulated both him and herself in warm terms on the happy prospect of their nearer connection.
-e:collins=thinking;e:mrsbennet=excited;b=bennet-parlor
+Mr. Collins was not left long to the silent contemplation of his successful love; for Mrs. Bennet, having dawdled about in the vestibule to watch for the end of the conference, no sooner saw Elizabeth open the door and with quick step pass her towards the staircase,
+m=allowbreak;b=bennet-vestibule
+
+than she entered the breakfast-room, and congratulated both him and herself in warm terms on the happy prospect of their nearer connection.
+e:collins=thinking;e:mrsbennet=excited;b=bennet-parlor;m=
 
 Mr. Collins received and returned these felicitations with equal pleasure, and then proceeded to relate the particulars of their interview, with the result of which he trusted he had every reason to be satisfied, since the refusal which his cousin had steadfastly given him would naturally flow from her bashful modesty and the genuine delicacy of her character.
 e:collins=happy
@@ -4340,34 +4343,37 @@ This information, however, startled Mrs. Bennet;—she would have been glad to b
 e:mrsbennet=surprised
 
 “But depend upon it, Mr. Collins,” she added, “that Lizzy shall be brought to reason. I will speak to her about it myself directly.”
-s=mrsbennet;e:mrsbennet=angry
+s=mrsbennet;e:mrsbennet=angry;e:mrsbennet=serious;i=
 
 “She is a very headstrong foolish girl, and does not know her own interest; but I will *make* her know it.”
-
+;e:mrsbennet=angry;i=
 
 “Pardon me for interrupting you, Madam,” cried Mr. Collins; “but if she is really headstrong and foolish, I know not whether she would altogether be a very desirable wife to a man in my situation, who naturally looks for happiness in the marriage state.”
-s=collins;e:collins=wary
+s=collins;e:collins=wary;e:collins=serious;i=
 
 “If therefore she actually persists in rejecting my suit, perhaps it were better not to force her into accepting me, because if liable to such defects of temper, she could not contribute much to my felicity.”
-
+;e:collins=annoyed;i=2
 
 “Sir, you quite misunderstand me,” said Mrs. Bennet, alarmed.
 s=mrsbennet;e:mrsbennet=fearful
 
 “Lizzy is only headstrong in such matters as these. In everything else she is as good natured a girl as ever lived.”
-
+;e:mrsbennet=wary;i=
 
 “I will go directly to Mr. Bennet, and we shall very soon settle it with her, I am sure.”
-e:mrsbennet=nervous
+e:mrsbennet=nervous;e:mrsbennet=scowling;i=
 
-She would not give him time to reply, but hurrying instantly to her husband, called out as she entered the library,
-s=none;e:mrsbennet=excited;b=bennet-library
+She would not give him time to reply,
+s=none;e:mrsbennet=excited;m=allowbreak
+
+but hurrying instantly to her husband, called out as she entered the library,
+m=;b=bennet-library
 
 “Oh! Mr. Bennet, you are wanted immediately; we are all in an uproar.”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=upset;i=2
 
 “You must come and make Lizzy marry Mr. Collins, for she vows she will not have him, and if you do not make haste he will change his mind and not have *her*.”
-e:mrsbennet=upset
+e:mrsbennet=upset;e:mrsbennet=fearful;i=2
 
 Mr. Bennet raised his eyes from his book as she entered, and fixed them on her face with a calm unconcern which was not in the least altered by her communication.
 s=none;e:mrbennet=neutral
@@ -4376,7 +4382,7 @@ s=none;e:mrbennet=neutral
 s=mrbennet
 
 “Of what are you talking?”
-
+;e:mrbennet=curious;i=
 
 “Of Mr. Collins and Lizzy.”
 s=mrsbennet;e:mrsbennet=upset
@@ -4385,67 +4391,61 @@ s=mrsbennet;e:mrsbennet=upset
 
 
 “And what am I to do on the occasion?—It seems a hopeless business.”
-s=mrbennet
+s=mrbennet;e:mrbennet=;i=2
 
 “Speak to Lizzy about it yourself. Tell her that you insist upon her marrying him.”
 s=mrsbennet;e:mrsbennet=angry
 
 “Let her be called down. She shall hear my opinion.”
-s=mrbennet;e:mrbennet=serious
+s=mrbennet;e:mrbennet=serious;e:mrbennet=annoyed;i=2
 
 Mrs. Bennet rang the bell, and Miss Elizabeth was summoned to the library.
 s=none
 
 “Come here, child,” cried her father as she appeared.
-s=mrbennet
+s=mrbennet;e:mrbennet=unhappy;i=
 
-“I have sent for you on an affair of importance. I understand that Mr. Collins has made you an offer of marriage.”
-
-
-“Is it true?”
-
+“I have sent for you on an affair of importance. I understand that Mr. Collins has made you an offer of marriage. Is it true?”
+;e:mrbennet=serious;i=
 
 Elizabeth replied that it was.
 s=none;e:lizzy=serious
 
 “Very well—and this offer of marriage you have refused?”
-s=mrbennet
+s=mrbennet;e:mrbennet=angry;i=
 
 “I have, Sir.”
-s=lizzy
+s=lizzy;e:lizzy=confused;i=
 
 “Very well. We now come to the point.”
-s=mrbennet
+s=mrbennet;e:mrbennet=annoyed;i=
 
 “Your mother insists upon your accepting it. Is not it so, Mrs. Bennet?”
-
+;e:mrbennet=serious;i=2
 
 “Yes, or I will never see her again.”
 s=mrsbennet;e:mrsbennet=angry
 
 “An unhappy alternative is before you, Elizabeth. From this day you must be a stranger to one of your parents.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=;i=
 
 “Your mother will never see you again if you do *not* marry Mr. Collins, and I will never see you again if you *do*.”
-
+e:mrbennet=smirking
 
 Elizabeth could not but smile at such a conclusion of such a beginning; but Mrs. Bennet, who had persuaded herself that her husband regarded the affair as she wished, was excessively disappointed.
 s=none;e:lizzy=happy;e:mrsbennet=upset
 
 “What do you mean, Mr. Bennet, by talking in this way?”
-s=mrsbennet;e:mrsbennet=angry
+s=mrsbennet;e:mrsbennet=angry;e:mrsbennet=nervous;i=
 
 “You promised me to *insist* upon her marrying him.”
-
+;e:mrsbennet=angry;i=
 
 “My dear,” replied her husband, “I have two small favours to request.”
-s=mrbennet;e:mrbennet=neutral
+s=mrbennet;e:mrbennet=neutral;e:mrbennet=happy;i=2
 
-“First, that you will allow me the free use of my understanding on the present occasion; and secondly, of my room.”
-
-
-“I shall be glad to have the library to myself as soon as may be.”
-
+“First, that you will allow me the free use of my understanding on the present occasion; and secondly, of my room. I shall be glad to have the library to myself as soon as may be.”
+;e:mrbennet=sadsmile;i=
 
 Not yet, however, in spite of her disappointment in her husband, did Mrs. Bennet give up the point.
 s=none;e:mrsbennet=annoyed
@@ -4475,7 +4475,7 @@ She was met in the vestibule by Lydia, who, flying to her, cried in a half whisp
 e:lydia=excited;b=bennet-vestibule
 
 “I am glad you are come, for there is such fun here!—What do you think has happened this morning?—Mr. Collins has made an offer to Lizzy, and she will not have him.”
-s=lydia
+s=lydia;e:lydia=happy;i=
 
 Charlotte had hardly time to answer, before they were joined by Kitty, who came to tell the same news,
 s=none;e:charlotte=surprised;e:kitty=excited;e:mrsbennet=upset;m=allowbreak
@@ -4484,7 +4484,7 @@ and no sooner had they entered the breakfast-room, where Mrs. Bennet was alone, 
 b=bennet-parlor;m=
 
 “Pray do, my dear Miss Lucas,” she added in a melancholy tone, “for nobody is on my side, nobody takes part with me, I am cruelly used, nobody feels for my poor nerves.”
-s=mrsbennet;e:mrsbennet=crying
+s=mrsbennet;e:mrsbennet=crying;e:mrsbennet=upset;i=
 
 Charlotte’s reply was spared by the entrance of Jane and Elizabeth.
 s=none;e:charlotte=neutral;e:jane=neutral;e:lizzy=neutral
@@ -4493,24 +4493,18 @@ s=none;e:charlotte=neutral;e:jane=neutral;e:lizzy=neutral
 s=mrsbennet;e:mrsbennet=angry
 
 “But I tell you what, Miss Lizzy, if you take it into your head to go on refusing every offer of marriage in this way, you will never get a husband at all—and I am sure I do not know who is to maintain you when your father is dead.”
-
+;e:mrsbennet=scowling;i=2
 
 “*I* shall not be able to keep you—and so I warn you. I have done with you from this very day.”
-
+;e:mrsbennet=annoyed;i=
 
 “I told you in the library, you know, that I should never speak to you again, and you will find me as good as my word. I have no pleasure in talking to undutiful children.”
 
 
-“Not that I have much pleasure indeed in talking to anybody.”
+“Not that I have much pleasure indeed in talking to anybody. People who suffer as I do from nervous complaints can have no great inclination for talking.”
 e:mrsbennet=upset
 
-“People who suffer as I do from nervous complaints can have no great inclination for talking.”
-
-
-“Nobody can tell what I suffer!—But it is always so.”
-
-
-“Those who do not complain are never pitied.”
+“Nobody can tell what I suffer!—But it is always so. Those who do not complain are never pitied.”
 
 
 Her daughters listened in silence to this effusion, sensible that any attempt to reason with or sooth her would only increase the irritation.
@@ -4532,28 +4526,25 @@ e:mrsbennet=upset
 s=mrsbennet
 
 “My dear Madam,” replied he, “let us be forever silent on this point.”
-s=collins;e:collins=serious
+s=collins;e:collins=serious;e:collins=annoyed;i=2
 
 “Far be it from me,” he presently continued in a voice that marked his displeasure, “to resent the behaviour of your daughter.”
-e:collins=annoyed
+e:collins=annoyed;i=
 
 “Resignation to inevitable evils is the duty of us all; the peculiar duty of a young man who has been so fortunate as I have been in early preferment; and I trust I am resigned.”
-
+;e:collins=serious;i=
 
 “Perhaps not the less so from feeling a doubt of my positive happiness had my fair cousin honoured me with her hand; for I have often observed that resignation is never so perfect as when the blessing denied begins to lose somewhat of its value in our estimation.”
-e:collins=smirking
+e:collins=smirking;e:collins=annoyed;i=
 
 “You will not, I hope, consider me as showing any disrespect to your family, my dear Madam, by thus withdrawing my pretensions to your daughter’s favour, without having paid yourself and Mr. Bennet the compliment of requesting you to interpose your authority in my behalf.”
-e:collins=neutral
+e:collins=neutral;e:collins=serious;i=2
 
-“My conduct may I fear be objectionable in having accepted my dismission from your daughter’s lips instead of your own. But we are all liable to error.”
-
-
-“I have certainly meant well through the whole affair.”
-
+“My conduct may I fear be objectionable in having accepted my dismission from your daughter’s lips instead of your own. But we are all liable to error. I have certainly meant well through the whole affair.”
+;e:collins=annoyed;i=2
 
 “My object has been to secure an amiable companion for myself, with due consideration for the advantage of all your family, and if my *manner* has been at all reprehensible, I here beg leave to apologise.”
-
+;e:collins=annoyed;i=
 
 ## XXI
 r=title
