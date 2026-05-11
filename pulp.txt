@@ -6965,7 +6965,7 @@ It seemed like wilful ill-nature, or a voluntary penance, for on these occasions
 e:lizzy=thinking
 
 He never said a great deal, nor did she give herself the trouble of talking or of listening much; but it struck her in the course of their third rencontre that he was asking some odd unconnected questions—about her pleasure in being at Hunsford, her love of solitary walks, and her opinion of Mr. and Mrs. Collins’s happiness;
-e:lizzy=curious;b=hunsford-gardens-spring
+e:lizzy=curious
 
 and that in speaking of Rosings and her not perfectly understanding the house, he seemed to expect that whenever she came into Kent again she would be staying *there* too.
 
@@ -6980,79 +6980,76 @@ It distressed her a little, and she was quite glad to find herself at the gate i
 e:lizzy=nervous
 
 She was engaged one day as she walked, in re-perusing Jane’s last letter, and dwelling on some passages which proved that Jane had not written in spirits, when, instead of being again surprised by Mr. Darcy, she saw on looking up that Colonel Fitzwilliam was meeting her.
-e:lizzy=surprised;e:fitzwilliam=neutral;b=rosings-wide-spring
+e:lizzy=surprised;e:fitzwilliam=neutral;b=hunsford-gardens-spring
 
 Putting away the letter immediately and forcing a smile, she said—
 e:lizzy=sadsmile
 
 “I did not know before that you ever walked this way.”
-s=lizzy;x:lizzy=bonnet;x:fitzwilliam=hat
+s=lizzy;x:lizzy=bonnet;x:fitzwilliam=hat;e:lizzy=;i=
 
 “I have been making the tour of the Park,” he replied, “as I generally do every year, and intend to close it with a call at the Parsonage.”
 s=fitzwilliam;e:fitzwilliam=happy
 
 “Are you going much farther?”
-
+;e:fitzwilliam=thinking;i=;e:fitzwilliam=curious;i=
 
 “No, I should have turned in a moment.”
-s=lizzy;e:lizzy=neutral
+s=lizzy;e:lizzy=neutral;e:lizzy=thinking;i=
 
 And accordingly she did turn, and they walked towards the Parsonage together.
 s=none
 
 “Do you certainly leave Kent on Saturday?” said she.
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=thinking;i=2
 
-“Yes—if Darcy does not put it off again. But I am at his disposal. He arranges the business just as he pleases.”
-s=fitzwilliam;e:fitzwilliam=smirking
+“Yes—if Darcy does not put it off again.”
+s=fitzwilliam;e:fitzwilliam=wary;i=
+
+“But I am at his disposal. He arranges the business just as he pleases.”
+;e:fitzwilliam=smirking;e:fitzwilliam=thinking;i=
 
 “And if not able to please himself in the arrangement, he has at least great pleasure in the power of choice.”
 s=lizzy;e:lizzy=smirking
 
 “I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy.”
-
+;e:lizzy=smirking;i=3
 
 “He likes to have his own way very well,” replied Colonel Fitzwilliam.
-s=fitzwilliam;e:fitzwilliam=neutral
+s=fitzwilliam;e:fitzwilliam=neutral;e:fitzwilliam=curious;i=
 
-“But so we all do.”
-e:fitzwilliam=serious
-
-“It is only that he has better means of having it than many others, because he is rich, and many others are poor.”
-
+“But so we all do. It is only that he has better means of having it than many others, because he is rich, and many others are poor.”
+e:fitzwilliam=serious;e:fitzwilliam=thinking;i=
 
 “I speak feelingly. A younger son, you know, must be inured to self-denial and dependence.”
 e:fitzwilliam=wary
 
 “In my opinion, the younger son of an Earl can know very little of either. Now, seriously, what have you ever known of self-denial and dependence?”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=2
 
 “When have you been prevented by want of money from going wherever you chose, or procuring anything you had a fancy for?”
-e:lizzy=curious
+e:lizzy=curious;i=2
 
 “These are home questions—and perhaps I cannot say that I have experienced many hardships of that nature.”
 s=fitzwilliam;e:fitzwilliam=smirking
 
 “But in matters of greater weight, I may suffer from the want of money. Younger sons cannot marry where they like.”
-e:fitzwilliam=serious
+e:fitzwilliam=serious;e:fitzwilliam=thinking;i=
 
 “Unless where they like women of fortune, which I think they very often do.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=2;e:lizzy=curious;i=
 
 “Our habits of expense make us too dependant, and there are not many in my rank of life who can afford to marry without some attention to money.”
-s=fitzwilliam;e:fitzwilliam=serious
+s=fitzwilliam;e:fitzwilliam=serious;e:fitzwilliam=serious;i=2
 
 “Is this,” thought Elizabeth, “meant for me?” and she coloured at the idea;
-t=lizzy;s=
+t=lizzy;s=;e:lizzy=thinking;i=
 
 but, recovering herself, said in a lively tone,
 t=
 
-“And pray, what is the usual price of an Earl’s younger son?”
+“And pray, what is the usual price of an Earl’s younger son? Unless the elder brother is very sickly, I suppose you would not ask above fifty thousand pounds.”
 s=lizzy
-
-“Unless the elder brother is very sickly, I suppose you would not ask above fifty thousand pounds.”
-
 
 He answered her in the same style, and the subject dropped.
 s=none;e:fitzwilliam=happy
@@ -7060,23 +7057,17 @@ s=none;e:fitzwilliam=happy
 To interrupt a silence which might make him fancy her affected with what had passed, she soon afterwards said—
 e:lizzy=thinking
 
-“I imagine your cousin brought you down with him chiefly for the sake of having somebody at his disposal.”
-s=lizzy;e:lizzy=smirking
-
-“I wonder he does not marry, to secure a lasting convenience of that kind.”
-
+“I imagine your cousin brought you down with him chiefly for the sake of having somebody at his disposal. I wonder he does not marry, to secure a lasting convenience of that kind.”
+s=lizzy;e:lizzy=smirking;i=3
 
 “But, perhaps his sister does as well for the present, and, as she is under his sole care, he may do what he likes with her.”
-e:lizzy=curious
+e:lizzy=curious;i=2
 
 “No,” said Colonel Fitzwilliam, “that is an advantage which he must divide with me. I am joined with him in the guardianship of Miss Darcy.”
-s=fitzwilliam;e:fitzwilliam=neutral
+s=fitzwilliam;e:fitzwilliam=neutral;e:fitzwilliam=thinking;i=
 
-“Are you, indeed?”
-s=lizzy;e:lizzy=curious
-
-“And pray what sort of guardians do you make? Does your charge give you much trouble?”
-
+“Are you, indeed? And pray what sort of guardians do you make? Does your charge give you much trouble?”
+s=lizzy;e:lizzy=curious;e:lizzy=thinking;i=
 
 “Young ladies of her age, are sometimes a little difficult to manage, and if she has the true Darcy spirit, she may like to have her own way.”
 e:lizzy=smirking
@@ -7088,55 +7079,58 @@ She directly replied—
 
 
 “You need not be frightened. I never heard any harm of her; and I dare say she is one of the most tractable creatures in the world.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=thinking;i=
 
 “She is a very great favourite with some ladies of my acquaintance, Mrs. Hurst and Miss Bingley. I think I have heard you say that you know them.”
 e:lizzy=neutral
 
 “I know them a little. Their brother is a pleasant gentleman-like man—he is a great friend of Darcy’s.”
-s=fitzwilliam;e:fitzwilliam=happy
+s=fitzwilliam;e:fitzwilliam=happy;e:fitzwilliam=curious;i=
 
 “Oh! yes,” said Elizabeth drily—“Mr. Darcy is uncommonly kind to Mr. Bingley, and takes a prodigious deal of care of him.”
-s=lizzy;e:lizzy=annoyed
+s=lizzy;e:lizzy=annoyed;e:lizzy=;i=2
 
 “Care of him!—Yes, I really believe Darcy *does* take care of him in those points where he most wants care.”
-s=fitzwilliam;e:fitzwilliam=thinking
+s=fitzwilliam;e:fitzwilliam=thinking;e:fitzwilliam=wary;i=
 
 “From something that he told me in our journey hither, I have reason to think Bingley very much indebted to him.”
 e:fitzwilliam=serious
 
 “But I ought to beg his pardon, for I have no right to suppose that Bingley was the person meant. It was all conjecture.”
-e:fitzwilliam=wary
+e:fitzwilliam=wary;e:fitzwilliam=nervous;i=
 
 “What is it you mean?”
-s=lizzy;e:lizzy=suspicious
+s=lizzy;e:lizzy=suspicious;e:lizzy=thinking;i=2
 
 “It is a circumstance which Darcy of course would not wish to be generally known, because if it were to get round to the lady’s family, it would be an unpleasant thing.”
-s=fitzwilliam;e:fitzwilliam=nervous
+s=fitzwilliam;e:fitzwilliam=nervous;e:fitzwilliam=serious;i=
 
 “You may depend upon my not mentioning it.”
 s=lizzy;e:lizzy=serious
 
 “And remember that I have not much reason for supposing it to be Bingley.”
-s=fitzwilliam;e:fitzwilliam=serious
+s=fitzwilliam;e:fitzwilliam=serious;e:fitzwilliam=serious;i=2
 
-“What he told me was merely this; that he congratulated himself on having lately saved a friend from the inconveniences of a most imprudent marriage, but without mentioning names or any other particulars, and I only suspected it to be Bingley from believing him the kind of young man to get into a scrape of that sort, and from knowing them to have been together the whole of last summer.”
-e:fitzwilliam=neutral
+“What he told me was merely this; that he congratulated himself on having lately saved a friend from the inconveniences of a most imprudent marriage, but without mentioning names or any other particulars,”
+e:fitzwilliam=neutral;m=allowbreak;e:fitzwilliam=wary;i=
+
+“and I only suspected it to be Bingley from believing him the kind of young man to get into a scrape of that sort, and from knowing them to have been together the whole of last summer.”
+m=;e:fitzwilliam=nervous;i=
 
 “Did Mr. Darcy give you his reasons for this interference?”
-s=lizzy;e:lizzy=wary
+s=lizzy;e:lizzy=wary;e:lizzy=serious;i=
 
 “I understood that there were some very strong objections against the lady.”
-s=fitzwilliam;e:fitzwilliam=neutral
+s=fitzwilliam;e:fitzwilliam=neutral;e:fitzwilliam=thinking;i=
 
 “And what arts did he use to separate them?”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=angry;i=2
 
 “He did not talk to me of his own arts,” said Fitzwilliam smiling.
 s=fitzwilliam;e:fitzwilliam=smirking
 
 “He only told me, what I have now told you.”
-e:fitzwilliam=neutral
+e:fitzwilliam=neutral;e:fitzwilliam=curious;i=;e:fitzwilliam=thinking;i=
 
 Elizabeth made no answer, and walked on, her heart swelling with indignation.
 s=none;e:lizzy=angry
@@ -7147,17 +7141,14 @@ e:fitzwilliam=curious
 “I am thinking of what you have been telling me,” said she.
 s=lizzy;e:lizzy=serious
 
-“Your cousin’s conduct does not suit my feelings.”
+“Your cousin’s conduct does not suit my feelings. Why was he to be the judge?”
 e:lizzy=angry
-
-“Why was he to be the judge?”
-
 
 “You are rather disposed to call his interference officious?”
 s=fitzwilliam;e:fitzwilliam=curious
 
 “I do not see what right Mr. Darcy had to decide on the propriety of his friend’s inclination, or why, upon his own judgment alone, he was to determine and direct in what manner that friend was to be happy.”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=annoyed;i=2
 
 “But,” she continued, recollecting herself, “as we know none of the particulars, it is not fair to condemn him.”
 e:lizzy=serious
@@ -7193,13 +7184,13 @@ e:lizzy=upset;e:lizzy=weary
 e:lizzy=thinking
 
 “To Jane herself,” she exclaimed, “there could be no possibility of objection. All loveliness and goodness as she is!”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=angry;i=3
 
 “Her understanding excellent, her mind improved, and her manners captivating.”
-e:lizzy=serious
+e:lizzy=serious;e:lizzy=unhappy;i=
 
 “Neither could anything be urged against my father, who, though with some peculiarities, has abilities which Mr. Darcy himself need not disdain, and respectability which he will probably never reach.”
-e:lizzy=angry
+e:lizzy=angry;e:lizzy=unhappy;i=2
 
 When she thought of her mother indeed, her confidence gave way a little, but she would not allow that any objections *there* had material weight with Mr. Darcy, whose pride, she was convinced, would receive a deeper wound from the want of importance in his friend’s connections, than from their want of sense;
 s=none;e:lizzy=scowling;e:lizzy=angry
