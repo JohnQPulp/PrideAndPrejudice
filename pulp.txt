@@ -6773,37 +6773,37 @@ It was absolutely necessary, therefore, to think of something, and in this emerg
 s=none;e:lizzy=thinking
 
 “How very suddenly you all quitted Netherfield last November, Mr. Darcy!”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=2
 
 “It must have been a most agreeable surprise to Mr. Bingley to see you all after him so soon; for, if I recollect right, he went but the day before.”
-
+;e:lizzy=contemplative;i=
 
 “He and his sisters were well, I hope, when you left London.”
-
+;e:lizzy=serious;i=
 
 “Perfectly so﻿—I thank you.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=curious;i=
 
 She found that she was to receive no other answer﻿—and, after a short pause, added﻿—
 s=none;e:lizzy=thinking
 
 “I think I have understood that Mr. Bingley has not much idea of ever returning to Netherfield again?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=3
 
 “I have never heard him say so; but it is probable that he may spend very little of his time there in future.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=serious;i=2
 
 “He has many friends, and he is at a time of life when friends and engagements are continually increasing.”
-e:darcy=neutral
+e:darcy=neutral;e:darcy=contemplative;i=
 
 “If he means to be but little at Netherfield, it would be better for the neighbourhood that he should give up the place entirely, for then we might possibly get a settled family there.”
-s=lizzy;e:lizzy=neutral
+s=lizzy;e:lizzy=neutral;e:lizzy=contemplative;i=
 
 “But perhaps Mr. Bingley did not take the house so much for the convenience of the neighbourhood as for his own, and we must expect him to keep or quit it on the same principle.”
-
+e:lizzy=;i=2
 
 “I should not be surprised,” said Darcy, “if he were to give it up, as soon as any eligible purchase offers.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 Elizabeth made no answer.
 s=none;e:lizzy=wary
@@ -6815,52 +6815,52 @@ He took the hint, and soon began with,
 
 
 “This seems a very comfortable house. Lady Catherine, I believe, did a great deal to it when Mr. Collins first came to Hunsford.”
-s=darcy;e:darcy=thinking
+s=darcy;e:darcy=thinking;e:darcy=curious;i=
 
 “I believe she did﻿—and I am sure she could not have bestowed her kindness on a more grateful object.”
 s=lizzy;e:lizzy=smirking
 
 “Mr. Collins appears very fortunate in his choice of a wife.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 “Yes, indeed; his friends may well rejoice in his having met with one of the very few sensible women who would have accepted him, or have made him happy if they had.”
-s=lizzy;e:lizzy=neutral
+s=lizzy;e:lizzy=neutral;e:lizzy=scowling
 
 “My friend has an excellent understanding﻿—though I am not certain that I consider her marrying Mr. Collins as the wisest thing she ever did.”
-e:lizzy=thinking
+
 
 “She seems perfectly happy, however, and in a prudential light, it is certainly a very good match for her.”
-e:lizzy=neutral
+e:lizzy=thinking
 
 “It must be very agreeable to her to be settled within so easy a distance of her own family and friends.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=curious;i=
 
 “An easy distance do you call it? It is nearly fifty miles.”
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=scowling;i=
 
-“And what is fifty miles of good road? Little more than half a day’s journey.”
-s=darcy;e:darcy=smirking
+“And what is fifty miles of good road? Little more than half a day’s journey. Yes, I call it a *very* easy distance.”
+s=darcy;e:darcy=smirking;e:darcy=;i=2
 
-“Yes, I call it a *very* easy distance.”
-
-
-“I should never have considered the distance as one of the *advantages* of the match,” cried Elizabeth. “I should never have said Mrs. Collins was settled *near* her family.”
+“I should never have considered the distance as one of the *advantages* of the match,” cried Elizabeth.
 s=lizzy;e:lizzy=annoyed
 
+“I should never have said Mrs. Collins was settled *near* her family.”
+;e:lizzy=serious;i=
+
 “It is a proof of your own attachment to Hertfordshire. Anything beyond the very neighbourhood of Longbourn, I suppose, would appear far.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=happy;i=2
 
 As he spoke there was a sort of smile, which Elizabeth fancied she understood; he must be supposing her to be thinking of Jane and Netherfield, and she blushed as she answered﻿—
 s=none;e:lizzy=thinking;e:lizzy=upset
 
 “I do not mean to say that a woman may not be settled too near her family.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=blushing;i=
 
 “The far and the near must be relative, and depend on many varying circumstances. Where there is fortune to make the expense of travelling unimportant, distance becomes no evil.”
-
+;e:lizzy=serious;i=2
 
 “But that is not the case *here*.”
-
+;e:lizzy=scowling;i=
 
 “Mr. and Mrs. Collins have a comfortable income, but not such a one as will allow of frequent journeys﻿—and I am persuaded my friend would not call herself *near* her family under less than *half* the present distance.”
 
@@ -6878,7 +6878,7 @@ The gentleman experienced some change of feeling; he drew back his chair, took a
 e:darcy=wary;e:darcy=serious
 
 “Are you pleased with Kent?”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=contemplative;i=
 
 A short dialogue on the subject of the country ensued, on either side calm and concise﻿—and soon put an end to by the entrance of Charlotte and her sister, just returned from their walk.
 s=none;e:lizzy=neutral;e:darcy=neutral
@@ -6890,16 +6890,19 @@ Mr. Darcy related the mistake which had occasioned his intruding on Miss Bennet,
 
 
 “What can be the meaning of this!” said Charlotte, as soon as he was gone.
-s=charlotte;e:charlotte=curious;x:charlotte=bonnet
+s=charlotte;e:charlotte=curious;x:charlotte=bonnet;e:charlotte=smirking;i=
 
 “My dear Eliza, he must be in love with you, or he would never have called on us in this familiar way.”
-e:charlotte=excited
+e:charlotte=excited;e:charlotte=curious;i=
 
 But when Elizabeth told of his silence, it did not seem very likely, even to Charlotte’s wishes, to be the case; and after various conjectures, they could at last only suppose his visit to proceed from the difficulty of finding anything to do, which was the more probable from the time of year.
 s=none;e:charlotte=thinking;e:charlotte=neutral
 
-All field sports were over. Within doors there was Lady Catherine, books, and a billiard table, but gentlemen cannot be always within doors; and in the nearness of the Parsonage, or the pleasantness of the walk to it, or of the people who lived in it, the two cousins found a temptation from this period of walking thither almost every day.
-b=rosings-trees-wide-spring
+All field sports were over. Within doors there was Lady Catherine, books, and a billiard table, but gentlemen cannot be always within doors;
+
+
+and in the nearness of the Parsonage, or the pleasantness of the walk to it, or of the people who lived in it, the two cousins found a temptation from this period of walking thither almost every day.
+b=hunsford-ext
 
 They called at various times of the morning, sometimes separately, sometimes together, and now and then accompanied by their aunt.
 
