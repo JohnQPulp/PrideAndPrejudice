@@ -7208,7 +7208,7 @@ e:charlotte=nervous;e:collins=fearful
 r=title
 
 When they were gone, Elizabeth, as if intending to exasperate herself as much as possible against Mr. Darcy, chose for her employment the examination of all the letters which Jane had written to her since her being in Kent.
-e:lizzy=angry;b=hunsford-drawing
+e:lizzy=angry;b=hunsford-drawing-night
 
 They contained no actual complaint, nor was there any revival of past occurrences, or any communication of present suffering.
 e:lizzy=thinking
@@ -7240,20 +7240,14 @@ In a hurried manner he immediately began an enquiry after her health, imputing h
 She answered him with cold civility.
 e:lizzy=wary
 
-He sat down for a few moments, and then getting up walked about the room.
+He sat down for a few moments, and then getting up walked about the room. Elizabeth was surprised, but said not a word.
 e:darcy=nervous
-
-Elizabeth was surprised, but said not a word.
-e:lizzy=surprised
 
 After a silence of several minutes he came towards her in an agitated manner, and thus began—
 e:darcy=nervous
 
-“In vain have I struggled. It will not do. My feelings will not be repressed.”
+“In vain have I struggled. It will not do. My feelings will not be repressed. You must allow me to tell you how ardently I admire and love you.”
 s=darcy;e:darcy=serious
-
-“You must allow me to tell you how ardently I admire and love you.”
-e:darcy=excited
 
 Elizabeth’s astonishment was beyond expression.
 s=none;e:lizzy=surprised
@@ -7286,19 +7280,16 @@ He *spoke* of apprehension and anxiety, but his countenance expressed real secur
 e:darcy=smirking
 
 Such a circumstance could only exasperate farther, and when he ceased, the colour rose into her cheeks, and she said—
-e:lizzy=angry;b=hunsford-drawing
+e:lizzy=angry;b=hunsford-drawing-night
 
 “In such cases as this, it is, I believe, the established mode to express a sense of obligation for the sentiments avowed, however unequally they may be returned.”
-s=lizzy;e:lizzy=serious;
+s=lizzy;e:lizzy=serious;;e:lizzy=angry;i=
 
-“It is natural that obligation should be felt, and if I could *feel* gratitude, I would now thank you.”
-
-
-“But I cannot—I have never desired your good opinion, and you have certainly bestowed it most unwillingly.”
-e:lizzy=angry
+“It is natural that obligation should be felt, and if I could *feel* gratitude, I would now thank you. But I cannot—I have never desired your good opinion, and you have certainly bestowed it most unwillingly.”
+e:lizzy=angry;e:lizzy=annoyed;i=2
 
 “I am sorry to have occasioned pain to anyone. It has been most unconsciously done, however, and I hope will be of short duration.”
-e:lizzy=serious
+e:lizzy=serious;e:lizzy=annoyed;i=
 
 “The feelings which, you tell me, have long prevented the acknowledgment of your regard, can have little difficulty in overcoming it after this explanation.”
 e:lizzy=scowling
@@ -7319,22 +7310,22 @@ At length, in a voice of forced calmness, he said—
 
 
 “And this is all the reply which I am to have the honour of expecting!”
-s=darcy;e:darcy=angry
+s=darcy;e:darcy=angry;e:darcy=scowling;i=2
 
 “I might, perhaps, wish to be informed why, with so little *endeavour* at civility, I am thus rejected. But it is of small importance.”
-e:darcy=scowling
+;e:darcy=nervous;i=
 
 “I might as well enquire,” replied she, “why with so evident a design of offending and insulting me, you chose to tell me that you liked me against your will, against your reason, and even against your character?”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=annoyed;i=2
 
 “Was not this some excuse for incivility, if I *was* uncivil?”
-e:lizzy=scowling
+e:lizzy=scowling;e:lizzy=scowling;i=2
 
 “But I have other provocations. You know I have.”
-
+i=
 
 “Had not my own feelings decided against you, had they been indifferent, or had they even been favourable, do you think that any consideration would tempt me to accept the man, who has been the means of ruining, perhaps forever, the happiness of a most beloved sister?”
-e:lizzy=angry
+e:lizzy=angry;i=2
 
 As she pronounced these words, Mr. Darcy changed colour; but the emotion was short, and he listened without attempting to interrupt her while she continued.
 s=none;e:darcy=surprised
@@ -7343,7 +7334,7 @@ s=none;e:darcy=surprised
 s=lizzy;e:lizzy=angry
 
 “You dare not, you cannot deny that you have been the principal, if not the only means of dividing them from each other, of exposing one to the censure of the world for caprice and instability, the other to its derision for disappointed hopes, and involving them both in misery of the acutest kind.”
-
+;e:lizzy=scowling;i=2
 
 She paused, and saw with no slight indignation that he was listening with an air which proved him wholly unmoved by any feeling of remorse.
 s=none;e:lizzy=angry;e:darcy=neutral
@@ -7352,16 +7343,13 @@ He even looked at her with a smile of affected incredulity.
 e:darcy=smirking
 
 “Can you deny that you have done it?” she repeated.
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=annoyed;i=2
 
 With assumed tranquillity he then replied,
 s=none;e:darcy=serious
 
-“I have no wish of denying that I did everything in my power to separate my friend from your sister, or that I rejoice in my success.”
-s=darcy;e:darcy=serious
-
-“Towards *him* I have been kinder than towards myself.”
-
+“I have no wish of denying that I did everything in my power to separate my friend from your sister, or that I rejoice in my success. Towards *him* I have been kinder than towards myself.”
+s=darcy;e:darcy=serious;e:darcy=serious;i=2
 
 Elizabeth disdained the appearance of noticing this civil reflection, but its meaning did not escape, nor was it likely to conciliate her.
 s=none;e:lizzy=scowling
@@ -7370,55 +7358,43 @@ s=none;e:lizzy=scowling
 s=lizzy;e:lizzy=angry
 
 “Your character was unfolded in the recital which I received many months ago from Mr. Wickham.”
-
+;e:lizzy=annoyed;i=
 
 “On this subject, what can you have to say? In what imaginary act of friendship can you here defend yourself? or under what misrepresentation, can you here impose upon others?”
 e:lizzy=scowling
 
 “You take an eager interest in that gentleman’s concerns,” said Darcy in a less tranquil tone, and with a heightened colour.
-s=darcy;e:darcy=angry
+s=darcy;e:darcy=angry;e:darcy=scowling;i=2
 
 “Who that knows what his misfortunes have been, can help feeling an interest in him?”
-s=lizzy;e:lizzy=scowling
+s=lizzy;e:lizzy=scowling;e:lizzy=annoyed;i=2
 
-“His misfortunes!” repeated Darcy contemptuously;
+“His misfortunes!” repeated Darcy contemptuously; “yes, his misfortunes have been great indeed.”
 s=darcy;e:darcy=angry
 
-“yes, his misfortunes have been great indeed.”
-
-
 “And of your infliction,” cried Elizabeth with energy.
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=scowling;i=2
 
 “You have reduced him to his present state of poverty, comparative poverty. You have withheld the advantages, which you must know to have been designed for him.”
-
+;e:lizzy=scowling;i=
 
 “You have deprived the best years of his life, of that independence which was no less his due than his desert.”
-e:lizzy=scowling
+e:lizzy=scowling;e:lizzy=angry;i=
 
 “You have done all this! and yet you can treat the mention of his misfortunes with contempt and ridicule.”
 e:lizzy=angry
 
-“And this,” cried Darcy, as he walked with quick steps across the room, “is your opinion of me! This is the estimation in which you hold me!”
-s=darcy;e:darcy=angry
-
-“I thank you for explaining it so fully.”
-e:darcy=scowling
-
-“My faults, according to this calculation, are heavy indeed!”
-
+“And this,” cried Darcy, as he walked with quick steps across the room, “is your opinion of me! This is the estimation in which you hold me! I thank you for explaining it so fully. My faults, according to this calculation, are heavy indeed!”
+s=darcy;e:darcy=angry;e:darcy=scowling;i=
 
 “But perhaps,” added he, stopping in his walk, and turning towards her, “these offences might have been overlooked, had not your pride been hurt by my honest confession of the scruples that had long prevented my forming any serious design.”
 e:darcy=angry
 
 “These bitter accusations might have been suppressed, had I with greater policy concealed my struggles, and flattered you into the belief of my being impelled by unqualified, unalloyed inclination; by reason, by reflection, by everything.”
+;e:darcy=scowling;i=2
 
-
-“But disguise of every sort is my abhorrence.”
+“But disguise of every sort is my abhorrence. Nor am I ashamed of the feelings I related. They were natural and just.”
 e:darcy=serious
-
-“Nor am I ashamed of the feelings I related. They were natural and just.”
-
 
 “Could you expect me to rejoice in the inferiority of your connections? To congratulate myself on the hope of relations, whose condition in life is so decidedly beneath my own?”
 e:darcy=angry
@@ -7427,13 +7403,13 @@ Elizabeth felt herself growing more angry every moment; yet she tried to the utm
 s=none;e:lizzy=angry
 
 “You are mistaken, Mr. Darcy, if you suppose that the mode of your declaration affected me in any other way, than as it spared me the concern which I might have felt in refusing you, had you behaved in a more gentleman-like manner.”
-s=lizzy;e:lizzy=scowling
+s=lizzy;e:lizzy=scowling;e:lizzy=angry;i=
 
 She saw him start at this, but he said nothing, and she continued—
 s=none;e:darcy=surprised
 
 “You could not have made me the offer of your hand in any possible way that would have tempted me to accept it.”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=angry;e:lizzy=angry;i=2
 
 Again his astonishment was obvious; and he looked at her with an expression of mingled incredulity and mortification.
 s=none;e:darcy=surprised
@@ -7442,19 +7418,16 @@ She went on.
 
 
 “From the very beginning, from the first moment I may almost say, of my acquaintance with you, your manners impressing me with the fullest belief of your arrogance, your conceit, and your selfish disdain of the feelings of others, were such as to form that groundwork of disapprobation, on which succeeding events have built so immoveable a dislike;”
-s=lizzy;e:lizzy=scowling;e:lizzy=angry
+s=lizzy;e:lizzy=scowling;e:lizzy=angry;e:lizzy=annoyed;i=
 
 “and I had not known you a month before I felt that you were the last man in the world whom I could ever be prevailed on to marry.”
 
 
-“You have said quite enough, madam.”
-s=darcy;e:darcy=serious
-
-“I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been.”
-e:darcy=weary
+“You have said quite enough, madam. I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been.”
+s=darcy;e:darcy=serious;e:darcy=scowling;i=2
 
 “Forgive me for having taken up so much of your time, and accept my best wishes for your health and happiness.”
-e:darcy=neutral
+e:darcy=neutral;e:darcy=scowling;i=
 
 And with these words he hastily left the room, and Elizabeth heard him the next moment open the front door and quit the house.
 s=none;e:lizzy=surprised
@@ -7468,14 +7441,17 @@ e:lizzy=crying
 Her astonishment, as she reflected on what had passed, was increased by every review of it.
 e:lizzy=surprised
 
-That she should receive an offer of marriage from Mr. Darcy! that he should have been in love with her for so many months! so much in love as to wish to marry her in spite of all the objections which had made him prevent his friend’s marrying her sister, and which must appear at least with equal force in his own case, was almost incredible!
+That she should receive an offer of marriage from Mr. Darcy! that he should have been in love with her for so many months!
 e:lizzy=confused
 
-it was gratifying to have inspired unconsciously so strong an affection.
+so much in love as to wish to marry her in spite of all the objections which had made him prevent his friend’s marrying her sister, and which must appear at least with equal force in his own case, was almost incredible! it was gratifying to have inspired unconsciously so strong an affection.
 e:lizzy=contemplative
 
-But his pride, his abominable pride, his shameless avowal of what he had done with respect to Jane, his unpardonable assurance in acknowledging, though he could not justify it, and the unfeeling manner in which he had mentioned Mr. Wickham, his cruelty towards whom he had not attempted to deny, soon overcame the pity which the consideration of his attachment had for a moment excited.
-e:lizzy=scowling
+But his pride, his abominable pride, his shameless avowal of what he had done with respect to Jane, his unpardonable assurance in acknowledging, though he could not justify it,
+e:lizzy=scowling;m=allowbreak
+
+and the unfeeling manner in which he had mentioned Mr. Wickham, his cruelty towards whom he had not attempted to deny, soon overcame the pity which the consideration of his attachment had for a moment excited.
+m=
 
 She continued in very agitating reflections till the sound of Lady Catherine’s carriage made her feel how unequal she was to encounter Charlotte’s observation, and hurried her away to her room.
 e:lizzy=nervous
