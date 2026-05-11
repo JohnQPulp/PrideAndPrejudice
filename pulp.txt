@@ -8245,17 +8245,20 @@ b=inn-ext
 These two girls had been above an hour in the place, happily employed in visiting an opposite milliner, watching the sentinel on guard, and dressing a salad and cucumber.
 e:kitty=happy;e:lydia=happy
 
-After welcoming their sisters, they triumphantly displayed a table set out with such cold meat as an inn larder usually affords, exclaiming, “Is not this nice? is not this an agreeable surprise?”
-m=dialogue;b=inn-dining
+After welcoming their sisters, they triumphantly displayed a table set out with such cold meat as an inn larder usually affords, exclaiming,
+m=allowbreak;b=inn-dining
+
+“Is not this nice? is not this an agreeable surprise?”
+m=;m=dialogue;b=inn-dining
 
 “And we mean to treat you all,” added Lydia; “but you must lend us the money, for we have just spent ours at the shop out there.”
-e:lydia=smirking;s=lydia;m=;x:lydia=bonnet;x:lizzy=bonnet
+e:lydia=smirking;s=lydia;m=;x:lydia=bonnet;x:lizzy=bonnet;e:lydia=smirking;i=2
 
 Then showing her purchases:
 s=
 
 “Look here, I have bought this bonnet. I do not think it is very pretty; but I thought I might as well buy it as not.”
-e:lydia=neutral;s=lydia
+e:lydia=neutral;s=lydia;e:lydia=happy;i=2
 
 “I shall pull it to pieces as soon as I get home, and see if I can make it up any better.”
 e:lydia=thinking
@@ -8267,37 +8270,37 @@ s=
 e:lydia=smirking;s=lydia
 
 “Besides, it will not much signify what one wears this summer, after the ——shire have left Meryton, and they are going in a fortnight.”
-e:lydia=unhappy
+e:lydia=unhappy;e:lydia=upset;i=
 
 “Are they indeed?” cried Elizabeth, with the greatest satisfaction.
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=;i=2
 
 “They are going to be encamped near Brighton; and I do so want papa to take us all there for the summer!”
-s=lydia;e:lydia=excited
+s=lydia;e:lydia=excited;e:lydia=unhappy;i=
 
 “It would be such a delicious scheme, and I dare say would hardly cost anything at all.”
-
+;e:lydia=curious;i=2
 
 “Mamma would like to go too of all things! Only think what a miserable summer else we shall have!”
 e:lydia=upset
 
 “Yes,” thought Elizabeth, “*that* would be a delightful scheme, indeed, and completely do for us at once.”
-s=;t=lizzy;e:lizzy=annoyed
+s=;t=lizzy;e:lizzy=annoyed;e:lizzy=contemplative;i=
 
 “Good Heaven! Brighton, and a whole campful of soldiers, to us, who have been overset already by one poor regiment of militia, and the monthly balls of Meryton.”
-e:lizzy=weary
+e:lizzy=weary;e:lizzy=thinking;i=
 
 “Now I have got some news for you,” said Lydia, as they sat down to table.
 t=;s=lydia;e:lydia=excited
 
 “What do you think? It is excellent news, capital news, and about a certain person that we all like.”
-e:lydia=smirking
+e:lydia=smirking;e:lydia=smirking;i=2
 
 Jane and Elizabeth looked at each other, and the waiter was told that he need not stay.
 s=none;e:jane=wary;e:lizzy=wary
 
 Lydia laughed, and said—
-e:lydia=happy
+e:lydia=happy;z:lydia-xbonnet=126,48,22
 
 “Aye, that is just like your formality and discretion.”
 s=lydia;e:lydia=smirking
@@ -8306,25 +8309,25 @@ s=lydia;e:lydia=smirking
 
 
 “I dare say he often hears worse things said than I am going to say.”
-e:lydia=scowling
+e:lydia=scowling;e:lydia=happy;i=2
 
 “But he is an ugly fellow! I am glad he is gone. I never saw such a long chin in my life.”
-e:lydia=excited
+e:lydia=excited;e:lydia=smirking;i=
 
 “Well, but now for my news: it is about dear Wickham; too good for the waiter, is not it?”
 
 
 “There is no danger of Wickham’s marrying Mary King. There’s for you!”
-e:lydia=happy
+e:lydia=happy;e:lydia=excited;i=
 
 “She is gone down to her uncle at Liverpool; gone to stay. Wickham is safe.”
-
+;e:lydia=happy;i=2
 
 “And Mary King is safe!” added Elizabeth; “safe from a connection imprudent as to fortune.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=suspicious;i=
 
 “She is a great fool for going away, if she liked him.”
-s=lydia;e:lydia=scowling
+s=lydia;e:lydia=scowling;e:lydia=smirking;i=2
 
 “But I hope there is no strong attachment on either side,” said Jane.
 s=jane;e:jane=wary;x:jane=bonnet
@@ -8333,7 +8336,7 @@ s=jane;e:jane=wary;x:jane=bonnet
 s=lydia;e:lydia=annoyed
 
 “Who *could* about such a nasty little freckled thing?”
-e:lydia=scowling
+e:lydia=scowling;e:lydia=happy;i=2
 
 Elizabeth was shocked to think that, however incapable of such coarseness of *expression* herself, the coarseness of the *sentiment* was little other than her own breast had formerly harboured and fancied liberal!
 s=none;e:lizzy=surprised
@@ -8342,46 +8345,46 @@ As soon as all had ate, and the elder ones paid, the carriage was ordered; and a
 e:lizzy=weary;b=inn-ext
 
 “How nicely we are crammed in!” cried Lydia. “I am glad I bought my bonnet, if it is only for the fun of having another bandbox!”
-s=lydia;e:lydia=happy
+s=lydia;e:lydia=happy;e:lydia=happy;i=2
 
 “Well, now let us be quite comfortable and snug, and talk and laugh all the way home. And in the first place, let us hear what has happened to you all, since you went away.”
-e:lydia=excited
+e:lydia=excited;e:lydia=happy;i=
 
 “Have you seen any pleasant men? Have you had any flirting?”
-e:lydia=curious
+e:lydia=curious;e:lydia=smirking;i=2
 
 “I was in great hopes that one of you would have got a husband before you came back. Jane will be quite an old maid soon, I declare.”
-
+i=
 
 “She is almost three and twenty! Lord, how ashamed I should be of not being married before three and twenty!”
-e:lydia=smirking
+e:lydia=smirking;e:lydia=unhappy;i=
 
 “My aunt Philips wants you so to get husbands, you can’t think. She says Lizzy had better have taken Mr. Collins; but *I* do not think there would have been any fun in it.”
-e:lydia=smirking
+e:lydia=smirking;e:lydia=thinking;i=
 
 “Lord! how I should like to be married before any of you; and then I would chaperon you about to all the balls.”
-e:lydia=excited
+e:lydia=excited;e:lydia=smirking;i=2
 
 “Dear me! we had such a good piece of fun the other day at Colonel Forster’s.”
-e:lydia=smirking
+e:lydia=smirking;i=;e:lydia=excited;i=
 
 “Kitty and me were to spend the day there, and Mrs. Forster promised to have a little dance in the evening; (by the by, Mrs. Forster and me are *such* friends!) and so she asked the two Harringtons to come, but Harriet was ill, and so Pen was forced to come by herself; and then, what do you think we did?”
-
+;e:lydia=happy;i=2
 
 “We dressed up Chamberlayne in woman’s clothes, on purpose to pass for a lady—only think what fun!”
-e:lydia=happy
+e:lydia=happy;i=;e:lydia=excited;i=2
 
 “Not a soul knew of it, but Col. and Mrs. Forster, and Kitty and me, except my aunt, for we were forced to borrow one of her gowns; and you cannot imagine how well he looked!”
-e:lydia=excited
+e:lydia=excited;e:lydia=smirking;i=2
 
 “When Denny, and Wickham, and Pratt, and two or three more of the men came in, they did not know him in the least.”
-
+;e:lydia=happy;i=2
 
 “Lord! how I laughed! and so did Mrs. Forster. I thought I should have died. And *that* made the men suspect something, and then they soon found out what was the matter.”
-e:lydia=happy
+e:lydia=happy;i=
 
 With such kind of histories of their parties and good jokes, did Lydia, assisted by Kitty’s hints and additions, endeavour to amuse her companions all the way to Longbourn.
-s=none;e:lydia=happy;e:kitty=happy;b=light
+s=none;e:lydia=happy;e:kitty=happy;f:b:inn-ext=blur(3px)
 
 Elizabeth listened as little as she could, but there was no escaping the frequent mention of Wickham’s name.
 e:lizzy=annoyed
@@ -8393,43 +8396,40 @@ Mrs. Bennet rejoiced to see Jane in undiminished beauty; and more than once duri
 e:mrbennet=smirking
 
 “I am glad you are come back, Lizzy.”
-s=mrbennet;e:mrbennet=happy
+m=dialogue
 
 Their party in the dining-room was large, for almost all the Lucases came to meet Maria and hear the news: and various were the subjects which occupied them; lady Lucas was enquiring of Maria across the table, after the welfare and poultry of her eldest daughter;
-s=none;e:ladylucas=curious;e:mrsbennet=excited;e:lydia=excited
+s=none;e:ladylucas=curious;e:mrsbennet=excited;e:lydia=excited;m=
 
 Mrs. Bennet was doubly engaged, on one hand collecting an account of the present fashions from Jane, who sat some way below her, and on the other, retailing them all to the younger Miss Lucases; and Lydia, in a voice rather louder than any other person’s, was enumerating the various pleasures of the morning to anybody who would hear her.
 
 
-“Oh! Mary,” said she, “I wish you had gone with us, for we had such fun!”
-s=lydia;e:lydia=excited;x:lydia=
+“Oh! Mary,” said she, “I wish you had gone with us, for we had such fun! as we went along, Kitty and me drew up all the blinds, and pretended there was nobody in the coach; and I should have gone so all the way, if Kitty had not been sick;”
+s=lydia;e:lydia=excited;x:lydia=;e:lydia=happy;i=2
 
-“as we went along, Kitty and me drew up all the blinds, and pretended there was nobody in the coach; and I should have gone so all the way, if Kitty had not been sick; and when we got to the George, I do think we behaved very handsomely, for we treated the other three with the nicest cold luncheon in the world, and if you would have gone, we would have treated you too.”
-e:lydia=smirking
+“and when we got to the George, I do think we behaved very handsomely, for we treated the other three with the nicest cold luncheon in the world, and if you would have gone, we would have treated you too.”
+e:lydia=smirking;e:lydia=thinking;i=
 
-“And then when we came away it was such fun!”
+“And then when we came away it was such fun! I thought we never should have got into the coach. I was ready to die of laughter.”
 e:lydia=happy
 
-“I thought we never should have got into the coach. I was ready to die of laughter.”
-e:lydia=excited
-
 “And then we were so merry all the way home! we talked and laughed so loud, that anybody might have heard us ten miles off!”
-
+;e:lydia=excited;i=
 
 To this, Mary very gravely replied,
 s=
 
-“Far be it from me, my dear sister, to depreciate such pleasures. They would doubtless be congenial with the generality of female minds. But I confess they would have no charms for *me*. I should infinitely prefer a book.”<e>Mary, you monopolize every conversation this way. For God's sake, stop talking. Give Lydia a chance for a change.</e>
+“Far be it from me, my dear sister, to depreciate such pleasures. They would doubtless be congenial with the generality of female minds. But I confess they would have no charms for *me*. I should infinitely prefer a book.”
 s=mary;e:mary=serious
 
-But of this answer Lydia heard not a word.
+But of this answer Lydia heard not a word.<e>Based.</e>
 s=none;e:lydia=neutral
 
-She seldom listened to anybody for more than half a minute, and never attended to Mary at all.<e>See? Lydia is based.</e>
+She seldom listened to anybody for more than half a minute, and never attended to Mary at all.
 
 
 In the afternoon Lydia was urgent with the rest of the girls to walk to Meryton and see how everybody went on; but Elizabeth steadily opposed the scheme.
-e:lydia=excited;e:lizzy=annoyed;b=bennet-drawing
+e:lydia=excited;e:lizzy=annoyed;b=bennet-wide
 
 It should not be said, that the Miss Bennets could not be at home half a day before they were in pursuit of the officers.
 e:lizzy=serious
