@@ -5825,7 +5825,7 @@ There was novelty in the scheme, and as, with such a mother and such uncompanion
 e:lizzy=weary
 
 The journey would moreover give her a peep at Jane; and, in short, as the time drew near, she would have been very sorry for any delay.
-e:lizzy=happy;b=london-wide;f:b:london-wide=blur(3px)
+e:lizzy=happy
 
 Everything, however, went on smoothly, and was finally settled according to Charlotte’s first sketch. She was to accompany Sir William and his second daughter.
 
@@ -5834,7 +5834,7 @@ The improvement of spending a night in London was added in time, and the plan be
 
 
 The only pain was in leaving her father, who would certainly miss her, and who, when it came to the point, so little liked her going, that he told her to write to him, and almost promised to answer her letter.
-e:lizzy=sadsmile;b=bennet-drawing
+e:lizzy=sadsmile
 
 The farewell between herself and Mr. Wickham was perfectly friendly; on his side even more.
 e:wickham=happy
@@ -5869,7 +5869,10 @@ e:jane=happy;e:lizzy=happy;b=london-wide;f:b:london-wide=
 On the stairs were a troop of little boys and girls, whose eagerness for their cousin’s appearance would not allow them to wait in the drawing-room, and whose shyness, as they had not seen her for a twelvemonth, prevented their coming lower.
 
 
-All was joy and kindness. The day passed most pleasantly away; the morning in bustle and shopping,
+All was joy and kindness.
+
+
+The day passed most pleasantly away; the morning in bustle and shopping,
 m=allowbreak
 
 and the evening at one of the theatres.
@@ -5891,16 +5894,16 @@ Mrs. Gardiner then rallied her niece on Wickham’s desertion, and complimented 
 e:mrsgardiner=smirking
 
 “But, my dear Elizabeth,” she added, “what sort of girl is Miss King? I should be sorry to think our friend mercenary.”
-s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=fancy;x:lizzy=fancy
+s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=fancy;x:lizzy=fancy;e:mrsgardiner=wary;i=
 
 “Pray, my dear aunt, what is the difference in matrimonial affairs, between the mercenary and the prudent motive? Where does discretion end, and avarice begin?”
 s=lizzy;e:lizzy=thinking
 
 “Last Christmas you were afraid of his marrying me, because it would be imprudent; and now, because he is trying to get a girl with only ten thousand pounds, you want to find out that he is mercenary.”
-e:lizzy=smirking
+e:lizzy=smirking;e:lizzy=smirking;i=2
 
 “If you will only tell me what sort of girl Miss King is, I shall know what to think.”
-s=mrsgardiner;e:mrsgardiner=serious
+s=mrsgardiner;e:mrsgardiner=serious;e:mrsgardiner=serious;i=
 
 “She is a very good kind of girl, I believe. I know no harm of her.”
 s=lizzy;e:lizzy=neutral
@@ -5909,7 +5912,7 @@ s=lizzy;e:lizzy=neutral
 s=mrsgardiner;e:mrsgardiner=suspicious
 
 “No﻿—why should he?”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=thinking;i=
 
 “If it was not allowable for him to gain *my* affections, because I had no money, what occasion could there be for making love to a girl whom he did not care about, and who was equally poor?”
 e:lizzy=contemplative
@@ -5917,74 +5920,53 @@ e:lizzy=contemplative
 “But there seems indelicacy in directing his attentions towards her, so soon after this event.”
 s=mrsgardiner;e:mrsgardiner=wary
 
-“A man in distressed circumstances has not time for all those elegant decorums which other people may observe.”
-s=lizzy;e:lizzy=thinking
+“A man in distressed circumstances has not time for all those elegant decorums which other people may observe. If *she* does not object to it, why should *we*?”
+s=lizzy;e:lizzy=thinking;e:lizzy=thinking;i=
 
-“If *she* does not object to it, why should *we*?”
-e:lizzy=smirking
+“*Her* not objecting, does not justify *him*. It only shows her being deficient in something herself﻿—sense or feeling.”
+s=mrsgardiner;e:mrsgardiner=annoyed;e:mrsgardiner=serious;i=
 
-“*Her* not objecting, does not justify *him*.”
-s=mrsgardiner;e:mrsgardiner=annoyed
-
-“It only shows her being deficient in something herself﻿—sense or feeling.”
-e:mrsgardiner=scowling
-
-“Well,” cried Elizabeth, “have it as you choose.”
-s=lizzy;e:lizzy=smirking
-
-“*He* shall be mercenary, and *she* shall be foolish.”
-e:lizzy=happy
+“Well,” cried Elizabeth, “have it as you choose. *He* shall be mercenary, and *she* shall be foolish.”
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=2
 
 “No, Lizzy, that is what I do *not* choose.”
-s=mrsgardiner;e:mrsgardiner=serious
+s=mrsgardiner;e:mrsgardiner=serious;e:mrsgardiner=unhappy;i=
 
 “I should be sorry, you know, to think ill of a young man who has lived so long in Derbyshire.”
-e:mrsgardiner=unhappy
+e:mrsgardiner=unhappy;e:mrsgardiner=annoyed;i=;e:mrsgardiner=wary;i=;e:mrsgardiner=annoyed;i=
 
-“Oh! if that is all, I have a very poor opinion of young men who live in Derbyshire; and their intimate friends who live in Hertfordshire are not much better.”
-s=lizzy;e:lizzy=annoyed
+“Oh! if that is all, I have a very poor opinion of young men who live in Derbyshire; and their intimate friends who live in Hertfordshire are not much better. I am sick of them all. Thank Heaven!”
+s=lizzy;e:lizzy=annoyed;e:lizzy=annoyed;i=2
 
-“I am sick of them all. Thank Heaven!”
-e:lizzy=upset
-
-“I am going tomorrow where I shall find a man who has not one agreeable quality, who has neither manner nor sense to recommend him.”
-e:lizzy=scowling
-
-“Stupid men are the only ones worth knowing, after all.”
-e:lizzy=smirking
+“I am going tomorrow where I shall find a man who has not one agreeable quality, who has neither manner nor sense to recommend him. Stupid men are the only ones worth knowing, after all.”
+e:lizzy=smirking;e:lizzy=smirking;i=2
 
 “Take care, Lizzy; that speech savours strongly of disappointment.”
-s=mrsgardiner;e:mrsgardiner=wary
+s=mrsgardiner;e:mrsgardiner=wary;e:mrsgardiner=wary;i=
 
 Before they were separated by the conclusion of the play, she had the unexpected happiness of an invitation to accompany her uncle and aunt in a tour of pleasure which they proposed taking in the summer.
 s=none;e:lizzy=surprised
 
 “We have not quite determined how far it shall carry us,” said Mrs. Gardiner, “but perhaps to the Lakes.”
-s=mrsgardiner;e:mrsgardiner=happy
+s=mrsgardiner;e:mrsgardiner=happy;e:mrsgardiner=curious;i=
 
 No scheme could have been more agreeable to Elizabeth, and her acceptance of the invitation was most ready and grateful.
 s=none;e:lizzy=excited
 
 “My dear, dear aunt,” she rapturously cried, “what delight! what felicity!”
-s=lizzy;e:lizzy=excited
+s=lizzy;e:lizzy=excited;e:lizzy=happy;i=
 
-“You give me fresh life and vigour. Adieu to disappointment and spleen. What are men to rocks and mountains?”
-e:lizzy=happy
+“You give me fresh life and vigour. Adieu to disappointment and spleen. What are men to rocks and mountains? Oh! what hours of transport we shall spend!”
+e:lizzy=happy;e:lizzy=happy;i=2
 
-“Oh! what hours of transport we shall spend!”
-e:lizzy=excited
-
-“And when we *do* return, it shall not be like other travellers, without being able to give one accurate idea of anything.”
-
-
-“We *will* know where we have gone﻿—we *will* recollect what we have seen.”
-e:lizzy=serious
+“And when we *do* return, it shall not be like other travellers, without being able to give one accurate idea of anything. We *will* know where we have gone﻿—we *will* recollect what we have seen.”
+e:lizzy=excited;e:lizzy=curious;i=2
 
 “Lakes, mountains, and rivers, shall not be jumbled together in our imaginations; nor, when we attempt to describe any particular scene, will we begin quarrelling about its relative situation.”
-e:lizzy=contemplative
+e:lizzy=contemplative;e:lizzy=smirking
 
 “Let *our* first effusions be less insupportable than those of the generality of travellers.”<e>Elizabeth Bennet or <book>Eat, Pray, Love|Elizabeth Gilbert</book>?</e>
-e:lizzy=smirking
+e:lizzy=smirking;e:lizzy=smirking
 
 ## XXVIII
 r=title
