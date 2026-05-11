@@ -10484,28 +10484,25 @@ e:mrgardiner=neutral;e:lizzy=contemplative
 r=title
 
 “I have been thinking it over again, Elizabeth,” said her uncle, as they drove from the town; “and really, upon serious consideration, I am much more inclined than I was to judge as your eldest sister does of the matter.”
-s=mrgardiner;e:mrgardiner=thinking;b=lambton-carriage-road;x:mrsgardiner=bonnet;x:lizzy=bonnet
+s=mrgardiner;e:mrgardiner=thinking;b=lambton-carriage-road;x:mrsgardiner=bonnet;x:lizzy=bonnet;e:mrgardiner=serious;i=2
 
 “It appears to me so very unlikely that any young man should form such a design against a girl who is by no means unprotected or friendless, and who was actually staying in his colonel’s family, that I am strongly inclined to hope the best.”
-e:mrgardiner=serious
+e:mrgardiner=serious;i=
 
 “Could he expect that her friends would not step forward? Could he expect to be noticed again by the regiment, after such an affront to Colonel Forster?”
 e:mrgardiner=contemplative
 
 “His temptation is not adequate to the risk.”
-
+;e:mrgardiner=thinking;i=2
 
 “Do you really think so?” cried Elizabeth, brightening up for a moment.
-s=lizzy;e:lizzy=excited
+s=lizzy;e:lizzy=excited;e:lizzy=wary;i=
 
-“Upon my word,” said Mrs. Gardiner, “I begin to be of your uncle’s opinion.”
-s=mrsgardiner;e:mrsgardiner=thinking
-
-“It is really too great a violation of decency, honour, and interest, for him to be guilty of it. I cannot think so very ill of Wickham.”
-e:mrsgardiner=serious
+“Upon my word,” said Mrs. Gardiner, “I begin to be of your uncle’s opinion. It is really too great a violation of decency, honour, and interest, for him to be guilty of it. I cannot think so very ill of Wickham.”
+s=mrsgardiner;e:mrsgardiner=thinking;e:mrsgardiner=serious;i=
 
 “Can you, yourself, Lizzy, so wholly give him up, as to believe him capable of it?”
-e:mrsgardiner=curious
+e:mrsgardiner=curious;e:mrsgardiner=suspicious;i=
 
 “Not perhaps of neglecting his own interest. But of every other neglect I can believe him capable.”
 s=lizzy;e:lizzy=serious
@@ -10514,25 +10511,22 @@ s=lizzy;e:lizzy=serious
 e:lizzy=upset
 
 “But I dare not hope it. Why should they not go on to Scotland, if that had been the case?”
-e:lizzy=confused
+e:lizzy=confused;e:lizzy=serious;i=2
 
 “In the first place,” replied Mr. Gardiner, “there is no absolute proof that they are not gone to Scotland.”
-s=mrgardiner;e:mrgardiner=neutral
+s=mrgardiner;e:mrgardiner=neutral;e:mrgardiner=contemplative;i=
 
 “Oh! but their removing from the chaise into a hackney coach is such a presumption!”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=confused;i=
 
 “And, besides, no traces of them were to be found on the Barnet road.”
+e:lizzy=nervous;i=2
 
-
-“Well, then﻿—supposing them to be in London.”
+“Well, then﻿—supposing them to be in London. They may be there, though for the purpose of concealment, for no more exceptionable purpose.”
 s=mrgardiner;e:mrgardiner=thinking
 
-“They may be there, though for the purpose of concealment, for no more exceptionable purpose.”
-
-
 “It is not likely that money should be very abundant on either side; and it might strike them that they could be more economically, though less expeditiously, married in London, than in Scotland.”
-
+;e:mrgardiner=contemplative;i=
 
 “But why all this secrecy? Why any fear of detection? Why must their marriage be private?”
 s=lizzy;e:lizzy=upset
@@ -10540,17 +10534,14 @@ s=lizzy;e:lizzy=upset
 “Oh! no, no, this is not likely.”
 
 
-“His most particular friend, you see by Jane’s account, was persuaded of his never intending to marry her.”
-e:lizzy=serious
-
-“Wickham will never marry a woman without some money. He cannot afford it.”
-
+“His most particular friend, you see by Jane’s account, was persuaded of his never intending to marry her. Wickham will never marry a woman without some money. He cannot afford it.”
+e:lizzy=serious;e:lizzy=unhappy;i=
 
 “And what claims has Lydia, what attractions has she beyond youth, health, and good humour, that could make him for her sake, forego every chance of benefiting himself by marrying well?”
 
 
-“As to what restraint the apprehension of disgrace in the corps might throw on a dishonourable elopement with her, I am not able to judge; for I know nothing of the effects that such a step might produce.”<e>High fives?</e>
-e:lizzy=thinking
+“As to what restraint the apprehension of disgrace in the corps might throw on a dishonourable elopement with her, I am not able to judge; for I know nothing of the effects that such a step might produce.”
+e:lizzy=thinking;e:lizzy=serious;i=
 
 “But as to your other objection, I am afraid it will hardly hold good.”
 
@@ -10559,46 +10550,46 @@ e:lizzy=thinking
 e:lizzy=unhappy
 
 “But can you think that Lydia is so lost to everything but love of him, as to consent to live with him on any other terms than marriage?”
-s=mrsgardiner;e:mrsgardiner=surprised
+s=mrsgardiner;e:mrsgardiner=surprised;e:mrsgardiner=confused;i=
 
 “It does seem, and it is most shocking indeed,” replied Elizabeth, with tears in her eyes, “that a sister’s sense of decency and virtue in such a point should admit of doubt.”
-s=lizzy;e:lizzy=crying
+s=lizzy;e:lizzy=crying;e:lizzy=upset;i=
 
 “But, really, I know not what to say. Perhaps I am not doing her justice.”
 e:lizzy=upset
 
 “But she is very young; she has never been taught to think on serious subjects; and for the last half year, nay, for a twelvemonth, she has been given up to nothing but amusement and vanity.”
-
+;e:lizzy=weary;i=
 
 “She has been allowed to dispose of her time in the most idle and frivolous manner, and to adopt any opinions that came in her way.”
-
+;e:lizzy=unhappy;i=2
 
 “Since the —﻿—﻿shire were first quartered in Meryton, nothing but love, flirtation, and officers, have been in her head.”
-e:lizzy=annoyed
+e:lizzy=annoyed;e:lizzy=serious;i=2
 
 “She has been doing everything in her power by thinking and talking on the subject, to give greater﻿—what shall I call it? susceptibility to her feelings; which are naturally lively enough.”
-
+;e:lizzy=unhappy;i=
 
 “And we all know that Wickham has every charm of person and address that can captivate a woman.”
 e:lizzy=weary
 
 “But you see that Jane,” said her aunt, “does not think so ill of Wickham, as to believe him capable of the attempt.”
-s=mrsgardiner;e:mrsgardiner=neutral
+s=mrsgardiner;e:mrsgardiner=neutral;e:mrsgardiner=serious;i=
 
 “Of whom does Jane ever think ill? And who is there, whatever might be their former conduct, that she would believe capable of such an attempt, till it were proved against them?”
-s=lizzy;e:lizzy=sadsmile
+s=lizzy;e:lizzy=sadsmile;e:lizzy=sadsmile;i=2
 
 “But Jane knows, as well as I do, what Wickham really is.”
-e:lizzy=serious
+i=
 
 “We both know that he has been profligate in every sense of the word. That he has neither integrity nor honour. That he is as false and deceitful, as he is insinuating.”
-e:lizzy=angry
+e:lizzy=angry;e:lizzy=annoyed;i=2;e:lizzy=upset;i=
 
 “And do you really know all this?” cried Mrs. Gardiner, whose curiosity as to the mode of her intelligence was all alive.
-s=mrsgardiner;e:mrsgardiner=curious
+s=mrsgardiner;e:mrsgardiner=curious;e:mrsgardiner=suspicious;i=
 
 “I do, indeed,” replied Elizabeth, colouring.
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=nervous;i=2
 
 “I told you the other day, of his infamous behaviour to Mr. Darcy; and you, yourself, when last at Longbourn, heard in what manner he spoke of the man, who had behaved with such forbearance and liberality towards him.”
 e:lizzy=serious
@@ -10607,7 +10598,7 @@ e:lizzy=serious
 
 
 “From what he said of Miss Darcy, I was thoroughly prepared to see a proud, reserved, disagreeable girl. Yet he knew to the contrary himself.”
-
+;e:lizzy=unhappy;i=
 
 “He must know that she was as amiable and unpretending as we have found her.”
 
@@ -10625,7 +10616,7 @@ e:lizzy=serious
 
 
 “As that was the case, neither Jane, to whom I related the whole, nor I, thought it necessary to make our knowledge public; for of what use could it apparently be to anyone, that the good opinion which all the neighbourhood had of him, should then be overthrown?”
-
+;e:lizzy=upset;i=
 
 “And even when it was settled that Lydia should go with Mrs. Forster, the necessity of opening her eyes to his character never occurred to me.”
 e:lizzy=unhappy
@@ -10636,23 +10627,20 @@ e:lizzy=unhappy
 “When they all removed to Brighton, therefore, you had no reason, I suppose, to believe them fond of each other.”
 s=mrsgardiner;e:mrsgardiner=contemplative
 
-“Not the slightest.”
-s=lizzy;e:lizzy=neutral
-
-“I can remember no symptom of affection on either side; and had anything of the kind been perceptible, you must be aware that ours is not a family on which it could be thrown away.”
-
+“Not the slightest. I can remember no symptom of affection on either side; and had anything of the kind been perceptible, you must be aware that ours is not a family on which it could be thrown away.”
+s=lizzy;e:lizzy=neutral;e:lizzy=confused;i=
 
 “When first he entered the corps, she was ready enough to admire him; but so we all were.”
-
+;e:lizzy=serious;i=2
 
 “Every girl in, or near Meryton, was out of her senses about him for the first two months; but he never distinguished *her* by any particular attention, and, consequently, after a moderate period of extravagant and wild admiration, her fancy for him gave way, and others of the regiment, who treated her with more distinction, again became her favourites.”
-
+i=
 
 —
 s=none
 
 It may be easily believed, that however little of novelty could be added to their fears, hopes, and conjectures, on this interesting subject, by its repeated discussion, no other could detain them from it long, during the whole of the journey.
-b=light
+f:b:lambton-carriage-road=blur(3px)
 
 From Elizabeth’s thoughts it was never absent. Fixed there by the keenest of all anguish, self reproach, she could find no interval of ease or forgetfulness.
 e:lizzy=unhappy
@@ -10667,7 +10655,7 @@ The little Gardiners, attracted by the sight of a chaise, were standing on the s
 
 
 Elizabeth jumped out; and, after giving each of them a hasty kiss, hurried into the vestibule, where Jane, who came running downstairs from her mother’s apartment, immediately met her.
-
+b=bennet-vestibule
 
 Elizabeth, as she affectionately embraced her, whilst tears filled the eyes of both, lost not a moment in asking whether anything had been heard of the fugitives.
 e:lizzy=crying;e:jane=crying;b=bennet-vestibule
@@ -10676,31 +10664,31 @@ e:lizzy=crying;e:jane=crying;b=bennet-vestibule
 s=jane;e:jane=sadsmile
 
 “Is my father in town?”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=upset;i=
 
 “Yes, he went on Tuesday as I wrote you word.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=wary;i=
 
 “And have you heard from him often?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=fearful;i=2
 
 “We have heard only once. He wrote me a few lines on Wednesday, to say that he had arrived in safety, and to give me his directions, which I particularly begged him to do.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=confused;i=
 
 “He merely added that he should not write again till he had something of importance to mention.”
-
+;e:jane=unhappy;i=
 
 “And my mother﻿—How is she? How are you all?”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=serious;i=2
 
 “My mother is tolerably well, I trust; though her spirits are greatly shaken.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=weary;i=2
 
 “She is upstairs, and will have great satisfaction in seeing you all. She does not yet leave her dressing-room.”
-e:jane=sadsmile
+e:jane=sadsmile;e:jane=sadsmile;i=2
 
 “Mary and Kitty, thank Heaven! are quite well.”
-
+;e:jane=unhappy;i=2
 
 “But you﻿—How are you?” cried Elizabeth. “You look pale. How much you must have gone through!”
 s=lizzy;e:lizzy=upset
@@ -10724,67 +10712,61 @@ with tears and lamentations of regret, invectives against the villainous conduct
 
 
 “If I had been able,” said she, “to carry my point of going to Brighton, with all my family, *this* would not have happened; but poor dear Lydia had nobody to take care of her.”
-s=mrsbennet;e:mrsbennet=upset
+s=mrsbennet;e:mrsbennet=upset;e:mrsbennet=upset;i=2
 
 “Why did the Forsters ever let her go out of their sight?”
-
+i=
 
 “I am sure there was some great neglect or other on their side, for she is not the kind of girl to do such a thing, if she had been well looked after.”
-e:mrsbennet=angry
+e:mrsbennet=angry;e:mrsbennet=fearful;i=
 
-“I always thought they were very unfit to have the charge of her; but I was overruled, as I always am.”
-e:mrsbennet=annoyed
-
-“Poor dear child!”
-e:mrsbennet=crying
+“I always thought they were very unfit to have the charge of her; but I was overruled, as I always am. Poor dear child!”
+e:mrsbennet=annoyed;e:mrsbennet=unhappy;i=
 
 “And now here’s Mr. Bennet gone away, and I know he will fight Wickham, wherever he meets him, and then he will be killed, and what is to become of us all?”
-e:mrsbennet=fearful
+e:mrsbennet=fearful;e:mrsbennet=fearful;i=2
 
 “The Collinses will turn us out, before he is cold in his grave; and if you are not kind to us, brother, I do not know what we shall do.”
-e:mrsbennet=crying
+e:mrsbennet=crying;e:mrsbennet=upset;i=
 
 They all exclaimed against such terrific ideas; and Mr. Gardiner, after general assurances of his affection for her and all her family, told her that he meant to be in London the very next day, and would assist Mr. Bennet in every endeavour for recovering Lydia.
 s=none
 
-“Do not give way to useless alarm,” added he, “though it is right to be prepared for the worst, there is no occasion to look on it as certain.”
+“Do not give way to useless alarm,” added he, “though it is right to be prepared for the worst, there is no occasion to look on it as certain. It is not quite a week since they left Brighton.”
 s=mrgardiner;e:mrgardiner=serious
-
-“It is not quite a week since they left Brighton.”
-
 
 “In a few days more, we may gain some news of them, and till we know that they are not married, and have no design of marrying, do not let us give the matter over as lost.”
 
 
 “As soon as I get to town, I shall go to my brother, and make him come home with me to Gracechurch Street, and then we may consult together as to what is to be done.”
-
+;e:mrgardiner=contemplative;i=
 
 “Oh! my dear brother,” replied Mrs. Bennet, “that is exactly what I could most wish for.”
-s=mrsbennet;e:mrsbennet=surprised
+s=mrsbennet;e:mrsbennet=surprised;e:mrsbennet=unhappy;i=
 
 “And now do, when you get to town, find them out, wherever they may be; and if they are not married already, *make* them marry.”
-e:mrsbennet=nervous
+e:mrsbennet=nervous;e:mrsbennet=upset;i=2
 
 “And as for wedding clothes, do not let them wait for that, but tell Lydia she shall have as much money as she chooses, to buy them, after they are married.”
-
+;e:mrsbennet=wary;i=
 
 “And, above all things, keep Mr. Bennet from fighting.”
 e:mrsbennet=fearful
 
 “Tell him what a dreadful state I am in﻿—that I am frightened out of my wits; and have such tremblings, such flutterings, all over me, such spasms in my side, and pains in my head, and such beatings at heart, that I can get no rest by night nor by day.”
-
+;e:mrsbennet=upset;i=2
 
 “And tell my dear Lydia not to give any directions about her clothes, till she has seen me, for she does not know which are the best warehouses.”
+;e:mrsbennet=serious;i=
 
+“Oh, brother, how kind you are! I know you will contrive it all.”
+e:mrsbennet=excited;e:mrsbennet=sadsmile;i=
 
-“Oh, brother, how kind you are!”
-e:mrsbennet=excited
-
-“I know you will contrive it all.”
-
-
-But Mr. Gardiner, though he assured her again of his earnest endeavours in the cause, could not avoid recommending moderation to her, as well in her hopes as her fears; and, after talking with her in this manner till dinner was on table, they left her to vent all her feelings on the housekeeper, who attended, in the absence of her daughters.
+But Mr. Gardiner, though he assured her again of his earnest endeavours in the cause, could not avoid recommending moderation to her, as well in her hopes as her fears;
 s=none
+
+and, after talking with her in this manner till dinner was on table, they left her to vent all her feelings on the housekeeper, who attended, in the absence of her daughters.
+b=bennet-dining
 
 Though her brother and sister were persuaded that there was no real occasion for such a seclusion from the family, they did not attempt to oppose it, for they knew that she had not prudence enough to hold her tongue before the servants, while they waited at table, and judged it better that *one* only of the household, and the one whom they could most trust, should comprehend all her fears and solicitude on the subject.
 b=bennet-dining
@@ -10801,14 +10783,14 @@ e:kitty=annoyed;e:mary=neutral
 As for Mary, she was mistress enough of herself to whisper to Elizabeth with a countenance of grave reflection, soon after they were seated at table﻿—<e>Mistress Mary, quite contrary?</e>
 e:mary=serious
 
-“This is a most unfortunate affair; and will probably be much talked of. But we must stem the tide of malice, and pour into the wounded bosoms of each other, the balm of sisterly consolation.”<e>Would you shut up for just one scene, <book>Irene Iddesleigh</book>?</e>
-s=mary;e:mary=contemplative
+“This is a most unfortunate affair; and will probably be much talked of. But we must stem the tide of malice, and pour into the wounded bosoms of each other, the balm of sisterly consolation.”<e><book>Irene Iddesleigh</book>, quite contrary.</e>
+s=mary;e:mary=contemplative;e:mary=serious;i=
 
 Then, perceiving in Elizabeth no inclination of replying, she added,
 s=none
 
 “Unhappy as the event must be for Lydia, we may draw from it this useful lesson; that loss of virtue in a female is irretrievable﻿—that one false step involves her in endless ruin﻿—that her reputation is no less brittle than it is beautiful﻿—and that she cannot be too much guarded in her behaviour towards the undeserving of the other sex.”
-s=mary;e:mary=serious
+s=mary;e:mary=contemplative
 
 Elizabeth lifted up her eyes in amazement, but was too much oppressed to make any reply.
 s=none;e:lizzy=surprised
@@ -10823,37 +10805,37 @@ After joining in general lamentations over the dreadful sequel of this event, wh
 
 
 “But tell me all and everything about it, which I have not already heard. Give me farther particulars.”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=serious;i=
 
 “What did Colonel Forster say? Had they no apprehension of anything before the elopement took place?”
 
 
 “They must have seen them together forever.”
-
+;e:lizzy=unhappy;i=
 
 “Colonel Forster did own that he had often suspected some partiality, especially on Lydia’s side, but nothing to give him any alarm.”
-s=jane;e:jane=serious
+s=jane;e:jane=unhappy
 
 “I am so grieved for him. His behaviour was attentive and kind to the utmost.”
 e:jane=unhappy
 
 “He *was* coming to us, in order to assure us of his concern, before he had any idea of their not being gone to Scotland: when that apprehension first got abroad, it hastened his journey.”
-
+;e:jane=upset;i=2
 
 “And was Denny convinced that Wickham would not marry? Did he know of their intending to go off? Had Colonel Forster seen Denny himself?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=3
 
 “Yes; but when questioned by *him* Denny denied knowing anything of their plan, and would not give his real opinion about it.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=upset;i=
 
 “He did not repeat his persuasion of their not marrying﻿—and from *that*, I am inclined to hope, he might have been misunderstood before.”
-e:jane=sadsmile
+e:jane=sadsmile;e:jane=wary;i=
 
 “And till Colonel Forster came himself, not one of you entertained a doubt, I suppose, of their being really married?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=
 
 “How was it possible that such an idea should enter our brains!”
-s=jane;e:jane=surprised
+s=jane;e:jane=surprised;e:jane=weary;i=
 
 “I felt a little uneasy﻿—a little fearful of my sister’s happiness with him in marriage, because I knew that his conduct had not been always quite right.”
 e:jane=nervous
@@ -10862,40 +10844,40 @@ e:jane=nervous
 
 
 “Kitty then owned, with a very natural triumph on knowing more than the rest of us, that in Lydia’s last letter, she had prepared her for such a step.”
-e:jane=serious
+e:jane=serious;e:jane=confused;i=
 
 “She had known, it seems, of their being in love with each other, many weeks.”
-
+;e:jane=nervous;i=2
 
 “But not before they went to Brighton?”
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=scowling;i=
 
 “No, I believe not.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=unhappy;i=
 
 “And did Colonel Forster appear to think ill of Wickham himself? Does he know his real character?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=2
 
 “I must confess that he did not speak so well of Wickham as he formerly did. He believed him to be imprudent and extravagant.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=nervous;i=
 
 “And since this sad affair has taken place, it is said, that he left Meryton greatly in debt; but I hope this may be false.”
-e:jane=sadsmile
+e:jane=sadsmile;e:jane=confused;i=
 
 “Oh, Jane, had we been less secret, had we told what we knew of him, this could not have happened!”
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=weary;i=
 
 “Perhaps it would have been better;” replied her sister.
-s=jane;e:jane=sadsmile
+s=jane;e:jane=sadsmile;e:jane=upset;i=2
 
 “But to expose the former faults of any person, without knowing what their present feelings were, seemed unjustifiable. We acted with the best intentions.”
-
+;e:jane=weary;i=
 
 “Could Colonel Forster repeat the particulars of Lydia’s note to his wife?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=
 
 “He brought it with him for us to see.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=wary;i=
 
 Jane then took it from her pocketbook, and gave it to Elizabeth. These were the contents:
 s=none
@@ -10934,28 +10916,28 @@ e:lydia=neutral
 
 
 “Oh! thoughtless, thoughtless Lydia!” cried Elizabeth when she had finished it.
-s=lizzy;e:lizzy=angry;m=
+s=lizzy;e:lizzy=angry;m=;e:lizzy=scowling;i=
 
-“What a letter is this, to be written at such a moment. But at least it shows, that *she* was serious in the object of her journey.”
-e:lizzy=serious
+“What a letter is this, to be written at such a moment.”
+e:lizzy=serious;e:lizzy=annoyed;i=
 
-“Whatever he might afterwards persuade her to, it was not on her side a *scheme* of infamy.”
-e:lizzy=upset
+“But at least it shows, that *she* was serious in the object of her journey. Whatever he might afterwards persuade her to, it was not on her side a *scheme* of infamy.”
+e:lizzy=upset;e:lizzy=weary;i=2
 
 “My poor father! how he must have felt it!”
-
+;e:lizzy=weary;i=
 
 “I never saw anyone so shocked. He could not speak a word for full ten minutes.”
-s=jane;e:jane=upset
+s=jane;e:jane=upset;e:jane=upset;i=2
 
 “My mother was taken ill immediately, and the whole house in such confusion!”
-
+;e:jane=confused;i=
 
 “Oh! Jane,” cried Elizabeth, “was there a servant belonging to it, who did not know the whole story before the end of the day?”
-s=lizzy;e:lizzy=fearful
+s=lizzy;e:lizzy=fearful;e:lizzy=unhappy;i=;e:lizzy=confused;i=
 
 “I do not know. I hope there was. But to be guarded at such a time, is very difficult.”
-s=jane;e:jane=sadsmile
+s=jane;e:jane=sadsmile;e:jane=unhappy;i=2
 
 “My mother was in hysterics, and though I endeavoured to give her every assistance in my power, I am afraid I did not do so much as I might have done!”
 e:jane=nervous
@@ -10964,19 +10946,19 @@ e:jane=nervous
 
 
 “Your attendance upon her, has been too much for you. You do not look well.”
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=confused;i=2
 
 “Oh! that I had been with you, you have had every care and anxiety upon yourself alone.”
-
+;e:lizzy=weary;i=
 
 “Mary and Kitty have been very kind, and would have shared in every fatigue, I am sure, but I did not think it right for either of them.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=unhappy;i=
 
 “Kitty is slight and delicate, and Mary studies so much, that her hours of repose should not be broken in on.”
 
 
 “My aunt Philips came to Longbourn on Tuesday, after my father went away; and was so good as to stay till Thursday with me.”
-
+e:jane=sadsmile
 
 “She was of great use and comfort to us all, and lady Lucas has been very kind; she walked here on Wednesday morning to condole with us, and offered her services, or any of her daughters, if they could be of use to us.”
 
@@ -10985,28 +10967,28 @@ s=jane;e:jane=neutral
 s=lizzy;e:lizzy=annoyed
 
 “Assistance is impossible; condolence, insufferable.”
-e:lizzy=angry
+e:lizzy=angry;e:lizzy=weary;i=
 
 “Let them triumph over us at a distance, and be satisfied.”
-
+;e:lizzy=angry;i=
 
 She then proceeded to enquire into the measures which her father had intended to pursue, while in town, for the recovery of his daughter.
 s=none;e:lizzy=serious
 
 “He meant, I believe,” replied Jane, “to go to Epsom, the place where they last changed horses, see the postilions, and try if anything could be made out from them.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=nervous;i=
 
 “His principal object must be, to discover the number of the hackney coach which took them from Clapham.”
 
 
 “It had come with a fare from London; and as he thought the circumstance of a gentleman and lady’s removing from one carriage into another, might be remarked, he meant to make enquiries at Clapham.”
-
+;e:jane=confused;i=
 
 “If he could any how discover at what house the coachman had before set down his fare, he determined to make enquiries there, and hoped it might not be impossible to find out the stand and number of the coach.”
-
+;e:jane=unhappy;i=2
 
 “I do not know of any other designs that he had formed: but he was in such a hurry to be gone, and his spirits so greatly discomposed, that I had difficulty in finding out even so much as this.”
-e:jane=unhappy
+e:jane=wary
 
 ## XLVIII
 r=title
