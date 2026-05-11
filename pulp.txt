@@ -6445,16 +6445,19 @@ r=title
 Sir William stayed only a week at Hunsford; but his visit was long enough to convince him of his daughter’s being most comfortably settled, and of her possessing such a husband and such a neighbour as were not often met with.
 b=hunsford-ext
 
-While Sir William was with them, Mr. Collins devoted his mornings to driving him out in his gig, and showing him the country;
-e:lizzy=happy
+While Sir William was with them, Mr. Collins devoted his mornings to driving him out in his gig, and showing him the country; but when he went away, the whole family returned to their usual employments,
+e:lizzy=happy;m=allowbreak
 
-but when he went away, the whole family returned to their usual employments, and Elizabeth was thankful to find that they did not see more of her cousin by the alteration, for the chief of the time between breakfast and dinner was now passed by him either at work in the garden, or in reading and writing, and looking out of window in his own book room, which fronted the road.
-
+and Elizabeth was thankful to find that they did not see more of her cousin by the alteration, for the chief of the time between breakfast and dinner was now passed by him either at work in the garden, or in reading and writing, and looking out of window in his own book room, which fronted the road.
+m=
 
 The room in which the ladies sat was backwards.
 e:lizzy=thinking;e:lizzy=smirking;b=hunsford-drawing
 
-Elizabeth at first had rather wondered that Charlotte should not prefer the dining-parlour for common use; it was a better sized room, and had a pleasanter aspect; but she soon saw that her friend had an excellent reason for what she did, for Mr. Collins would undoubtedly have been much less in his own apartment, had they sat in one equally lively; and she gave Charlotte credit for the arrangement.
+Elizabeth at first had rather wondered that Charlotte should not prefer the dining-parlour for common use; it was a better sized room, and had a pleasanter aspect;
+
+
+but she soon saw that her friend had an excellent reason for what she did, for Mr. Collins would undoubtedly have been much less in his own apartment, had they sat in one equally lively; and she gave Charlotte credit for the arrangement.
 
 
 From the drawing-room they could distinguish nothing in the lane, and were indebted to Mr. Collins for the knowledge of what carriages went along, and how often especially Miss de Bourgh drove by in her phaeton, which he never failed coming to inform them of, though it happened almost every day.
@@ -6539,7 +6542,7 @@ She answered him in the usual way, and after a moment’s pause, added—
 e:lizzy=neutral
 
 “My eldest sister has been in town these three months. Have you never happened to see her there?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=
 
 She was perfectly sensible that he never had; but she wished to see whether he would betray any consciousness of what had passed between the Bingleys and Jane; and she thought he looked a little confused as he answered that he had never been so fortunate as to meet Miss Bennet.
 s=none;e:lizzy=suspicious;e:darcy=confused
