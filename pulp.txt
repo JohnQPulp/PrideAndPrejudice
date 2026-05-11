@@ -5342,7 +5342,7 @@ e:jane=wary;e:jane=sadsmile
 r=title
 
 After a week spent in professions of love and schemes of felicity, Mr. Collins was called from his amiable Charlotte by the arrival of Saturday.
-b=lucas-wide-winter
+b=bennet-wide-winter
 
 The pain of separation, however, might be alleviated on his side, by preparations for the reception of his bride, as he had reason to hope, that shortly after his next return into Hertfordshire, the day would be fixed that was to make him the happiest of men.
 e:collins=happy
@@ -5356,7 +5356,7 @@ e:mrsbennet=happy
 Mr. Gardiner was a sensible, gentleman-like man, greatly superior to his sister, as well by nature as education.
 n:mrgardiner=Mr. Gardiner
 
-The Netherfield ladies would have had difficulty in believing that a man who lived by trade, and within view of his own warehouses, could have been so well bred and agreeable.<e>I also disbelieve it, Miss Biased-Narrator. (This is what happens when you let women write. First they invent free indirect speech, then they start pining after men in the trades.)</e>
+The Netherfield ladies would have had difficulty in believing that a man who lived by trade, and within view of his own warehouses, could have been so well bred and agreeable.
 
 
 Mrs. Gardiner, who was several years younger than Mrs. Bennet and Mrs. Philips, was an amiable, intelligent, elegant woman, and a great favourite with all her Longbourn nieces.
@@ -5366,7 +5366,7 @@ Between the two eldest and herself especially, there subsisted a very particular
 e:mrsgardiner=happy
 
 The first part of Mrs. Gardiner’s business on her arrival, was to distribute her presents and describe the newest fashions.
-e:mrsgardiner=excited;b=bennet-parlor
+e:mrsgardiner=excited;b=bennet-parlor-winter
 
 When this was done, she had a less active part to play. It became her turn to listen.
 e:mrsgardiner=neutral
@@ -5378,25 +5378,25 @@ Two of her girls had been on the point of marriage, and after all there was noth
 
 
 “I do not blame Jane,” she continued, “for Jane would have got Mr. Bingley, if she could.”
-s=mrsbennet;e:mrsbennet=neutral
+s=mrsbennet;e:mrsbennet=neutral;e:mrsbennet=;i=2
 
 “But, Lizzy! Oh, sister! it is very hard to think that she might have been Mr. Collins’s wife by this time, had not it been for her own perverseness.”
 e:mrsbennet=upset
 
 “He made her an offer in this very room, and she refused him.”
-e:mrsbennet=angry
+e:mrsbennet=angry;e:mrsbennet=serious;i=
 
 “The consequence of it is, that Lady Lucas will have a daughter married before I have, and that Longbourn estate is just as much entailed as ever.”
 e:mrsbennet=annoyed
 
 “The Lucases are very artful people indeed, sister. They are all for what they can get. I am sorry to say it of them, but so it is.”
-e:mrsbennet=suspicious
+e:mrsbennet=suspicious;e:mrsbennet=serious;i=
 
 “It makes me very nervous and poorly, to be thwarted so in my own family, and to have neighbours who think of themselves before anybody else.”
 e:mrsbennet=nervous
 
 “However, your coming just at this time is the greatest of comforts, and I am very glad to hear what you tell us, of long sleeves.”
-e:mrsbennet=happy
+e:mrsbennet=happy;e:mrsbennet=;i=
 
 Mrs. Gardiner, to whom the chief of this news had been given before, in the course of Jane and Elizabeth’s correspondence with her, made her sister a slight answer, and in compassion to her nieces turned the conversation.
 s=none;e:mrsgardiner=neutral
@@ -5404,80 +5404,77 @@ s=none;e:mrsgardiner=neutral
 When alone with Elizabeth afterwards, she spoke more on the subject.
 e:mrsgardiner=serious;b=bennet-drawing
 
-“It seems likely to have been a desirable match for Jane,” said she. “I am sorry it went off.”
-s=mrsgardiner;e:mrsgardiner=thinking
-
-“But these things happen so often!”
-e:mrsgardiner=sadsmile
+“It seems likely to have been a desirable match for Jane,” said she. “I am sorry it went off. But these things happen so often!”
+s=mrsgardiner;e:mrsgardiner=thinking;e:mrsgardiner=serious;i=2
 
 “A young man, such as you describe Mr. Bingley, so easily falls in love with a pretty girl for a few weeks, and when accident separates them, so easily forgets her, that these sort of inconstancies are very frequent.”
-e:mrsgardiner=serious
+e:mrsgardiner=thinking;i=2
 
 “An excellent consolation in its way,” said Elizabeth, “but it will not do for *us*. We do not suffer by *accident*.”
 s=lizzy;e:lizzy=serious
 
 “It does not often happen that the interference of friends will persuade a young man of independent fortune to think no more of a girl, whom he was violently in love with only a few days before.”
-e:lizzy=upset
+e:lizzy=upset;e:lizzy=serious;i=2
 
 “But that expression of ‘violently in love’ is so hackneyed, so doubtful, so indefinite, that it gives me very little idea.”
-s=mrsgardiner;e:mrsgardiner=confused
+s=mrsgardiner;e:mrsgardiner=confused;e:mrsgardiner=thinking;i=
 
 “It is as often applied to feelings which arise from an half-hour’s acquaintance, as to a real, strong attachment.”
-e:mrsgardiner=curious
+e:mrsgardiner=curious;e:mrsgardiner=thinking;i=2
 
 “Pray, how *violent was* Mr. Bingley’s love?”<e>Bizarre italics placement.</e>
-
+;e:mrsgardiner=happy;i=
 
 “I never saw a more promising inclination. He was growing quite inattentive to other people, and wholly engrossed by her.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=unhappy;i=2
 
 “Every time they met, it was more decided and remarkable.”
 e:lizzy=thinking
 
 “At his own ball he offended two or three young ladies, by not asking them to dance, and I spoke to him twice myself, without receiving an answer.”
-
+;e:lizzy=;i=2
 
 “Could there be finer symptoms? Is not general incivility the very essence of love?”
 e:lizzy=smirking
 
 “Oh, yes!—of that kind of love which I suppose him to have felt. Poor Jane!”
-s=mrsgardiner;e:mrsgardiner=smirking;z:mrsgardiner=112,54,10
+s=mrsgardiner;e:mrsgardiner=smirking;z:mrsgardiner=112,54,10;e:mrsgardiner=serious;i=
 
 “I am sorry for her, because, with her disposition, she may not get over it immediately.”
-e:mrsgardiner=sadsmile
+e:mrsgardiner=sadsmile;e:mrsgardiner=thinking;i=
 
 “It had better have happened to *you*, Lizzy; you would have laughed yourself out of it sooner.”
 e:mrsgardiner=happy
 
 “But do you think she would be prevailed on to go back with us? Change of scene might be of service—and perhaps a little relief from home, may be as useful as anything.”
-e:mrsgardiner=contemplative
+e:mrsgardiner=contemplative;e:mrsgardiner=thinking;i=2
 
 Elizabeth was exceedingly pleased with this proposal, and felt persuaded of her sister’s ready acquiescence.
 s=none;e:lizzy=excited
 
 “I hope,” added Mrs. Gardiner, “that no consideration with regard to this young man will influence her.”
-s=mrsgardiner;e:mrsgardiner=wary
+s=mrsgardiner;e:mrsgardiner=wary;e:mrsgardiner=confused;i=
 
 “We live in so different a part of town, all our connections are so different, and, as you well know, we go out so little, that it is very improbable they should meet at all, unless he really comes to see her.”
-e:mrsgardiner=thinking
+e:mrsgardiner=thinking;e:mrsgardiner=thinking;i=2
 
 “And *that* is quite impossible; for he is now in the custody of his friend, and Mr. Darcy would no more suffer him to call on Jane in such a part of London! My dear aunt, how could you think of it?”
-s=lizzy;e:lizzy=annoyed
+s=lizzy;e:lizzy=annoyed;e:lizzy=scowling;i=
 
-“Mr. Darcy may perhaps have *heard* of such a place as Gracechurch Street, but he would hardly think a month’s ablution enough to cleanse him from its impurities, were he once to enter it; and depend upon it, Mr. Bingley never stirs without him.”<e>What the hell, Lizzy? Rude.</e>
-
+“Mr. Darcy may perhaps have *heard* of such a place as Gracechurch Street, but he would hardly think a month’s ablution enough to cleanse him from its impurities, were he once to enter it; and depend upon it, Mr. Bingley never stirs without him.”
+;e:lizzy=curious;i=
 
 “So much the better. I hope they will not meet at all.”
-s=mrsgardiner;e:mrsgardiner=neutral
+s=mrsgardiner;e:mrsgardiner=neutral;e:mrsgardiner=thinking;i=
 
 “But does not Jane correspond with the sister? *She* will not be able to help calling.”
-e:mrsgardiner=curious
+e:mrsgardiner=curious;e:mrsgardiner=serious;i=2
 
 “She will drop the acquaintance entirely.”
 s=lizzy;e:lizzy=serious
 
 But in spite of the certainty in which Elizabeth affected to place this point, as well as the still more interesting one of Bingley’s being withheld from seeing Jane, she felt a solicitude on the subject which convinced her, on examination, that she did not consider it entirely hopeless.
-s=none;e:lizzy=thinking
+s=none;e:lizzy=thinking;f:b:bennet-drawing=blur(3px)
 
 It was possible, and sometimes she thought it probable, that his affection might be reanimated, and the influence of his friends successfully combated by the more natural influence of Jane’s attractions.
 e:lizzy=contemplative
@@ -5492,12 +5489,12 @@ Mrs. Bennet had so carefully provided for the entertainment of her brother and s
 e:mrsbennet=excited
 
 When the engagement was for home, some of the officers always made part of it, of which officers Mr. Wickham was sure to be one; and on these occasions, Mrs. Gardiner, rendered suspicious by Elizabeth’s warm commendation of him, narrowly observed them both.
-e:wickham=happy;e:mrsgardiner=suspicious
+e:wickham=happy;e:mrsgardiner=suspicious;b=bennet-dining-night
 
 Without supposing them, from what she saw, to be very seriously in love, their preference of each other was plain enough to make her a little uneasy; and she resolved to speak to Elizabeth on the subject before she left Hertfordshire, and represent to her the imprudence of encouraging such an attachment.
 e:mrsgardiner=wary;e:mrsgardiner=serious
 
-To Mrs. Gardiner, Wickham had one means of affording pleasure, unconnected with his general powers.
+To Mrs. Gardiner, Wickham had one means of affording pleasure, unconnected with his general powers.<e>His dick?</e>
 e:wickham=smirking
 
 About ten or a dozen years ago, before her marriage, she had spent a considerable time in that very part of Derbyshire, to which he belonged.
