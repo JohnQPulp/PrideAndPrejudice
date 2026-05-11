@@ -11141,10 +11141,10 @@ Mr. Gardiner did not attempt to conceal these particulars from the Longbourn fam
 e:jane=fearful
 
 “A gamester!” she cried.
-s=jane;e:jane=surprised
+s=jane;e:jane=surprised;e:jane=unhappy;i=3
 
 “This is wholly unexpected. I had not an idea of it.”
-
+;e:jane=upset;i=2
 
 Mr. Gardiner added in his letter, that they might expect to see their father at home on the following day, which was Saturday.
 s=none
@@ -11156,10 +11156,10 @@ When Mrs. Bennet was told of this, she did not express so much satisfaction as h
 
 
 “What, is he coming home, and without poor Lydia!” she cried.
-s=mrsbennet;e:mrsbennet=upset
+s=mrsbennet;e:mrsbennet=upset;e:mrsbennet=upset;i=2
 
 “Sure he will not leave London before he has found them. Who is to fight Wickham, and make him marry her, if he comes away?”
-
+i=
 
 As Mrs. Gardiner began to wish to be at home, it was settled that she and her children should go to London, at the same time that Mr. Bennet came from it.
 s=none
@@ -11176,7 +11176,10 @@ His name had never been voluntarily mentioned before them by her niece; and the 
 Elizabeth had received none since her return, that could come from Pemberley.
 e:lizzy=unhappy
 
-The present unhappy state of the family rendered any other excuse for the lowness of her spirits unnecessary; nothing, therefore, could be fairly conjectured from *that*, though Elizabeth, who was by this time tolerably well acquainted with her own feelings, was perfectly aware, that, had she known nothing of Darcy, she could have borne the dread of Lydia’s infamy somewhat better.
+The present unhappy state of the family rendered any other excuse for the lowness of her spirits unnecessary;
+
+
+nothing, therefore, could be fairly conjectured from *that*, though Elizabeth, who was by this time tolerably well acquainted with her own feelings, was perfectly aware, that, had she known nothing of Darcy, she could have borne the dread of Lydia’s infamy somewhat better.
 
 
 It would have spared her, she thought, one sleepless night out of two.
@@ -11192,31 +11195,28 @@ It was not till the afternoon, when he joined them at tea, that Elizabeth ventur
 b=bennet-drawing
 
 “Say nothing of that.”
-s=mrbennet;e:mrbennet=weary
+s=mrbennet;e:mrbennet=weary;e:mrbennet=weary;i=2
 
 “Who should suffer but myself? It has been my own doing, and I ought to feel it.”
 e:mrbennet=sadsmile
 
 “You must not be too severe upon yourself,” replied Elizabeth.
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=confused;i=
 
-“You may well warn me against such an evil.”
-s=mrbennet;e:mrbennet=smirking
-
-“Human nature is so prone to fall into it!”
-
+“You may well warn me against such an evil. Human nature is so prone to fall into it!”
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=unhappy;i=
 
 “No, Lizzy, let me once in my life feel how much I have been to blame. I am not afraid of being overpowered by the impression. It will pass away soon enough.”
-e:mrbennet=serious
+e:mrbennet=serious;e:mrbennet=weary;i=2
 
 “Do you suppose them to be in London?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=confused;i=2
 
 “Yes; where else can they be so well concealed?”
-s=mrbennet;e:mrbennet=neutral
+s=mrbennet;e:mrbennet=neutral;e:mrbennet=serious;i=2
 
 “And Lydia used to want to go to London,” added Kitty.
-s=kitty;e:kitty=neutral
+s=kitty;e:kitty=neutral;e:kitty=thinking;i=
 
 “She is happy, then,” said her father, drily; “and her residence there will probably be of some duration.”
 s=mrbennet;e:mrbennet=serious
@@ -11231,25 +11231,22 @@ They were interrupted by Miss Bennet, who came to fetch her mother’s tea.
 s=none;e:jane=neutral
 
 “This is a parade,” cried he, “which does one good; it gives such an elegance to misfortune!”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=sadsmile;i=
 
 “Another day I will do the same; I will sit in my library, in my night cap and powdering gown, and give as much trouble as I can—or, perhaps, I may defer it, till Kitty runs away.”
-
+;e:mrbennet=happy;i=2
 
 “I am not going to run away, Papa,” said Kitty, fretfully; “if *I* should ever go to Brighton, I would behave better than Lydia.”
 s=kitty;e:kitty=upset
 
 “*You* go to Brighton!—I would not trust you so near it as East Bourne for fifty pounds!”
-s=mrbennet;e:mrbennet=angry
+s=mrbennet;e:mrbennet=angry;e:mrbennet=annoyed;i=
 
 “No, Kitty, I have at last learnt to be cautious, and you will feel the effects of it. No officer is ever to enter my house again, nor even to pass through the village.”
 
 
-“Balls will be absolutely prohibited, unless you stand up with one of your sisters.”
-e:mrbennet=thinking
-
-“And you are never to stir out of doors, till you can prove that you have spent ten minutes of every day in a rational manner.”
-
+“Balls will be absolutely prohibited, unless you stand up with one of your sisters. And you are never to stir out of doors, till you can prove that you have spent ten minutes of every day in a rational manner.”
+e:mrbennet=smirking;i=2
 
 Kitty, who took all these threats in a serious light, began to cry.
 s=none;e:kitty=crying
@@ -11258,7 +11255,7 @@ s=none;e:kitty=crying
 s=mrbennet;e:mrbennet=sadsmile
 
 “If you are a good girl for the next ten years, I will take you to a review at the end of them.”
-
+;e:mrbennet=happy;i=2
 
 ## XLIX
 r=title
@@ -11303,13 +11300,13 @@ Jane, who was not so light, nor so much in the habit of running as Elizabeth, so
 e:lizzy=excited
 
 “Oh, Papa, what news? what news? have you heard from my uncle?”
-s=lizzy
+s=lizzy;e:lizzy=confused;i=
 
 “Yes, I have had a letter from him by express.”
-s=mrbennet;e:mrbennet=serious;x:mrbennet=hat
+s=mrbennet;e:mrbennet=serious;x:mrbennet=hat;e:mrbennet=thinking;i=
 
 “Well, and what news does it bring? good or bad?”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=wary;i=
 
 “What is there of good to be expected?” said he, taking the letter from his pocket; “but perhaps you would like to read it.”
 s=mrbennet;e:mrbennet=weary
@@ -11339,7 +11336,7 @@ e:lizzy=serious;m=margin;s=
 
 
 “Then it is, as I always hoped,” cried Jane; “they are married!”<e>Jane…</e>
-s=jane;e:jane=happy;m=
+s=jane;e:jane=happy;m=;e:jane=confused;i=
 
 Elizabeth read on;
 s=
@@ -11380,8 +11377,8 @@ e:lizzy=surprised
 <span class='upper fright'>“Edw. Gardiner.”</span>
 n:mrgardiner=Edward Gardiner
 
-“Is it possible!” cried Elizabeth, when she had finished.<e>"I didn't know my uncle's name was Edward!"</e>
-e:lizzy=surprised;m=;s=lizzy
+“Is it possible!” cried Elizabeth, when she had finished.
+e:lizzy=surprised;m=;s=lizzy;e:lizzy=serious;i=
 
 “Can it be possible that he will marry her?”
 
@@ -11390,22 +11387,22 @@ e:lizzy=surprised;m=;s=lizzy
 s=jane;e:jane=happy
 
 “My dear father, I congratulate you.”
-
+;e:jane=sadsmile;i=2
 
 “And have you answered the letter?” said Elizabeth.
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=;i=2
 
 “No; but it must be done soon.”
-s=mrbennet;e:mrbennet=thinking
+s=mrbennet;e:mrbennet=thinking;e:mrbennet=serious;i=
 
 Most earnestly did she then entreat him to lose no more time before he wrote.
 s=none;e:lizzy=nervous
 
 “Oh! my dear father,” she cried, “come back, and write immediately. Consider how important every moment is, in such a case.”
-s=lizzy
+s=lizzy;e:lizzy=confused;i=
 
 “Let me write for you,” said Jane, “if you dislike the trouble yourself.”
-s=jane;e:jane=neutral
+s=jane;e:jane=neutral;e:jane=confused;i=
 
 “I dislike it very much,” he replied; “but it must be done.”
 s=mrbennet;e:mrbennet=weary
@@ -11414,13 +11411,13 @@ And so saying, he turned back with them, and walked towards the house.
 s=none
 
 “And may I ask?” said Elizabeth, “but the terms, I suppose, must be complied with.”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=nervous;i=2
 
 “Complied with! I am only ashamed of his asking so little.”
-s=mrbennet;e:mrbennet=upset
+s=mrbennet;e:mrbennet=upset;e:mrbennet=serious;i=
 
 “And they *must* marry! Yet he is *such* a man!”
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=angry;i=3
 
 “Yes, yes, they must marry. There is nothing else to be done.”
 s=mrbennet;e:mrbennet=weary
@@ -11435,25 +11432,22 @@ s=jane;e:jane=confused
 s=mrbennet;e:mrbennet=serious
 
 “That is very true,” said Elizabeth; “though it had not occurred to me before.”
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=unhappy;i=
 
 “His debts to be discharged, and something still to remain! Oh! it must be my uncle’s doings!”
-
+;e:lizzy=confused;i=
 
 “Generous, good man, I am afraid he has distressed himself. A small sum could not do all this.”
-e:lizzy=sadsmile
+e:lizzy=sadsmile;e:lizzy=unhappy;i=2
 
 “No,” said her father, “Wickham’s a fool, if he takes her with a farthing less than ten thousand pounds.”
-s=mrbennet;e:mrbennet=serious
+s=mrbennet;e:mrbennet=serious;e:mrbennet=thinking;i=
 
 “I should be sorry to think so ill of him, in the very beginning of our relationship.”
-e:mrbennet=smirking
+e:mrbennet=smirking;e:mrbennet=weary;i=
 
-“Ten thousand pounds! Heaven forbid!”
-s=lizzy;e:lizzy=fearful
-
-“How is half such a sum to be repaid?”
-
+“Ten thousand pounds! Heaven forbid! How is half such a sum to be repaid?”
+s=lizzy;e:lizzy=fearful;e:lizzy=fearful;i=2
 
 Mr. Bennet made no answer, and each of them, deep in thought, continued silent till they reached the house.
 s=none;e:mrbennet=contemplative;e:lizzy=thinking;e:jane=thinking
@@ -11462,25 +11456,22 @@ Their father then went to the library to write, and the girls walked into the br
 b=bennet-parlor
 
 “And they are really to be married!” cried Elizabeth, as soon as they were by themselves.
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=wary;i=
 
-“How strange this is!”
-
-
-“And for *this* we are to be thankful.”
-
+“How strange this is! And for *this* we are to be thankful.”
+;e:lizzy=serious;i=2
 
 “That they should marry, small as is their chance of happiness, and wretched as is his character, we are forced to rejoice! Oh, Lydia!”
-e:lizzy=upset
+e:lizzy=upset;e:lizzy=angry;i=3
 
 “I comfort myself with thinking,” replied Jane, “that he certainly would not marry Lydia, if he had not a real regard for her.”
-s=jane;e:jane=thinking
+s=jane;e:jane=thinking;e:jane=wary;i=
 
 “Though our kind uncle has done something towards clearing him, I cannot believe that ten thousand pounds, or anything like it, has been advanced.”
-
+;e:jane=contemplative;i=
 
 “He has children of his own, and may have more. How could he spare half ten thousand pounds?”
-
+;e:jane=confused;i=
 
 “If we are ever able to learn what Wickham’s debts have been,” said Elizabeth, “and how much is settled on his side on our sister, we shall exactly know what Mr. Gardiner has done for them, because Wickham has not sixpence of his own.”
 s=lizzy;e:lizzy=serious
@@ -11489,19 +11480,19 @@ s=lizzy;e:lizzy=serious
 
 
 “Their taking her home, and affording her their personal protection and countenance, is such a sacrifice to her advantage as years of gratitude cannot enough acknowledge.”
-
+;e:lizzy=annoyed;i=
 
 “By this time she is actually with them! If such goodness does not make her miserable now, she will never deserve to be happy! What a meeting for her, when she first sees my aunt!”
 e:lizzy=angry
 
 “We must endeavour to forget all that has passed on either side,” said Jane: “I hope and trust they will yet be happy.”
-s=jane;e:jane=sadsmile
+s=jane;e:jane=sadsmile;e:jane=upset;i=
 
 “His consenting to marry her is a proof, I will believe, that he is come to a right way of thinking.”
-
+;e:jane=sadsmile;i=2
 
 “Their mutual affection will steady them; and I flatter myself they will settle so quietly, and live in so rational a manner, as may in time make their past imprudence forgotten.”
-
+;e:jane=weary;i=
 
 “Their conduct has been such,” replied Elizabeth, “as neither you, nor I, nor anybody, can ever forget. It is useless to talk of it.”
 s=lizzy;e:lizzy=annoyed
@@ -11516,13 +11507,13 @@ He was writing, and, without raising his head, coolly replied﻿—
 
 
 “Just as you please.”
-s=mrbennet;e:mrbennet=neutral;x:mrbennet=
+s=mrbennet;e:mrbennet=neutral;x:mrbennet=;e:mrbennet=unhappy;i=
 
 “May we take my uncle’s letter to read to her?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=
 
 “Take whatever you like, and get away.”
-s=mrbennet;e:mrbennet=annoyed
+s=mrbennet;e:mrbennet=annoyed;e:mrbennet=annoyed;i=2
 
 Elizabeth took the letter from his writing table, and they went upstairs together.
 s=none;e:lizzy=neutral
@@ -11552,43 +11543,40 @@ s=mrsbennet;e:mrsbennet=excited;x:mrsbennet=undressed
 
 
 “But the clothes, the wedding clothes!”
-e:mrsbennet=nervous
+e:mrsbennet=nervous;e:mrsbennet=serious;i=2
 
 “I will write to my sister Gardiner about them directly. Lizzy, my dear, run down to your father, and ask him how much he will give her.”
-e:mrsbennet=serious
+e:mrsbennet=serious;e:mrsbennet=annoyed;i=
 
 “Stay, stay, I will go myself.”
-e:mrsbennet=thinking
+e:mrsbennet=thinking;e:mrsbennet=serious;i=
 
 “Ring the bell, Kitty, for Hill. I will put on my things in a moment.”
 e:mrsbennet=serious;i=2
 
 “My dear, dear Lydia!﻿—How merry we shall be together when we meet!”
-e:mrsbennet=excited;i=3
+e:mrsbennet=excited;i=3;e:mrsbennet=happy;i=2
 
 Her eldest daughter endeavoured to give some relief to the violence of these transports, by leading her thoughts to the obligations which Mr. Gardiner’s behaviour laid them all under.
 s=none;e:jane=serious
 
 “For we must attribute this happy conclusion,” she added, “in a great measure, to his kindness.”
-s=jane
+s=jane;e:jane=contemplative;i=
 
 “We are persuaded that he has pledged himself to assist Mr. Wickham with money.”
-
+;e:jane=wary;i=
 
 “Well,” cried her mother, “it is all very right; who should do it but her own uncle?”
 s=mrsbennet;e:mrsbennet=smirking
 
 “If he had not had a family of his own, I and my children must have had all his money you know, and it is the first time we have ever had anything from him, except a few presents.”
-e:mrsbennet=scowling
+e:mrsbennet=scowling;e:mrsbennet=serious;i=
 
 “Well! I am so happy. In a short time, I shall have a daughter married. Mrs. Wickham! How well it sounds. And she was only sixteen last June.”
-e:mrsbennet=happy
+e:mrsbennet=happy;e:mrsbennet=excited;i=2
 
-“My dear Jane, I am in such a flutter, that I am sure I can’t write; so I will dictate, and you write for me.”
-
-
-“We will settle with your father about the money afterwards; but the things should be ordered immediately.”
-
+“My dear Jane, I am in such a flutter, that I am sure I can’t write; so I will dictate, and you write for me. We will settle with your father about the money afterwards; but the things should be ordered immediately.”
+;e:mrsbennet=happy;i=
 
 She was then proceeding to all the particulars of calico, muslin, and cambric, and would shortly have dictated some very plentiful orders, had not Jane, though with some difficulty, persuaded her to wait, till her father was at leisure to be consulted.
 s=none;e:jane=nervous
@@ -11600,22 +11588,25 @@ Other schemes too came into her head.
 
 
 “I will go to Meryton,” said she, “as soon as I am dressed, and tell the good, good news to my sister Philips. And as I come back, I can call on Lady Lucas and Mrs. Long.”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=happy;i=2
 
 “Kitty, run down and order the carriage. An airing would do me a great deal of good, I am sure. Girls, can I do anything for you in Meryton?”
-
+;e:mrsbennet=serious;i=
 
 “Oh! here comes Hill.”
-e:mrshill=neutral
+;e:mrsbennet=happy;i=
 
 “My dear Hill, have you heard the good news? Miss Lydia is going to be married; and you shall all have a bowl of punch, to make merry at her wedding.”
-
+;e:mrsbennet=excited;i=3
 
 Mrs. Hill began instantly to express her joy.
 s=none;e:mrshill=happy
 
-Elizabeth received her congratulations amongst the rest, and then, sick of this folly, took refuge in her own room, that she might think with freedom.
-e:lizzy=annoyed;b=bennet-bedroom
+Elizabeth received her congratulations amongst the rest,
+e:lizzy=annoyed;m=allowbreak
+
+and then, sick of this folly, took refuge in her own room, that she might think with freedom.
+m=;b=bennet-bedroom
 
 Poor Lydia’s situation must, at best, be bad enough; but that it was no worse, she had need to be thankful.
 e:lizzy=contemplative
