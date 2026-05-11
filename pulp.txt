@@ -6554,7 +6554,7 @@ e:lizzy=contemplative;e:darcy=neutral
 r=title
 
 Colonel Fitzwilliam’s manners were very much admired at the parsonage, and the ladies all felt that he must add considerably to the pleasure of their engagements at Rosings.
-b=rosings-trees-wide-spring
+b=hunsford-ext
 
 It was some days, however, before they received any invitation thither, for while there were visitors in the house, they could not be necessary; and it was not till Easter-day, almost a week after the gentlemen’s arrival, that they were honoured by such an attention, and then they were merely asked on leaving church to come there in the evening.
 
@@ -6581,25 +6581,25 @@ e:lizzy=happy
 e:darcy=curious;e:ladycatherine=curious
 
 “What is that you are saying, Fitzwilliam? What is it you are talking of? What are you telling Miss Bennet?”
-s=ladycatherine
+s=ladycatherine;e:ladycatherine=serious;i=
 
 “Let me hear what it is.”
-e:ladycatherine=annoyed
+e:ladycatherine=serious
 
 “We are speaking of music, Madam,” said he, when no longer able to avoid a reply.
-s=fitzwilliam;e:fitzwilliam=neutral
+s=fitzwilliam;e:fitzwilliam=neutral;e:fitzwilliam=curious;i=
 
 “Of music!”
-s=ladycatherine;e:ladycatherine=excited
+s=ladycatherine;e:ladycatherine=excited;e:ladycatherine=excited;i=2
 
 “Then pray speak aloud. It is of all subjects my delight. I must have my share in the conversation, if you are speaking of music.”
-
+;e:ladycatherine=smirking;i=
 
 “There are few people in England, I suppose, who have more true enjoyment of music than myself, or a better natural taste.”
-e:ladycatherine=smirking
+e:ladycatherine=smirking;e:ladycatherine=serious;i=2
 
 “If I had ever learnt, I should have been a great proficient. And so would Anne, if her health had allowed her to apply. I am confident that she would have performed delightfully.”
-n:anne=Anne de Bourgh
+n:anne=Anne de Bourgh;e:ladycatherine=smirking;i=2
 
 “How does Georgiana get on, Darcy?”
 e:ladycatherine=curious
@@ -6611,13 +6611,13 @@ s=none;e:darcy=happy
 s=ladycatherine;e:ladycatherine=serious
 
 “I assure you, Madam,” he replied, “that she does not need such advice. She practises very constantly.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=weary;i=
 
 “So much the better. It cannot be done too much; and when I next write to her, I shall charge her not to neglect it on any account.”
-s=ladycatherine
+s=ladycatherine;e:ladycatherine=serious;i=2
 
 “I often tell young ladies, that no excellence in music is to be acquired, without constant practice.”
-
+;e:ladycatherine=annoyed;i=
 
 “I have told Miss Bennet several times, that she will never play really well, unless she practises more; and though Mrs. Collins has no instrument, she is very welcome, as I have often told her, to come to Rosings every day, and play on the pianoforte in Mrs. Jenkinson’s room.”
 e:ladycatherine=scowling;e:ladycatherine=smirking
@@ -6625,7 +6625,7 @@ e:ladycatherine=scowling;e:ladycatherine=smirking
 “She would be in nobody’s way, you know, in that part of the house.”
 
 
-Mr. Darcy looked a little ashamed of his aunt’s ill breeding, and made no answer.<e>Darcy and Lizzy both have that overly-yappy relative thing going. Hopefully there's fanfiction shipping these two over that shared connection.</e>
+Mr. Darcy looked a little ashamed of his aunt’s ill breeding, and made no answer.<e>Shared bonding over embarrassing relatives. Someone should write fanfiction shipping Darcy and Lizzy.</e>
 s=none;e:darcy=upset
 
 When coffee was over, Colonel Fitzwilliam reminded Elizabeth of having promised to play to him; and she sat down directly to the instrument. He drew a chair near her.
@@ -6638,64 +6638,61 @@ Elizabeth saw what he was doing, and at the first convenient pause, turned to hi
 e:lizzy=smirking
 
 “You mean to frighten me, Mr. Darcy, by coming in all this state to hear me? But I will not be alarmed though your sister *does* play so well.”
-s=lizzy
+s=lizzy;e:lizzy=smirking
 
 “There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises with every attempt to intimidate me.”
 
 
 “I shall not say that you are mistaken,” he replied, “because you could not really believe me to entertain any design of alarming you; and I have had the pleasure of your acquaintance long enough to know, that you find great enjoyment in occasionally professing opinions which in fact are not your own.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=smirking;i=2
 
 Elizabeth laughed heartily at this picture of herself, and said to Colonel Fitzwilliam,
 s=
 
 “Your cousin will give you a very pretty notion of me, and teach you not to believe a word I say.”
-s=lizzy;e:lizzy=happy;
+s=lizzy;e:lizzy=happy;;e:lizzy=curious;i=2
 
 “I am particularly unlucky in meeting with a person so well able to expose my real character, in a part of the world, where I had hoped to pass myself off with some degree of credit.”
-e:lizzy=smirking
+e:lizzy=smirking;i=2
 
 “Indeed, Mr. Darcy, it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire—and, give me leave to say, very impolitic too—for it is provoking me to retaliate, and such things may come out, as will shock your relations to hear.”
+i=
 
-
-“I am not afraid of you,” said he, smilingly.
-s=darcy;e:darcy=smirking
+“I am not afraid of you,” said he, smilingly.<e>Reconsider adverb choice.</e>
+s=darcy;e:darcy=smirking;e:darcy=happy;i=2
 
 “Pray let me hear what you have to accuse him of,” cried Colonel Fitzwilliam.
-s=fitzwilliam;e:fitzwilliam=curious
+s=fitzwilliam;e:fitzwilliam=curious;i=2
 
 “I should like to know how he behaves among strangers.”
-
+e:fitzwilliam=smirking
 
 “You shall hear then—but prepare yourself for something very dreadful.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=
 
 “The first time of my ever seeing him in Hertfordshire, you must know, was at a ball—and at this ball, what do you think he did?”
 
 
-“He danced only four dances!”<e>Get a load of this cad.</e>
-e:lizzy=excited
+“He danced only four dances!”
+e:lizzy=excited;e:lizzy=happy;i=
 
-“I am sorry to pain you—but so it was.”
-
-
-“He danced only four dances, though gentlemen were scarce; and, to my certain knowledge, more than one young lady was sitting down in want of a partner.”
-e:lizzy=serious
+“I am sorry to pain you—but so it was. He danced only four dances, though gentlemen were scarce; and, to my certain knowledge, more than one young lady was sitting down in want of a partner.”
+e:lizzy=smirking
 
 “Mr. Darcy, you cannot deny the fact.”
 e:lizzy=smirking
 
 “I had not at that time the honour of knowing any lady in the assembly beyond my own party.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=;i=2
 
 “True; and nobody can ever be introduced in a ball room.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=
 
 “Well, Colonel Fitzwilliam, what do I play next? My fingers wait your orders.”
-e:lizzy=happy
+
 
 “Perhaps,” said Darcy, “I should have judged better, had I sought an introduction, but I am ill qualified to recommend myself to strangers.”
-s=darcy;e:darcy=contemplative
+s=darcy;e:darcy=contemplative;e:darcy=serious;i=2
 
 “Shall we ask your cousin the reason of this?” said Elizabeth, still addressing Colonel Fitzwilliam.
 s=lizzy;e:lizzy=curious
@@ -6704,7 +6701,7 @@ s=lizzy;e:lizzy=curious
 e:lizzy=smirking
 
 “I can answer your question,” said Fitzwilliam, “without applying to him.”
-s=fitzwilliam;e:fitzwilliam=smirking;z:fitzwilliam=118,,11
+s=fitzwilliam;e:fitzwilliam=smirking;z:fitzwilliam=118,,12
 
 “It is because he will not give himself the trouble.”
 
@@ -6713,28 +6710,22 @@ s=fitzwilliam;e:fitzwilliam=smirking;z:fitzwilliam=118,,11
 s=darcy;e:darcy=serious
 
 “I cannot catch their tone of conversation, or appear interested in their concerns, as I often see done.”
+;e:darcy=contemplative;i=2
 
+“My fingers,” said Elizabeth, “do not move over this instrument in the masterly manner which I see so many women’s do. They have not the same force or rapidity, and do not produce the same expression.”
+s=lizzy;e:lizzy=smirking;e:lizzy=thinking;i=
 
-“My fingers,” said Elizabeth, “do not move over this instrument in the masterly manner which I see so many women’s do.”
-s=lizzy;e:lizzy=smirking
-
-“They have not the same force or rapidity, and do not produce the same expression.”
-
-
-“But then I have always supposed it to be my own fault—because I would not take the trouble of practising.”
-e:lizzy=happy
-
-“It is not that I do not believe *my* fingers as capable as any other woman’s of superior execution.”
-
+“But then I have always supposed it to be my own fault—because I would not take the trouble of practising. It is not that I do not believe *my* fingers as capable as any other woman’s of superior execution.”
+e:lizzy=smirking
 
 Darcy smiled and said,
 s=
 
 “You are perfectly right. You have employed your time much better. No one admitted to the privilege of hearing you, can think anything wanting.”
-s=darcy;e:darcy=happy
+s=darcy;e:darcy=happy;e:darcy=happy;i=2
 
 “We neither of us perform to strangers.”
-
+;e:darcy=smirking;i=
 
 Here they were interrupted by Lady Catherine, who called out to know what they were talking of.
 s=none;e:ladycatherine=annoyed
@@ -6746,13 +6737,13 @@ Lady Catherine approached, and, after listening for a few minutes, said to Darcy
 e:ladycatherine=neutral
 
 “Miss Bennet would not play at all amiss, if she practised more, and could have the advantage of a London master.”
-s=ladycatherine;e:ladycatherine=smirking
+s=ladycatherine;e:ladycatherine=smirking;e:ladycatherine=serious;i=2
 
 “She has a very good notion of fingering, though her taste is not equal to Anne’s.”
-
+;e:ladycatherine=smirking;i=
 
 “Anne would have been a delightful performer, had her health allowed her to learn.”
-e:ladycatherine=serious
+e:ladycatherine=serious;e:ladycatherine=serious;i=2
 
 Elizabeth looked at Darcy to see how cordially he assented to his cousin’s praise; but neither at that moment nor at any other could she discern any symptom of love; and from the whole of his behaviour to Miss de Bourgh she derived this comfort for Miss Bingley, that he might have been just as likely to marry *her*, had she been his relation.
 s=none;e:lizzy=curious;e:lizzy=thinking;e:lizzy=smirking
