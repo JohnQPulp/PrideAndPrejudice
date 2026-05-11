@@ -7798,7 +7798,7 @@ e:lizzy=angry
 He expressed no regret for what he had done which satisfied her; his style was not penitent, but haughty.
 e:lizzy=annoyed
 
-It was all pride and insolence.<e>So far we've had "pride and impertinence", "pride and obsequiousness", "pride and caprice", and now "pride and insolence". Austen, you tease.</e>
+It was all pride and insolence.<e>Phrases that appear in the book <i>Pride and Prejudice</i>: "pride and conceit", "pride and impertinence", "pride and obsequiousness", "pride and caprice", "pride and insolence". Phrases that do not appear in the book <i>Pride and Prejudice</i>: "pride and prejudice".</e>
 
 
 But when this subject was succeeded by his account of Mr. Wickham, when she read with somewhat clearer attention, a relation of events, which, if true, must overthrow every cherished opinion of his worth, and which bore so alarming an affinity to his own history of himself, her feelings were yet more acutely painful and more difficult of definition.
@@ -7811,7 +7811,7 @@ She wished to discredit it entirely, repeatedly exclaiming,
 
 
 “This must be false! This cannot be! This must be the grossest falsehood!”
-s=lizzy;e:lizzy=angry;m=allowbreak;m=nospace;x:lizzy=bonnet
+s=lizzy;e:lizzy=angry;m=allowbreak;m=nospace;x:lizzy=bonnet;e:lizzy=fearful;i=2
 
 —and when she had gone through the whole letter, though scarcely knowing anything of the last page or two, put it hastily away, protesting that she would not regard it, that she would never look in it again.
 s=none;e:lizzy=nervous;m=
@@ -7879,11 +7879,8 @@ e:lizzy=wary
 She perfectly remembered everything that had passed in conversation between Wickham and herself, in their first evening at Mr. Philips’s. Many of his expressions were still fresh in her memory.
 e:lizzy=thinking
 
-She was *now* struck with the impropriety of such communications to a stranger, and wondered it had escaped her before.
+She was *now* struck with the impropriety of such communications to a stranger, and wondered it had escaped her before. She saw the indelicacy of putting himself forward as he had done, and the inconsistency of his professions with his conduct.
 e:lizzy=surprised
-
-She saw the indelicacy of putting himself forward as he had done, and the inconsistency of his professions with his conduct.
-e:lizzy=scowling
 
 She remembered that he had boasted of having no fear of seeing Mr. Darcy—that Mr. Darcy might leave the country, but that *he* should stand his ground; yet he had avoided the Netherfield ball the very next week.
 e:lizzy=suspicious
@@ -7922,19 +7919,16 @@ Of neither Darcy nor Wickham could she think, without feeling that she had been 
 s=lizzy;e:lizzy=upset
 
 “I, who have prided myself on my discernment!—I, who have valued myself on my abilities! who have often disdained the generous candour of my sister, and gratified my vanity, in useless or blameable distrust.”
-e:lizzy=angry
+e:lizzy=angry;e:lizzy=fearful;i=2
 
-“How humiliating is this discovery!—Yet, how just a humiliation!—”
-e:lizzy=unhappy;m=allowbreak;m=nospace
-
-“Had I been in love, I could not have been more wretchedly blind. But vanity, not love, has been my folly.”
+“How humiliating is this discovery!—Yet, how just a humiliation!—Had I been in love, I could not have been more wretchedly blind. But vanity, not love, has been my folly.”
 e:lizzy=weary;m=
 
 “Pleased with the preference of one, and offended by the neglect of the other, on the very beginning of our acquaintance, I have courted prepossession and ignorance, and driven reason away, where either were concerned.”
-e:lizzy=upset
+e:lizzy=upset;e:lizzy=unhappy;i=2
 
 “Till this moment, I never knew myself.”
-e:lizzy=contemplative
+e:lizzy=contemplative;e:lizzy=unhappy;i=
 
 From herself to Jane—from Jane to Bingley, her thoughts were in a line which soon brought to her recollection that Mr. Darcy’s explanation *there*, had appeared very insufficient; and she read it again.
 s=none;e:lizzy=thinking
@@ -7964,7 +7958,7 @@ It soothed, but it could not console her for the contempt which had been thus se
 e:lizzy=unhappy
 
 After wandering along the lane for two hours, giving way to every variety of thought; reconsidering events, determining probabilities, and reconciling herself as well as she could, to a change so sudden and so important, fatigue, and a recollection of her long absence, made her at length return home;
-e:lizzy=weary;e:lizzy=neutral
+e:lizzy=weary;e:lizzy=neutral;b=hunsford-ext-spring
 
 and she entered the house with the wish of appearing cheerful as usual, and the resolution of repressing such reflections as must make her unfit for conversation.
 b=hunsford-ext-spring
