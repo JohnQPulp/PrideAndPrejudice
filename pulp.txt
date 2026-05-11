@@ -10204,7 +10204,7 @@ e:jane=upset;m=margin
 “Dearest Lizzy, I hardly know what I would write, but I have bad news for you, and it cannot be delayed.”
 
 
-“Imprudent as a marriage between Mr. Wickham and our poor Lydia would be, we are now anxious to be assured it has taken place, for there is but too much reason to fear they are not gone to Scotland.”<e>Thanks a lot, Austen, for not explaining that you could get married in Scotland without parentel consent, and that that's why it's suddenly so important.</e>
+“Imprudent as a marriage between Mr. Wickham and our poor Lydia would be, we are now anxious to be assured it has taken place, for there is but too much reason to fear they are not gone to Scotland.”<e>For context, you could get married in Scotland without parental consent, which is why the book keeps referring to it.</e>
 e:jane=fearful
 
 “Colonel Forster came yesterday, having left Brighton the day before, not many hours after the express.”
@@ -10265,7 +10265,7 @@ e:jane=fearful
 
 
 “Oh! where, where is my uncle?” cried Elizabeth,
-s=lizzy;e:lizzy=fearful;m=;m=allowbreak
+s=lizzy;e:lizzy=fearful;m=;m=allowbreak;e:lizzy=upset;i=2
 
 darting from her seat as she finished the letter, in eagerness to follow him, without losing a moment of the time so precious; but as she reached the door, it was opened by a servant, and Mr. Darcy appeared.
 m=;s=
@@ -10274,7 +10274,7 @@ Her pale face and impetuous manner made him start, and before he could recover h
 e:darcy=surprised;e:lizzy=nervous;s=
 
 “I beg your pardon, but I must leave you. I must find Mr. Gardiner this moment, on business that cannot be delayed; I have not an instant to lose.”
-s=lizzy
+s=lizzy;e:lizzy=fearful
 
 “Good God! what is the matter?” cried he, with more feeling than politeness;
 s=darcy;e:darcy=surprised
@@ -10283,7 +10283,7 @@ then recollecting himself,
 s=
 
 “I will not detain you a minute, but let me, or let the servant, go after Mr. and Mrs. Gardiner. You are not well enough;—you cannot go yourself.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=unhappy;i=;e:darcy=serious;i=
 
 Elizabeth hesitated, but her knees trembled under her, and she felt how little would be gained by her attempting to pursue them.
 s=none;e:lizzy=weary
@@ -10295,13 +10295,13 @@ On his quitting the room, she sat down, unable to support herself, and looking s
 
 
 “Let me call your maid. Is there nothing you could take, to give you present relief?—A glass of wine;—shall I get you one?—You are very ill.”
-s=darcy;e:darcy=nervous;e:lizzy=unhappy
+s=darcy;e:darcy=nervous;e:lizzy=unhappy;e:darcy=unhappy;i=
 
 “No, I thank you;” she replied, endeavouring to recover herself.
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=weary;i=2
 
 “There is nothing the matter with me. I am quite well. I am only distressed by some dreadful news which I have just received from Longbourn.”
-
+;e:lizzy=weary;i=
 
 She burst into tears as she alluded to it, and for a few minutes could not speak another word.
 s=none;e:lizzy=crying
@@ -10312,62 +10312,44 @@ e:darcy=upset
 At length, she spoke again.
 
 
-“I have just had a letter from Jane, with such dreadful news. It cannot be concealed from anyone.”
-s=lizzy;e:lizzy=crying
-
-“My youngest sister has left all her friends—has eloped;—has thrown herself into the power of—of Mr. Wickham.”
-
+“I have just had a letter from Jane, with such dreadful news. It cannot be concealed from anyone. My youngest sister has left all her friends—has eloped;—has thrown herself into the power of—of Mr. Wickham.”
+s=lizzy;e:lizzy=upset;i=2
 
 “They are gone off together from Brighton. *You* know him too well to doubt the rest. She has no money, no connections, nothing that can tempt him to—she is lost forever.”
-e:lizzy=upset
+;e:lizzy=weary;i=2
 
 Darcy was fixed in astonishment.
 s=none;e:darcy=surprised
 
 “When I consider,” she added, in a yet more agitated voice, “that *I* might have prevented it!—*I* who knew what he was.”
-s=lizzy;e:lizzy=angry
+s=lizzy;e:lizzy=;e:lizzy=scowling;i=
 
-“Had I but explained some part of it only—some part of what I learnt, to my own family!”
-e:lizzy=crying
-
-“Had his character been known, this could not have happened. But it is all, all too late now.”
-
+“Had I but explained some part of it only—some part of what I learnt, to my own family! Had his character been known, this could not have happened. But it is all, all too late now.”
+;e:lizzy=unhappy;i=
 
 “I am grieved, indeed,” cried Darcy; “grieved—shocked. But is it certain, absolutely certain?”
-s=darcy;e:darcy=nervous
+s=darcy;e:darcy=nervous;e:darcy=unhappy;i=
 
 “Oh yes!—They left Brighton together on Sunday night, and were traced almost to London, but not beyond; they are certainly not gone to Scotland.”
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=upset;i=2
 
 “And what has been done, what has been attempted, to recover her?”
 s=darcy;e:darcy=serious
 
 “My father is gone to London, and Jane has written to beg my uncle’s immediate assistance, and we shall be off, I hope, in half an hour.”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=weary;i=
 
 “But nothing can be done; I know very well that nothing can be done.”
-e:lizzy=crying
+e:lizzy=crying;e:lizzy=weary;i=2
 
-“How is such a man to be worked on? How are they even to be discovered? I have not the smallest hope.”
-
-
-“It is every way horrible!”
-
+“How is such a man to be worked on? How are they even to be discovered? I have not the smallest hope. It is every way horrible!”
+;e:lizzy=upset;i=2
 
 Darcy shook his head in silent acquiesence.
 s=none;e:darcy=unhappy
 
-“When *my* eyes were opened to his real character.”
-s=lizzy;e:lizzy=angry
-
-“Oh! had I known what I ought, what I dared, to do!”
-
-
-“But I knew not—I was afraid of doing too much.”
-
-
-“Wretched, wretched, mistake!”
-
+“When *my* eyes were opened to his real character. Oh! had I known what I ought, what I dared, to do! But I knew not—I was afraid of doing too much. Wretched, wretched, mistake!”
+s=lizzy;e:lizzy=angry;e:lizzy=angry;i=2
 
 Darcy made no answer.
 s=none
@@ -10390,20 +10372,23 @@ e:lizzy=contemplative
 But self, though it would intrude, could not engross her.
 
 
-Lydia—the humiliation, the misery, she was bringing on them all, soon swallowed up every private care; and covering her face with her handkerchief, Elizabeth was soon lost to everything else; and, after a pause of several minutes, was only recalled to a sense of her situation by the voice of her companion, who, in a manner, which though it spoke compassion, spoke likewise restraint, said,
+Lydia—the humiliation, the misery, she was bringing on them all, soon swallowed up every private care; and covering her face with her handkerchief, Elizabeth was soon lost to everything else;
+
+
+and, after a pause of several minutes, was only recalled to a sense of her situation by the voice of her companion, who, in a manner, which though it spoke compassion, spoke likewise restraint, said,
 
 
 “I am afraid you have been long desiring my absence, nor have I anything to plead in excuse of my stay, but real, though unavailing, concern.”
-s=darcy;e:darcy=serious;e:lizzy=crying
+s=darcy;e:darcy=serious;e:lizzy=crying;e:darcy=nervous;i=
 
 “Would to heaven that anything could be either said or done on my part, that might offer consolation to such distress. But I will not torment you with vain wishes, which may seem purposely to ask for your thanks.”
-
+e:darcy=serious;e:darcy=weary;i=
 
 “This unfortunate affair will, I fear, prevent my sister’s having the pleasure of seeing you at Pemberley today.”
 e:darcy=unhappy
 
 “Oh, yes. Be so kind as to apologize for us to Miss Darcy. Say that urgent business calls us home immediately.”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=weary;i=
 
 “Conceal the unhappy truth as long as it is possible. I know it cannot be long.”
 e:lizzy=unhappy
@@ -10474,20 +10459,17 @@ e:lizzy=crying
 They were to be off as soon as possible.
 
 
-“But what is to be done about Pemberley?” cried Mrs. Gardiner.
-s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=bonnet
-
-“John told us Mr. Darcy was here when you sent for us;—was it so?”
-
+“But what is to be done about Pemberley?” cried Mrs. Gardiner. “John told us Mr. Darcy was here when you sent for us;—was it so?”
+s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=bonnet;e:mrsgardiner=confused;i=
 
 “Yes; and I told him we should not be able to keep our engagement. *That* is all settled.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=serious;i=2
 
 “That is all settled;” repeated the other, as she ran into her room to prepare.
-s=mrsgardiner;e:mrsgardiner=thinking
+s=mrsgardiner;e:mrsgardiner=thinking;e:mrsgardiner=contemplative;i=
 
 “And are they upon such terms as for her to disclose the real truth! Oh, that I knew how it was!”
-e:mrsgardiner=curious
+e:mrsgardiner=curious;e:mrsgardiner=serious;i=
 
 But wishes were vain; or at best could serve only to amuse her in the hurry and confusion of the following hour.
 s=none;b=lambton-inn-ext
