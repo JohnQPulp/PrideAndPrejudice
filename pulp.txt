@@ -9785,10 +9785,10 @@ She was quite amazed at her own discomposure; but amongst other causes of disqui
 e:lizzy=fearful
 
 She retreated from the window, fearful of being seen; and as she walked up and down the room, endeavouring to compose herself, saw such looks of enquiring surprise in her uncle and aunt, as made everything worse.
-e:lizzy=nervous;e:mrsgardiner=curious;b=lambton-inn-drawing
+e:lizzy=nervous;e:mrsgardiner=curious
 
 Miss Darcy and her brother appeared, and this formidable introduction took place.
-n:georgiana=Georgiana Darcy;e:darcy=neutral;e:georgiana=nervous
+n:georgiana=Georgiana Darcy;e:darcy=neutral;e:georgiana=nervous;b=lambton-inn-drawing
 
 With astonishment did Elizabeth see, that her new acquaintance was at least as much embarrassed as herself.
 e:lizzy=surprised
@@ -9857,7 +9857,7 @@ He observed to her, at a moment when the others were talking together, and in a 
 
 
 “It is above eight months. We have not met since the 26th of November, when we were all dancing together at Netherfield.”
-s=bingley;e:bingley=sadsmile
+s=bingley;e:bingley=sadsmile;e:bingley=weary;i=
 
 Elizabeth was pleased to find his memory so exact; and he afterwards took occasion to ask her, when unattended to by any of the rest, whether *all* her sisters were at Longbourn.
 s=none;e:lizzy=happy;e:bingley=curious
