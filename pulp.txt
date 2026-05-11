@@ -9032,7 +9032,7 @@ Her tour to the Lakes was now the object of her happiest thoughts; it was her be
 e:lizzy=happy
 
 “But it is fortunate,” thought she, “that I have something to wish for. Were the whole arrangement complete, my disappointment would be certain.”
-s=lizzy;e:lizzy=contemplative
+m=dialogue;e:lizzy=contemplative;e:lizzy=upset
 
 “But here, by carrying with me one ceaseless source of regret in my sister’s absence, I may reasonably hope to have all my expectations of pleasure realized.”
 
@@ -9041,7 +9041,7 @@ s=lizzy;e:lizzy=contemplative
 
 
 When Lydia went away, she promised to write very often and very minutely to her mother and Kitty; but her letters were always long expected, and always very short.
-s=none;e:lydia=neutral
+t=none;e:lydia=neutral;m=
 
 Those to her mother, contained little else, than that they were just returned from the library, where such and such officers had attended them, and where she had seen such beautiful ornaments as made her quite wild;
 
@@ -9089,7 +9089,7 @@ With the mention of Derbyshire, there were many ideas connected. It was impossib
 e:lizzy=nervous
 
 “But surely,” said she, “I may enter his county with impunity, and rob it of a few petrified spars without his perceiving me.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 The period of expectation was now doubled. Four weeks were to pass away before her uncle and aunt’s arrival.
 s=none;e:lizzy=weary
@@ -9106,11 +9106,8 @@ e:lizzy=excited
 One enjoyment was certain﻿—that of suitableness as companions; a suitableness which comprehended health and temper to bear inconveniences﻿—cheerfulness to enhance every pleasure﻿—and affection and intelligence, which might supply it among themselves if there were disappointments abroad.
 
 
-It is not the object of this work to give a description of Derbyshire, nor of any of the remarkable places through which their route thither lay; Oxford, Blenheim, Warwick, Kenelworth, Birmingham, etc. are sufficiently known.
-b=light
-
-A small part of Derbyshire is all the present concern.
-
+It is not the object of this work to give a description of Derbyshire, nor of any of the remarkable places through which their route thither lay; Oxford, Blenheim, Warwick, Kenelworth, Birmingham, etc. are sufficiently known. A small part of Derbyshire is all the present concern.
+b=lambton-wide
 
 To the little town of Lambton, the scene of Mrs. Gardiner’s former residence, and where she had lately learned that some acquaintance still remained, they bent their steps, after having seen all the principal wonders of the country; and within five miles of Lambton, Elizabeth found from her aunt, that Pemberley was situated.
 e:mrsgardiner=curious;e:lizzy=surprised;b=lambton-wide
@@ -9127,11 +9124,8 @@ e:mrgardiner=neutral;e:lizzy=nervous
 “My love, should not you like to see a place of which you have heard so much?” said her aunt.
 s=mrsgardiner;e:mrsgardiner=curious;x:mrsgardiner=bonnet
 
-“A place too, with which so many of your acquaintance are connected.”
+“A place too, with which so many of your acquaintance are connected. Wickham passed all his youth there, you know.”
 
-
-“Wickham passed all his youth there, you know.”
-e:mrsgardiner=contemplative
 
 Elizabeth was distressed. She felt that she had no business at Pemberley, and was obliged to assume a disinclination for seeing it.
 s=none;e:lizzy=upset
@@ -9143,15 +9137,15 @@ Mrs. Gardiner abused her stupidity.
 e:mrsgardiner=annoyed
 
 “If it were merely a fine house richly furnished,” said she, “I should not care about it myself; but the grounds are delightful.”
-s=mrsgardiner;e:mrsgardiner=thinking
+s=mrsgardiner;e:mrsgardiner=thinking;e:mrsgardiner=suspicious;i=
 
 “They have some of the finest woods in the country.”
-e:mrsgardiner=happy
+e:mrsgardiner=happy;e:mrsgardiner=curious;i=
 
 Elizabeth said no more﻿—but her mind could not acquiesce.
 s=none;e:lizzy=fearful
 
-The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.<e>Thirty-one uses of "instantly" throughout the book, you hack author.</e>
+The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.<e>Thirty-one uses of "instantly", you hack author.</e>
 
 
 It would be dreadful!
@@ -9163,14 +9157,14 @@ e:lizzy=nervous
 But against this, there were objections; and she finally resolved that it could be the last resource, if her private enquiries as to the absence of the family, were unfavourably answered.
 e:lizzy=thinking
 
-Accordingly, when she retired at night, she asked the chambermaid whether Pemberley were not a very fine place, what was the name of its proprietor, and with no little alarm, whether the family were down for the summer.<e>Dangerously close to hearing dialogue from a servant. (Gross.)</e>
-e:lizzy=nervous;b=light
+Accordingly, when she retired at night, she asked the chambermaid whether Pemberley were not a very fine place, what was the name of its proprietor, and with no little alarm, whether the family were down for the summer.
+e:lizzy=nervous;f:b:lambton-wide=blur(3px)
 
 A most welcome negative followed the last question﻿—and her alarms being now removed, she was at leisure to feel a great deal of curiosity to see the house herself; and when the subject was revived the next morning, and she was again applied to, could readily answer, and with a proper air of indifference, that she had not really any dislike to the scheme.
 e:lizzy=curious
 
 To Pemberley, therefore, they were to go.
-b=pemberley-woods-wide
+b=pemberley-woods-wide;f:b:pemberley-woods-wide=blur(3px)
 
 ## XLIII
 r=title
