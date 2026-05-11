@@ -7478,7 +7478,7 @@ The five weeks which she had now passed in Kent had made a great difference in t
 
 
 She was on the point of continuing her walk, when she caught a glimpse of a gentleman within the sort of grove which edged the park; he was moving that way; and fearful of its being Mr. Darcy, she was directly retreating.
-e:lizzy=surprised;e:lizzy=fearful;b=hunsford-gardens-spring
+e:lizzy=surprised;e:lizzy=fearful
 
 But the person who advanced, was now near enough to see her, and stepping forward with eagerness, pronounced her name.
 e:darcy=wary
@@ -7489,11 +7489,8 @@ e:lizzy=nervous
 He had by that time reached it also, and holding out a letter, which she instinctively took, said with a look of haughty composure,
 e:darcy=serious
 
-“I have been walking in the grove some time in the hope of meeting you.”
-s=darcy;x:darcy=hat
-
-“Will you do me the honour of reading that letter?”
-m=allowbreak;m=nospace;
+“I have been walking in the grove some time in the hope of meeting you. Will you do me the honour of reading that letter?”
+s=darcy;x:darcy=hat;m=allowbreak;m=nospace;
 
 ﻿—And then, with a slight bow, turned again into the plantation, and was soon out of sight.
 s=none;m=
@@ -7582,7 +7579,7 @@ e:darcy=weary
 “These causes must be stated, though briefly.”
 e:darcy=annoyed
 
-“The situation of your mother’s family, though objectionable, was nothing in comparison of that total want of propriety so frequently, so almost uniformly betrayed by herself, by your three younger sisters, and occasionally even by your father.”<e>Mary and Mr. Bennet as comparably objectionable? You insult me, sir!</e>
+“The situation of your mother’s family, though objectionable, was nothing in comparison of that total want of propriety so frequently, so almost uniformly betrayed by herself, by your three younger sisters, and occasionally even by your father.”
 b=netherfield-supper-party;f:b:netherfield-supper-party=blur(3px)
 
 “Pardon me. It pains me to offend you.”
@@ -7637,13 +7634,13 @@ e:darcy=serious
 e:darcy=weary
 
 “With respect to that other, more weighty accusation, of having injured Mr. Wickham, I can only refute it by laying before you the whole of his connection with my family.”
-e:darcy=angry;b=hunsford-gardens-spring
+e:darcy=angry
 
 “Of what he has *particularly* accused me I am ignorant; but of the truth of what I shall relate, I can summon more than one witness of undoubted veracity.”
 e:darcy=serious
 
 “Mr. Wickham is the son of a very respectable man, who had for many years the management of all the Pemberley estates; and whose good conduct in the discharge of his trust, naturally inclined my father to be of service to him, and on George Wickham, who was his godson, his kindness was therefore liberally bestowed.”
-e:darcy=thinking
+e:darcy=thinking;b=pemberley-wide;f:b:pemberley-wide=blur(3px)
 
 “My father supported him at school, and afterwards at Cambridge;﻿—most important assistance, as his own father, always poor from the extravagance of his wife, would have been unable to give him a gentleman’s education.”
 
@@ -7708,10 +7705,7 @@ e:darcy=serious
 “His resentment was in proportion to the distress of his circumstances﻿—and he was doubtless as violent in his abuse of me to others, as in his reproaches to myself.”
 e:darcy=weary
 
-“After this period, every appearance of acquaintance was dropped.”
-e:darcy=serious
-
-“How he lived I know not.”
+“After this period, every appearance of acquaintance was dropped. How he lived I know not.”
 
 
 “But last summer he was again most painfully obtruded on my notice.”
@@ -7726,8 +7720,11 @@ e:darcy=serious
 “My sister, who is more than ten years my junior, was left to the guardianship of my mother’s nephew, Colonel Fitzwilliam, and myself.”
 e:darcy=contemplative
 
-“About a year ago, she was taken from school, and an establishment formed for her in London; and last summer she went with the lady who presided over it, to Ramsgate; and thither also went Mr. Wickham, undoubtedly by design; for there proved to have been a prior acquaintance between him and Mrs. Younge, in whose character we were most unhappily deceived;”
+“About a year ago, she was taken from school, and an establishment formed for her in London; and last summer she went with the lady who presided over it, to Ramsgate;”
 e:darcy=angry;b=ramsgate-wide;f:b:ramsgate-wide=blur(3px)
+
+“and thither also went Mr. Wickham, undoubtedly by design; for there proved to have been a prior acquaintance between him and Mrs. Younge, in whose character we were most unhappily deceived;”
+
 
 “and by her connivance and aid, he so far recommended himself to Georgiana, whose affectionate heart retained a strong impression of his kindness to her as a child, that she was persuaded to believe herself in love, and to consent to an elopement.”
 
@@ -7759,8 +7756,11 @@ e:darcy=weary
 “Ignorant as you previously were of everything concerning either, detection could not be in your power, and suspicion certainly not in your inclination.”
 e:darcy=sadsmile
 
-“You may possibly wonder why all this was not told you last night. But I was not then master enough of myself to know what could or ought to be revealed.”<e>"So I wrote this novel-length "letter" instead."</e>
+“You may possibly wonder why all this was not told you last night.”<e>Why all this <i>novel-length</i> letter wasn't told last night?</e>
 e:darcy=serious
+
+“But I was not then master enough of myself to know what could or ought to be revealed.”
+
 
 “For the truth of everything here related, I can appeal more particularly to the testimony of Colonel Fitzwilliam, who from our near relationship and constant intimacy, and still more as one of the executors of my father’s will, has been unavoidably acquainted with every particular of these transactions.”
 e:darcy=serious
