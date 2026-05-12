@@ -14066,7 +14066,7 @@ Mrs. Bennet was not in the habit of walking, Mary could never spare time, but t
 e:mrsbennet=neutral;e:mary=neutral
 
 Bingley and Jane, however, soon allowed the others to outstrip them.
-e:bingley=happy;e:jane=happy;b=bennet-gardens
+e:bingley=happy;e:jane=happy;b=bennet-road
 
 They lagged behind, while Elizabeth, Kitty, and Darcy, were to entertain each other.
 
@@ -14075,43 +14075,40 @@ Very little was said by either; Kitty was too much afraid of him to talk; Elizab
 e:lizzy=thinking;e:darcy=thinking;e:kitty=fearful
 
 They walked towards the Lucases, because Kitty wished to call upon Maria; and as Elizabeth saw no occasion for making it a general concern, when Kitty left them, she went boldly on with him alone.
-e:kitty=neutral;e:lizzy=serious;b=meryton-wide
+e:kitty=neutral;e:lizzy=serious
 
 Now was the moment for her resolution to be executed, and, while her courage was high, she immediately said﻿—
 e:lizzy=nervous
 
 “Mr. Darcy, I am a very selfish creature; and, for the sake of giving relief to my own feelings, care not how much I may be wounding yours.”
-s=lizzy;e:lizzy=serious;x:lizzy=bonnet;x:darcy=hat
+s=lizzy;e:lizzy=serious;x:lizzy=bonnet;x:darcy=hat;e:lizzy=serious;i=2
 
-“I can no longer help thanking you for your unexampled kindness to my poor sister.”
-
-
-“Ever since I have known it, I have been most anxious to acknowledge to you how gratefully I feel it.”
-
+“I can no longer help thanking you for your unexampled kindness to my poor sister. Ever since I have known it, I have been most anxious to acknowledge to you how gratefully I feel it.”
+i=
 
 “Were it known to the rest of my family, I should not have merely my own gratitude to express.”
-e:lizzy=sadsmile
+e:lizzy=sadsmile;e:lizzy=unhappy;i=2
 
 “I am sorry, exceedingly sorry,” replied Darcy, in a tone of surprise and emotion, “that you have ever been informed of what may, in a mistaken light, have given you uneasiness.”
-s=darcy;e:darcy=surprised
+s=darcy;e:darcy=surprised;e:darcy=nervous;i=2
 
 “I did not think Mrs. Gardiner was so little to be trusted.”
 e:darcy=serious
 
 “You must not blame my aunt. Lydia’s thoughtlessness first betrayed to me that you had been concerned in the matter; and, of course, I could not rest till I knew the particulars.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=confused;i=
 
 “Let me thank you again and again, in the name of all my family, for that generous compassion which induced you to take so much trouble, and bear so many mortifications, for the sake of discovering them.”
-e:lizzy=sadsmile
+e:lizzy=sadsmile;e:lizzy=serious;i=2
 
 “If you *will* thank me,” he replied, “let it be for yourself alone.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=thinking;i=
 
 “That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny.”
-
+;e:darcy=nervous;i=
 
 “But your *family* owe me nothing. Much as I respect them, I believe I thought only of *you*.”
-e:darcy=sadsmile
+e:darcy=sadsmile;e:darcy=serious;i=2
 
 Elizabeth was too much embarrassed to say a word.
 s=none;e:lizzy=nervous
@@ -14120,18 +14117,18 @@ After a short pause, her companion added,
 
 
 “You are too generous to trifle with me.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=unhappy;i=
 
 “If your feelings are still what they were last April, tell me so at once.”
-e:darcy=nervous
+e:darcy=serious
 
 “*My* affections and wishes are unchanged, but one word from you will silence me on this subject forever.”
+e:darcy=nervous;e:darcy=weary;i=2
 
-
-Elizabeth, feeling all the more than common awkwardness and anxiety of his situation, now forced herself to speak; and immediately, though not very fluently, gave him to understand that her sentiments had undergone so material a change since the period to which he alluded, as to make her receive with gratitude and pleasure his present assurances.<e>Shame on you, Austen, for leaving us readers to speculate on her "not very fluent" dialogue.</e>
+Elizabeth, feeling all the more than common awkwardness and anxiety of his situation, now forced herself to speak; and immediately, though not very fluently, gave him to understand that her sentiments had undergone so material a change since the period to which he alluded, as to make her receive with gratitude and pleasure his present assurances.
 s=none;e:lizzy=nervous
 
-The happiness which this reply produced was such as he had probably never felt before; and he expressed himself on the occasion as sensibly and as warmly as a man violently in love can be supposed to do.
+The happiness which this reply produced was such as he had probably never felt before; and he expressed himself on the occasion as sensibly and as warmly as a man violently in love can be supposed to do.<e>"But I'm not going to actually write the dialogue lmao" —Jane Austen</e>
 e:darcy=happy;e:darcy=excited
 
 Had Elizabeth been able to encounter his eye, she might have seen how well the expression of heartfelt delight, diffused over his face, became him; but, though she could not look, she could listen, and he told her of feelings, which, in proving of what importance she was to him, made his affection every moment more valuable.
@@ -14153,7 +14150,7 @@ But, unluckily for her ladyship, its effect had been exactly contrariwise.
 e:darcy=smirking
 
 “It taught me to hope,” said he, “as I had scarcely ever allowed myself to hope before.”
-s=darcy;e:darcy=happy
+s=darcy;e:darcy=happy;e:darcy=sadsmile;i=
 
 “I knew enough of your disposition to be certain that, had you been absolutely, irrevocably decided against me, you would have acknowledged it to Lady Catherine, frankly and openly.”
 
@@ -14162,49 +14159,43 @@ Elizabeth coloured and laughed as she replied,
 s=
 
 “Yes, you know enough of my *frankness* to believe me capable of *that*.”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=sadsmile;i=2
 
 “After abusing you so abominably to your face, I could have no scruple in abusing you to all your relations.”
-e:lizzy=smirking
+i=
 
 “What did you say of me, that I did not deserve?”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=unhappy;i=
 
-“For though your accusations were ill-founded, formed on mistaken premises, my behaviour to you at the time had merited the severest reproof.”
-
-
-“It was unpardonable. I cannot think of it without abhorrence.”
-e:darcy=upset
+“For though your accusations were ill-founded, formed on mistaken premises, my behaviour to you at the time had merited the severest reproof. It was unpardonable. I cannot think of it without abhorrence.”
+;e:darcy=serious;i=2
 
 “We will not quarrel for the greater share of blame annexed to that evening,” said Elizabeth.
-s=lizzy;e:lizzy=sadsmile
+s=lizzy;e:lizzy=sadsmile;e:lizzy=unhappy;i=
 
 “The conduct of neither, if strictly examined, will be irreproachable; but since then we have both, I hope, improved in civility.”
 
 
 “I cannot be so easily reconciled to myself.”
-s=darcy;e:darcy=unhappy
+s=darcy;e:darcy=unhappy;e:darcy=unhappy;i=2
 
 “The recollection of what I then said, of my conduct, my manners, my expressions during the whole of it, is now, and has been many months, inexpressibly painful to me.”
-
+;e:darcy=unhappy;i=
 
 “Your reproof, so well applied, I shall never forget: ‘had you behaved in a more gentleman-like manner.’”
-e:darcy=weary
+e:darcy=weary;e:darcy=serious;i=
 
-“Those were your words.”
-
-
-“You know not, you can scarcely conceive, how they have tortured me;﻿—though it was some time, I confess, before I was reasonable enough to allow their justice.”
-
+“Those were your words. You know not, you can scarcely conceive, how they have tortured me;﻿—though it was some time, I confess, before I was reasonable enough to allow their justice.”
+;e:darcy=weary;i=2
 
 “I was certainly very far from expecting them to make so strong an impression. I had not the smallest idea of their being ever felt in such a way.”
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=wary;i=
 
 “I can easily believe it. You thought me then devoid of every proper feeling, I am sure you did.”
 s=darcy;e:darcy=sadsmile
 
 “The turn of your countenance I shall never forget, as you said that I could not have addressed you in any possible way, that would induce you to accept me.”
-e:darcy=weary
+e:darcy=weary;e:darcy=weary;i=2
 
 “Oh! do not repeat what I then said.”
 s=lizzy;e:lizzy=upset
@@ -14216,7 +14207,7 @@ Darcy mentioned his letter.
 s=none;e:darcy=neutral
 
 “Did it,” said he, “did it *soon* make you think better of me? Did you, on reading it, give any credit to its contents?”
-s=darcy;e:darcy=curious
+s=darcy;e:darcy=curious;e:darcy=nervous;i=
 
 She explained what its effect on her had been, and how gradually all her former prejudices had been removed.
 s=none;e:lizzy=sadsmile
@@ -14225,79 +14216,70 @@ s=none;e:lizzy=sadsmile
 s=darcy;e:darcy=serious
 
 “I hope you have destroyed the letter.”
-
+;e:darcy=thinking;i=
 
 “There was one part especially, the opening of it, which I should dread your having the power of reading again. I can remember some expressions which might justly make you hate me.”
-e:darcy=weary
+e:darcy=weary;e:darcy=weary;i=2
 
 “The letter shall certainly be burnt, if you believe it essential to the preservation of my regard; but, though we have both reason to think my opinions not entirely unalterable, they are not, I hope, quite so easily changed as that implies.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=sadsmile;i=
 
 “When I wrote that letter,” replied Darcy, “I believed myself perfectly calm and cool, but I am since convinced that it was written in a dreadful bitterness of spirit.”
 s=darcy;e:darcy=unhappy
 
 “The letter, perhaps, began in bitterness, but it did not end so. The adieu is charity itself.”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=serious;i=2
 
 “But think no more of the letter.”
-
+;e:lizzy=thinking;i=;e:lizzy=unhappy;i=
 
 “The feelings of the person who wrote, and the person who received it, are now so widely different from what they were then, that every unpleasant circumstance attending it, ought to be forgotten.”
 
 
 “You must learn some of my philosophy. Think only of the past as its remembrance gives you pleasure.”
-e:lizzy=sadsmile
+e:lizzy=sadsmile;e:lizzy=sadsmile;i=2
 
 “I cannot give you credit for any philosophy of the kind.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=thinking;i=
 
 “*Your* retrospections must be so totally void of reproach, that the contentment arising from them, is not of philosophy, but what is much better, of ignorance.”
-
+;e:darcy=sadsmile;i=
 
 “But with *me*, it is not so. Painful recollections will intrude, which cannot, which ought not to be repelled.”
-e:darcy=weary
+e:darcy=weary;e:darcy=weary;i=2
 
-“I have been a selfish being all my life, in practice, though not in principle. As a child I was taught what was *right*, but I was not taught to correct my temper.”
+“I have been a selfish being all my life, in practice, though not in principle. As a child I was taught what was *right*, but I was not taught to correct my temper. I was given good principles, but left to follow them in pride and conceit.”
 e:darcy=unhappy
-
-“I was given good principles, but left to follow them in pride and conceit.”
-
 
 “Unfortunately an only son, (for many years an only *child*) I was spoilt by my parents, who though good themselves, (my father particularly, all that was benevolent and amiable), allowed, encouraged, almost taught me to be selfish and overbearing, to care for none beyond my own family circle, to think meanly of all the rest of the world, to *wish* at least to think meanly of their sense and worth compared with my own.”
 e:darcy=serious
 
 “Such I was, from eight to eight and twenty; and such I might still have been but for you, dearest, loveliest Elizabeth! What do I not owe you!”
-e:darcy=happy
+e:darcy=happy;e:darcy=sadsmile;i=
 
-“You taught me a lesson, hard indeed at first, but most advantageous.”
+“You taught me a lesson, hard indeed at first, but most advantageous. By you, I was properly humbled. I came to you without a doubt of my reception. You showed me how insufficient were all my pretensions to please a woman worthy of being pleased.”
 e:darcy=sadsmile
 
-“By you, I was properly humbled. I came to you without a doubt of my reception.”
-
-
-“You showed me how insufficient were all my pretensions to please a woman worthy of being pleased.”
-
-
 “Had you then persuaded yourself that I should?”
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=serious;i=
 
 “Indeed I had. What will you think of my vanity? I believed you to be wishing, expecting my addresses.”
-s=darcy;e:darcy=wary
+s=darcy;e:darcy=wary;e:darcy=serious;i=2
 
 “My manners must have been in fault, but not intentionally I assure you.”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=nervous;i=2
 
 “I never meant to deceive you, but my spirits might often lead me wrong. How you must have hated me after *that* evening?”
-
+;e:lizzy=weary;i=
 
 “Hate you! I was angry perhaps at first, but my anger soon began to take a proper direction.”
 s=darcy;e:darcy=serious
 
 “I am almost afraid of asking what you thought of me; when we met at Pemberley. You blamed me for coming?”
-s=lizzy;e:lizzy=wary
+s=lizzy;e:lizzy=wary;e:lizzy=confused;i=
 
 “No indeed; I felt nothing but surprise.”
-s=darcy;e:darcy=surprised
+s=darcy;e:darcy=surprised;e:darcy=thinking;i=
 
 “Your surprise could not be greater than *mine* in being noticed by you.”
 s=lizzy;e:lizzy=sadsmile
@@ -14309,31 +14291,34 @@ s=lizzy;e:lizzy=sadsmile
 s=darcy;e:darcy=serious
 
 “How soon any other wishes introduced themselves I can hardly tell, but I believe in about half an hour after I had seen you.”
-e:darcy=happy
+e:darcy=happy;e:darcy=sadsmile;i=
 
-He then told her of Georgiana’s delight in her acquaintance, and of her disappointment at its sudden interruption; which naturally leading to the cause of that interruption, she soon learnt that his resolution of following her from Derbyshire in quest of her sister had been formed before he quitted the inn, and that his gravity and thoughtfulness there had arisen from no other struggles than what such a purpose must comprehend.
+He then told her of Georgiana’s delight in her acquaintance, and of her disappointment at its sudden interruption;
 s=none;e:darcy=neutral
+
+which naturally leading to the cause of that interruption, she soon learnt that his resolution of following her from Derbyshire in quest of her sister had been formed before he quitted the inn, and that his gravity and thoughtfulness there had arisen from no other struggles than what such a purpose must comprehend.
+
 
 She expressed her gratitude again, but it was too painful a subject to each, to be dwelt on farther.
 e:lizzy=sadsmile
 
 After walking several miles in a leisurely manner, and too busy to know anything about it, they found at last, on examining their watches, that it was time to be at home.
-e:lizzy=surprised;e:darcy=surprised;b=meryton-wide
+e:lizzy=surprised;e:darcy=surprised
 
 “What could become of Mr. Bingley and Jane!” was a wonder which introduced the discussion of *their* affairs.
-s=lizzy;e:lizzy=curious
+
 
 Darcy was delighted with their engagement; his friend had given him the earliest information of it.
 s=none;e:darcy=happy
 
 “I must ask whether you were surprised?” said Elizabeth.
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=happy;i=
 
 “Not at all. When I went away, I felt that it would soon happen.”
-s=darcy;e:darcy=smirking
+s=darcy;e:darcy=smirking;e:darcy=curious;i=
 
 “That is to say, you had given your permission. I guessed as much.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 And though he exclaimed at the term, she found that it had been pretty much the case.
 s=none;e:darcy=surprised
@@ -14342,31 +14327,31 @@ s=none;e:darcy=surprised
 s=darcy;e:darcy=serious
 
 “I told him of all that had occurred to make my former interference in his affairs, absurd and impertinent.”
+;e:darcy=unhappy;i=
 
-
-“His surprise was great. He had never had the slightest suspicion.”
-
+“His surprise was great. He had never had the slightest suspicion.”<e>Himbo until the end, that Bingley.</e>
+;e:darcy=wary;i=
 
 “I told him, moreover, that I believed myself mistaken in supposing, as I had done, that your sister was indifferent to him; and as I could easily perceive that his attachment to her was unabated, I felt no doubt of their happiness together.”
-e:darcy=happy
+e:darcy=happy;e:darcy=serious;i=
 
 Elizabeth could not help smiling at his easy manner of directing his friend.
 s=none;e:lizzy=happy
 
 “Did you speak from your own observation,” said she, “when you told him that my sister loved him, or merely from my information last spring?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=happy;i=
 
 “From the former. I had narrowly observed her during the two visits which I had lately made her here; and I was convinced of her affection.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=sadsmile;i=
 
 “And your assurance of it, I suppose, carried immediate conviction to him.”
 s=lizzy;e:lizzy=smirking
 
 “It did. Bingley is most unaffectedly modest.”
-s=darcy;e:darcy=happy
+s=darcy;e:darcy=happy;e:darcy=smirking;i=2
 
 “His diffidence had prevented his depending on his own judgment in so anxious a case, but his reliance on mine, made everything easy.”
-
+e:darcy=happy
 
 “I was obliged to confess one thing, which for a time, and not unjustly, offended him.”
 e:darcy=serious
@@ -14375,10 +14360,10 @@ e:darcy=serious
 
 
 “He was angry.”
-e:darcy=sadsmile
+e:darcy=sadsmile;e:darcy=unhappy;i=
 
 “But his anger, I am persuaded, lasted no longer than he remained in any doubt of your sister’s sentiments.”
-
+;e:darcy=sadsmile;i=
 
 “He has heartily forgiven me now.”
 e:darcy=happy
