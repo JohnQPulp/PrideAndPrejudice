@@ -14414,22 +14414,19 @@ e:jane=surprised
 s=jane
 
 “No, no, you shall not deceive me. I know it to be impossible.”
-
+;e:jane=wary;i=
 
 “This is a wretched beginning indeed! My sole dependence was on you; and I am sure nobody else will believe me, if you do not.”
-s=lizzy;e:lizzy=upset
+s=lizzy;e:lizzy=upset;e:lizzy=weary;i=
 
 “Yet, indeed, I am in earnest. I speak nothing but the truth. He still loves me, and we are engaged.”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=sadsmile;i=2
 
 Jane looked at her doubtingly.
 s=none;e:jane=suspicious
 
-“Oh, Lizzy! it cannot be.”
-s=jane
-
-“I know how much you dislike him.”
-
+“Oh, Lizzy! it cannot be. I know how much you dislike him.”
+s=jane;e:jane=confused;i=
 
 “You know nothing of the matter. *That* is all to be forgot. Perhaps I did not always love him so well as I do now.”
 s=lizzy;e:lizzy=serious
@@ -14444,46 +14441,43 @@ Elizabeth again, and more seriously assured her of its truth.
 
 
 “Good Heaven! can it be really so! Yet now I must believe you,” cried Jane.
-s=jane
+s=jane;e:jane=serious;i=2
 
 “My dear, dear Lizzy, I would﻿—I do congratulate you﻿—but are you certain? forgive the question﻿—are you quite certain that you can be happy with him?”
-e:jane=wary
+e:jane=wary;e:jane=nervous;i=
 
 “There can be no doubt of that. It is settled between us already that we are to be the happiest couple in the world.”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=sadsmile;i=2
 
 “But are you pleased, Jane? Shall you like to have such a brother?”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=;e:lizzy=confused;i=2
 
 “Very, very much. Nothing could give either Bingley or myself more delight.”
-s=jane;e:jane=happy
+s=jane;e:jane=happy;e:jane=unhappy;i=2
 
 “But we considered it, we talked of it as impossible. And do you really love him quite well enough?”
 e:jane=nervous
 
-“Oh, Lizzy! do anything rather than marry without affection.”
-
-
-“Are you quite sure that you feel what you ought to do?”
+“Oh, Lizzy! do anything rather than marry without affection. Are you quite sure that you feel what you ought to do?”
 
 
 “Oh, yes! You will only think I feel *more* than I ought to do, when I tell you all.”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=serious;i=2
 
 “What do you mean?”
-s=jane;e:jane=curious
+s=jane;e:jane=curious;e:jane=wary;i=
 
 “Why, I must confess, that I love him better than I do Bingley. I am afraid you will be angry.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3;e:jane=unhappy;i=
 
 “My dearest sister, now do be serious. I want to talk very seriously.”
 s=jane;e:jane=serious
 
 “Let me know everything that I am to know, without delay. Will you tell me how long you have loved him?”
-s=jane;e:jane=curious
+s=jane;e:jane=curious;e:jane=confused;i=
 
 “It has been coming on so gradually, that I hardly know when it began. But I believe I must date it from my first seeing his beautiful grounds at Pemberley.”
-s=lizzy;e:lizzy=sadsmile
+s=lizzy;e:lizzy=sadsmile;e:lizzy=thinking;i=
 
 Another entreaty that she would be serious, however, produced the desired effect; and she soon satisfied Jane by her solemn assurances of attachment.
 s=none;e:jane=neutral
@@ -14492,19 +14486,19 @@ When convinced on that article, Miss Bennet had nothing farther to wish.
 e:jane=happy
 
 “Now I am quite happy,” said she, “for you will be as happy as myself. I always had a value for him.”
-s=jane
+s=jane;e:jane=sadsmile;i=
 
 “Were it for nothing but his love of you, I must always have esteemed him; but now, as Bingley’s friend and your husband, there can be only Bingley and yourself more dear to me.”
 s=jane
 
 “But Lizzy, you have been very sly, very reserved with me.”
-s=jane;e:jane=annoyed
+s=jane;e:jane=annoyed;e:jane=confused;i=
 
 “How little did you tell me of what passed at Pemberley and Lambton!”
-
+;e:jane=weary;i=
 
 “I owe all that I know of it, to another, not to you.”
-
+;e:jane=upset;i=
 
 Elizabeth told her the motives of her secrecy.
 s=none;e:lizzy=serious
@@ -14519,16 +14513,16 @@ All was acknowledged, and half the night spent in conversation.
 
 
 “Good gracious!” cried Mrs. Bennet, as she stood at a window the next morning, “if that disagreeable Mr. Darcy is not coming here again with our dear Bingley!”
-s=mrsbennet;e:mrsbennet=annoyed;b=bennet-drawing
+s=mrsbennet;e:mrsbennet=annoyed;b=bennet-parlor;e:mrsbennet=annoyed;i=2
 
 “What can he mean by being so tiresome as to be always coming here?”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=serious;i=
 
 “I had no notion but he would go a shooting, or something or other, and not disturb us with his company. What shall we do with him?”
-s=mrsbennet;e:mrsbennet=scowling
+s=mrsbennet;e:mrsbennet=scowling;e:mrsbennet=scowling;i=
 
 “Lizzy, you must walk out with him again, that he may not be in Bingley’s way.”
-
+;e:mrsbennet=contemplative;i=
 
 Elizabeth could hardly help laughing at so convenient a proposal; yet was really vexed that her mother should be always giving him such an epithet.
 s=none;e:lizzy=annoyed
@@ -14537,13 +14531,10 @@ As soon as they entered, Bingley looked at her so expressively, and shook hands 
 
 
 “Mr. Bennet, have you no more lanes hereabouts in which Lizzy may lose her way again today?”
-s=bingley;e:bingley=happy
+s=bingley;e:bingley=happy;e:bingley=happy;i=2
 
-“I advise Mr. Darcy, and Lizzy, and Kitty,” said Mrs. Bennet, “to walk to Oakham Mount this morning.”
-s=mrsbennet;e:mrsbennet=neutral
-
-“It is a nice long walk, and Mr. Darcy has never seen the view.”
-
+“I advise Mr. Darcy, and Lizzy, and Kitty,” said Mrs. Bennet, “to walk to Oakham Mount this morning. It is a nice long walk, and Mr. Darcy has never seen the view.”
+s=mrsbennet;e:mrsbennet=neutral;e:mrsbennet=;i=2
 
 “It may do very well for the others,” replied Mr. Bingley; “but I am sure it will be too much for Kitty. Won’t it, Kitty?”
 s=bingley;e:kitty=neutral
@@ -14581,8 +14572,11 @@ e:lizzy=wary
 In the evening, soon after Mr. Bennet withdrew to the library, she saw Mr. Darcy rise also and follow him, and her agitation on seeing it was extreme.
 e:lizzy=nervous;b=bennet-drawing
 
-She did not fear her father’s opposition, but he was going to be made unhappy, and that it should be through her means, that *she*, his favourite child, should be distressing him by her choice, should be filling him with fears and regrets in disposing of her, was a wretched reflection, and she sat in misery till Mr. Darcy appeared again, when, looking at him, she was a little relieved by his smile.
-e:lizzy=sadsmile;e:darcy=happy
+She did not fear her father’s opposition, but he was going to be made unhappy, and that it should be through her means, that *she*, his favourite child, should be distressing him by her choice, should be filling him with fears and regrets in disposing of her, was a wretched reflection,
+e:lizzy=sadsmile;e:darcy=happy;m=allowbreak
+
+and she sat in misery till Mr. Darcy appeared again, when, looking at him, she was a little relieved by his smile.
+m=
 
 In a few minutes he approached the table where she was sitting with Kitty; and, while pretending to admire her work, said in a whisper,
 
@@ -14609,13 +14603,13 @@ e:lizzy=nervous
 s=mrbennet;e:mrbennet=serious
 
 “But will they make you happy?”
-
+;e:mrbennet=unhappy;i=
 
 “Have you any other objection,” said Elizabeth, “than your belief of my indifference?”
-s=lizzy;e:lizzy=serious
+s=lizzy;e:lizzy=serious;e:lizzy=unhappy;i=
 
 “None at all. We all know him to be a proud, unpleasant sort of man; but this would be nothing if you really liked him.”
-s=mrbennet
+s=mrbennet;e:mrbennet=confused;i=
 
 “I do, I do like him,” she replied, with tears in her eyes, “I love him. Indeed he has no improper pride.”
 s=lizzy;e:lizzy=crying
@@ -14623,23 +14617,20 @@ s=lizzy;e:lizzy=crying
 “He is perfectly amiable. You do not know what he really is; then pray do not pain me by speaking of him in such terms.”
 s=lizzy;
 
-“Lizzy,” said her father, “I have given him my consent.”
+“Lizzy,” said her father, “I have given him my consent. He is the kind of man, indeed, to whom I should never dare refuse anything, which he condescended to ask.”
 s=mrbennet;e:mrbennet=weary
 
-“He is the kind of man, indeed, to whom I should never dare refuse anything, which he condescended to ask.”
-
-
 “I now give it to *you*, if you are resolved on having him. But let me advise you to think better of it. I know your disposition, Lizzy.”
-s=mrbennet;e:mrbennet=serious
+s=mrbennet;e:mrbennet=serious;e:mrbennet=serious;i=
 
 “I know that you could be neither happy nor respectable, unless you truly esteemed your husband; unless you looked up to him as a superior.”
 s=mrbennet
 
 “Your lively talents would place you in the greatest danger in an unequal marriage. You could scarcely escape discredit and misery.”
-
+;e:mrbennet=unhappy;i=
 
 “My child, let me not have the grief of seeing *you* unable to respect your partner in life. You know not what you are about.”
-s=mrbennet;e:mrbennet=unhappy
+s=mrbennet;e:mrbennet=unhappy;e:mrbennet=upset;i=
 
 Elizabeth, still more affected, was earnest and solemn in her reply;
 s=none;e:lizzy=serious
@@ -14660,25 +14651,22 @@ He heard her with astonishment.
 e:mrbennet=surprised
 
 “This is an evening of wonders, indeed!”
-s=mrbennet;e:mrbennet=happy
+s=mrbennet;e:mrbennet=happy;e:mrbennet=confused;i=
 
 “And so, Darcy did everything; made up the match, gave the money, paid the fellow’s debts, and got him his commission!”
+;e:mrbennet=unhappy;i=
 
-
-“So much the better. It will save me a world of trouble and economy.”
-s=mrbennet
-
-“Had it been your uncle’s doing, I must and *would* have paid him; but these violent young lovers carry everything their own way.”
-
+“So much the better. It will save me a world of trouble and economy. Had it been your uncle’s doing, I must and *would* have paid him; but these violent young lovers carry everything their own way.”
+s=mrbennet;e:mrbennet=curious;i=
 
 “I shall offer to pay him tomorrow; he will rant and storm about his love for you, and there will be an end of the matter.”
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2;e:mrbennet=smirking;i=2
 
 He then recollected her embarrassment a few days before, on his reading Mr. Collins’s letter; and after laughing at her some time, allowed her at last to go﻿—saying, as she quitted the room,
 s=
 
 “If any young men come for Mary or Kitty, send them in, for I am quite at leisure.”
-s=mrbennet;e:mrbennet=happy
+s=mrbennet;e:mrbennet=happy;e:mrbennet=happy;i=2
 
 Elizabeth’s mind was now relieved from a very heavy weight; and, after half an hour’s quiet reflection in her own room, she was able to join the others with tolerable composure.
 s=none;e:lizzy=contemplative;b=bennet-wide
@@ -14699,31 +14687,31 @@ She began at length to recover, to fidget about in her chair, get up, sit down a
 e:mrsbennet=excited
 
 “Good gracious! Lord bless me! only think! dear me! Mr. Darcy! Who would have thought it! And is it really true? Oh! my sweetest Lizzy! how rich and how great you will be!”
-s=mrsbennet;e:mrsbennet=happy
+s=mrsbennet;e:mrsbennet=happy;e:mrsbennet=sadsmile;i=
 
 “What pin-money, what jewels, what carriages you will have! Jane’s is nothing to it﻿—nothing at all. I am so pleased﻿—so happy.”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=excited;i=2
 
 “Such a charming man!﻿—so handsome! so tall!﻿—Oh, my dear Lizzy! pray apologise for my having disliked him so much before. I hope he will overlook it.”
-s=mrsbennet
+s=mrsbennet;;e:mrsbennet=fearful;i=2
 
 “Dear, dear Lizzy. A house in town! Everything that is charming! Three daughters married! Ten thousand a year! Oh, Lord! What will become of me. I shall go distracted.”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=nervous;i=2
 
 This was enough to prove that her approbation need not be doubted: and Elizabeth, rejoicing that such an effusion was heard only by herself, soon went away.
 s=none;e:lizzy=happy
 
 But before she had been three minutes in her own room, her mother followed her.
-e:mrsbennet=excited;b=bennet-bedroom
+e:mrsbennet=excited;b=bennet-bedroom-night
 
 “My dearest child,” she cried, “I can think of nothing else! Ten thousand a year, and very likely more! ’Tis as good as a Lord!”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=excited;i=2
 
 “And a special licence. You must and shall be married by a special licence.”
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=happy;i=
 
 “But my dearest love, tell me what dish Mr. Darcy is particularly fond of, that I may have it tomorrow.”
-
+;e:mrsbennet=curious;i=
 
 This was a sad omen of what her mother’s behaviour to the gentleman himself might be; and Elizabeth found, that though in the certain possession of his warmest affection, and secure of her relations’ consent, there was still something to be wished for.
 s=none;e:lizzy=wary
@@ -14735,10 +14723,10 @@ Elizabeth had the satisfaction of seeing her father taking pains to get acquaint
 e:lizzy=happy;e:mrbennet=happy
 
 “I admire all my three sons-in-law highly,” said he.
-s=mrbennet;e:mrbennet=smirking
+s=mrbennet;e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 “Wickham, perhaps, is my favourite; but I think I shall like *your* husband quite as well as Jane’s.”
-
+e:mrbennet=smirking
 
 ## LX
 r=title
