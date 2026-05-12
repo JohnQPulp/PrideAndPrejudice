@@ -571,7 +571,7 @@ n:louisa=Mrs. Hurst;n:caroline=Miss Bingley
 They were rather handsome, had been educated in one of the first private seminaries in town, had a fortune of twenty thousand pounds, were in the habit of spending more than they ought, and of associating with people of rank; and were therefore in every respect entitled to think well of themselves, and meanly of others.
 x:louisa=fancy;x:caroline=fancy
 
-They were of a respectable family in the north of England; a circumstance more deeply impressed on their memories than that their brother’s fortune and their own had been acquired by trade.<e>"New money plebs lmao." —Jane Austen</e>
+They were of a respectable family in the north of England; a circumstance more deeply impressed on their memories than that their brother’s fortune and their own had been acquired by trade.<e>"New money lmao" —Jane Austen</e>
 c=
 
 Mr. Bingley inherited property to the amount of nearly a hundred thousand pounds from his father, who had intended to purchase an estate, but did not live to do it.
@@ -583,7 +583,7 @@ b=netherfield-wide;f:b:netherfield-wide=blur(3px)
 His sisters were very anxious for his having an estate of his own; but though he was now established only as a tenant, Miss Bingley was by no means unwilling to preside at his table, nor was Mrs. Hurst, who had married a man of more fashion than fortune, less disposed to consider his house as her home when it suited her.
 
 
-Mr. Bingley had not been of age two years, when he was tempted by an accidental recommendation to look at Netherfield House.<e>Mr. Bingley is a 22-year-old zoomer?</e>
+Mr. Bingley had not been of age two years, when he was tempted by an accidental recommendation to look at Netherfield House.<e>Mr. Bingley is a 22-year-old zoomer. Canon.</e>
 
 
 He did look at it and into it for half an hour, was pleased with the situation and the principal rooms, satisfied with what the owner said in its praise, and took it immediately.
@@ -712,7 +712,7 @@ s=mrsbennet;e:mrsbennet=annoyed;e:mrsbennet=contemplative;i=
 “If he had been so very agreeable he would have talked to Mrs. Long.”
 e:mrsbennet=angry
 
-“But I can guess how it was; everybody says that he is ate up with pride, and I dare say he had heard somehow that Mrs. Long does not keep a carriage, and had come to the ball in a hack chaise.”<e>Implied is the Machiavellian scheming by which Mrs. Bennet ensured Mr. Darcy was aware of Mrs. Long's ill-bred penchant for hack chaises.</e>
+“But I can guess how it was; everybody says that he is ate up with pride, and I dare say he had heard somehow that Mrs. Long does not keep a carriage, and had come to the ball in a hack chaise.”
 e:mrsbennet=scowling;e:mrsbennet=smirking;i=2
 
 “I do not mind his not talking to Mrs. Long,” said Miss Lucas, “but I wish he had danced with Eliza.”
@@ -9145,7 +9145,7 @@ e:mrsgardiner=happy;e:mrsgardiner=curious;i=
 Elizabeth said no more﻿—but her mind could not acquiesce.
 s=none;e:lizzy=fearful
 
-The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.<e>Thirty-one uses of "instantly", you hack author.</e>
+The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.<e>Thirty-one uses of "instantly". (Hack author.)</e>
 
 
 It would be dreadful!
@@ -11095,7 +11095,7 @@ e:collins=serious;m=margin
 “No arguments shall be wanting on my part, that can alleviate so severe a misfortune; or that may comfort you, under a circumstance that must be of all others most afflicting to a parent’s mind.”
 
 
-“The death of your daughter would have been a blessing in comparison of this.”<e>"I, of course, refer to Mary."</e>
+“The death of your daughter would have been a blessing in comparison of this.”<e>"I of course refer to Mary."</e>
 
 
 “And it is the more to be lamented, because there is reason to suppose, as my dear Charlotte informs me, that this licentiousness of behaviour in your daughter, has proceeded from a faulty degree of indulgence,”
@@ -14839,7 +14839,7 @@ s=lizzy;e:lizzy=smirking
 “I am more likely to want time than courage, Elizabeth. But it ought to be done, and if you will give me a sheet of paper, it shall be done directly.”
 s=darcy;e:darcy=happy;e:darcy=happy;i=2
 
-“And if I had not a letter to write myself, I might sit by you, and admire the evenness of your writing, as another young lady once did.”<e>Humble in victory, Lizzy.</e>
+“And if I had not a letter to write myself, I might sit by you, and admire the evenness of your writing, as another young lady once did.”<e>Catty until the end, that Lizzy.</e>
 s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “But I have an aunt, too, who must not be longer neglected.”
@@ -15076,5 +15076,5 @@ With the Gardiners, they were always on the most intimate terms.
 Darcy, as well as Elizabeth, really loved them; and they were both ever sensible of the warmest gratitude towards the persons who, by bringing her into Derbyshire, had been the means of uniting them.
 e:darcy=happy;e:lizzy=happy;e:mrgardiner=happy;e:mrsgardiner=happy;e:darcy=sadsmile;e:lizzy=sadsmile
 
-<e>The End. A very good book to be sure, despite the irreperable damage it has done to media two centuries on. For example: they're now making a TV spinoff show focused on Mary. The horrible Austen adaptations will truly never end. (Speaking of which: look forward to <i>Sense and Sensibility: The Visual Novel</i>, coming soon.)</e>
+<e>The End. A very good book to be sure, despite the irreparable damage it has done to media two centuries on. For example: now they're making a whole spinoff show focused on Mary. The horrible Austen adaptations will never end. (Speaking of which: look forward to <i>Sense and Sensibility: The Visual Novel</i>, coming soon.)</e>
 r=title
