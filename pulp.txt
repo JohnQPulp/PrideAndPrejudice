@@ -14734,17 +14734,14 @@ r=title
 Elizabeth’s spirits soon rising to playfulness again, she wanted Mr. Darcy to account for his having ever fallen in love with her.
 e:lizzy=happy;e:darcy=happy;b=bennet-small-wood;x:darcy=hat;x:lizzy=bonnet
 
-“How could you begin?” said she.
-s=lizzy;e:lizzy=curious
-
-“I can comprehend your going on charmingly, when you had once made a beginning; but what could set you off in the first place?”
-
+“How could you begin?” said she. “I can comprehend your going on charmingly, when you had once made a beginning; but what could set you off in the first place?”
+s=lizzy;e:lizzy=curious;i=2
 
 “I cannot fix on the hour, or the spot, or the look, or the words, which laid the foundation. It is too long ago.”
 s=darcy;e:darcy=thinking
 
 “I was in the middle before I knew that I *had* begun.”
-
+;e:darcy=happy;i=2
 
 “My beauty you had early withstood, and as for my manners﻿—my behaviour to *you* was at least always bordering on the uncivil, and I never spoke to you without rather wishing to give you pain than not.”
 s=lizzy;e:lizzy=smirking
@@ -14762,10 +14759,10 @@ s=lizzy;e:lizzy=happy
 e:lizzy=smirking
 
 “You were disgusted with the women who were always speaking and looking, and thinking for *your* approbation alone.”
-
+i=3
 
 “I roused, and interested you, because I was so unlike *them*.”
-
+i=2
 
 “Had you not been really amiable you would have hated me for it; but in spite of the pains you took to disguise yourself, your feelings were always noble and just; and in your heart, you thoroughly despised the persons who so assiduously courted you.”
 e:lizzy=happy
@@ -14774,46 +14771,40 @@ e:lizzy=happy
 
 
 “To be sure, you knew no actual good of me﻿—but nobody thinks of *that* when they fall in love.”
-
+;e:lizzy=smirking;i=2
 
 “Was there no good in your affectionate behaviour to Jane, while she was ill at Netherfield?”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=sadsmile;i=
 
-“Dearest Jane! who could have done less for her?”
+“Dearest Jane! who could have done less for her? But make a virtue of it by all means.”
 s=lizzy;e:lizzy=happy
-
-“But make a virtue of it by all means.”
-
 
 “My good qualities are under your protection, and you are to exaggerate them as much as possible; and, in return, it belongs to me to find occasions for teasing and quarrelling with you as often as may be; and I shall begin directly by asking you what made you so unwilling to come to the point at last.”
 e:lizzy=smirking
 
 “What made you so shy of me, when you first called, and afterwards dined here? Why, especially, when you called, did you look as if you did not care about me?”
-e:lizzy=curious
+e:lizzy=curious;e:lizzy=smirking;i=3
 
 “Because you were grave and silent, and gave me no encouragement.”
-s=darcy;e:darcy=serious
+s=darcy;e:darcy=serious;e:darcy=thinking;i=
 
 “But I was embarrassed.”
-s=lizzy;e:lizzy=nervous
+s=lizzy;e:lizzy=nervous;e:lizzy=happy;i=;e:lizzy=nervous;i=2;e:lizzy=contemplative;i=2
 
 “And so was I.”
-s=darcy;e:darcy=nervous
+s=darcy;e:darcy=nervous;e:darcy=smirking;i=2;e:darcy=smirking;i=3
 
 “You might have talked to me more when you came to dinner.”
-s=lizzy;e:lizzy=annoyed
+s=lizzy;e:lizzy=annoyed;e:lizzy=;i=2
 
 “A man who had felt less, might.”
 s=darcy;e:darcy=sadsmile
 
 “How unlucky that you should have a reasonable answer to give, and that I should be so reasonable as to admit it!”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=smirking;i=2
 
-“But I wonder how long you *would* have gone on, if you had been left to yourself.”
+“But I wonder how long you *would* have gone on, if you had been left to yourself. I wonder when you *would* have spoken, if I had not asked you!”
 e:lizzy=curious
-
-“I wonder when you *would* have spoken, if I had not asked you!”
-
 
 “My resolution of thanking you for your kindness to Lydia had certainly great effect.”
 e:lizzy=thinking
@@ -14824,41 +14815,41 @@ e:lizzy=contemplative
 “You need not distress yourself. The moral will be perfectly fair.”
 s=darcy;e:darcy=happy
 
-“Lady Catherine’s unjustifiable endeavours to separate us, were the means of removing all my doubts.”
+“Lady Catherine’s unjustifiable endeavours to separate us, were the means of removing all my doubts. I am not indebted for my present happiness to your eager desire of expressing your gratitude.”
 e:darcy=smirking
 
-“I am not indebted for my present happiness to your eager desire of expressing your gratitude.”
-
-
 “I was not in a humour to wait for any opening of yours. My aunt’s intelligence had given me hope, and I was determined at once to know everything.”
-e:darcy=serious
+e:darcy=serious;e:darcy=thinking;i=
 
 “Lady Catherine has been of infinite use, which ought to make her happy, for she loves to be of use.”
 s=lizzy;e:lizzy=smirking
 
 “But tell me, what did you come down to Netherfield for? Was it merely to ride to Longbourn and be embarrassed? or had you intended any more serious consequence?”
-e:lizzy=curious
+e:lizzy=curious;e:lizzy=thinking;i=
 
 “My real purpose was to see *you*, and to judge, if I could, whether I might ever hope to make you love me.”
 s=darcy;e:darcy=serious
 
 “My avowed one, or what I avowed to myself, was to see whether your sister were still partial to Bingley, and if she were, to make the confession to him which I have since made.”
-
+;e:darcy=sadsmile;i=
 
 “Shall you ever have courage to announce to Lady Catherine, what is to befall her?”
 s=lizzy;e:lizzy=smirking
 
 “I am more likely to want time than courage, Elizabeth. But it ought to be done, and if you will give me a sheet of paper, it shall be done directly.”
-s=darcy;e:darcy=happy
+s=darcy;e:darcy=happy;e:darcy=happy;i=2
 
-“And if I had not a letter to write myself, I might sit by you, and admire the evenness of your writing, as another young lady once did.”<e>Real humble in victory, are we, Lizzy?</e>
-s=lizzy;e:lizzy=smirking
+“And if I had not a letter to write myself, I might sit by you, and admire the evenness of your writing, as another young lady once did.”<e>Humble in victory, Lizzy.</e>
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “But I have an aunt, too, who must not be longer neglected.”
+;e:lizzy=thinking;i=
 
+From an unwillingness to confess how much her intimacy with Mr. Darcy had been overrated, Elizabeth had never yet answered Mrs. Gardiner’s long letter,
+s=none;e:lizzy=happy;m=allowbreak
 
-From an unwillingness to confess how much her intimacy with Mr. Darcy had been overrated, Elizabeth had never yet answered Mrs. Gardiner’s long letter, but now, having *that* to communicate which she knew would be most welcome, she was almost ashamed to find that her uncle and aunt had already lost three days of happiness, and immediately wrote as follows:
-s=none;e:lizzy=happy
+but now, having *that* to communicate which she knew would be most welcome, she was almost ashamed to find that her uncle and aunt had already lost three days of happiness, and immediately wrote as follows:
+b=bennet-wide;m=
 
 “I would have thanked you before, my dear aunt, as I ought to have done, for your long, kind, satisfactory, detail of particulars; but to say the truth, I was too cross to write.”
 e:lizzy=neutral;m=margin;b=bennet-wide
@@ -14945,9 +14936,9 @@ Nor was her respect for him, though it made her more quiet, at all likely to mak
 
 
 Elizabeth did all she could to shield him from the frequent notice of either, and was ever anxious to keep him to herself, and to those of her family with whom he might converse without mortification; and though the uncomfortable feelings arising from all this took from the season of courtship much of its pleasure, it added to the hope of the future;
-e:lizzy=wary;e:darcy=neutral;e:lizzy=contemplative;e:lizzy=happy;b=meryton-wide
+e:lizzy=wary;e:darcy=neutral;e:lizzy=contemplative;e:lizzy=happy
 
-and she looked forward with delight to the time when they should be removed from society so little pleasing to either, to all the comfort and elegance of their family party at Pemberley.<e>Goodbye, conversing with poors!</e>
+and she looked forward with delight to the time when they should be removed from society so little pleasing to either, to all the comfort and elegance of their family party at Pemberley.<e>"Goodbye, poor people."</e>
 
 
 ## LXI
@@ -14992,7 +14983,7 @@ e:kitty=neutral
 From the farther disadvantage of Lydia’s society she was of course carefully kept, and though Mrs. Wickham frequently invited her to come and stay with her, with the promise of balls and young men, her father would never consent to her going.
 e:lydia=annoyed;e:mrbennet=serious
 
-Mary was the only daughter who remained at home; and she was necessarily drawn from the pursuit of accomplishments by Mrs. Bennet’s being quite unable to sit alone.<e>Good God it's the last chapter. Why are we still talking about <i>Mary</i>?</e>
+Mary was the only daughter who remained at home; and she was necessarily drawn from the pursuit of accomplishments by Mrs. Bennet’s being quite unable to sit alone.<e>Still talking about Mary in the last chapter, huh.</e>
 e:mary=annoyed;e:mrsbennet=nervous;b=bennet-wide
 
 Mary was obliged to mix more with the world, but she could still moralize over every morning visit; and as she was no longer mortified by comparisons between her sisters’ beauty and her own, it was suspected by her father that she submitted to the change without much reluctance.
@@ -15085,5 +15076,5 @@ With the Gardiners, they were always on the most intimate terms.
 Darcy, as well as Elizabeth, really loved them; and they were both ever sensible of the warmest gratitude towards the persons who, by bringing her into Derbyshire, had been the means of uniting them.
 e:darcy=happy;e:lizzy=happy;e:mrgardiner=happy;e:mrsgardiner=happy;e:darcy=sadsmile;e:lizzy=sadsmile
 
-<e>The End. A very good book to be sure, despite the irreperable damage it has done to media two centuries on. For example: did you know they're making a whole TV show just about Mary? Will the horrible Austen adaptations never end!? (Speaking of which: look forward to <i>Sense and Sensibility: The Visual Novel</i>, coming soon.)</e>
+<e>The End. A very good book to be sure, despite the irreperable damage it has done to media two centuries on. For example: they're now making a TV spinoff show focused on Mary. The horrible Austen adaptations will truly never end. (Speaking of which: look forward to <i>Sense and Sensibility: The Visual Novel</i>, coming soon.)</e>
 r=title
