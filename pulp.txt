@@ -12917,22 +12917,19 @@ Mr. Darcy’s behaviour astonished and vexed her.
 e:lizzy=annoyed
 
 “Why, if he came only to be silent, grave, and indifferent,” said she, “did he come at all?”
-s=lizzy;e:lizzy=annoyed;x:lizzy=bonnet
+s=lizzy;e:lizzy=annoyed;x:lizzy=bonnet;e:lizzy=serious;i=
 
 She could settle it in no way that gave her pleasure.
 s=none;e:lizzy=unhappy
 
 “He could be still amiable, still pleasing, to my uncle and aunt, when he was in town; and why not to me?”
-s=lizzy;e:lizzy=thinking
+s=lizzy;e:lizzy=thinking;e:lizzy=suspicious;i=
 
-“If he fears me, why come hither? If he no longer cares for me, why silent?”
-e:lizzy=upset
-
-“Teasing, teasing, man!”
-
+“If he fears me, why come hither? If he no longer cares for me, why silent? Teasing, teasing, man!”
+e:lizzy=upset;e:lizzy=angry;i=3
 
 “I will think no more about him.”
-e:lizzy=angry
+e:lizzy=angry;e:lizzy=serious;i=2
 
 Her resolution was for a short time involuntarily kept by the approach of her sister, who joined her with a cheerful look, which showed her better satisfied with their visitors than Elizabeth.
 s=none;e:jane=happy
@@ -12940,23 +12937,20 @@ s=none;e:jane=happy
 “Now,” said she, “that this first meeting is over, I feel perfectly easy.”
 s=jane;x:jane=bonnet
 
-“I know my own strength, and I shall never be embarrassed again by his coming. I am glad he dines here on Tuesday.”
-
-
-“It will then be publicly seen, that on both sides, we meet only as common and indifferent acquaintance.”
-e:jane=neutral
+“I know my own strength, and I shall never be embarrassed again by his coming. I am glad he dines here on Tuesday. It will then be publicly seen, that on both sides, we meet only as common and indifferent acquaintance.”
+;e:jane=thinking;i=
 
 “Yes, very indifferent indeed,” said Elizabeth, laughingly.
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “Oh, Jane, take care.”
-
+;e:lizzy=happy;i=2;e:lizzy=happy;i=
 
 “My dear Lizzy, you cannot think me so weak, as to be in danger now.”
 s=jane;e:jane=serious
 
 “I think you are in very great danger of making him as much in love with you as ever.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=2
 
 —
 s=none
@@ -13030,26 +13024,23 @@ e:lizzy=angry
 “A man who has once been refused! How could I ever be foolish enough to expect a renewal of his love?”
 t=lizzy
 
-“Is there one among the sex, who would not protest against such a weakness as a second proposal to the same woman?”
-
-
-“There is no indignity so abhorrent to their feelings!”
+“Is there one among the sex, who would not protest against such a weakness as a second proposal to the same woman? There is no indignity so abhorrent to their feelings!”
 e:lizzy=upset
 
 She was a little revived, however, by his bringing back his coffee cup himself; and she seized the opportunity of saying,
 s=none;e:lizzy=surprised;t=
 
 “Is your sister at Pemberley still?”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=serious;i=
 
 “Yes, she will remain there till Christmas.”
-s=darcy;e:darcy=neutral
+s=darcy;e:darcy=neutral;e:darcy=;i=2
 
 “And quite alone? Have all her friends left her?”
-s=lizzy
+s=lizzy;e:lizzy=contemplative;i=
 
 “Mrs. Annesley is with her. The others have been gone on to Scarborough, these three weeks.”
-s=darcy
+s=darcy;e:darcy=curious;i=
 
 She could think of nothing more to say; but if he wished to converse with her, he might have better success.
 s=none;e:lizzy=nervous
@@ -13070,25 +13061,22 @@ Mrs. Bennet had designed to keep the two Netherfield gentlemen to supper; but th
 e:mrsbennet=annoyed
 
 “Well girls,” said she, as soon as they were left to themselves, “What say you to the day?”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=happy;i=
 
 “I think everything has passed off uncommonly well, I assure you. The dinner was as well dressed as any I ever saw. The venison was roasted to a turn—and everybody said they never saw so fat a haunch.”
 
 
 “The soup was fifty times better than what we had at the Lucas’s last week; and even Mr. Darcy acknowledged, that the partridges were remarkably well done; and I suppose he has two or three French cooks at least.”
+;e:mrsbennet=smirking;i=
 
-
-“And, my dear Jane, I never saw you look in greater beauty.”
+“And, my dear Jane, I never saw you look in greater beauty. Mrs. Long said so too, for I asked her whether you did not. And what do you think she said besides?”
 e:mrsbennet=happy
 
-“Mrs. Long said so too, for I asked her whether you did not. And what do you think she said besides?”
-
-
 “‘Ah! Mrs. Bennet, we shall have her at Netherfield at last.’”
-
+;e:mrsbennet=curious;i=2
 
 “She did indeed.”
-
+e:mrsbennet=smirking
 
 “I do think Mrs. Long is as good a creature as ever lived—and her nieces are very pretty behaved girls, and not at all handsome: I like them prodigiously.”
 e:mrsbennet=smirking
@@ -13100,40 +13088,40 @@ s=none;e:mrsbennet=happy
 s=jane;e:jane=happy
 
 “The party seemed so well selected, so suitable one with the other. I hope we may often meet again.”
-
+;e:jane=excited;i=2;e:jane=curious;i=
 
 Elizabeth smiled.
 s=none;e:lizzy=smirking
 
 “Lizzy, you must not do so. You must not suspect me. It mortifies me.”
-s=jane;e:jane=upset
+s=jane;e:jane=upset;e:jane=confused;i=
 
 “I assure you that I have now learnt to enjoy his conversation as an agreeable and sensible young man, without having a wish beyond it.”
-e:jane=serious
+e:jane=serious;e:jane=nervous;i=
 
 “I am perfectly satisfied from what his manners now are, that he never had any design of engaging my affection.”
-e:jane=contemplative
+e:jane=contemplative;e:jane=unhappy;i=2
 
 “It is only that he is blessed with greater sweetness of address, and a stronger desire of generally pleasing than any other man.”
-
+;e:jane=unhappy;i=
 
 “You are very cruel,” said her sister, “you will not let me smile, and are provoking me to it every moment.”
 s=lizzy;e:lizzy=smirking
 
 “How hard it is in some cases to be believed!”
-s=jane;e:jane=annoyed
+s=jane;e:jane=annoyed;e:jane=unhappy;i=3
 
 “And how impossible in others!”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=smirking;i=3
 
 “But why should you wish to persuade me that I feel more than I acknowledge?”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=unhappy;i=
 
 “That is a question which I hardly know how to answer. We all love to instruct, though we can teach only what is not worth knowing.”
-s=lizzy;e:lizzy=contemplative
+s=lizzy;e:lizzy=contemplative;e:lizzy=curious;i=
 
 “Forgive me; and if you persist in indifference, do not make *me* your confidante.”
-e:lizzy=smirking
+;e:lizzy=;i=2
 
 ## LV
 r=title
@@ -13157,7 +13145,7 @@ He should be particularly happy at any time, etc. etc.; and if she would give hi
 s=none;e:bingley=happy
 
 “Can you come tomorrow?”
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=happy;i=2
 
 Yes, he had no engagement at all for tomorrow; and her invitation was accepted with alacrity.
 s=none;e:bingley=happy
@@ -13169,10 +13157,10 @@ In ran Mrs. Bennet to her daughter’s room, in her dressing gown, and with her 
 e:mrsbennet=excited
 
 “My dear Jane, make haste and hurry down. He is come—Mr. Bingley is come. He is, indeed. Make haste, make haste.”
-s=mrsbennet;x:mrsbennet=undressed
+s=mrsbennet;x:mrsbennet=undressed;e:mrsbennet=excited;i=2
 
 “Here, Sarah, come to Miss Bennet this moment, and help her on with her gown. Never mind Miss Lizzy’s hair.”
-
+;e:mrsbennet=serious;i=
 
 “We will be down as soon as we can,” said Jane; “but I dare say Kitty is forwarder than either of us, for she went upstairs half an hour ago.”
 s=jane;e:jane=nervous;x:jane=undressed
@@ -13196,16 +13184,16 @@ Elizabeth would not observe her; and when at last Kitty did, she very innocently
 
 
 “What is the matter, mamma? What do you keep winking at me for? What am I to do?”
-s=kitty;e:kitty=confused;e:lizzy=neutral
+s=kitty;e:kitty=confused;e:lizzy=neutral;e:kitty=upset;i=
 
 “Nothing child, nothing. I did not wink at you.”
-s=mrsbennet;e:mrsbennet=scowling;x:mrsbennet=;x:jane=
+s=mrsbennet;e:mrsbennet=scowling;x:mrsbennet=;x:jane=;e:mrsbennet=serious;i=
 
 She then sat still five minutes longer; but unable to waste such a precious occasion, she suddenly got up, and saying to Kitty,
 s=
 
 “Come here, my love, I want to speak to you,” took her out of the room.
-s=mrsbennet
+s=mrsbennet;e:mrsbennet=annoyed;i=2
 
 Jane instantly gave a look at Elizabeth, which spoke her distress at such premeditation, and her entreaty that *she* would not give into it.
 e:jane=upset;e:lizzy=serious;s=
@@ -13220,10 +13208,10 @@ Elizabeth was forced to go.
 s=none;e:lizzy=annoyed
 
 “We may as well leave them by themselves you know;” said her mother as soon as she was in the hall.
-s=mrsbennet;b=bennet-vestibule
+s=mrsbennet;b=bennet-vestibule;e:mrsbennet=curious;i=
 
 “Kitty and I are going upstairs to sit in my dressing-room.”
-
+;e:mrsbennet=smirking;i=2
 
 Elizabeth made no attempt to reason with her mother, but remained quietly in the hall, till she and Kitty were out of sight, then returned into the drawing-room.
 s=none;e:lizzy=weary
@@ -13238,7 +13226,7 @@ He scarcely needed an invitation to stay supper; and before he went away, an eng
 
 
 After this day, Jane said no more of her indifference.
-b=light
+f:b:bennet-wide=blur(3px)
 
 Not a word passed between the sisters concerning Bingley; but Elizabeth went to bed in the happy belief that all must speedily be concluded, unless Mr. Darcy returned within the stated time.
 e:jane=thinking;e:lizzy=happy
@@ -13247,7 +13235,7 @@ Seriously, however, she felt tolerably persuaded that all this must have taken p
 e:lizzy=thinking
 
 Bingley was punctual to his appointment; and he and Mr. Bennet spent the morning together, as had been agreed on.
-e:bingley=happy;e:mrbennet=neutral;b=bennet-small-wood
+e:bingley=happy;e:mrbennet=neutral;f:b:bennet-wide=
 
 The latter was much more agreeable than his companion expected.
 
@@ -13277,7 +13265,7 @@ Jane could have no reserves from Elizabeth, where confidence would give pleasure
 e:jane=happy;e:jane=excited
 
 “’Tis too much!” she added, “by far too much. I do not deserve it. Oh! why is not everybody as happy?”
-s=jane
+s=jane;e:jane=sadsmile;i=
 
 Elizabeth’s congratulations were given with a sincerity, a warmth, a delight, which words could but poorly express. Every sentence of kindness was a fresh source of happiness to Jane.
 s=none;e:lizzy=happy
@@ -13286,10 +13274,10 @@ But she would not allow herself to stay with her sister, or say half that remain
 e:jane=nervous
 
 “I must go instantly to my mother;” she cried. “I would not on any account trifle with her affectionate solicitude; or allow her to hear it from anyone but myself.”
-s=jane;e:jane=excited
+s=jane;e:jane=excited;e:jane=happy;i=
 
 “He is gone to my father already. Oh! Lizzy, to know that what I have to relate will give such pleasure to all my dear family! how shall I bear so much happiness!”
-
+;e:jane=sadsmile;i=2
 
 She then hastened away to her mother, who had purposely broken up the card party, and was sitting upstairs with Kitty.
 s=none
@@ -13298,16 +13286,16 @@ Elizabeth, who was left by herself, now smiled at the rapidity and ease with whi
 e:lizzy=happy
 
 “And this,” said she, “is the end of all his friend’s anxious circumspection! of all his sister’s falsehood and contrivance! the happiest, wisest, most reasonable end!”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=happy;i=
 
 In a few minutes she was joined by Bingley, whose conference with her father had been short and to the purpose.
 s=none;e:bingley=excited
 
 “Where is your sister?” said he hastily, as he opened the door.
-s=bingley
+s=bingley;e:bingley=curious;i=2
 
 “With my mother upstairs. She will be down in a moment I dare say.”
-s=lizzy;e:lizzy=happy
+s=lizzy;e:lizzy=happy;e:lizzy=;i=;e:lizzy=smirking;i=3
 
 He then shut the door, and coming up to her, claimed the good wishes and affection of a sister.
 s=none;e:bingley=happy
@@ -13331,61 +13319,55 @@ Mrs. Bennet could not give her consent, or speak her approbation in terms warm e
 e:mrsbennet=excited;e:mrbennet=happy
 
 Not a word, however, passed his lips in allusion to it, till their visitor took his leave for the night; but as soon as he was gone, he turned to his daughter and said—
-b=bennet-dining
+b=bennet-dining-night
 
 “Jane, I congratulate you. You will be a very happy woman.”
-s=mrbennet;e:mrbennet=sadsmile
+s=mrbennet;e:mrbennet=sadsmile;e:mrbennet=happy;i=
 
 Jane went to him instantly, kissed him, and thanked him for his goodness.
 s=none;e:jane=happy
 
-“You are a good girl;” he replied, “and I have great pleasure in thinking you will be so happily settled.”
-s=mrbennet
-
-“I have not a doubt of your doing very well together. Your tempers are by no means unlike.”
-
+“You are a good girl;” he replied, “and I have great pleasure in thinking you will be so happily settled. I have not a doubt of your doing very well together. Your tempers are by no means unlike.”
+s=mrbennet;e:mrbennet=sadsmile;i=
 
 “You are each of you so complying, that nothing will ever be resolved on; so easy, that every servant will cheat you; and so generous, that you will always exceed your income.”
-e:mrbennet=smirking
+e:mrbennet=smirking;e:mrbennet=happy;i=2
 
 “I hope not so. Imprudence or thoughtlessness in money matters would be unpardonable in *me*.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=thinking;i=
 
 “Exceed their income! My dear Mr. Bennet,” cried his wife, “what are you talking of?”
 s=mrsbennet;e:mrsbennet=surprised
 
 “Why, he has four or five thousand a year, and very likely more.”
-
+;e:mrsbennet=curious;i=
 
 Then addressing her daughter,
 s=
 
 “Oh! my dear, dear Jane, I am so happy!”
-e:mrsbennet=excited;s=mrsbennet
+e:mrsbennet=excited;s=mrsbennet;e:mrsbennet=excited;i=3
 
-“I am sure I sha’nt get a wink of sleep all night. I knew how it would be. I always said it must be so, at last.”
-
-
-“I was sure you could not be so beautiful for nothing!”
-
+“I am sure I sha’nt get a wink of sleep all night. I knew how it would be. I always said it must be so, at last. I was sure you could not be so beautiful for nothing!”
+;e:mrsbennet=happy;i=
 
 “I remember, as soon as ever I saw him, when he first came into Hertfordshire last year, I thought how likely it was that you should come together.”
 
 
 “Oh! he is the handsomest young man that ever was seen!”
-
+;e:mrsbennet=excited;i=2
 
 Wickham, Lydia, were all forgotten. Jane was beyond competition her favourite child. At that moment, she cared for no other.
 s=none;e:mrsbennet=happy
 
 Her younger sisters soon began to make interest with her for objects of happiness which she might in future be able to dispense.
+f:b:bennet-dining-night=blur(3px)
 
-
-Mary petitioned for the use of the library at Netherfield; and Kitty begged very hard for a few balls there every winter.<e>Go close up the library, Mary, where you belong.</e>
+Mary petitioned for the use of the library at Netherfield; and Kitty begged very hard for a few balls there every winter.
 e:mary=happy;e:kitty=excited
 
 Bingley, from this time, was of course a daily visitor at Longbourn; coming frequently before breakfast, and always remaining till after supper; unless when some barbarous neighbour, who could not be enough detested, had given him an invitation to dinner, which he thought himself obliged to accept.
-e:bingley=happy;e:bingley=annoyed;b=bennet-wide
+e:bingley=happy;e:bingley=annoyed;b=bennet-drawing
 
 Elizabeth had now but little time for conversation with her sister; for while he was present, Jane had no attention to bestow on anyone else; but she found herself considerably useful to both of them, in those hours of separation that must sometimes occur.
 e:lizzy=sadsmile;e:jane=happy
@@ -13394,19 +13376,19 @@ In the absence of Jane, he always attached himself to Elizabeth, for the pleasur
 e:bingley=happy
 
 “He has made me so happy,” said she, one evening, “by telling me, that he was totally ignorant of my being in town last spring!”
-s=jane;e:jane=excited;b=bennet-drawing
+s=jane;e:jane=excited;b=bennet-drawing;e:jane=happy;i=
 
 “I had not believed it possible.”
-
+;e:jane=sadsmile;i=
 
 “I suspected as much,” replied Elizabeth.
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=
 
 “But how did he account for it?”
 
 
 “It must have been his sister’s doing.”
-s=jane
+s=jane;e:jane=confused;i=
 
 “They were certainly no friends to his acquaintance with me, which I cannot wonder at, since he might have chosen so much more advantageously in many respects.”
 s=jane;e:jane=serious
@@ -13415,19 +13397,16 @@ s=jane;e:jane=serious
 
 
 “That is the most unforgiving speech,” said Elizabeth, “that I ever heard you utter.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=curious;i=
 
-“Good girl!”
-
-
-“It would vex me, indeed, to see you again the dupe of Miss Bingley’s pretended regard.”
-
+“Good girl! It would vex me, indeed, to see you again the dupe of Miss Bingley’s pretended regard.”
+e:lizzy=smirking
 
 “Would you believe it, Lizzy, that when he went to town last November, he really loved me, and nothing but a persuasion of *my* being indifferent, would have prevented his coming down again!”
-s=jane;e:jane=surprised
+s=jane;e:jane=surprised;e:jane=sadsmile;i=2
 
 “He made a little mistake to be sure; but it is to the credit of his modesty.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;e:lizzy=;i=2
 
 This naturally introduced a panegyric from Jane on his diffidence, and the little value he put on his own good qualities.
 s=none;e:jane=happy
@@ -13436,25 +13415,25 @@ Elizabeth was pleased to find, that he had not betrayed the interference of his 
 e:lizzy=thinking
 
 “I am certainly the most fortunate creature that ever existed!” cried Jane.
-s=jane;e:jane=excited
+s=jane;e:jane=excited;e:jane=happy;i=
 
 “Oh! Lizzy, why am I thus singled from my family, and blessed above them all! If I could but see *you* as happy! If there *were* but such another man for you!”
+;e:jane=weary;i=;e:jane=confused;i=
 
-
-“If you were to give me forty such men, I never could be so happy as you.”<e>Woah, settle down, Lizzy.</e>
-s=lizzy;e:lizzy=sadsmile
+“If you were to give me forty such men, I never could be so happy as you.”<e>Austen…</e>
+s=lizzy;e:lizzy=sadsmile;e:lizzy=unhappy;i=2
 
 “Till I have your disposition, your goodness, I never can have your happiness.”
-
+;e:lizzy=contemplative;i=
 
 “No, no, let me shift for myself; and, perhaps, if I have very good luck, I may meet with another Mr. Collins in time.”
-e:lizzy=smirking
+e:lizzy=smirking;e:lizzy=smirking;i=3
 
 The situation of affairs in the Longbourn family could not be long a secret.
-s=none;e:mrsbennet=excited
+s=none;e:mrsbennet=excited;f:b:bennet-drawing=blur(3px)
 
 Mrs. Bennet was privileged to whisper it to Mrs. Philips, and *she* ventured, without any permission, to do the same by all her neighbours in Meryton.
-b=meryton-wide
+b=bennet-wide
 
 The Bennets were speedily pronounced to be the luckiest family in the world, though only a few weeks before, when Lydia had first run away, they had been generally proved to be marked out for misfortune.
 e:mrsbennet=happy
