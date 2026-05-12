@@ -1,8 +1,14 @@
 ### *Pride and Prejudice: The Visual Novel*
 
-This repository will contain the metadata and images for the visual novel transformation (pulpification) of Jane Austen's book *Pride and Prejudice*.
+This repository contains the metadata and images for the visual novel transformation (pulpification) of Jane Austen's book *Pride and Prejudice*.
 
-This VN is a work-in-progress.
+You can read it in a few ways:
+
+* Online at https://publicdomainpulp.com/vn/PrideAndPrejudice
+* Locally at http://localhost:1929/vn/PrideAndPrejudice running https://github.com/JohnQPulp/PublicDomainPulp (ASP.NET/C#) from source
+* Locally via static html file using the tool https://github.com/JohnQPulp/Pulpifier (C#) from source
+
+![Preview](images/preview.avif)
 
 ### License Information
 
