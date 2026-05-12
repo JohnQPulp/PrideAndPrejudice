@@ -11693,10 +11693,10 @@ She was busily searching through the neighbourhood for a proper situation for he
 e:mrsbennet=thinking
 
 “Haye-Park might do,” said she, “if the Gouldings would quit it, or the great house at Stoke, if the drawing-room were larger; but Ashworth is too far off!”
-s=mrsbennet;e:mrsbennet=thinking
+s=mrsbennet;e:mrsbennet=thinking;e:mrsbennet=suspicious;i=
 
 “I could not bear to have her ten miles from me; and as for Purvis Lodge, the attics are dreadful.”
-e:mrsbennet=annoyed
+e:mrsbennet=annoyed;e:mrsbennet=annoyed;i=2
 
 Her husband allowed her to talk on without interruption, while the servants remained. But when they had withdrawn, he said to her,
 s=none;e:mrbennet=neutral
@@ -11828,10 +11828,10 @@ Lydia’s being settled in the North, just when she had expected most pleasure a
 e:mrsbennet=unhappy
 
 “She is so fond of Mrs. Forster,” said she, “it will be quite shocking to send her away!”
-s=mrsbennet;e:mrsbennet=crying
+s=mrsbennet;e:mrsbennet=crying;e:mrsbennet=upset;i=2
 
 “And there are several of the young men, too, that she likes very much. The officers may not be so pleasant in General ———’s regiment.”
-e:mrsbennet=upset
+e:mrsbennet=upset;e:mrsbennet=wary;i=
 
 His daughter’s request, for such it might be considered, of being admitted into her family again, before she set off for the North, received at first an absolute negative.
 s=none;e:mrbennet=angry
@@ -11906,10 +11906,10 @@ Nothing of the past was recollected with pain; and Lydia led voluntarily to subj
 e:lydia=happy;x:lydia=
 
 “Only think of its being three months,” she cried, “since I went away; it seems but a fortnight I declare; and yet there have been things enough happened in the time.”
-s=lydia;e:lydia=excited
+s=lydia;e:lydia=excited;e:lydia=happy;i=2
 
 “Good gracious! when I went away, I am sure I had no more idea of being married till I came back again! though I thought it would be very good fun if I was.”
-
+;e:lydia=excited;i=
 
 Her father lifted up his eyes. Jane was distressed.
 s=
@@ -11918,10 +11918,10 @@ Elizabeth looked expressively at Lydia; but she, who never heard nor saw anythin
 
 
 “Oh! mamma, do the people hereabouts know I am married today?”
-s=none;e:mrbennet=annoyed;e:jane=upset;e:lizzy=scowling;s=lydia;e:lydia=smirking
+s=none;e:mrbennet=annoyed;e:jane=upset;e:lizzy=scowling;s=lydia;e:lydia=smirking;e:lydia=curious;i=2
 
 “I was afraid they might not; and we overtook William Goulding in his curricle, so I was determined he should know it, and so I let down the side glass next to him, and took off my glove, and let my hand just rest upon the window frame, so that he might see the ring, and then I bowed and smiled like anything.”
-
+e:lydia=smirking;i=2
 
 Elizabeth could bear it no longer.
 s=none;e:lizzy=angry;e:lizzy=neutral
@@ -11942,7 +11942,7 @@ Her ease and good spirits increased.
 
 
 She longed to see Mrs. Philips, the Lucases, and all their other neighbours, and to hear herself called “Mrs. Wickham,” by each of them; and in the meantime, she went after dinner to show her ring and boast of being married, to Mrs. Hill and the two housemaids.
-e:lydia=happy;e:lydia=smirking;b=bennet-wide
+e:lydia=happy;e:lydia=smirking
 
 “Well, mamma,” said she, when they were all returned to the breakfast room, “and what do you think of my husband? Is not he a charming man?”
 s=lydia;e:lydia=happy;b=bennet-parlor
@@ -11951,10 +11951,10 @@ s=lydia;e:lydia=happy;b=bennet-parlor
 
 
 “They must all go to Brighton. That is the place to get husbands. What a pity it is, mamma, we did not all go.”
-e:lydia=excited
+e:lydia=excited;e:lydia=thinking;i=
 
 “Very true; and if I had my will, we should. But my dear Lydia, I don’t at all like your going such a way off. Must it be so?”
-s=mrsbennet;e:mrsbennet=unhappy
+s=mrsbennet;e:mrsbennet=unhappy;e:mrsbennet=unhappy;i=2
 
 “Oh, lord! yes;—there is nothing in that. I shall like it of all things.”
 s=lydia;e:lydia=happy
@@ -11963,10 +11963,10 @@ s=lydia;e:lydia=happy
 e:lydia=excited
 
 “I should like it beyond anything!” said her mother.
-s=mrsbennet;e:mrsbennet=excited
+s=mrsbennet;e:mrsbennet=excited;e:mrsbennet=excited;i=2
 
 “And then when you go away, you may leave one or two of my sisters behind you; and I dare say I shall get husbands for them before the winter is over.”
-s=lydia;e:lydia=smirking
+s=lydia;e:lydia=smirking;e:lydia=smirking;i=2
 
 “I thank you for my share of the favour,” said Elizabeth; “but I do not particularly like your way of getting husbands.”
 s=lizzy;e:lizzy=annoyed;e:lizzy=scowling
@@ -12005,43 +12005,40 @@ e:lydia=neutral;b=bennet-sitting
 s=lydia;e:lydia=curious
 
 “Are not you curious to hear how it was managed?”
-
+;e:lydia=happy;i=
 
 “No really,” replied Elizabeth; “I think there cannot be too little said on the subject.”
 s=lizzy;e:lizzy=annoyed
 
-“La! You are so strange!”
-s=lydia;e:lydia=happy
-
-“But I must tell you how it went off.”
-
+“La! You are so strange! But I must tell you how it went off.”
+s=lydia;e:lydia=happy;e:lydia=thinking;i=
 
 “We were married, you know, at St. Clement’s, because Wickham’s lodgings were in that parish. And it was settled that we should all be there by eleven o’clock.”
-
+;e:lydia=happy;i=2
 
 “My uncle and aunt and I were to go together; and the others were to meet us at the church.”
-
+i=
 
 “Well, Monday morning came, and I was in such a fuss!”
 e:lydia=excited
 
 “I was so afraid you know that something would happen to put it off, and then I should have gone quite distracted.”
-
+;e:lydia=smirking;i=2
 
 “And there was my aunt, all the time I was dressing, preaching and talking away just as if she was reading a sermon.”
 e:lydia=annoyed
 
 “However, I did not hear above one word in ten, for I was thinking, you may suppose, of my dear Wickham. I longed to know whether he would be married in his blue coat.”
-e:lydia=happy
+e:lydia=happy;e:lydia=smirking;i=
 
 “Well, and so we breakfasted at ten as usual; I thought it would never be over; for, by the by, you are to understand, that my uncle and aunt were horrid unpleasant all the time I was with them.”
-e:lydia=neutral;e:lydia=annoyed
+e:lydia=neutral;e:lydia=annoyed;e:lydia=annoyed;i=2
 
 “If you’ll believe me, I did not once put my foot out of doors, though I was there a fortnight. Not one party, or scheme, or anything.”
-
+;e:lydia=thinking;i=
 
 “To be sure London was rather thin, but however the little Theatre was open.”
-e:lydia=scowling
+e:lydia=scowling;e:lydia=smirking;i=2
 
 “Well, and so just as the carriage came to the door, my uncle was called away upon business to that horrid man Mr. Stone.”
 e:lydia=annoyed
@@ -12050,7 +12047,7 @@ e:lydia=annoyed
 
 
 “Well, I was so frightened I did not know what to do, for my uncle was to give me away; and if we were beyond the hour, we could not be married all day.”
-e:lydia=fearful
+e:lydia=fearful;e:lydia=curious;i=
 
 “But, luckily, he came back again in ten minutes time, and then we all set out.”
 e:lydia=happy
@@ -12059,25 +12056,25 @@ e:lydia=happy
 e:lydia=smirking
 
 “Mr. Darcy!” repeated Elizabeth, in utter amazement.
-s=lizzy;e:lizzy=surprised
+s=lizzy;e:lizzy=surprised;e:lizzy=surprised;i=2
 
 “Oh, yes!—he was to come there with Wickham, you know.”
-s=lydia;e:lydia=surprised
+s=lydia;e:lydia=surprised;e:lydia=happy;i=
 
 “But gracious me! I quite forgot! I ought not to have said a word about it. I promised them so faithfully!”
-e:lydia=nervous
+e:lydia=nervous;e:lydia=nervous;i=
 
 “What will Wickham say? It was to be such a secret!”
 e:lydia=fearful
 
 “If it was to be secret,” said Jane, “say not another word on the subject.”
-s=jane;e:jane=serious
+s=jane;e:jane=serious;e:jane=unhappy;i=
 
 “You may depend upon my seeking no further.”
-e:jane=neutral
+e:jane=neutral;e:jane=unhappy;i=2
 
 “Oh! certainly,” said Elizabeth, though burning with curiosity; “we will ask you no questions.”
-s=lizzy;e:lizzy=curious
+s=lizzy;e:lizzy=curious;e:lizzy=confused;i=2
 
 “Thank you,” said Lydia, “for if you did, I should certainly tell you all, and then Wickham would be angry.”
 s=lydia;e:lydia=happy
@@ -12104,13 +12101,13 @@ She could not bear such suspense; and hastily seizing a sheet of paper, wrote a 
 e:lizzy=serious
 
 “You may readily comprehend,” she added, “what my curiosity must be to know how a person unconnected with any of us, and (comparatively speaking) a stranger to our family, should have been amongst you at such a time.”
-e:lizzy=curious
+e:lizzy=curious;m=margin
 
 “Pray write instantly, and let me understand it—unless it is, for very cogent reasons, to remain in the secrecy which Lydia seems to think necessary; and then I must endeavour to be satisfied with ignorance.”
 e:lizzy=serious
 
 “Not that I *shall* though,” she added to herself, as she finished the letter; “and my dear aunt, if you do not tell me in an honourable manner, I shall certainly be reduced to tricks and stratagems to find it out.”
-s=lizzy;e:lizzy=smirking
+s=lizzy;e:lizzy=smirking;m=;e:lizzy=contemplative;i=
 
 Jane’s delicate sense of honour would not allow her to speak to Elizabeth privately of what Lydia had let fall; Elizabeth was glad of it;—till it appeared whether her inquiries would receive any satisfaction, she had rather be without a confidante.
 s=none;e:jane=serious;e:lizzy=thinking
