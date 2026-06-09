@@ -7,10 +7,7 @@
   "words": 122582,
   "pulpDate": "2026-05-12",
   "repo": "https://github.com/JohnQPulp/PrideAndPrejudice",
-  "links": {
-    "Goodreads": "https://www.goodreads.com/book/show/129915654-pride-and-prejudice",
-    "Wikipedia": "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
-  },
+  "wikipedia": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
   "blurb": "We don't know what Jane Austen really looked like, but we do know what her books looked like: full of typos. Fortunately, those fixed, the contents themselves are quite good.",
   "blurb2": "Austen: inventor of free indirect speech and also Darcy. To quote famed Austen-fan Mark Twain out of context: \"What [literature] is today, good and bad, it owes to [Jane] … for the bad that [her] colossal invention has brought about is overshadowed a thousand times by the good with which mankind has been favored.\"",
   "useAvif": true
