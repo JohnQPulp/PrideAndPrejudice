@@ -2,7 +2,7 @@ Pride and Prejudice<br>Jane Austen<e>Two centuries ago, Austen invented the conc
 b=title;t=author;z:author=,,7
 
 ## I
-r=title
+r=bennet-drawing
 
 It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
 b=bennet-drawing
